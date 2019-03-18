@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Pim/Enrichment/Component/Product/Updater</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/srv/pim/src/Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">Pim</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Enrichment</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Component</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Product</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Updater</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Remover/AbstractFieldRemover.php.html#12">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\AbstractFieldRemover</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AbstractFieldAdder.php.html#12">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AbstractFieldAdder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#20">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder</a></td><td class="text-right">6%</td></tr>
+       <tr><td><a href="Remover/GroupFieldRemover.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\GroupFieldRemover</a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="Remover/CategoryFieldRemover.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\CategoryFieldRemover</a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="Adder/CategoryFieldAdder.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\CategoryFieldAdder</a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="Adder/GroupFieldAdder.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\GroupFieldAdder</a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="Remover/PriceCollectionAttributeRemover.php.html#20">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\PriceCollectionAttributeRemover</a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="Remover/MultiSelectAttributeRemover.php.html#18">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\MultiSelectAttributeRemover</a></td><td class="text-right">13%</td></tr>
+       <tr><td><a href="Adder/MultiSelectAttributeAdder.php.html#17">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\MultiSelectAttributeAdder</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="Copier/ReferenceDataCollectionAttributeCopier.php.html#17">Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataCollectionAttributeCopier</a></td><td class="text-right">17%</td></tr>
+       <tr><td><a href="Copier/ReferenceDataAttributeCopier.php.html#17">Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataAttributeCopier</a></td><td class="text-right">17%</td></tr>
+       <tr><td><a href="PropertyAdder.php.html#21">Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyAdder</a></td><td class="text-right">18%</td></tr>
+       <tr><td><a href="PropertyRemover.php.html#21">Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyRemover</a></td><td class="text-right">18%</td></tr>
+       <tr><td><a href="Adder/PriceCollectionAttributeAdder.php.html#19">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\PriceCollectionAttributeAdder</a></td><td class="text-right">19%</td></tr>
+       <tr><td><a href="Copier/MetricAttributeCopier.php.html#18">Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\MetricAttributeCopier</a></td><td class="text-right">22%</td></tr>
+       <tr><td><a href="Remover/RemoverRegistry.php.html#15">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\RemoverRegistry</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Adder/AdderRegistry.php.html#15">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AdderRegistry</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="EntityWithValuesUpdater.php.html#22">Akeneo\Pim\Enrichment\Component\Product\Updater\EntityWithValuesUpdater</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="Setter/FamilyFieldSetter.php.html#20">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\FamilyFieldSetter</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="GroupUpdater.php.html#22">Akeneo\Pim\Enrichment\Component\Product\Updater\GroupUpdater</a></td><td class="text-right">56%</td></tr>
+       <tr><td><a href="PropertyCopier.php.html#21">Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyCopier</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="Setter/GroupFieldSetter.php.html#18">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\GroupFieldSetter</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="Setter/CategoryFieldSetter.php.html#20">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\CategoryFieldSetter</a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Setter/ParentFieldSetter.php.html#21">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\ParentFieldSetter</a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="Adder/AbstractAttributeAdder.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AbstractAttributeAdder</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Copier/CopierRegistry.php.html#15">Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\CopierRegistry</a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#21">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter</a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Copier/AbstractAttributeCopier.php.html#18">Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\AbstractAttributeCopier</a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#24">Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Setter/EnabledFieldSetter.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\EnabledFieldSetter</a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="Setter/MediaAttributeSetter.php.html#22">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\MediaAttributeSetter</a></td><td class="text-right">79%</td></tr>
+       <tr><td><a href="ProductUpdater.php.html#23">Akeneo\Pim\Enrichment\Component\Product\Updater\ProductUpdater</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ExternalApi/ProductModelUpdater.php.html#19">Akeneo\Pim\Enrichment\Component\Product\Updater\ExternalApi\ProductModelUpdater</a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Remover/AbstractAttributeRemover.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\AbstractAttributeRemover</a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#20">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder</a></td><td class="text-right">663</td></tr>
+       <tr><td><a href="Remover/PriceCollectionAttributeRemover.php.html#20">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\PriceCollectionAttributeRemover</a></td><td class="text-right">157</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#24">Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater</a></td><td class="text-right">86</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#21">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter</a></td><td class="text-right">78</td></tr>
+       <tr><td><a href="EntityWithValuesUpdater.php.html#22">Akeneo\Pim\Enrichment\Component\Product\Updater\EntityWithValuesUpdater</a></td><td class="text-right">77</td></tr>
+       <tr><td><a href="Remover/MultiSelectAttributeRemover.php.html#18">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\MultiSelectAttributeRemover</a></td><td class="text-right">75</td></tr>
+       <tr><td><a href="Adder/CategoryFieldAdder.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\CategoryFieldAdder</a></td><td class="text-right">68</td></tr>
+       <tr><td><a href="Adder/GroupFieldAdder.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\GroupFieldAdder</a></td><td class="text-right">68</td></tr>
+       <tr><td><a href="Remover/GroupFieldRemover.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\GroupFieldRemover</a></td><td class="text-right">68</td></tr>
+       <tr><td><a href="Remover/CategoryFieldRemover.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\CategoryFieldRemover</a></td><td class="text-right">68</td></tr>
+       <tr><td><a href="Adder/AdderRegistry.php.html#15">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AdderRegistry</a></td><td class="text-right">63</td></tr>
+       <tr><td><a href="Remover/RemoverRegistry.php.html#15">Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\RemoverRegistry</a></td><td class="text-right">63</td></tr>
+       <tr><td><a href="ProductUpdater.php.html#23">Akeneo\Pim\Enrichment\Component\Product\Updater\ProductUpdater</a></td><td class="text-right">54</td></tr>
+       <tr><td><a href="Copier/ReferenceDataAttributeCopier.php.html#17">Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataAttributeCopier</a></td><td class="text-right">44</td></tr>
+       <tr><td><a href="GroupUpdater.php.html#22">Akeneo\Pim\Enrichment\Component\Product\Updater\GroupUpdater</a></td><td class="text-right">44</td></tr>
+       <tr><td><a href="Adder/MultiSelectAttributeAdder.php.html#17">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\MultiSelectAttributeAdder</a></td><td class="text-right">35</td></tr>
+       <tr><td><a href="Copier/ReferenceDataCollectionAttributeCopier.php.html#17">Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataCollectionAttributeCopier</a></td><td class="text-right">34</td></tr>
+       <tr><td><a href="Adder/PriceCollectionAttributeAdder.php.html#19">Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\PriceCollectionAttributeAdder</a></td><td class="text-right">32</td></tr>
+       <tr><td><a href="PropertyAdder.php.html#21">Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyAdder</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="PropertyRemover.php.html#21">Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyRemover</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="Setter/CategoryFieldSetter.php.html#20">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\CategoryFieldSetter</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Copier/CopierRegistry.php.html#15">Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\CopierRegistry</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Setter/GroupFieldSetter.php.html#18">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\GroupFieldSetter</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="Setter/FamilyFieldSetter.php.html#20">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\FamilyFieldSetter</a></td><td class="text-right">18</td></tr>
+       <tr><td><a href="Setter/ParentFieldSetter.php.html#21">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\ParentFieldSetter</a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="Setter/MediaAttributeSetter.php.html#22">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\MediaAttributeSetter</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Copier/MetricAttributeCopier.php.html#18">Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\MetricAttributeCopier</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="PropertyCopier.php.html#21">Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyCopier</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Setter/EnabledFieldSetter.php.html#16">Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\EnabledFieldSetter</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="ExternalApi/ProductModelUpdater.php.html#19">Akeneo\Pim\Enrichment\Component\Product\Updater\ExternalApi\ProductModelUpdater</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Copier/AbstractAttributeCopier.php.html#18">Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\AbstractAttributeCopier</a></td><td class="text-right">7</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Adder/AbstractAttributeAdder.php.html#41"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AbstractAttributeAdder::supports">supports</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/PriceCollectionAttributeRemover.php.html#84"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\PriceCollectionAttributeRemover::removePrices">removePrices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copier/ReferenceDataAttributeCopier.php.html#71"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataAttributeCopier::supportsAttributes">supportsAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copier/ReferenceDataAttributeCopier.php.html#91"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataAttributeCopier::copySingleValue">copySingleValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copier/ReferenceDataCollectionAttributeCopier.php.html#40"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataCollectionAttributeCopier::copyAttributeData">copyAttributeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copier/ReferenceDataCollectionAttributeCopier.php.html#71"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataCollectionAttributeCopier::supportsAttributes">supportsAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copier/ReferenceDataCollectionAttributeCopier.php.html#92"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataCollectionAttributeCopier::copySingleValue">copySingleValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/RemoverRegistry.php.html#97"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\RemoverRegistry::getAttribute">getAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/RemoverRegistry.php.html#81"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\RemoverRegistry::getAttributeRemover">getAttributeRemover</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/RemoverRegistry.php.html#67"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\RemoverRegistry::getFieldRemover">getFieldRemover</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/RemoverRegistry.php.html#52"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\RemoverRegistry::getRemover">getRemover</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GroupUpdater.php.html#151"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\GroupUpdater::setProducts">setProducts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/PriceCollectionAttributeRemover.php.html#120"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\PriceCollectionAttributeRemover::checkData">checkData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/PriceCollectionAttributeRemover.php.html#63"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\PriceCollectionAttributeRemover::removeAttributeData">removeAttributeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/AbstractAttributeRemover.php.html#40"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\AbstractAttributeRemover::supportsAttribute">supportsAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AbstractAttributeAdder.php.html#49"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AbstractAttributeAdder::supportsAttribute">supportsAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/MultiSelectAttributeRemover.php.html#96"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\MultiSelectAttributeRemover::checkData">checkData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/MultiSelectAttributeRemover.php.html#61"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\MultiSelectAttributeRemover::removeOptions">removeOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/MultiSelectAttributeRemover.php.html#42"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\MultiSelectAttributeRemover::removeAttributeData">removeAttributeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/GroupFieldRemover.php.html#72"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\GroupFieldRemover::checkData">checkData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/GroupFieldRemover.php.html#38"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\GroupFieldRemover::removeFieldData">removeFieldData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/CategoryFieldRemover.php.html#71"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\CategoryFieldRemover::checkData">checkData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PropertyAdder.php.html#44"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyAdder::addData">addData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PropertyAdder.php.html#73"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyAdder::getAttribute">getAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/CategoryFieldRemover.php.html#38"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\CategoryFieldRemover::removeFieldData">removeFieldData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PropertyRemover.php.html#44"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyRemover::removeData">removeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PropertyRemover.php.html#73"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyRemover::getAttribute">getAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copier/ReferenceDataAttributeCopier.php.html#40"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataAttributeCopier::copyAttributeData">copyAttributeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copier/MetricAttributeCopier.php.html#88"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\MetricAttributeCopier::copySingleValue">copySingleValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copier/MetricAttributeCopier.php.html#47"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\MetricAttributeCopier::copyAttributeData">copyAttributeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/CategoryFieldAdder.php.html#38"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\CategoryFieldAdder::addFieldData">addFieldData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AbstractFieldAdder.php.html#20"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AbstractFieldAdder::supportsField">supportsField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AdderRegistry.php.html#52"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AdderRegistry::getAdder">getAdder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AdderRegistry.php.html#67"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AdderRegistry::getFieldAdder">getFieldAdder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AdderRegistry.php.html#81"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AdderRegistry::getAttributeAdder">getAttributeAdder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AdderRegistry.php.html#97"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AdderRegistry::getAttribute">getAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#72"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::addFieldData">addFieldData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#87"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::addProductsAndGroupsToAssociations">addProductsAndGroupsToAssociations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#112"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::addAssociatedProducts">addAssociatedProducts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#135"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::addAssociatedProductModels">addAssociatedProductModels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#158"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::addAssociatedGroups">addAssociatedGroups</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#183"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::checkData">checkData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#207"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::checkAssociationData">checkAssociationData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#248"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::checkAssociationItems">checkAssociationItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/CategoryFieldAdder.php.html#72"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\CategoryFieldAdder::checkData">checkData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/GroupFieldAdder.php.html#38"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\GroupFieldAdder::addFieldData">addFieldData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/GroupFieldAdder.php.html#72"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\GroupFieldAdder::checkData">checkData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/MultiSelectAttributeAdder.php.html#35"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\MultiSelectAttributeAdder::addAttributeData">addAttributeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/MultiSelectAttributeAdder.php.html#63"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\MultiSelectAttributeAdder::addOptions">addOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/PriceCollectionAttributeAdder.php.html#55"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\PriceCollectionAttributeAdder::addAttributeData">addAttributeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/PriceCollectionAttributeAdder.php.html#83"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\PriceCollectionAttributeAdder::addPrices">addPrices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Adder/PriceCollectionAttributeAdder.php.html#114"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\PriceCollectionAttributeAdder::addNewPrices">addNewPrices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Copier/CopierRegistry.php.html#68"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\CopierRegistry::getFieldCopier">getFieldCopier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/AbstractFieldRemover.php.html#20"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\AbstractFieldRemover::supportsField">supportsField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Setter/CategoryFieldSetter.php.html#84"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\CategoryFieldSetter::checkData">checkData</abbr></a></td><td class="text-right">36%</td></tr>
+       <tr><td><a href="Setter/GroupFieldSetter.php.html#83"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\GroupFieldSetter::checkData">checkData</abbr></a></td><td class="text-right">36%</td></tr>
+       <tr><td><a href="EntityWithValuesUpdater.php.html#81"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\EntityWithValuesUpdater::checkValuesData">checkValuesData</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#281"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::checkAssociationData">checkAssociationData</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Copier/AbstractAttributeCopier.php.html#72"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\AbstractAttributeCopier::checkLocaleAndScope">checkLocaleAndScope</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Setter/FamilyFieldSetter.php.html#78"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\FamilyFieldSetter::checkData">checkData</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#192"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::validateScalarArray">validateScalarArray</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="GroupUpdater.php.html#117"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\GroupUpdater::setType">setType</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#324"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::checkAssociationItems">checkAssociationItems</abbr></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="ProductUpdater.php.html#280"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductUpdater::validateScalarArray">validateScalarArray</abbr></a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#232"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::setAssociatedGroups">setAssociatedGroups</abbr></a></td><td class="text-right">45%</td></tr>
+       <tr><td><a href="Setter/FamilyFieldSetter.php.html#42"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\FamilyFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">47%</td></tr>
+       <tr><td><a href="PropertyCopier.php.html#44"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyCopier::copyData">copyData</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ProductUpdater.php.html#208"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductUpdater::validateAssociationsDataType">validateAssociationsDataType</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#351"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::validateAssociationsDataType">validateAssociationsDataType</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Setter/MediaAttributeSetter.php.html#100"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\MediaAttributeSetter::storeFile">storeFile</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="EntityWithValuesUpdater.php.html#38"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\EntityWithValuesUpdater::update">update</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="GroupUpdater.php.html#61"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\GroupUpdater::update">update</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#244"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::updateParent">updateParent</abbr></a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Setter/ParentFieldSetter.php.html#39"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\ParentFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="ProductUpdater.php.html#130"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductUpdater::update">update</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#257"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::checkData">checkData</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#154"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::setProductsAndGroupsToAssociations">setProductsAndGroupsToAssociations</abbr></a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="Setter/CategoryFieldSetter.php.html#42"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\CategoryFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="Setter/GroupFieldSetter.php.html#40"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\GroupFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="Setter/MediaAttributeSetter.php.html#84"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\MediaAttributeSetter::checkData">checkData</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#177"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::validateScalar">validateScalar</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#71"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::update">update</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="Setter/EnabledFieldSetter.php.html#31"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\EnabledFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="PropertySetter.php.html#66"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\PropertySetter::getAttribute">getAttribute</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Setter/SetterRegistry.php.html#81"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\SetterRegistry::getAttributeSetter">getAttributeSetter</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Copier/CopierRegistry.php.html#82"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\CopierRegistry::getAttributeCopier">getAttributeCopier</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="GroupUpdater.php.html#84"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\GroupUpdater::setData">setData</abbr></a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="ExternalApi/ProductModelUpdater.php.html#35"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ExternalApi\ProductModelUpdater::update">update</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Copier/CopierRegistry.php.html#37"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\CopierRegistry::register">register</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#155"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::filterParentAssociations">filterParentAssociations</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ProductUpdater.php.html#243"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductUpdater::filterParentAssociations">filterParentAssociations</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Copier/CopierRegistry.php.html#52"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\CopierRegistry::getCopier">getCopier</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#73"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#105"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::clearAssociations">clearAssociations</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#207"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::checkAssociationData">checkAssociationData</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Remover/PriceCollectionAttributeRemover.php.html#120"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\PriceCollectionAttributeRemover::checkData">checkData</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="EntityWithValuesUpdater.php.html#81"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\EntityWithValuesUpdater::checkValuesData">checkValuesData</abbr></a></td><td class="text-right">54</td></tr>
+       <tr><td><a href="Remover/PriceCollectionAttributeRemover.php.html#84"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\PriceCollectionAttributeRemover::removePrices">removePrices</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#281"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::checkAssociationData">checkAssociationData</abbr></a></td><td class="text-right">23</td></tr>
+       <tr><td><a href="Remover/CategoryFieldRemover.php.html#71"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\CategoryFieldRemover::checkData">checkData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Remover/CategoryFieldRemover.php.html#38"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\CategoryFieldRemover::removeFieldData">removeFieldData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="GroupUpdater.php.html#151"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\GroupUpdater::setProducts">setProducts</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Remover/MultiSelectAttributeRemover.php.html#96"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\MultiSelectAttributeRemover::checkData">checkData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Adder/MultiSelectAttributeAdder.php.html#63"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\MultiSelectAttributeAdder::addOptions">addOptions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Adder/GroupFieldAdder.php.html#72"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\GroupFieldAdder::checkData">checkData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Adder/GroupFieldAdder.php.html#38"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\GroupFieldAdder::addFieldData">addFieldData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Adder/CategoryFieldAdder.php.html#72"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\CategoryFieldAdder::checkData">checkData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Adder/CategoryFieldAdder.php.html#38"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\CategoryFieldAdder::addFieldData">addFieldData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Remover/MultiSelectAttributeRemover.php.html#61"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\MultiSelectAttributeRemover::removeOptions">removeOptions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Remover/GroupFieldRemover.php.html#72"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\GroupFieldRemover::checkData">checkData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Remover/GroupFieldRemover.php.html#38"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\GroupFieldRemover::removeFieldData">removeFieldData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PropertyAdder.php.html#44"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyAdder::addData">addData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PropertyRemover.php.html#44"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyRemover::removeData">removeData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Setter/ParentFieldSetter.php.html#39"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\ParentFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#244"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::updateParent">updateParent</abbr></a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Adder/AdderRegistry.php.html#67"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AdderRegistry::getFieldAdder">getFieldAdder</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Remover/RemoverRegistry.php.html#67"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\RemoverRegistry::getFieldRemover">getFieldRemover</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Remover/RemoverRegistry.php.html#81"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\RemoverRegistry::getAttributeRemover">getAttributeRemover</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Copier/ReferenceDataCollectionAttributeCopier.php.html#71"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataCollectionAttributeCopier::supportsAttributes">supportsAttributes</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Copier/ReferenceDataAttributeCopier.php.html#71"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataAttributeCopier::supportsAttributes">supportsAttributes</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Copier/ReferenceDataAttributeCopier.php.html#91"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataAttributeCopier::copySingleValue">copySingleValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#183"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::checkData">checkData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Adder/AdderRegistry.php.html#81"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AdderRegistry::getAttributeAdder">getAttributeAdder</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#87"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::addProductsAndGroupsToAssociations">addProductsAndGroupsToAssociations</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#112"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::addAssociatedProducts">addAssociatedProducts</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#135"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::addAssociatedProductModels">addAssociatedProductModels</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#158"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::addAssociatedGroups">addAssociatedGroups</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Adder/AssociationFieldAdder.php.html#248"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AssociationFieldAdder::checkAssociationItems">checkAssociationItems</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Copier/CopierRegistry.php.html#68"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\CopierRegistry::getFieldCopier">getFieldCopier</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#192"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::validateScalarArray">validateScalarArray</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="ProductUpdater.php.html#280"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductUpdater::validateScalarArray">validateScalarArray</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Setter/FamilyFieldSetter.php.html#42"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\FamilyFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Setter/GroupFieldSetter.php.html#83"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\GroupFieldSetter::checkData">checkData</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Setter/CategoryFieldSetter.php.html#84"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\CategoryFieldSetter::checkData">checkData</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#351"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::validateAssociationsDataType">validateAssociationsDataType</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="ProductUpdater.php.html#208"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductUpdater::validateAssociationsDataType">validateAssociationsDataType</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="PropertyCopier.php.html#44"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\PropertyCopier::copyData">copyData</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#105"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::clearAssociations">clearAssociations</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Setter/EnabledFieldSetter.php.html#31"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\EnabledFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#154"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::setProductsAndGroupsToAssociations">setProductsAndGroupsToAssociations</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Setter/GroupFieldSetter.php.html#40"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\GroupFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Setter/CategoryFieldSetter.php.html#42"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\CategoryFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="ExternalApi/ProductModelUpdater.php.html#35"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ExternalApi\ProductModelUpdater::update">update</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Remover/RemoverRegistry.php.html#52"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Remover\RemoverRegistry::getRemover">getRemover</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Adder/AdderRegistry.php.html#52"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\AdderRegistry::getAdder">getAdder</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Copier/MetricAttributeCopier.php.html#88"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\MetricAttributeCopier::copySingleValue">copySingleValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Adder/PriceCollectionAttributeAdder.php.html#83"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\PriceCollectionAttributeAdder::addPrices">addPrices</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Adder/MultiSelectAttributeAdder.php.html#35"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\MultiSelectAttributeAdder::addAttributeData">addAttributeData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Adder/PriceCollectionAttributeAdder.php.html#114"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\PriceCollectionAttributeAdder::addNewPrices">addNewPrices</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Adder/PriceCollectionAttributeAdder.php.html#55"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Adder\PriceCollectionAttributeAdder::addAttributeData">addAttributeData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Copier/ReferenceDataCollectionAttributeCopier.php.html#92"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\ReferenceDataCollectionAttributeCopier::copySingleValue">copySingleValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="GroupUpdater.php.html#84"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\GroupUpdater::setData">setData</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Setter/FamilyFieldSetter.php.html#78"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\FamilyFieldSetter::checkData">checkData</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#324"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::checkAssociationItems">checkAssociationItems</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#232"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::setAssociatedGroups">setAssociatedGroups</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#71"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::update">update</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Setter/MediaAttributeSetter.php.html#100"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\MediaAttributeSetter::storeFile">storeFile</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="GroupUpdater.php.html#61"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\GroupUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ProductUpdater.php.html#130"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#257"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::checkData">checkData</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Setter/MediaAttributeSetter.php.html#84"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\MediaAttributeSetter::checkData">checkData</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#177"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::validateScalar">validateScalar</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Setter/SetterRegistry.php.html#81"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\SetterRegistry::getAttributeSetter">getAttributeSetter</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Copier/CopierRegistry.php.html#82"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\CopierRegistry::getAttributeCopier">getAttributeCopier</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Copier/CopierRegistry.php.html#37"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\CopierRegistry::register">register</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ProductUpdater.php.html#243"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductUpdater::filterParentAssociations">filterParentAssociations</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ProductModelUpdater.php.html#155"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\ProductModelUpdater::filterParentAssociations">filterParentAssociations</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Copier/CopierRegistry.php.html#52"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\CopierRegistry::getCopier">getCopier</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Copier/AbstractAttributeCopier.php.html#72"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Copier\AbstractAttributeCopier::checkLocaleAndScope">checkLocaleAndScope</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="GroupUpdater.php.html#117"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\GroupUpdater::setType">setType</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="EntityWithValuesUpdater.php.html#38"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\EntityWithValuesUpdater::update">update</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="PropertySetter.php.html#66"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\PropertySetter::getAttribute">getAttribute</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Setter/AssociationFieldSetter.php.html#73"><abbr title="Akeneo\Pim\Enrichment\Component\Product\Updater\Setter\AssociationFieldSetter::setFieldData">setFieldData</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.0</a> at Sun Mar 17 12:23:44 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([2,6,7,1,2,0,5,4,5,3,2,5], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([54,0,0,0,5,7,6,9,6,7,1,76], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[66.66666666666666,3,"<a href=\"Adder\/AbstractAttributeAdder.php.html#16\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AbstractAttributeAdder<\/a>"],[0,1,"<a href=\"Adder\/AbstractFieldAdder.php.html#12\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AbstractFieldAdder<\/a>"],[33.33333333333333,13,"<a href=\"Adder\/AdderRegistry.php.html#15\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AdderRegistry<\/a>"],[6.741573033707865,28,"<a href=\"Adder\/AssociationFieldAdder.php.html#20\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AssociationFieldAdder<\/a>"],[9.67741935483871,9,"<a href=\"Adder\/CategoryFieldAdder.php.html#16\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\CategoryFieldAdder<\/a>"],[9.67741935483871,9,"<a href=\"Adder\/GroupFieldAdder.php.html#16\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\GroupFieldAdder<\/a>"],[16.666666666666664,7,"<a href=\"Adder\/MultiSelectAttributeAdder.php.html#17\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\MultiSelectAttributeAdder<\/a>"],[19.047619047619047,7,"<a href=\"Adder\/PriceCollectionAttributeAdder.php.html#19\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\PriceCollectionAttributeAdder<\/a>"],[76.19047619047619,7,"<a href=\"Copier\/AbstractAttributeCopier.php.html#18\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\AbstractAttributeCopier<\/a>"],[100,4,"<a href=\"Copier\/AttributeCopier.php.html#19\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\AttributeCopier<\/a>"],[68.18181818181817,14,"<a href=\"Copier\/CopierRegistry.php.html#15\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\CopierRegistry<\/a>"],[100,6,"<a href=\"Copier\/MediaAttributeCopier.php.html#21\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\MediaAttributeCopier<\/a>"],[22.727272727272727,4,"<a href=\"Copier\/MetricAttributeCopier.php.html#18\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\MetricAttributeCopier<\/a>"],[17.391304347826086,8,"<a href=\"Copier\/ReferenceDataAttributeCopier.php.html#17\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\ReferenceDataAttributeCopier<\/a>"],[17.391304347826086,7,"<a href=\"Copier\/ReferenceDataCollectionAttributeCopier.php.html#17\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\ReferenceDataCollectionAttributeCopier<\/a>"],[53.06122448979592,23,"<a href=\"EntityWithValuesUpdater.php.html#22\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\EntityWithValuesUpdater<\/a>"],[82.35294117647058,8,"<a href=\"ExternalApi\/ProductModelUpdater.php.html#19\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ExternalApi\\ProductModelUpdater<\/a>"],[56.86274509803921,18,"<a href=\"GroupUpdater.php.html#22\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\GroupUpdater<\/a>"],[77.62237762237763,54,"<a href=\"ProductModelUpdater.php.html#24\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater<\/a>"],[80,41,"<a href=\"ProductUpdater.php.html#23\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductUpdater<\/a>"],[18.75,6,"<a href=\"PropertyAdder.php.html#21\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyAdder<\/a>"],[58.333333333333336,7,"<a href=\"PropertyCopier.php.html#21\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyCopier<\/a>"],[18.75,6,"<a href=\"PropertyRemover.php.html#21\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyRemover<\/a>"],[93.33333333333333,6,"<a href=\"PropertySetter.php.html#20\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertySetter<\/a>"],[85.71428571428571,3,"<a href=\"Remover\/AbstractAttributeRemover.php.html#16\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\AbstractAttributeRemover<\/a>"],[0,1,"<a href=\"Remover\/AbstractFieldRemover.php.html#12\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\AbstractFieldRemover<\/a>"],[9.67741935483871,9,"<a href=\"Remover\/CategoryFieldRemover.php.html#16\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\CategoryFieldRemover<\/a>"],[9.67741935483871,9,"<a href=\"Remover\/GroupFieldRemover.php.html#16\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\GroupFieldRemover<\/a>"],[13.333333333333334,10,"<a href=\"Remover\/MultiSelectAttributeRemover.php.html#18\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\MultiSelectAttributeRemover<\/a>"],[9.803921568627452,14,"<a href=\"Remover\/PriceCollectionAttributeRemover.php.html#20\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\PriceCollectionAttributeRemover<\/a>"],[33.33333333333333,13,"<a href=\"Remover\/RemoverRegistry.php.html#15\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\RemoverRegistry<\/a>"],[100,2,"<a href=\"Setter\/AbstractAttributeSetter.php.html#16\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AbstractAttributeSetter<\/a>"],[100,1,"<a href=\"Setter\/AbstractFieldSetter.php.html#12\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AbstractFieldSetter<\/a>"],[71.9298245614035,41,"<a href=\"Setter\/AssociationFieldSetter.php.html#21\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter<\/a>"],[100,2,"<a href=\"Setter\/AttributeSetter.php.html#17\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AttributeSetter<\/a>"],[61.111111111111114,12,"<a href=\"Setter\/CategoryFieldSetter.php.html#20\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\CategoryFieldSetter<\/a>"],[78.57142857142857,8,"<a href=\"Setter\/EnabledFieldSetter.php.html#16\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\EnabledFieldSetter<\/a>"],[55.55555555555556,10,"<a href=\"Setter\/FamilyFieldSetter.php.html#20\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\FamilyFieldSetter<\/a>"],[58.82352941176471,11,"<a href=\"Setter\/GroupFieldSetter.php.html#18\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\GroupFieldSetter<\/a>"],[79.3103448275862,11,"<a href=\"Setter\/MediaAttributeSetter.php.html#22\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\MediaAttributeSetter<\/a>"],[65.625,11,"<a href=\"Setter\/ParentFieldSetter.php.html#21\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\ParentFieldSetter<\/a>"],[95.23809523809523,13,"<a href=\"Setter\/SetterRegistry.php.html#15\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\SetterRegistry<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Adder\/AbstractAttributeAdder.php.html#30\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AbstractAttributeAdder::__construct<\/a>"],[0,1,"<a href=\"Adder\/AbstractAttributeAdder.php.html#41\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AbstractAttributeAdder::supports<\/a>"],[0,1,"<a href=\"Adder\/AbstractAttributeAdder.php.html#49\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AbstractAttributeAdder::supportsAttribute<\/a>"],[0,1,"<a href=\"Adder\/AbstractFieldAdder.php.html#20\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AbstractFieldAdder::supportsField<\/a>"],[100,1,"<a href=\"Adder\/AdderRegistry.php.html#29\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AdderRegistry::__construct<\/a>"],[100,3,"<a href=\"Adder\/AdderRegistry.php.html#37\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AdderRegistry::register<\/a>"],[0,2,"<a href=\"Adder\/AdderRegistry.php.html#52\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AdderRegistry::getAdder<\/a>"],[0,3,"<a href=\"Adder\/AdderRegistry.php.html#67\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AdderRegistry::getFieldAdder<\/a>"],[0,3,"<a href=\"Adder\/AdderRegistry.php.html#81\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AdderRegistry::getAttributeAdder<\/a>"],[0,1,"<a href=\"Adder\/AdderRegistry.php.html#97\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AdderRegistry::getAttribute<\/a>"],[100,1,"<a href=\"Adder\/AssociationFieldAdder.php.html#41\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AssociationFieldAdder::__construct<\/a>"],[0,1,"<a href=\"Adder\/AssociationFieldAdder.php.html#72\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AssociationFieldAdder::addFieldData<\/a>"],[0,3,"<a href=\"Adder\/AssociationFieldAdder.php.html#87\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AssociationFieldAdder::addProductsAndGroupsToAssociations<\/a>"],[0,3,"<a href=\"Adder\/AssociationFieldAdder.php.html#112\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AssociationFieldAdder::addAssociatedProducts<\/a>"],[0,3,"<a href=\"Adder\/AssociationFieldAdder.php.html#135\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AssociationFieldAdder::addAssociatedProductModels<\/a>"],[0,3,"<a href=\"Adder\/AssociationFieldAdder.php.html#158\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AssociationFieldAdder::addAssociatedGroups<\/a>"],[0,3,"<a href=\"Adder\/AssociationFieldAdder.php.html#183\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AssociationFieldAdder::checkData<\/a>"],[0,8,"<a href=\"Adder\/AssociationFieldAdder.php.html#207\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AssociationFieldAdder::checkAssociationData<\/a>"],[0,3,"<a href=\"Adder\/AssociationFieldAdder.php.html#248\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\AssociationFieldAdder::checkAssociationItems<\/a>"],[100,1,"<a href=\"Adder\/CategoryFieldAdder.php.html#25\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\CategoryFieldAdder::__construct<\/a>"],[0,4,"<a href=\"Adder\/CategoryFieldAdder.php.html#38\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\CategoryFieldAdder::addFieldData<\/a>"],[0,4,"<a href=\"Adder\/CategoryFieldAdder.php.html#72\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\CategoryFieldAdder::checkData<\/a>"],[100,1,"<a href=\"Adder\/GroupFieldAdder.php.html#25\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\GroupFieldAdder::__construct<\/a>"],[0,4,"<a href=\"Adder\/GroupFieldAdder.php.html#38\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\GroupFieldAdder::addFieldData<\/a>"],[0,4,"<a href=\"Adder\/GroupFieldAdder.php.html#72\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\GroupFieldAdder::checkData<\/a>"],[100,1,"<a href=\"Adder\/MultiSelectAttributeAdder.php.html#23\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\MultiSelectAttributeAdder::__construct<\/a>"],[0,2,"<a href=\"Adder\/MultiSelectAttributeAdder.php.html#35\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\MultiSelectAttributeAdder::addAttributeData<\/a>"],[0,4,"<a href=\"Adder\/MultiSelectAttributeAdder.php.html#63\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\MultiSelectAttributeAdder::addOptions<\/a>"],[100,1,"<a href=\"Adder\/PriceCollectionAttributeAdder.php.html#29\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\PriceCollectionAttributeAdder::__construct<\/a>"],[0,2,"<a href=\"Adder\/PriceCollectionAttributeAdder.php.html#55\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\PriceCollectionAttributeAdder::addAttributeData<\/a>"],[0,2,"<a href=\"Adder\/PriceCollectionAttributeAdder.php.html#83\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\PriceCollectionAttributeAdder::addPrices<\/a>"],[0,2,"<a href=\"Adder\/PriceCollectionAttributeAdder.php.html#114\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Adder\\PriceCollectionAttributeAdder::addNewPrices<\/a>"],[100,1,"<a href=\"Copier\/AbstractAttributeCopier.php.html#39\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\AbstractAttributeCopier::__construct<\/a>"],[100,3,"<a href=\"Copier\/AbstractAttributeCopier.php.html#53\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\AbstractAttributeCopier::supportsAttributes<\/a>"],[37.5,2,"<a href=\"Copier\/AbstractAttributeCopier.php.html#72\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\AbstractAttributeCopier::checkLocaleAndScope<\/a>"],[100,1,"<a href=\"Copier\/AbstractAttributeCopier.php.html#91\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\AbstractAttributeCopier::configureOptions<\/a>"],[100,1,"<a href=\"Copier\/AttributeCopier.php.html#31\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\AttributeCopier::__construct<\/a>"],[100,1,"<a href=\"Copier\/AttributeCopier.php.html#48\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\AttributeCopier::copyAttributeData<\/a>"],[100,2,"<a href=\"Copier\/AttributeCopier.php.html#88\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\AttributeCopier::copySingleValue<\/a>"],[100,1,"<a href=\"Copier\/CopierRegistry.php.html#29\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\CopierRegistry::__construct<\/a>"],[80,3,"<a href=\"Copier\/CopierRegistry.php.html#37\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\CopierRegistry::register<\/a>"],[83.33333333333334,3,"<a href=\"Copier\/CopierRegistry.php.html#52\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\CopierRegistry::getCopier<\/a>"],[0,3,"<a href=\"Copier\/CopierRegistry.php.html#68\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\CopierRegistry::getFieldCopier<\/a>"],[75,3,"<a href=\"Copier\/CopierRegistry.php.html#82\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\CopierRegistry::getAttributeCopier<\/a>"],[100,1,"<a href=\"Copier\/CopierRegistry.php.html#98\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\CopierRegistry::getAttribute<\/a>"],[100,1,"<a href=\"Copier\/MediaAttributeCopier.php.html#41\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\MediaAttributeCopier::__construct<\/a>"],[100,1,"<a href=\"Copier\/MediaAttributeCopier.php.html#62\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\MediaAttributeCopier::copyAttributeData<\/a>"],[100,4,"<a href=\"Copier\/MediaAttributeCopier.php.html#102\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\MediaAttributeCopier::copySingleValue<\/a>"],[100,1,"<a href=\"Copier\/MetricAttributeCopier.php.html#30\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\MetricAttributeCopier::__construct<\/a>"],[0,1,"<a href=\"Copier\/MetricAttributeCopier.php.html#47\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\MetricAttributeCopier::copyAttributeData<\/a>"],[0,2,"<a href=\"Copier\/MetricAttributeCopier.php.html#88\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\MetricAttributeCopier::copySingleValue<\/a>"],[100,1,"<a href=\"Copier\/ReferenceDataAttributeCopier.php.html#25\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\ReferenceDataAttributeCopier::__construct<\/a>"],[0,1,"<a href=\"Copier\/ReferenceDataAttributeCopier.php.html#40\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\ReferenceDataAttributeCopier::copyAttributeData<\/a>"],[0,3,"<a href=\"Copier\/ReferenceDataAttributeCopier.php.html#71\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\ReferenceDataAttributeCopier::supportsAttributes<\/a>"],[0,3,"<a href=\"Copier\/ReferenceDataAttributeCopier.php.html#91\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\ReferenceDataAttributeCopier::copySingleValue<\/a>"],[100,1,"<a href=\"Copier\/ReferenceDataCollectionAttributeCopier.php.html#25\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\ReferenceDataCollectionAttributeCopier::__construct<\/a>"],[0,1,"<a href=\"Copier\/ReferenceDataCollectionAttributeCopier.php.html#40\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\ReferenceDataCollectionAttributeCopier::copyAttributeData<\/a>"],[0,3,"<a href=\"Copier\/ReferenceDataCollectionAttributeCopier.php.html#71\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\ReferenceDataCollectionAttributeCopier::supportsAttributes<\/a>"],[0,2,"<a href=\"Copier\/ReferenceDataCollectionAttributeCopier.php.html#92\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Copier\\ReferenceDataCollectionAttributeCopier::copySingleValue<\/a>"],[100,1,"<a href=\"EntityWithValuesUpdater.php.html#30\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\EntityWithValuesUpdater::__construct<\/a>"],[57.14285714285714,2,"<a href=\"EntityWithValuesUpdater.php.html#38\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\EntityWithValuesUpdater::update<\/a>"],[100,7,"<a href=\"EntityWithValuesUpdater.php.html#59\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\EntityWithValuesUpdater::updateEntityWithValues<\/a>"],[37.5,13,"<a href=\"EntityWithValuesUpdater.php.html#81\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\EntityWithValuesUpdater::checkValuesData<\/a>"],[100,1,"<a href=\"ExternalApi\/ProductModelUpdater.php.html#27\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ExternalApi\\ProductModelUpdater::__construct<\/a>"],[80,7,"<a href=\"ExternalApi\/ProductModelUpdater.php.html#35\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ExternalApi\\ProductModelUpdater::update<\/a>"],[100,1,"<a href=\"GroupUpdater.php.html#38\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\GroupUpdater::__construct<\/a>"],[57.14285714285714,3,"<a href=\"GroupUpdater.php.html#61\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\GroupUpdater::update<\/a>"],[76.92307692307693,5,"<a href=\"GroupUpdater.php.html#84\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\GroupUpdater::setData<\/a>"],[100,1,"<a href=\"GroupUpdater.php.html#106\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\GroupUpdater::setCode<\/a>"],[40,2,"<a href=\"GroupUpdater.php.html#117\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\GroupUpdater::setType<\/a>"],[100,2,"<a href=\"GroupUpdater.php.html#138\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\GroupUpdater::setLabels<\/a>"],[0,4,"<a href=\"GroupUpdater.php.html#151\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\GroupUpdater::setProducts<\/a>"],[100,1,"<a href=\"ProductModelUpdater.php.html#52\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::__construct<\/a>"],[72.72727272727273,4,"<a href=\"ProductModelUpdater.php.html#71\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::update<\/a>"],[100,3,"<a href=\"ProductModelUpdater.php.html#99\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::filterData<\/a>"],[100,7,"<a href=\"ProductModelUpdater.php.html#118\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::setData<\/a>"],[80,3,"<a href=\"ProductModelUpdater.php.html#155\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::filterParentAssociations<\/a>"],[66.66666666666666,3,"<a href=\"ProductModelUpdater.php.html#177\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::validateScalar<\/a>"],[40,5,"<a href=\"ProductModelUpdater.php.html#192\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::validateScalarArray<\/a>"],[100,5,"<a href=\"ProductModelUpdater.php.html#219\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::updateParentAndFamily<\/a>"],[61.29032258064516,9,"<a href=\"ProductModelUpdater.php.html#244\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::updateParent<\/a>"],[95.65217391304348,8,"<a href=\"ProductModelUpdater.php.html#303\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::updateFamilyVariant<\/a>"],[50,5,"<a href=\"ProductModelUpdater.php.html#351\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::validateAssociationsDataType<\/a>"],[100,1,"<a href=\"ProductModelUpdater.php.html#385\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductModelUpdater::updateProductModelFields<\/a>"],[100,1,"<a href=\"ProductUpdater.php.html#43\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductUpdater::__construct<\/a>"],[62.5,3,"<a href=\"ProductUpdater.php.html#130\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductUpdater::update<\/a>"],[100,3,"<a href=\"ProductUpdater.php.html#153\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductUpdater::filterData<\/a>"],[100,9,"<a href=\"ProductUpdater.php.html#173\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductUpdater::setData<\/a>"],[50,5,"<a href=\"ProductUpdater.php.html#208\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductUpdater::validateAssociationsDataType<\/a>"],[80,3,"<a href=\"ProductUpdater.php.html#243\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductUpdater::filterParentAssociations<\/a>"],[100,3,"<a href=\"ProductUpdater.php.html#265\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductUpdater::validateScalar<\/a>"],[44.44444444444444,5,"<a href=\"ProductUpdater.php.html#280\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductUpdater::validateScalarArray<\/a>"],[100,1,"<a href=\"ProductUpdater.php.html#305\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductUpdater::updateProductFields<\/a>"],[100,8,"<a href=\"ProductUpdater.php.html#318\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\ProductUpdater::addEmptyValues<\/a>"],[100,1,"<a href=\"PropertyAdder.php.html#33\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyAdder::__construct<\/a>"],[0,4,"<a href=\"PropertyAdder.php.html#44\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyAdder::addData<\/a>"],[0,1,"<a href=\"PropertyAdder.php.html#73\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyAdder::getAttribute<\/a>"],[100,1,"<a href=\"PropertyCopier.php.html#33\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyCopier::__construct<\/a>"],[50,5,"<a href=\"PropertyCopier.php.html#44\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyCopier::copyData<\/a>"],[100,1,"<a href=\"PropertyCopier.php.html#93\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyCopier::getAttribute<\/a>"],[100,1,"<a href=\"PropertyRemover.php.html#33\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyRemover::__construct<\/a>"],[0,4,"<a href=\"PropertyRemover.php.html#44\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyRemover::removeData<\/a>"],[0,1,"<a href=\"PropertyRemover.php.html#73\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertyRemover::getAttribute<\/a>"],[100,1,"<a href=\"PropertySetter.php.html#32\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertySetter::__construct<\/a>"],[100,3,"<a href=\"PropertySetter.php.html#43\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertySetter::setData<\/a>"],[75,2,"<a href=\"PropertySetter.php.html#66\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\PropertySetter::getAttribute<\/a>"],[100,1,"<a href=\"Remover\/AbstractAttributeRemover.php.html#30\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\AbstractAttributeRemover::__construct<\/a>"],[0,1,"<a href=\"Remover\/AbstractAttributeRemover.php.html#40\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\AbstractAttributeRemover::supportsAttribute<\/a>"],[100,1,"<a href=\"Remover\/AbstractAttributeRemover.php.html#50\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\AbstractAttributeRemover::configureOptions<\/a>"],[0,1,"<a href=\"Remover\/AbstractFieldRemover.php.html#20\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\AbstractFieldRemover::supportsField<\/a>"],[100,1,"<a href=\"Remover\/CategoryFieldRemover.php.html#25\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\CategoryFieldRemover::__construct<\/a>"],[0,4,"<a href=\"Remover\/CategoryFieldRemover.php.html#38\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\CategoryFieldRemover::removeFieldData<\/a>"],[0,4,"<a href=\"Remover\/CategoryFieldRemover.php.html#71\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\CategoryFieldRemover::checkData<\/a>"],[100,1,"<a href=\"Remover\/GroupFieldRemover.php.html#25\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\GroupFieldRemover::__construct<\/a>"],[0,4,"<a href=\"Remover\/GroupFieldRemover.php.html#38\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\GroupFieldRemover::removeFieldData<\/a>"],[0,4,"<a href=\"Remover\/GroupFieldRemover.php.html#72\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\GroupFieldRemover::checkData<\/a>"],[100,1,"<a href=\"Remover\/MultiSelectAttributeRemover.php.html#28\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\MultiSelectAttributeRemover::__construct<\/a>"],[0,1,"<a href=\"Remover\/MultiSelectAttributeRemover.php.html#42\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\MultiSelectAttributeRemover::removeAttributeData<\/a>"],[0,4,"<a href=\"Remover\/MultiSelectAttributeRemover.php.html#61\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\MultiSelectAttributeRemover::removeOptions<\/a>"],[0,4,"<a href=\"Remover\/MultiSelectAttributeRemover.php.html#96\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\MultiSelectAttributeRemover::checkData<\/a>"],[100,1,"<a href=\"Remover\/PriceCollectionAttributeRemover.php.html#34\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\PriceCollectionAttributeRemover::__construct<\/a>"],[0,1,"<a href=\"Remover\/PriceCollectionAttributeRemover.php.html#63\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\PriceCollectionAttributeRemover::removeAttributeData<\/a>"],[0,5,"<a href=\"Remover\/PriceCollectionAttributeRemover.php.html#84\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\PriceCollectionAttributeRemover::removePrices<\/a>"],[0,7,"<a href=\"Remover\/PriceCollectionAttributeRemover.php.html#120\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\PriceCollectionAttributeRemover::checkData<\/a>"],[100,1,"<a href=\"Remover\/RemoverRegistry.php.html#29\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\RemoverRegistry::__construct<\/a>"],[100,3,"<a href=\"Remover\/RemoverRegistry.php.html#37\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\RemoverRegistry::register<\/a>"],[0,2,"<a href=\"Remover\/RemoverRegistry.php.html#52\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\RemoverRegistry::getRemover<\/a>"],[0,3,"<a href=\"Remover\/RemoverRegistry.php.html#67\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\RemoverRegistry::getFieldRemover<\/a>"],[0,3,"<a href=\"Remover\/RemoverRegistry.php.html#81\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\RemoverRegistry::getAttributeRemover<\/a>"],[0,1,"<a href=\"Remover\/RemoverRegistry.php.html#97\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Remover\\RemoverRegistry::getAttribute<\/a>"],[100,1,"<a href=\"Setter\/AbstractAttributeSetter.php.html#30\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AbstractAttributeSetter::__construct<\/a>"],[100,1,"<a href=\"Setter\/AbstractAttributeSetter.php.html#41\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AbstractAttributeSetter::supportsAttribute<\/a>"],[100,1,"<a href=\"Setter\/AbstractFieldSetter.php.html#20\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AbstractFieldSetter::supportsField<\/a>"],[100,1,"<a href=\"Setter\/AssociationFieldSetter.php.html#42\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter::__construct<\/a>"],[85.71428571428571,2,"<a href=\"Setter\/AssociationFieldSetter.php.html#73\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter::setFieldData<\/a>"],[88.88888888888889,8,"<a href=\"Setter\/AssociationFieldSetter.php.html#105\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter::clearAssociations<\/a>"],[100,1,"<a href=\"Setter\/AssociationFieldSetter.php.html#142\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter::addMissingAssociations<\/a>"],[64.70588235294117,6,"<a href=\"Setter\/AssociationFieldSetter.php.html#154\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter::setProductsAndGroupsToAssociations<\/a>"],[100,3,"<a href=\"Setter\/AssociationFieldSetter.php.html#186\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter::setAssociatedProductModels<\/a>"],[100,3,"<a href=\"Setter\/AssociationFieldSetter.php.html#209\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter::setAssociatedProducts<\/a>"],[45.45454545454545,3,"<a href=\"Setter\/AssociationFieldSetter.php.html#232\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter::setAssociatedGroups<\/a>"],[62.5,3,"<a href=\"Setter\/AssociationFieldSetter.php.html#257\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter::checkData<\/a>"],[37.5,8,"<a href=\"Setter\/AssociationFieldSetter.php.html#281\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter::checkAssociationData<\/a>"],[42.857142857142854,3,"<a href=\"Setter\/AssociationFieldSetter.php.html#324\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AssociationFieldSetter::checkAssociationItems<\/a>"],[100,1,"<a href=\"Setter\/AttributeSetter.php.html#23\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AttributeSetter::__construct<\/a>"],[100,1,"<a href=\"Setter\/AttributeSetter.php.html#33\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\AttributeSetter::setAttributeData<\/a>"],[100,1,"<a href=\"Setter\/CategoryFieldSetter.php.html#29\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\CategoryFieldSetter::__construct<\/a>"],[65,6,"<a href=\"Setter\/CategoryFieldSetter.php.html#42\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\CategoryFieldSetter::setFieldData<\/a>"],[36.36363636363637,4,"<a href=\"Setter\/CategoryFieldSetter.php.html#84\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\CategoryFieldSetter::checkData<\/a>"],[100,1,"<a href=\"Setter\/CategoryFieldSetter.php.html#111\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\CategoryFieldSetter::getCategory<\/a>"],[100,1,"<a href=\"Setter\/EnabledFieldSetter.php.html#21\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\EnabledFieldSetter::__construct<\/a>"],[75,7,"<a href=\"Setter\/EnabledFieldSetter.php.html#31\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\EnabledFieldSetter::setFieldData<\/a>"],[100,1,"<a href=\"Setter\/FamilyFieldSetter.php.html#29\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\FamilyFieldSetter::__construct<\/a>"],[47.05882352941176,5,"<a href=\"Setter\/FamilyFieldSetter.php.html#42\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\FamilyFieldSetter::setFieldData<\/a>"],[40,3,"<a href=\"Setter\/FamilyFieldSetter.php.html#78\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\FamilyFieldSetter::checkData<\/a>"],[100,1,"<a href=\"Setter\/FamilyFieldSetter.php.html#94\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\FamilyFieldSetter::getFamily<\/a>"],[100,1,"<a href=\"Setter\/GroupFieldSetter.php.html#27\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\GroupFieldSetter::__construct<\/a>"],[65,6,"<a href=\"Setter\/GroupFieldSetter.php.html#40\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\GroupFieldSetter::setFieldData<\/a>"],[36.36363636363637,4,"<a href=\"Setter\/GroupFieldSetter.php.html#83\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\GroupFieldSetter::checkData<\/a>"],[100,1,"<a href=\"Setter\/MediaAttributeSetter.php.html#36\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\MediaAttributeSetter::__construct<\/a>"],[100,4,"<a href=\"Setter\/MediaAttributeSetter.php.html#54\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\MediaAttributeSetter::setAttributeData<\/a>"],[66.66666666666666,3,"<a href=\"Setter\/MediaAttributeSetter.php.html#84\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\MediaAttributeSetter::checkData<\/a>"],[50,3,"<a href=\"Setter\/MediaAttributeSetter.php.html#100\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\MediaAttributeSetter::storeFile<\/a>"],[100,1,"<a href=\"Setter\/ParentFieldSetter.php.html#30\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\ParentFieldSetter::__construct<\/a>"],[62.06896551724138,10,"<a href=\"Setter\/ParentFieldSetter.php.html#39\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\ParentFieldSetter::setFieldData<\/a>"],[100,1,"<a href=\"Setter\/SetterRegistry.php.html#29\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\SetterRegistry::__construct<\/a>"],[100,3,"<a href=\"Setter\/SetterRegistry.php.html#37\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\SetterRegistry::register<\/a>"],[100,2,"<a href=\"Setter\/SetterRegistry.php.html#52\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\SetterRegistry::getSetter<\/a>"],[100,3,"<a href=\"Setter\/SetterRegistry.php.html#67\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\SetterRegistry::getFieldSetter<\/a>"],[75,3,"<a href=\"Setter\/SetterRegistry.php.html#81\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\SetterRegistry::getAttributeSetter<\/a>"],[100,1,"<a href=\"Setter\/SetterRegistry.php.html#97\">Akeneo\\Pim\\Enrichment\\Component\\Product\\Updater\\Setter\\SetterRegistry::getAttribute<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

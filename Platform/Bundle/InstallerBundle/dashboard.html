@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Platform/Bundle/InstallerBundle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/srv/pim/src/Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Platform</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Bundle</a></li>
+         <li class="breadcrumb-item"><a href="index.html">InstallerBundle</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CommandExecutor.php.html#17">Akeneo\Platform\Bundle\InstallerBundle\CommandExecutor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#16">Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/InstallerEvent.php.html#13">Akeneo\Platform\Bundle\InstallerBundle\Event\InstallerEvent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/UnavailableCreationTimeException.php.html#14">Akeneo\Platform\Bundle\InstallerBundle\Exception\UnavailableCreationTimeException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PimDirectoriesRegistry.php.html#13">Akeneo\Platform\Bundle\InstallerBundle\PimDirectoriesRegistry</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CheckRequirementsCommand.php.html#18">Akeneo\Platform\Bundle\InstallerBundle\Command\CheckRequirementsCommand</a></td><td class="text-right">8%</td></tr>
+       <tr><td><a href="Command/AssetsCommand.php.html#21">Akeneo\Platform\Bundle\InstallerBundle\Command\AssetsCommand</a></td><td class="text-right">12%</td></tr>
+       <tr><td><a href="Command/DumpRequirePathsCommand.php.html#16">Akeneo\Platform\Bundle\InstallerBundle\Command\DumpRequirePathsCommand</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="Command/InstallCommand.php.html#18">Akeneo\Platform\Bundle\InstallerBundle\Command\InstallCommand</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#27">Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="Command/PrepareRequiredDirectoriesCommand.php.html#19">Akeneo\Platform\Bundle\InstallerBundle\Command\PrepareRequiredDirectoriesCommand</a></td><td class="text-right">21%</td></tr>
+       <tr><td><a href="InstallStatusManager/InstallStatusManager.php.html#18">Akeneo\Platform\Bundle\InstallerBundle\InstallStatusManager\InstallStatusManager</a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="FixtureLoader/JobInstancesConfigurator.php.html#18">Akeneo\Platform\Bundle\InstallerBundle\FixtureLoader\JobInstancesConfigurator</a></td><td class="text-right">67%</td></tr>
+       <tr><td><a href="FixtureLoader/FixturePathProvider.php.html#12">Akeneo\Platform\Bundle\InstallerBundle\FixtureLoader\FixturePathProvider</a></td><td class="text-right">84%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ComposerScripts.php.html#16">Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#27">Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand</a></td><td class="text-right">179</td></tr>
+       <tr><td><a href="Command/CheckRequirementsCommand.php.html#18">Akeneo\Platform\Bundle\InstallerBundle\Command\CheckRequirementsCommand</a></td><td class="text-right">121</td></tr>
+       <tr><td><a href="Command/InstallCommand.php.html#18">Akeneo\Platform\Bundle\InstallerBundle\Command\InstallCommand</a></td><td class="text-right">113</td></tr>
+       <tr><td><a href="Command/AssetsCommand.php.html#21">Akeneo\Platform\Bundle\InstallerBundle\Command\AssetsCommand</a></td><td class="text-right">92</td></tr>
+       <tr><td><a href="CommandExecutor.php.html#17">Akeneo\Platform\Bundle\InstallerBundle\CommandExecutor</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Command/DumpRequirePathsCommand.php.html#16">Akeneo\Platform\Bundle\InstallerBundle\Command\DumpRequirePathsCommand</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FixtureLoader/JobInstancesConfigurator.php.html#18">Akeneo\Platform\Bundle\InstallerBundle\FixtureLoader\JobInstancesConfigurator</a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Event/InstallerEvent.php.html#13">Akeneo\Platform\Bundle\InstallerBundle\Event\InstallerEvent</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Command/PrepareRequiredDirectoriesCommand.php.html#19">Akeneo\Platform\Bundle\InstallerBundle\Command\PrepareRequiredDirectoriesCommand</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="InstallStatusManager/InstallStatusManager.php.html#18">Akeneo\Platform\Bundle\InstallerBundle\InstallStatusManager\InstallStatusManager</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="FixtureLoader/FixturePathProvider.php.html#12">Akeneo\Platform\Bundle\InstallerBundle\FixtureLoader\FixturePathProvider</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Command/AssetsCommand.php.html#41"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\AssetsCommand::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#44"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts::copyUpgradesFolder">copyUpgradesFolder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/InstallCommand.php.html#131"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\InstallCommand::assetsStep">assetsStep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/InstallCommand.php.html#146"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\InstallCommand::isPimInstalled">isPimInstalled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/PrepareRequiredDirectoriesCommand.php.html#34"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\PrepareRequiredDirectoriesCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CommandExecutor.php.html#41"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\CommandExecutor::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CommandExecutor.php.html#51"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\CommandExecutor::runCommand">runCommand</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CommandExecutor.php.html#78"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\CommandExecutor::getDefaultParams">getDefaultParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#21"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts::copyUpgradesFiles">copyUpgradesFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#34"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts::warnUserForPendingMigrations">warnUserForPendingMigrations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#57"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts::copyUpgradeFile">copyUpgradeFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/InstallCommand.php.html#105"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\InstallCommand::checkStep">checkStep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#80"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts::getMigrationFolderPath">getMigrationFolderPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#96"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts::getDependencyMigrationPath">getDependencyMigrationPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#114"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts::copyFiles">copyFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#148"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts::createMissingFolder">createMissingFolder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/InstallerEvent.php.html#23"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Event\InstallerEvent::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/InstallerEvent.php.html#33"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Event\InstallerEvent::getCommandExecutor">getCommandExecutor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/UnavailableCreationTimeException.php.html#16"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Exception\UnavailableCreationTimeException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallStatusManager/InstallStatusManager.php.html#83"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\InstallStatusManager\InstallStatusManager::isPimInstalled">isPimInstalled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PimDirectoriesRegistry.php.html#21"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\PimDirectoriesRegistry::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/AssetsCommand.php.html#53"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\AssetsCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/InstallCommand.php.html#117"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\InstallCommand::databaseStep">databaseStep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/InstallCommand.php.html#91"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\InstallCommand::prepareRequiredDirectoriesStep">prepareRequiredDirectoriesStep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#72"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/AssetsCommand.php.html#100"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\AssetsCommand::getWebDir">getWebDir</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/AssetsCommand.php.html#110"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\AssetsCommand::cleanDirectories">cleanDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/AssetsCommand.php.html#125"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\AssetsCommand::getEventDispatcher">getEventDispatcher</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CheckRequirementsCommand.php.html#33"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\CheckRequirementsCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CheckRequirementsCommand.php.html#45"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\CheckRequirementsCommand::getRequirements">getRequirements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CheckRequirementsCommand.php.html#69"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\CheckRequirementsCommand::renderRequirements">renderRequirements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CheckRequirementsCommand.php.html#95"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\CheckRequirementsCommand::renderTable">renderTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/InstallCommand.php.html#54"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\InstallCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CheckRequirementsCommand.php.html#122"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\CheckRequirementsCommand::getDirectoriesContainer">getDirectoriesContainer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#84"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#154"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand::resetElasticsearchIndex">resetElasticsearchIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#173"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand::createNotMappedTables">createNotMappedTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#202"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand::loadFixturesStep">loadFixturesStep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#256"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand::launchCommands">launchCommands</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#266"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand::getFixtureJobLoader">getFixtureJobLoader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#274"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand::getEventDispatcher">getEventDispatcher</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DumpRequirePathsCommand.php.html#32"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DumpRequirePathsCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/DumpRequirePathsCommand.php.html#51"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DumpRequirePathsCommand::collectConfigPaths">collectConfigPaths</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/InstallCommand.php.html#42"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\InstallCommand::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PimDirectoriesRegistry.php.html#29"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\PimDirectoriesRegistry::getDirectories">getDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallStatusManager/InstallStatusManager.php.html#48"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\InstallStatusManager\InstallStatusManager::getPimInstallDateTime">getPimInstallDateTime</abbr></a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="FixtureLoader/JobInstancesConfigurator.php.html#38"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\FixtureLoader\JobInstancesConfigurator::configureJobInstancesWithInstallerData">configureJobInstancesWithInstallerData</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="FixtureLoader/JobInstancesConfigurator.php.html#76"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\FixtureLoader\JobInstancesConfigurator::configureJobInstancesWithReplacementPaths">configureJobInstancesWithReplacementPaths</abbr></a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="FixtureLoader/FixturePathProvider.php.html#35"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\FixtureLoader\FixturePathProvider::getFixturesPath">getFixturesPath</abbr></a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Command/DatabaseCommand.php.html#84"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand::execute">execute</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#114"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts::copyFiles">copyFiles</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Command/AssetsCommand.php.html#53"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\AssetsCommand::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Command/InstallCommand.php.html#54"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\InstallCommand::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="CommandExecutor.php.html#78"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\CommandExecutor::getDefaultParams">getDefaultParams</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Command/CheckRequirementsCommand.php.html#95"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\CheckRequirementsCommand::renderTable">renderTable</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#202"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand::loadFixturesStep">loadFixturesStep</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Command/AssetsCommand.php.html#110"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\AssetsCommand::cleanDirectories">cleanDirectories</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Command/InstallCommand.php.html#131"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\InstallCommand::assetsStep">assetsStep</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Command/PrepareRequiredDirectoriesCommand.php.html#34"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\PrepareRequiredDirectoriesCommand::execute">execute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Command/CheckRequirementsCommand.php.html#45"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\CheckRequirementsCommand::getRequirements">getRequirements</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Command/DumpRequirePathsCommand.php.html#51"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DumpRequirePathsCommand::collectConfigPaths">collectConfigPaths</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Command/DumpRequirePathsCommand.php.html#32"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DumpRequirePathsCommand::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Command/DatabaseCommand.php.html#154"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\DatabaseCommand::resetElasticsearchIndex">resetElasticsearchIndex</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CommandExecutor.php.html#51"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\CommandExecutor::runCommand">runCommand</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Command/CheckRequirementsCommand.php.html#69"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\CheckRequirementsCommand::renderRequirements">renderRequirements</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#57"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts::copyUpgradeFile">copyUpgradeFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ComposerScripts.php.html#148"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\ComposerScripts::createMissingFolder">createMissingFolder</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Event/InstallerEvent.php.html#23"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Event\InstallerEvent::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InstallStatusManager/InstallStatusManager.php.html#83"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\InstallStatusManager\InstallStatusManager::isPimInstalled">isPimInstalled</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FixtureLoader/JobInstancesConfigurator.php.html#76"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\FixtureLoader\JobInstancesConfigurator::configureJobInstancesWithReplacementPaths">configureJobInstancesWithReplacementPaths</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="FixtureLoader/FixturePathProvider.php.html#35"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\FixtureLoader\FixturePathProvider::getFixturesPath">getFixturesPath</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="InstallStatusManager/InstallStatusManager.php.html#48"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\InstallStatusManager\InstallStatusManager::getPimInstallDateTime">getPimInstallDateTime</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="FixtureLoader/JobInstancesConfigurator.php.html#38"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\FixtureLoader\JobInstancesConfigurator::configureJobInstancesWithInstallerData">configureJobInstancesWithInstallerData</abbr></a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.0</a> at Sun Mar 17 12:23:44 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,1,3,2,0,0,1,1,0,1,0,3], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([45,0,0,0,0,0,1,2,0,1,0,24], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[12.195121951219512,11,"<a href=\"Command\/AssetsCommand.php.html#21\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\AssetsCommand<\/a>"],[8.823529411764707,12,"<a href=\"Command\/CheckRequirementsCommand.php.html#18\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CheckRequirementsCommand<\/a>"],[20.792079207920793,18,"<a href=\"Command\/DatabaseCommand.php.html#27\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DatabaseCommand<\/a>"],[15,5,"<a href=\"Command\/DumpRequirePathsCommand.php.html#16\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DumpRequirePathsCommand<\/a>"],[15.789473684210526,13,"<a href=\"Command\/InstallCommand.php.html#18\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\InstallCommand<\/a>"],[21.428571428571427,4,"<a href=\"Command\/PrepareRequiredDirectoriesCommand.php.html#19\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\PrepareRequiredDirectoriesCommand<\/a>"],[0,7,"<a href=\"CommandExecutor.php.html#17\">Akeneo\\Platform\\Bundle\\InstallerBundle\\CommandExecutor<\/a>"],[0,14,"<a href=\"ComposerScripts.php.html#16\">Akeneo\\Platform\\Bundle\\InstallerBundle\\ComposerScripts<\/a>"],[0,3,"<a href=\"Event\/InstallerEvent.php.html#13\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Event\\InstallerEvent<\/a>"],[100,0,"<a href=\"Event\/InstallerEvents.php.html#12\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Event\\InstallerEvents<\/a>"],[0,1,"<a href=\"Exception\/UnavailableCreationTimeException.php.html#14\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Exception\\UnavailableCreationTimeException<\/a>"],[100,9,"<a href=\"FixtureLoader\/FixtureJobLoader.php.html#18\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixtureJobLoader<\/a>"],[84.61538461538461,6,"<a href=\"FixtureLoader\/FixturePathProvider.php.html#12\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixturePathProvider<\/a>"],[100,12,"<a href=\"FixtureLoader\/JobInstancesBuilder.php.html#20\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesBuilder<\/a>"],[67.56756756756756,10,"<a href=\"FixtureLoader\/JobInstancesConfigurator.php.html#18\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesConfigurator<\/a>"],[54.166666666666664,7,"<a href=\"InstallStatusManager\/InstallStatusManager.php.html#18\">Akeneo\\Platform\\Bundle\\InstallerBundle\\InstallStatusManager\\InstallStatusManager<\/a>"],[0,2,"<a href=\"PimDirectoriesRegistry.php.html#13\">Akeneo\\Platform\\Bundle\\InstallerBundle\\PimDirectoriesRegistry<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Command\/AssetsCommand.php.html#29\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\AssetsCommand::configure<\/a>"],[0,1,"<a href=\"Command\/AssetsCommand.php.html#41\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\AssetsCommand::initialize<\/a>"],[0,4,"<a href=\"Command\/AssetsCommand.php.html#53\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\AssetsCommand::execute<\/a>"],[0,1,"<a href=\"Command\/AssetsCommand.php.html#100\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\AssetsCommand::getWebDir<\/a>"],[0,3,"<a href=\"Command\/AssetsCommand.php.html#110\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\AssetsCommand::cleanDirectories<\/a>"],[0,1,"<a href=\"Command\/AssetsCommand.php.html#125\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\AssetsCommand::getEventDispatcher<\/a>"],[100,1,"<a href=\"Command\/CheckRequirementsCommand.php.html#23\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CheckRequirementsCommand::configure<\/a>"],[0,1,"<a href=\"Command\/CheckRequirementsCommand.php.html#33\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CheckRequirementsCommand::execute<\/a>"],[0,3,"<a href=\"Command\/CheckRequirementsCommand.php.html#45\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CheckRequirementsCommand::getRequirements<\/a>"],[0,2,"<a href=\"Command\/CheckRequirementsCommand.php.html#69\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CheckRequirementsCommand::renderRequirements<\/a>"],[0,4,"<a href=\"Command\/CheckRequirementsCommand.php.html#95\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CheckRequirementsCommand::renderTable<\/a>"],[0,1,"<a href=\"Command\/CheckRequirementsCommand.php.html#122\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CheckRequirementsCommand::getDirectoriesContainer<\/a>"],[100,1,"<a href=\"Command\/DatabaseCommand.php.html#41\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DatabaseCommand::configure<\/a>"],[0,1,"<a href=\"Command\/DatabaseCommand.php.html#72\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DatabaseCommand::initialize<\/a>"],[0,6,"<a href=\"Command\/DatabaseCommand.php.html#84\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DatabaseCommand::execute<\/a>"],[0,2,"<a href=\"Command\/DatabaseCommand.php.html#154\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DatabaseCommand::resetElasticsearchIndex<\/a>"],[0,1,"<a href=\"Command\/DatabaseCommand.php.html#173\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DatabaseCommand::createNotMappedTables<\/a>"],[0,4,"<a href=\"Command\/DatabaseCommand.php.html#202\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DatabaseCommand::loadFixturesStep<\/a>"],[0,1,"<a href=\"Command\/DatabaseCommand.php.html#256\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DatabaseCommand::launchCommands<\/a>"],[0,1,"<a href=\"Command\/DatabaseCommand.php.html#266\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DatabaseCommand::getFixtureJobLoader<\/a>"],[0,1,"<a href=\"Command\/DatabaseCommand.php.html#274\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DatabaseCommand::getEventDispatcher<\/a>"],[100,1,"<a href=\"Command\/DumpRequirePathsCommand.php.html#22\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DumpRequirePathsCommand::configure<\/a>"],[0,2,"<a href=\"Command\/DumpRequirePathsCommand.php.html#32\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DumpRequirePathsCommand::execute<\/a>"],[0,2,"<a href=\"Command\/DumpRequirePathsCommand.php.html#51\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\DumpRequirePathsCommand::collectConfigPaths<\/a>"],[100,1,"<a href=\"Command\/InstallCommand.php.html#29\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\InstallCommand::configure<\/a>"],[0,1,"<a href=\"Command\/InstallCommand.php.html#42\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\InstallCommand::initialize<\/a>"],[0,4,"<a href=\"Command\/InstallCommand.php.html#54\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\InstallCommand::execute<\/a>"],[0,1,"<a href=\"Command\/InstallCommand.php.html#91\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\InstallCommand::prepareRequiredDirectoriesStep<\/a>"],[0,1,"<a href=\"Command\/InstallCommand.php.html#105\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\InstallCommand::checkStep<\/a>"],[0,1,"<a href=\"Command\/InstallCommand.php.html#117\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\InstallCommand::databaseStep<\/a>"],[0,3,"<a href=\"Command\/InstallCommand.php.html#131\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\InstallCommand::assetsStep<\/a>"],[0,1,"<a href=\"Command\/InstallCommand.php.html#146\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\InstallCommand::isPimInstalled<\/a>"],[100,1,"<a href=\"Command\/PrepareRequiredDirectoriesCommand.php.html#24\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\PrepareRequiredDirectoriesCommand::configure<\/a>"],[0,3,"<a href=\"Command\/PrepareRequiredDirectoriesCommand.php.html#34\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\PrepareRequiredDirectoriesCommand::execute<\/a>"],[0,1,"<a href=\"CommandExecutor.php.html#41\">Akeneo\\Platform\\Bundle\\InstallerBundle\\CommandExecutor::__construct<\/a>"],[0,2,"<a href=\"CommandExecutor.php.html#51\">Akeneo\\Platform\\Bundle\\InstallerBundle\\CommandExecutor::runCommand<\/a>"],[0,4,"<a href=\"CommandExecutor.php.html#78\">Akeneo\\Platform\\Bundle\\InstallerBundle\\CommandExecutor::getDefaultParams<\/a>"],[0,1,"<a href=\"ComposerScripts.php.html#21\">Akeneo\\Platform\\Bundle\\InstallerBundle\\ComposerScripts::copyUpgradesFiles<\/a>"],[0,1,"<a href=\"ComposerScripts.php.html#34\">Akeneo\\Platform\\Bundle\\InstallerBundle\\ComposerScripts::warnUserForPendingMigrations<\/a>"],[0,1,"<a href=\"ComposerScripts.php.html#44\">Akeneo\\Platform\\Bundle\\InstallerBundle\\ComposerScripts::copyUpgradesFolder<\/a>"],[0,2,"<a href=\"ComposerScripts.php.html#57\">Akeneo\\Platform\\Bundle\\InstallerBundle\\ComposerScripts::copyUpgradeFile<\/a>"],[0,1,"<a href=\"ComposerScripts.php.html#80\">Akeneo\\Platform\\Bundle\\InstallerBundle\\ComposerScripts::getMigrationFolderPath<\/a>"],[0,1,"<a href=\"ComposerScripts.php.html#96\">Akeneo\\Platform\\Bundle\\InstallerBundle\\ComposerScripts::getDependencyMigrationPath<\/a>"],[0,5,"<a href=\"ComposerScripts.php.html#114\">Akeneo\\Platform\\Bundle\\InstallerBundle\\ComposerScripts::copyFiles<\/a>"],[0,2,"<a href=\"ComposerScripts.php.html#148\">Akeneo\\Platform\\Bundle\\InstallerBundle\\ComposerScripts::createMissingFolder<\/a>"],[0,2,"<a href=\"Event\/InstallerEvent.php.html#23\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Event\\InstallerEvent::__construct<\/a>"],[0,1,"<a href=\"Event\/InstallerEvent.php.html#33\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Event\\InstallerEvent::getCommandExecutor<\/a>"],[0,1,"<a href=\"Exception\/UnavailableCreationTimeException.php.html#16\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Exception\\UnavailableCreationTimeException::__construct<\/a>"],[100,1,"<a href=\"FixtureLoader\/FixtureJobLoader.php.html#41\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixtureJobLoader::__construct<\/a>"],[100,1,"<a href=\"FixtureLoader\/FixtureJobLoader.php.html#58\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixtureJobLoader::loadJobInstances<\/a>"],[100,1,"<a href=\"FixtureLoader\/FixtureJobLoader.php.html#69\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixtureJobLoader::deleteJobInstances<\/a>"],[100,1,"<a href=\"FixtureLoader\/FixtureJobLoader.php.html#81\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixtureJobLoader::getLoadedJobInstances<\/a>"],[100,2,"<a href=\"FixtureLoader\/FixtureJobLoader.php.html#94\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixtureJobLoader::configureJobInstances<\/a>"],[100,1,"<a href=\"FixtureLoader\/FixtureJobLoader.php.html#109\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixtureJobLoader::getJobInstanceSaver<\/a>"],[100,1,"<a href=\"FixtureLoader\/FixtureJobLoader.php.html#117\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixtureJobLoader::getJobInstanceRemover<\/a>"],[100,1,"<a href=\"FixtureLoader\/FixtureJobLoader.php.html#125\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixtureJobLoader::getJobInstanceRepository<\/a>"],[100,1,"<a href=\"FixtureLoader\/FixturePathProvider.php.html#24\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixturePathProvider::__construct<\/a>"],[80,5,"<a href=\"FixtureLoader\/FixturePathProvider.php.html#35\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\FixturePathProvider::getFixturesPath<\/a>"],[100,1,"<a href=\"FixtureLoader\/JobInstancesBuilder.php.html#40\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesBuilder::__construct<\/a>"],[100,1,"<a href=\"FixtureLoader\/JobInstancesBuilder.php.html#57\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesBuilder::build<\/a>"],[100,5,"<a href=\"FixtureLoader\/JobInstancesBuilder.php.html#68\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesBuilder::readOrderedRawJobData<\/a>"],[100,2,"<a href=\"FixtureLoader\/JobInstancesBuilder.php.html#105\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesBuilder::buildJobInstances<\/a>"],[100,1,"<a href=\"FixtureLoader\/JobInstancesBuilder.php.html#121\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesBuilder::getFileLocator<\/a>"],[100,1,"<a href=\"FixtureLoader\/JobInstancesBuilder.php.html#129\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesBuilder::getYamlReader<\/a>"],[100,1,"<a href=\"FixtureLoader\/JobInstancesBuilder.php.html#137\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesBuilder::getJobInstanceProcessor<\/a>"],[100,1,"<a href=\"FixtureLoader\/JobInstancesConfigurator.php.html#26\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesConfigurator::__construct<\/a>"],[62.5,4,"<a href=\"FixtureLoader\/JobInstancesConfigurator.php.html#38\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesConfigurator::configureJobInstancesWithInstallerData<\/a>"],[68.42105263157895,5,"<a href=\"FixtureLoader\/JobInstancesConfigurator.php.html#76\">Akeneo\\Platform\\Bundle\\InstallerBundle\\FixtureLoader\\JobInstancesConfigurator::configureJobInstancesWithReplacementPaths<\/a>"],[100,1,"<a href=\"InstallStatusManager\/InstallStatusManager.php.html#37\">Akeneo\\Platform\\Bundle\\InstallerBundle\\InstallStatusManager\\InstallStatusManager::__construct<\/a>"],[58.82352941176471,4,"<a href=\"InstallStatusManager\/InstallStatusManager.php.html#48\">Akeneo\\Platform\\Bundle\\InstallerBundle\\InstallStatusManager\\InstallStatusManager::getPimInstallDateTime<\/a>"],[0,2,"<a href=\"InstallStatusManager\/InstallStatusManager.php.html#83\">Akeneo\\Platform\\Bundle\\InstallerBundle\\InstallStatusManager\\InstallStatusManager::isPimInstalled<\/a>"],[0,1,"<a href=\"PimDirectoriesRegistry.php.html#21\">Akeneo\\Platform\\Bundle\\InstallerBundle\\PimDirectoriesRegistry::__construct<\/a>"],[0,1,"<a href=\"PimDirectoriesRegistry.php.html#29\">Akeneo\\Platform\\Bundle\\InstallerBundle\\PimDirectoriesRegistry::getDirectories<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

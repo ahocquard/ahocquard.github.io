@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Tool/Bundle/StorageUtilsBundle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/srv/pim/src/Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Tool</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Bundle</a></li>
+         <li class="breadcrumb-item"><a href="index.html">StorageUtilsBundle</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Doctrine/Common/Remover/BaseRemovingOptionsResolver.php.html#15">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Remover\BaseRemovingOptionsResolver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/Common/Saver/BaseSavingOptionsResolver.php.html#15">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Saver\BaseSavingOptionsResolver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#18">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Repository/SearchableRepository.php.html#15">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Repository\SearchableRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/TableNameBuilder.php.html#16">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\TableNameBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/integration/Utf8mb4SupportIntegrationTest.php.html#17">Akeneo\Tool\Bundle\StorageUtilsBundle\tests\integration\Utf8mb4SupportIntegrationTest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/MappingsOverrideConfigurator.php.html#24">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\MappingsOverrideConfigurator</a></td><td class="text-right">11%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/CursorFactory.php.html#15">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\CursorFactory</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Doctrine/DBAL/Types/JsonType.php.html#17">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\DBAL\Types\JsonType</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Doctrine/Common/Remover/BaseRemover.php.html#20">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Remover\BaseRemover</a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Doctrine/Common/Saver/BaseSaver.php.html#20">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Saver\BaseSaver</a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Doctrine/Common/Detacher/ObjectDetacher.php.html#21">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Detacher\ObjectDetacher</a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="Doctrine/DBAL/Types/UTCDateTimeType.php.html#16">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\DBAL\Types\UTCDateTimeType</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#18">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Doctrine/ORM/MappingsOverrideConfigurator.php.html#24">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\MappingsOverrideConfigurator</a></td><td class="text-right">169</td></tr>
+       <tr><td><a href="Doctrine/ORM/Repository/SearchableRepository.php.html#15">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Repository\SearchableRepository</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="tests/integration/Utf8mb4SupportIntegrationTest.php.html#17">Akeneo\Tool\Bundle\StorageUtilsBundle\tests\integration\Utf8mb4SupportIntegrationTest</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Doctrine/TableNameBuilder.php.html#16">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\TableNameBuilder</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Doctrine/Common/Detacher/ObjectDetacher.php.html#21">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Detacher\ObjectDetacher</a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="Doctrine/DBAL/Types/UTCDateTimeType.php.html#16">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\DBAL\Types\UTCDateTimeType</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Doctrine/Common/Remover/BaseRemover.php.html#20">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Remover\BaseRemover</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Doctrine/Common/Saver/BaseSaver.php.html#20">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Saver\BaseSaver</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Doctrine/DBAL/Types/JsonType.php.html#17">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\DBAL\Types\JsonType</a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/CursorFactory.php.html#15">Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\CursorFactory</a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="tests/integration/Utf8mb4SupportIntegrationTest.php.html#85"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\tests\integration\Utf8mb4SupportIntegrationTest::getConfiguration">getConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#148"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::getRepository">getRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/integration/Utf8mb4SupportIntegrationTest.php.html#75"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\tests\integration\Utf8mb4SupportIntegrationTest::tearDown">tearDown</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/integration/Utf8mb4SupportIntegrationTest.php.html#34"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\tests\integration\Utf8mb4SupportIntegrationTest::testUtf8mb4Support">testUtf8mb4Support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/integration/Utf8mb4SupportIntegrationTest.php.html#27"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\tests\integration\Utf8mb4SupportIntegrationTest::setUp">setUp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/TableNameBuilder.php.html#64"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\TableNameBuilder::getClassMetadata">getClassMetadata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/TableNameBuilder.php.html#44"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\TableNameBuilder::getTableName">getTableName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/TableNameBuilder.php.html#30"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\TableNameBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Repository/SearchableRepository.php.html#20"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Repository\SearchableRepository::findBySearch">findBySearch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/MappingsOverrideConfigurator.php.html#103"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\MappingsOverrideConfigurator::hasRelation">hasRelation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/MappingsOverrideConfigurator.php.html#89"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\MappingsOverrideConfigurator::unsetAssociationMappings">unsetAssociationMappings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/MappingsOverrideConfigurator.php.html#62"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\MappingsOverrideConfigurator::setAssociationMappings">setAssociationMappings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/CursorFactory.php.html#47"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\CursorFactory::createCursor">createCursor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#193"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::getNextEntitiesPage">getNextEntitiesPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#173"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::getNextEntity">getNextEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#138"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::getOffSet">getOffSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#111"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::getEntitiesIds">getEntitiesIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/Common/Saver/BaseSavingOptionsResolver.php.html#42"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Saver\BaseSavingOptionsResolver::createOptionsResolver">createOptionsResolver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/Common/Remover/BaseRemovingOptionsResolver.php.html#20"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Remover\BaseRemovingOptionsResolver::resolveRemoveOptions">resolveRemoveOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/Common/Remover/BaseRemovingOptionsResolver.php.html#31"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Remover\BaseRemovingOptionsResolver::resolveRemoveAllOptions">resolveRemoveAllOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/Common/Remover/BaseRemovingOptionsResolver.php.html#42"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Remover\BaseRemovingOptionsResolver::createOptionsResolver">createOptionsResolver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/Common/Saver/BaseSavingOptionsResolver.php.html#20"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Saver\BaseSavingOptionsResolver::resolveSaveOptions">resolveSaveOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/Common/Saver/BaseSavingOptionsResolver.php.html#31"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Saver\BaseSavingOptionsResolver::resolveSaveAllOptions">resolveSaveAllOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/DBAL/Types/JsonType.php.html#22"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\DBAL\Types\JsonType::getSQLDeclaration">getSQLDeclaration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#55"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#69"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::next">next</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#78"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::current">current</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#86"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#98"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::rewind">rewind</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Doctrine/Common/Remover/BaseRemover.php.html#100"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Remover\BaseRemover::validateObject">validateObject</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="Doctrine/ORM/MappingsOverrideConfigurator.php.html#29"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\MappingsOverrideConfigurator::configure">configure</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="Doctrine/Common/Saver/BaseSaver.php.html#108"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Saver\BaseSaver::validateObject">validateObject</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="Doctrine/Common/Detacher/ObjectDetacher.php.html#95"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Detacher\ObjectDetacher::cascadeDetachScheduled">cascadeDetachScheduled</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="Doctrine/DBAL/Types/UTCDateTimeType.php.html#38"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\DBAL\Types\UTCDateTimeType::convertToPHPValue">convertToPHPValue</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#193"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::getNextEntitiesPage">getNextEntitiesPage</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Doctrine/ORM/Repository/SearchableRepository.php.html#20"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Repository\SearchableRepository::findBySearch">findBySearch</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Doctrine/ORM/MappingsOverrideConfigurator.php.html#62"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\MappingsOverrideConfigurator::setAssociationMappings">setAssociationMappings</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#173"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::getNextEntity">getNextEntity</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Doctrine/ORM/MappingsOverrideConfigurator.php.html#29"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\MappingsOverrideConfigurator::configure">configure</abbr></a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="Doctrine/ORM/MappingsOverrideConfigurator.php.html#89"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\MappingsOverrideConfigurator::unsetAssociationMappings">unsetAssociationMappings</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#148"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::getRepository">getRepository</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Doctrine/Common/Detacher/ObjectDetacher.php.html#95"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Detacher\ObjectDetacher::cascadeDetachScheduled">cascadeDetachScheduled</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Doctrine/DBAL/Types/UTCDateTimeType.php.html#38"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\DBAL\Types\UTCDateTimeType::convertToPHPValue">convertToPHPValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/CursorFactory.php.html#47"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\CursorFactory::createCursor">createCursor</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#111"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::getEntitiesIds">getEntitiesIds</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Doctrine/ORM/Cursor/Cursor.php.html#86"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\ORM\Cursor\Cursor::count">count</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Doctrine/TableNameBuilder.php.html#44"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\TableNameBuilder::getTableName">getTableName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tests/integration/Utf8mb4SupportIntegrationTest.php.html#34"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\tests\integration\Utf8mb4SupportIntegrationTest::testUtf8mb4Support">testUtf8mb4Support</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tests/integration/Utf8mb4SupportIntegrationTest.php.html#75"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\tests\integration\Utf8mb4SupportIntegrationTest::tearDown">tearDown</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Doctrine/Common/Remover/BaseRemover.php.html#100"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Remover\BaseRemover::validateObject">validateObject</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Doctrine/Common/Saver/BaseSaver.php.html#108"><abbr title="Akeneo\Tool\Bundle\StorageUtilsBundle\Doctrine\Common\Saver\BaseSaver::validateObject">validateObject</abbr></a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.0</a> at Sun Mar 17 12:23:44 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([6,0,1,0,0,0,1,0,1,4,0,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([29,0,0,3,0,0,0,0,1,1,3,18], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[86.66666666666667,16,"<a href=\"Doctrine\/Common\/Detacher\/ObjectDetacher.php.html#21\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Detacher\\ObjectDetacher<\/a>"],[82.35294117647058,8,"<a href=\"Doctrine\/Common\/Remover\/BaseRemover.php.html#20\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Remover\\BaseRemover<\/a>"],[0,3,"<a href=\"Doctrine\/Common\/Remover\/BaseRemovingOptionsResolver.php.html#15\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Remover\\BaseRemovingOptionsResolver<\/a>"],[84.21052631578947,8,"<a href=\"Doctrine\/Common\/Saver\/BaseSaver.php.html#20\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Saver\\BaseSaver<\/a>"],[0,3,"<a href=\"Doctrine\/Common\/Saver\/BaseSavingOptionsResolver.php.html#15\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Saver\\BaseSavingOptionsResolver<\/a>"],[75,4,"<a href=\"Doctrine\/DBAL\/Types\/JsonType.php.html#17\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\DBAL\\Types\\JsonType<\/a>"],[88.88888888888889,9,"<a href=\"Doctrine\/DBAL\/Types\/UTCDateTimeType.php.html#16\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\DBAL\\Types\\UTCDateTimeType<\/a>"],[0,23,"<a href=\"Doctrine\/ORM\/Cursor\/Cursor.php.html#18\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\Cursor<\/a>"],[57.14285714285714,3,"<a href=\"Doctrine\/ORM\/Cursor\/CursorFactory.php.html#15\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\CursorFactory<\/a>"],[11.76470588235294,15,"<a href=\"Doctrine\/ORM\/MappingsOverrideConfigurator.php.html#24\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\MappingsOverrideConfigurator<\/a>"],[0,6,"<a href=\"Doctrine\/ORM\/Repository\/SearchableRepository.php.html#15\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Repository\\SearchableRepository<\/a>"],[0,4,"<a href=\"Doctrine\/TableNameBuilder.php.html#16\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\TableNameBuilder<\/a>"],[100,3,"<a href=\"EventSubscriber\/ConfigureMappingsSubscriber.php.html#16\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\EventSubscriber\\ConfigureMappingsSubscriber<\/a>"],[100,4,"<a href=\"EventSubscriber\/ResolveTargetRepositorySubscriber.php.html#15\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\EventSubscriber\\ResolveTargetRepositorySubscriber<\/a>"],[0,6,"<a href=\"tests\/integration\/Utf8mb4SupportIntegrationTest.php.html#17\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\tests\\integration\\Utf8mb4SupportIntegrationTest<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Doctrine\/Common\/Detacher\/ObjectDetacher.php.html#32\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Detacher\\ObjectDetacher::__construct<\/a>"],[100,1,"<a href=\"Doctrine\/Common\/Detacher\/ObjectDetacher.php.html#41\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Detacher\\ObjectDetacher::detach<\/a>"],[100,2,"<a href=\"Doctrine\/Common\/Detacher\/ObjectDetacher.php.html#51\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Detacher\\ObjectDetacher::detachAll<\/a>"],[92.85714285714286,4,"<a href=\"Doctrine\/Common\/Detacher\/ObjectDetacher.php.html#64\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Detacher\\ObjectDetacher::doDetachScheduled<\/a>"],[72.22222222222221,7,"<a href=\"Doctrine\/Common\/Detacher\/ObjectDetacher.php.html#95\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Detacher\\ObjectDetacher::cascadeDetachScheduled<\/a>"],[100,1,"<a href=\"Doctrine\/Common\/Detacher\/ObjectDetacher.php.html#136\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Detacher\\ObjectDetacher::getScheduledForDirtyCheck<\/a>"],[100,1,"<a href=\"Doctrine\/Common\/Remover\/BaseRemover.php.html#36\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Remover\\BaseRemover::__construct<\/a>"],[100,1,"<a href=\"Doctrine\/Common\/Remover\/BaseRemover.php.html#49\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Remover\\BaseRemover::remove<\/a>"],[93.33333333333333,4,"<a href=\"Doctrine\/Common\/Remover\/BaseRemover.php.html#68\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Remover\\BaseRemover::removeAll<\/a>"],[28.57142857142857,2,"<a href=\"Doctrine\/Common\/Remover\/BaseRemover.php.html#100\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Remover\\BaseRemover::validateObject<\/a>"],[0,1,"<a href=\"Doctrine\/Common\/Remover\/BaseRemovingOptionsResolver.php.html#20\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Remover\\BaseRemovingOptionsResolver::resolveRemoveOptions<\/a>"],[0,1,"<a href=\"Doctrine\/Common\/Remover\/BaseRemovingOptionsResolver.php.html#31\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Remover\\BaseRemovingOptionsResolver::resolveRemoveAllOptions<\/a>"],[0,1,"<a href=\"Doctrine\/Common\/Remover\/BaseRemovingOptionsResolver.php.html#42\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Remover\\BaseRemovingOptionsResolver::createOptionsResolver<\/a>"],[100,1,"<a href=\"Doctrine\/Common\/Saver\/BaseSaver.php.html#36\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Saver\\BaseSaver::__construct<\/a>"],[100,1,"<a href=\"Doctrine\/Common\/Saver\/BaseSaver.php.html#49\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Saver\\BaseSaver::save<\/a>"],[94.73684210526315,4,"<a href=\"Doctrine\/Common\/Saver\/BaseSaver.php.html#68\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Saver\\BaseSaver::saveAll<\/a>"],[28.57142857142857,2,"<a href=\"Doctrine\/Common\/Saver\/BaseSaver.php.html#108\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Saver\\BaseSaver::validateObject<\/a>"],[0,1,"<a href=\"Doctrine\/Common\/Saver\/BaseSavingOptionsResolver.php.html#20\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Saver\\BaseSavingOptionsResolver::resolveSaveOptions<\/a>"],[0,1,"<a href=\"Doctrine\/Common\/Saver\/BaseSavingOptionsResolver.php.html#31\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Saver\\BaseSavingOptionsResolver::resolveSaveAllOptions<\/a>"],[0,1,"<a href=\"Doctrine\/Common\/Saver\/BaseSavingOptionsResolver.php.html#42\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\Common\\Saver\\BaseSavingOptionsResolver::createOptionsResolver<\/a>"],[0,1,"<a href=\"Doctrine\/DBAL\/Types\/JsonType.php.html#22\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\DBAL\\Types\\JsonType::getSQLDeclaration<\/a>"],[100,2,"<a href=\"Doctrine\/DBAL\/Types\/JsonType.php.html#30\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\DBAL\\Types\\JsonType::convertToPHPValue<\/a>"],[100,1,"<a href=\"Doctrine\/DBAL\/Types\/JsonType.php.html#41\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\DBAL\\Types\\JsonType::getName<\/a>"],[100,3,"<a href=\"Doctrine\/DBAL\/Types\/UTCDateTimeType.php.html#24\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\DBAL\\Types\\UTCDateTimeType::convertToDatabaseValue<\/a>"],[85.71428571428571,6,"<a href=\"Doctrine\/DBAL\/Types\/UTCDateTimeType.php.html#38\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\DBAL\\Types\\UTCDateTimeType::convertToPHPValue<\/a>"],[0,1,"<a href=\"Doctrine\/ORM\/Cursor\/Cursor.php.html#55\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\Cursor::__construct<\/a>"],[0,1,"<a href=\"Doctrine\/ORM\/Cursor\/Cursor.php.html#69\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\Cursor::next<\/a>"],[0,1,"<a href=\"Doctrine\/ORM\/Cursor\/Cursor.php.html#78\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\Cursor::current<\/a>"],[0,2,"<a href=\"Doctrine\/ORM\/Cursor\/Cursor.php.html#86\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\Cursor::count<\/a>"],[0,1,"<a href=\"Doctrine\/ORM\/Cursor\/Cursor.php.html#98\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\Cursor::rewind<\/a>"],[0,2,"<a href=\"Doctrine\/ORM\/Cursor\/Cursor.php.html#111\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\Cursor::getEntitiesIds<\/a>"],[0,1,"<a href=\"Doctrine\/ORM\/Cursor\/Cursor.php.html#138\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\Cursor::getOffSet<\/a>"],[0,3,"<a href=\"Doctrine\/ORM\/Cursor\/Cursor.php.html#148\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\Cursor::getRepository<\/a>"],[0,4,"<a href=\"Doctrine\/ORM\/Cursor\/Cursor.php.html#173\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\Cursor::getNextEntity<\/a>"],[0,7,"<a href=\"Doctrine\/ORM\/Cursor\/Cursor.php.html#193\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\Cursor::getNextEntitiesPage<\/a>"],[100,1,"<a href=\"Doctrine\/ORM\/Cursor\/CursorFactory.php.html#34\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\CursorFactory::__construct<\/a>"],[0,2,"<a href=\"Doctrine\/ORM\/Cursor\/CursorFactory.php.html#47\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Cursor\\CursorFactory::createCursor<\/a>"],[28.57142857142857,6,"<a href=\"Doctrine\/ORM\/MappingsOverrideConfigurator.php.html#29\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\MappingsOverrideConfigurator::configure<\/a>"],[0,5,"<a href=\"Doctrine\/ORM\/MappingsOverrideConfigurator.php.html#62\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\MappingsOverrideConfigurator::setAssociationMappings<\/a>"],[0,3,"<a href=\"Doctrine\/ORM\/MappingsOverrideConfigurator.php.html#89\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\MappingsOverrideConfigurator::unsetAssociationMappings<\/a>"],[0,1,"<a href=\"Doctrine\/ORM\/MappingsOverrideConfigurator.php.html#103\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\MappingsOverrideConfigurator::hasRelation<\/a>"],[0,6,"<a href=\"Doctrine\/ORM\/Repository\/SearchableRepository.php.html#20\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\ORM\\Repository\\SearchableRepository::findBySearch<\/a>"],[0,1,"<a href=\"Doctrine\/TableNameBuilder.php.html#30\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\TableNameBuilder::__construct<\/a>"],[0,2,"<a href=\"Doctrine\/TableNameBuilder.php.html#44\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\TableNameBuilder::getTableName<\/a>"],[0,1,"<a href=\"Doctrine\/TableNameBuilder.php.html#64\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\Doctrine\\TableNameBuilder::getClassMetadata<\/a>"],[100,1,"<a href=\"EventSubscriber\/ConfigureMappingsSubscriber.php.html#30\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\EventSubscriber\\ConfigureMappingsSubscriber::__construct<\/a>"],[100,1,"<a href=\"EventSubscriber\/ConfigureMappingsSubscriber.php.html#39\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\EventSubscriber\\ConfigureMappingsSubscriber::getSubscribedEvents<\/a>"],[100,1,"<a href=\"EventSubscriber\/ConfigureMappingsSubscriber.php.html#49\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\EventSubscriber\\ConfigureMappingsSubscriber::loadClassMetadata<\/a>"],[100,1,"<a href=\"EventSubscriber\/ResolveTargetRepositorySubscriber.php.html#25\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\EventSubscriber\\ResolveTargetRepositorySubscriber::getSubscribedEvents<\/a>"],[100,1,"<a href=\"EventSubscriber\/ResolveTargetRepositorySubscriber.php.html#38\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\EventSubscriber\\ResolveTargetRepositorySubscriber::addResolveTargetRepository<\/a>"],[100,2,"<a href=\"EventSubscriber\/ResolveTargetRepositorySubscriber.php.html#48\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\EventSubscriber\\ResolveTargetRepositorySubscriber::loadClassMetadata<\/a>"],[0,1,"<a href=\"tests\/integration\/Utf8mb4SupportIntegrationTest.php.html#27\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\tests\\integration\\Utf8mb4SupportIntegrationTest::setUp<\/a>"],[0,2,"<a href=\"tests\/integration\/Utf8mb4SupportIntegrationTest.php.html#34\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\tests\\integration\\Utf8mb4SupportIntegrationTest::testUtf8mb4Support<\/a>"],[0,2,"<a href=\"tests\/integration\/Utf8mb4SupportIntegrationTest.php.html#75\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\tests\\integration\\Utf8mb4SupportIntegrationTest::tearDown<\/a>"],[0,1,"<a href=\"tests\/integration\/Utf8mb4SupportIntegrationTest.php.html#85\">Akeneo\\Tool\\Bundle\\StorageUtilsBundle\\tests\\integration\\Utf8mb4SupportIntegrationTest::getConfiguration<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
