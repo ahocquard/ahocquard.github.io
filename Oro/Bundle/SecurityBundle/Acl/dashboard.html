@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Oro/Bundle/SecurityBundle/Acl</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/srv/pim/src</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Oro</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Bundle</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">SecurityBundle</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Acl</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Extension/EntityClassResolver.php.html#14">Oro\Bundle\SecurityBundle\Acl\Extension\EntityClassResolver</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="Permission/MaskBuilder.php.html#35">Oro\Bundle\SecurityBundle\Acl\Permission\MaskBuilder</a></td><td class="text-right">22%</td></tr>
+       <tr><td><a href="Persistence/AbstractAclManager.php.html#12">Oro\Bundle\SecurityBundle\Acl\Persistence\AbstractAclManager</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Persistence/Batch/BatchItem.php.html#10">Oro\Bundle\SecurityBundle\Acl\Persistence\Batch\BatchItem</a></td><td class="text-right">35%</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#11">Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper</a></td><td class="text-right">36%</td></tr>
+       <tr><td><a href="Domain/ObjectIdentityRetrievalStrategy.php.html#11">Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdentityRetrievalStrategy</a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#25">Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager</a></td><td class="text-right">48%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclProvider.php.html#13">Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclProvider</a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Domain/PermissionGrantingStrategy.php.html#17">Oro\Bundle\SecurityBundle\Acl\Domain\PermissionGrantingStrategy</a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclWrapper.php.html#10">Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclWrapper</a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Dbal/MutableAclProvider.php.html#25">Oro\Bundle\SecurityBundle\Acl\Dbal\MutableAclProvider</a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="Domain/ObjectIdAccessor.php.html#11">Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdAccessor</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Persistence/AclSidManager.php.html#10">Oro\Bundle\SecurityBundle\Acl\Persistence\AclSidManager</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Extension/AclExtensionSelector.php.html#13">Oro\Bundle\SecurityBundle\Acl\Extension\AclExtensionSelector</a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="Domain/ObjectIdentityFactory.php.html#13">Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdentityFactory</a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#24">Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository</a></td><td class="text-right">84%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Persistence/AclManager.php.html#25">Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager</a></td><td class="text-right">1785</td></tr>
+       <tr><td><a href="Permission/MaskBuilder.php.html#35">Oro\Bundle\SecurityBundle\Acl\Permission\MaskBuilder</a></td><td class="text-right">387</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#11">Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper</a></td><td class="text-right">224</td></tr>
+       <tr><td><a href="Persistence/Batch/BatchItem.php.html#10">Oro\Bundle\SecurityBundle\Acl\Persistence\Batch\BatchItem</a></td><td class="text-right">220</td></tr>
+       <tr><td><a href="Domain/PermissionGrantingStrategy.php.html#17">Oro\Bundle\SecurityBundle\Acl\Domain\PermissionGrantingStrategy</a></td><td class="text-right">126</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#24">Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository</a></td><td class="text-right">116</td></tr>
+       <tr><td><a href="Domain/RootBasedAclWrapper.php.html#10">Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclWrapper</a></td><td class="text-right">60</td></tr>
+       <tr><td><a href="Extension/AclExtensionSelector.php.html#13">Oro\Bundle\SecurityBundle\Acl\Extension\AclExtensionSelector</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="Dbal/MutableAclProvider.php.html#25">Oro\Bundle\SecurityBundle\Acl\Dbal\MutableAclProvider</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="Persistence/AbstractAclManager.php.html#12">Oro\Bundle\SecurityBundle\Acl\Persistence\AbstractAclManager</a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="Extension/EntityClassResolver.php.html#14">Oro\Bundle\SecurityBundle\Acl\Extension\EntityClassResolver</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="Domain/RootBasedAclProvider.php.html#13">Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclProvider</a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="Domain/ObjectIdentityFactory.php.html#13">Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdentityFactory</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Persistence/AclSidManager.php.html#10">Oro\Bundle\SecurityBundle\Acl\Persistence\AclSidManager</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Domain/ObjectIdentityRetrievalStrategy.php.html#11">Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdentityRetrievalStrategy</a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Domain/ObjectIdAccessor.php.html#11">Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdAccessor</a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Dbal/MutableAclProvider.php.html#89"><abbr title="Oro\Bundle\SecurityBundle\Acl\Dbal\MutableAclProvider::rollBack">rollBack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#604"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::setClassFieldPermission">setClassFieldPermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#184"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::updateAce">updateAce</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#203"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::deleteAce">deleteAce</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dbal/MutableAclProvider.php.html#114"><abbr title="Oro\Bundle\SecurityBundle\Acl\Dbal\MutableAclProvider::deleteSecurityIdentity">deleteSecurityIdentity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#101"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::isAclEnabled">isAclEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#150"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::getMaskBuilder">getMaskBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#255"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::getOid">getOid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#304"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteAcl">deleteAcl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#367"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::setFieldPermission">setFieldPermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#397"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deletePermission">deletePermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#428"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteFieldPermission">deleteFieldPermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#455"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteAllPermissions">deleteAllPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#483"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteAllFieldPermissions">deleteAllFieldPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#530"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::getFieldAces">getFieldAces</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#623"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::setObjectFieldPermission">setObjectFieldPermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#80"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::deletePermission">deletePermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#684"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteClassPermission">deleteClassPermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#699"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteObjectPermission">deleteObjectPermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#715"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteClassFieldPermission">deleteClassFieldPermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#731"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteObjectFieldPermission">deleteObjectFieldPermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#755"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::doDeletePermission">doDeletePermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#786"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteAllClassPermissions">deleteAllClassPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#798"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteAllObjectPermissions">deleteAllObjectPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#811"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteAllClassFieldPermissions">deleteAllClassFieldPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#824"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteAllObjectFieldPermissions">deleteAllObjectFieldPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#839"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::doDeleteAllPermissions">doDeleteAllPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#315"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::updateExistingPermissions">updateExistingPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#376"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::removeMask">removeMask</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclSidManager.php.html#47"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclSidManager::updateSid">updateSid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/Batch/BatchItem.php.html#141"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\Batch\BatchItem::removeAce">removeAce</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#114"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::deleteAllPermissions">deleteAllPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/Batch/BatchItem.php.html#172"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\Batch\BatchItem::removeAces">removeAces</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclWrapper.php.html#163"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclWrapper::isSidLoaded">isSidLoaded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension/AclExtensionSelector.php.html#124"><abbr title="Oro\Bundle\SecurityBundle\Acl\Extension\AclExtensionSelector::createAclExtensionNotFoundException">createAclExtensionNotFoundException</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclWrapper.php.html#104"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclWrapper::getObjectFieldAces">getObjectFieldAces</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclProvider.php.html#88"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclProvider::findAcls">findAcls</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclWrapper.php.html#145"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclWrapper::isFieldGranted">isFieldGranted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclProvider.php.html#48"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclProvider::findChildren">findChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclWrapper.php.html#171"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclWrapper::serialize">serialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclWrapper.php.html#179"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclWrapper::unserialize">unserialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dbal/MutableAclProvider.php.html#173"><abbr title="Oro\Bundle\SecurityBundle\Acl\Dbal\MutableAclProvider::getDeleteSecurityIdentityIdSql">getDeleteSecurityIdentityIdSql</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension/EntityClassResolver.php.html#40"><abbr title="Oro\Bundle\SecurityBundle\Acl\Extension\EntityClassResolver::getEntityClass">getEntityClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/PermissionGrantingStrategy.php.html#105"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\PermissionGrantingStrategy::isFieldGranted">isFieldGranted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension/EntityClassResolver.php.html#65"><abbr title="Oro\Bundle\SecurityBundle\Acl\Extension\EntityClassResolver::isEntity">isEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Permission/MaskBuilder.php.html#111"><abbr title="Oro\Bundle\SecurityBundle\Acl\Permission\MaskBuilder::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Permission/MaskBuilder.php.html#143"><abbr title="Oro\Bundle\SecurityBundle\Acl\Permission\MaskBuilder::getPattern">getPattern</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Permission/MaskBuilder.php.html#157"><abbr title="Oro\Bundle\SecurityBundle\Acl\Permission\MaskBuilder::getPatternFor">getPatternFor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/PermissionGrantingStrategy.php.html#38"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\PermissionGrantingStrategy::setAuditLogger">setAuditLogger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/ObjectIdentityRetrievalStrategy.php.html#31"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdentityRetrievalStrategy::getObjectIdentity">getObjectIdentity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Permission/MaskBuilder.php.html#186"><abbr title="Oro\Bundle\SecurityBundle\Acl\Permission\MaskBuilder::getCode">getCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclWrapper.php.html#69"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclWrapper::getClassFieldAces">getClassFieldAces</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#280"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::findAcls">findAcls</abbr></a></td><td class="text-right">22%</td></tr>
+       <tr><td><a href="Persistence/AbstractAclManager.php.html#21"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AbstractAclManager::getSid">getSid</abbr></a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#431"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::findAcls">findAcls</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Permission/MaskBuilder.php.html#87"><abbr title="Oro\Bundle\SecurityBundle\Acl\Permission\MaskBuilder::add">add</abbr></a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#1027"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::validateAclEnabled">validateAclEnabled</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Domain/ObjectIdentityFactory.php.html#88"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdentityFactory::get">get</abbr></a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclProvider.php.html#56"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclProvider::findAcl">findAcl</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#898"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::doFindAcls">doFindAcls</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Dbal/MutableAclProvider.php.html#135"><abbr title="Oro\Bundle\SecurityBundle\Acl\Dbal\MutableAclProvider::getUpdateSecurityIdentitySql">getUpdateSecurityIdentitySql</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Domain/RootBasedAclProvider.php.html#101"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclProvider::getAcl">getAcl</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Domain/PermissionGrantingStrategy.php.html#248"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\PermissionGrantingStrategy::isAceApplicable">isAceApplicable</abbr></a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Domain/ObjectIdAccessor.php.html#20"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdAccessor::getId">getId</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Persistence/Batch/BatchItem.php.html#98"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\Batch\BatchItem::getAces">getAces</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Domain/PermissionGrantingStrategy.php.html#59"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\PermissionGrantingStrategy::getContext">getContext</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#138"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::getAces">getAces</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Domain/ObjectIdentityFactory.php.html#62"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdentityFactory::underlying">underlying</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#359"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::findSimilarMask">findSimilarMask</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#32"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::setPermission">setPermission</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#163"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::insertAce">insertAce</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Domain/PermissionGrantingStrategy.php.html#165"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\PermissionGrantingStrategy::hasSufficientPermissions">hasSufficientPermissions</abbr></a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#55"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::getPermissionNames">getPermissionNames</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#181"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::flush">flush</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#78"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::__construct">__construct</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Extension/AclExtensionSelector.php.html#59"><abbr title="Oro\Bundle\SecurityBundle\Acl\Extension\AclExtensionSelector::select">select</abbr></a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Persistence/AclSidManager.php.html#59"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclSidManager::deleteSid">deleteSid</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#506"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::getAces">getAces</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#150"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::savePrivileges">savePrivileges</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#333"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::setPermission">setPermission</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Persistence/Batch/BatchItem.php.html#141"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\Batch\BatchItem::removeAce">removeAce</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Persistence/Batch/BatchItem.php.html#172"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\Batch\BatchItem::removeAces">removeAces</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Domain/PermissionGrantingStrategy.php.html#105"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\PermissionGrantingStrategy::isFieldGranted">isFieldGranted</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Permission/MaskBuilder.php.html#186"><abbr title="Oro\Bundle\SecurityBundle\Acl\Permission\MaskBuilder::getCode">getCode</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Permission/MaskBuilder.php.html#157"><abbr title="Oro\Bundle\SecurityBundle\Acl\Permission\MaskBuilder::getPatternFor">getPatternFor</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#80"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::deletePermission">deletePermission</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#315"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::updateExistingPermissions">updateExistingPermissions</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#839"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::doDeleteAllPermissions">doDeleteAllPermissions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#755"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::doDeletePermission">doDeletePermission</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Domain/RootBasedAclWrapper.php.html#69"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclWrapper::getClassFieldAces">getClassFieldAces</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#898"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::doFindAcls">doFindAcls</abbr></a></td><td class="text-right">29</td></tr>
+       <tr><td><a href="Persistence/AbstractAclManager.php.html#21"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AbstractAclManager::getSid">getSid</abbr></a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="Permission/MaskBuilder.php.html#111"><abbr title="Oro\Bundle\SecurityBundle\Acl\Permission\MaskBuilder::remove">remove</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#376"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::removeMask">removeMask</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#181"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::flush">flush</abbr></a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="Extension/AclExtensionSelector.php.html#59"><abbr title="Oro\Bundle\SecurityBundle\Acl\Extension\AclExtensionSelector::select">select</abbr></a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Domain/PermissionGrantingStrategy.php.html#165"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\PermissionGrantingStrategy::hasSufficientPermissions">hasSufficientPermissions</abbr></a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#150"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::savePrivileges">savePrivileges</abbr></a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#428"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteFieldPermission">deleteFieldPermission</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#455"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteAllPermissions">deleteAllPermissions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#483"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteAllFieldPermissions">deleteAllFieldPermissions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#530"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::getFieldAces">getFieldAces</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#397"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deletePermission">deletePermission</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#114"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::deleteAllPermissions">deleteAllPermissions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#367"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::setFieldPermission">setFieldPermission</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Extension/EntityClassResolver.php.html#40"><abbr title="Oro\Bundle\SecurityBundle\Acl\Extension\EntityClassResolver::getEntityClass">getEntityClass</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Extension/AclExtensionSelector.php.html#124"><abbr title="Oro\Bundle\SecurityBundle\Acl\Extension\AclExtensionSelector::createAclExtensionNotFoundException">createAclExtensionNotFoundException</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#32"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::setPermission">setPermission</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Domain/PermissionGrantingStrategy.php.html#248"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\PermissionGrantingStrategy::isAceApplicable">isAceApplicable</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#280"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::findAcls">findAcls</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Permission/MaskBuilder.php.html#87"><abbr title="Oro\Bundle\SecurityBundle\Acl\Permission\MaskBuilder::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Dbal/MutableAclProvider.php.html#135"><abbr title="Oro\Bundle\SecurityBundle\Acl\Dbal\MutableAclProvider::getUpdateSecurityIdentitySql">getUpdateSecurityIdentitySql</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/ObjectIdentityRetrievalStrategy.php.html#31"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdentityRetrievalStrategy::getObjectIdentity">getObjectIdentity</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#203"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::deleteAce">deleteAce</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#184"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::updateAce">updateAce</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Persistence/AclSidManager.php.html#47"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclSidManager::updateSid">updateSid</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#304"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::deleteAcl">deleteAcl</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/ObjectIdentityFactory.php.html#88"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdentityFactory::get">get</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Domain/RootBasedAclProvider.php.html#56"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclProvider::findAcl">findAcl</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#55"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::getPermissionNames">getPermissionNames</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Domain/ObjectIdAccessor.php.html#20"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdAccessor::getId">getId</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#431"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::findAcls">findAcls</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Domain/ObjectIdentityFactory.php.html#62"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\ObjectIdentityFactory::underlying">underlying</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Persistence/AclPrivilegeRepository.php.html#359"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclPrivilegeRepository::findSimilarMask">findSimilarMask</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#78"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::__construct">__construct</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Persistence/AclSidManager.php.html#59"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclSidManager::deleteSid">deleteSid</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#506"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::getAces">getAces</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#333"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::setPermission">setPermission</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Persistence/AclManager.php.html#1027"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AclManager::validateAclEnabled">validateAclEnabled</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Domain/RootBasedAclProvider.php.html#101"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\RootBasedAclProvider::getAcl">getAcl</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Domain/PermissionGrantingStrategy.php.html#59"><abbr title="Oro\Bundle\SecurityBundle\Acl\Domain\PermissionGrantingStrategy::getContext">getContext</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#138"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::getAces">getAces</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Persistence/Batch/BatchItem.php.html#98"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\Batch\BatchItem::getAces">getAces</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Persistence/AceManipulationHelper.php.html#163"><abbr title="Oro\Bundle\SecurityBundle\Acl\Persistence\AceManipulationHelper::insertAce">insertAce</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.1</a> at Thu Mar 28 23:39:15 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,1,2,2,2,0,6,2,1,1,10], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([52,0,0,2,1,1,4,7,5,8,7,79], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,3,"<a href=\"AccessLevel.php.html#8\">Oro\\Bundle\\SecurityBundle\\Acl\\AccessLevel<\/a>"],[100,2,"<a href=\"Cache\/AclCache.php.html#9\">Oro\\Bundle\\SecurityBundle\\Acl\\Cache\\AclCache<\/a>"],[100,1,"<a href=\"Cache\/FilesystemCache.php.html#12\">Oro\\Bundle\\SecurityBundle\\Acl\\Cache\\FilesystemCache<\/a>"],[64.28571428571429,15,"<a href=\"Dbal\/MutableAclProvider.php.html#25\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider<\/a>"],[66.66666666666666,3,"<a href=\"Domain\/ObjectIdAccessor.php.html#11\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\ObjectIdAccessor<\/a>"],[73.91304347826086,10,"<a href=\"Domain\/ObjectIdentityFactory.php.html#13\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\ObjectIdentityFactory<\/a>"],[40,3,"<a href=\"Domain\/ObjectIdentityRetrievalStrategy.php.html#11\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\ObjectIdentityRetrievalStrategy<\/a>"],[61.44578313253012,39,"<a href=\"Domain\/PermissionGrantingStrategy.php.html#17\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\PermissionGrantingStrategy<\/a>"],[60,10,"<a href=\"Domain\/RootBasedAclProvider.php.html#13\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclProvider<\/a>"],[61.702127659574465,25,"<a href=\"Domain\/RootBasedAclWrapper.php.html#10\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper<\/a>"],[100,0,"<a href=\"Exception\/InvalidAclException.php.html#8\">Oro\\Bundle\\SecurityBundle\\Acl\\Exception\\InvalidAclException<\/a>"],[100,0,"<a href=\"Exception\/InvalidAclMaskException.php.html#8\">Oro\\Bundle\\SecurityBundle\\Acl\\Exception\\InvalidAclMaskException<\/a>"],[73.68421052631578,19,"<a href=\"Extension\/AclExtensionSelector.php.html#13\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\AclExtensionSelector<\/a>"],[100,1,"<a href=\"Extension\/ActionMaskBuilder.php.html#10\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\ActionMaskBuilder<\/a>"],[100,2,"<a href=\"Extension\/BaseEntityMaskBuilder.php.html#21\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\BaseEntityMaskBuilder<\/a>"],[16.666666666666664,5,"<a href=\"Extension\/EntityClassResolver.php.html#14\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\EntityClassResolver<\/a>"],[100,0,"<a href=\"Extension\/EntityMaskBuilder.php.html#11\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\EntityMaskBuilder<\/a>"],[22.916666666666664,28,"<a href=\"Permission\/MaskBuilder.php.html#35\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\MaskBuilder<\/a>"],[100,6,"<a href=\"Permission\/PermissionMap.php.html#12\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\PermissionMap<\/a>"],[25,6,"<a href=\"Persistence\/AbstractAclManager.php.html#12\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AbstractAclManager<\/a>"],[36.95652173913043,28,"<a href=\"Persistence\/AceManipulationHelper.php.html#11\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AceManipulationHelper<\/a>"],[48.26254826254826,110,"<a href=\"Persistence\/AclManager.php.html#25\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager<\/a>"],[84.88888888888889,89,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#24\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository<\/a>"],[66.66666666666666,7,"<a href=\"Persistence\/AclSidManager.php.html#10\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclSidManager<\/a>"],[100,8,"<a href=\"Persistence\/Batch\/Ace.php.html#7\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\Ace<\/a>"],[35.714285714285715,27,"<a href=\"Persistence\/Batch\/BatchItem.php.html#10\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\BatchItem<\/a>"],[95,9,"<a href=\"Voter\/AclVoter.php.html#16\">Oro\\Bundle\\SecurityBundle\\Acl\\Voter\\AclVoter<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AccessLevel.php.html#63\">Oro\\Bundle\\SecurityBundle\\Acl\\AccessLevel::getConst<\/a>"],[100,2,"<a href=\"AccessLevel.php.html#74\">Oro\\Bundle\\SecurityBundle\\Acl\\AccessLevel::getAccessLevelName<\/a>"],[100,1,"<a href=\"Cache\/AclCache.php.html#21\">Oro\\Bundle\\SecurityBundle\\Acl\\Cache\\AclCache::__construct<\/a>"],[100,1,"<a href=\"Cache\/AclCache.php.html#34\">Oro\\Bundle\\SecurityBundle\\Acl\\Cache\\AclCache::clearCache<\/a>"],[100,1,"<a href=\"Cache\/FilesystemCache.php.html#17\">Oro\\Bundle\\SecurityBundle\\Acl\\Cache\\FilesystemCache::getFilename<\/a>"],[100,1,"<a href=\"Dbal\/MutableAclProvider.php.html#40\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider::__construct<\/a>"],[100,1,"<a href=\"Dbal\/MutableAclProvider.php.html#55\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider::clearOidCache<\/a>"],[100,1,"<a href=\"Dbal\/MutableAclProvider.php.html#65\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider::cacheEmptyAcl<\/a>"],[100,1,"<a href=\"Dbal\/MutableAclProvider.php.html#73\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider::beginTransaction<\/a>"],[100,1,"<a href=\"Dbal\/MutableAclProvider.php.html#81\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider::commit<\/a>"],[0,1,"<a href=\"Dbal\/MutableAclProvider.php.html#89\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider::rollBack<\/a>"],[100,1,"<a href=\"Dbal\/MutableAclProvider.php.html#102\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider::updateSecurityIdentity<\/a>"],[0,1,"<a href=\"Dbal\/MutableAclProvider.php.html#114\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider::deleteSecurityIdentity<\/a>"],[100,1,"<a href=\"Dbal\/MutableAclProvider.php.html#122\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider::clearCache<\/a>"],[60,5,"<a href=\"Dbal\/MutableAclProvider.php.html#135\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider::getUpdateSecurityIdentitySql<\/a>"],[0,1,"<a href=\"Dbal\/MutableAclProvider.php.html#173\">Oro\\Bundle\\SecurityBundle\\Acl\\Dbal\\MutableAclProvider::getDeleteSecurityIdentityIdSql<\/a>"],[66.66666666666666,3,"<a href=\"Domain\/ObjectIdAccessor.php.html#20\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\ObjectIdAccessor::getId<\/a>"],[100,1,"<a href=\"Domain\/ObjectIdentityFactory.php.html#27\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\ObjectIdentityFactory::__construct<\/a>"],[100,2,"<a href=\"Domain\/ObjectIdentityFactory.php.html#41\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\ObjectIdentityFactory::root<\/a>"],[75,3,"<a href=\"Domain\/ObjectIdentityFactory.php.html#62\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\ObjectIdentityFactory::underlying<\/a>"],[54.54545454545454,4,"<a href=\"Domain\/ObjectIdentityFactory.php.html#88\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\ObjectIdentityFactory::get<\/a>"],[100,1,"<a href=\"Domain\/ObjectIdentityRetrievalStrategy.php.html#23\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\ObjectIdentityRetrievalStrategy::__construct<\/a>"],[0,2,"<a href=\"Domain\/ObjectIdentityRetrievalStrategy.php.html#31\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\ObjectIdentityRetrievalStrategy::getObjectIdentity<\/a>"],[0,1,"<a href=\"Domain\/PermissionGrantingStrategy.php.html#38\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\PermissionGrantingStrategy::setAuditLogger<\/a>"],[100,1,"<a href=\"Domain\/PermissionGrantingStrategy.php.html#48\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\PermissionGrantingStrategy::setContext<\/a>"],[66.66666666666666,2,"<a href=\"Domain\/PermissionGrantingStrategy.php.html#59\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\PermissionGrantingStrategy::getContext<\/a>"],[93.33333333333333,8,"<a href=\"Domain\/PermissionGrantingStrategy.php.html#71\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\PermissionGrantingStrategy::isGranted<\/a>"],[0,8,"<a href=\"Domain\/PermissionGrantingStrategy.php.html#105\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\PermissionGrantingStrategy::isFieldGranted<\/a>"],[78.57142857142857,12,"<a href=\"Domain\/PermissionGrantingStrategy.php.html#165\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\PermissionGrantingStrategy::hasSufficientPermissions<\/a>"],[61.111111111111114,7,"<a href=\"Domain\/PermissionGrantingStrategy.php.html#248\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\PermissionGrantingStrategy::isAceApplicable<\/a>"],[100,1,"<a href=\"Domain\/RootBasedAclProvider.php.html#30\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclProvider::__construct<\/a>"],[100,1,"<a href=\"Domain\/RootBasedAclProvider.php.html#40\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclProvider::setBaseAclProvider<\/a>"],[0,1,"<a href=\"Domain\/RootBasedAclProvider.php.html#48\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclProvider::findChildren<\/a>"],[57.14285714285714,4,"<a href=\"Domain\/RootBasedAclProvider.php.html#56\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclProvider::findAcl<\/a>"],[0,1,"<a href=\"Domain\/RootBasedAclProvider.php.html#88\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclProvider::findAcls<\/a>"],[60,2,"<a href=\"Domain\/RootBasedAclProvider.php.html#101\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclProvider::getAcl<\/a>"],[100,1,"<a href=\"Domain\/RootBasedAclWrapper.php.html#33\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::__construct<\/a>"],[100,5,"<a href=\"Domain\/RootBasedAclWrapper.php.html#42\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::getClassAces<\/a>"],[0,5,"<a href=\"Domain\/RootBasedAclWrapper.php.html#69\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::getClassFieldAces<\/a>"],[100,1,"<a href=\"Domain\/RootBasedAclWrapper.php.html#96\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::getObjectAces<\/a>"],[0,1,"<a href=\"Domain\/RootBasedAclWrapper.php.html#104\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::getObjectFieldAces<\/a>"],[100,3,"<a href=\"Domain\/RootBasedAclWrapper.php.html#112\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::getObjectIdentity<\/a>"],[100,1,"<a href=\"Domain\/RootBasedAclWrapper.php.html#129\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::getParentAcl<\/a>"],[100,1,"<a href=\"Domain\/RootBasedAclWrapper.php.html#137\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::isEntriesInheriting<\/a>"],[0,1,"<a href=\"Domain\/RootBasedAclWrapper.php.html#145\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::isFieldGranted<\/a>"],[100,1,"<a href=\"Domain\/RootBasedAclWrapper.php.html#154\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::isGranted<\/a>"],[0,1,"<a href=\"Domain\/RootBasedAclWrapper.php.html#163\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::isSidLoaded<\/a>"],[0,1,"<a href=\"Domain\/RootBasedAclWrapper.php.html#171\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::serialize<\/a>"],[0,1,"<a href=\"Domain\/RootBasedAclWrapper.php.html#179\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::unserialize<\/a>"],[100,2,"<a href=\"Domain\/RootBasedAclWrapper.php.html#189\">Oro\\Bundle\\SecurityBundle\\Acl\\Domain\\RootBasedAclWrapper::getPermissionGrantingStrategy<\/a>"],[100,1,"<a href=\"Extension\/AclExtensionSelector.php.html#37\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\AclExtensionSelector::__construct<\/a>"],[100,1,"<a href=\"Extension\/AclExtensionSelector.php.html#47\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\AclExtensionSelector::addAclExtension<\/a>"],[82.14285714285714,13,"<a href=\"Extension\/AclExtensionSelector.php.html#59\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\AclExtensionSelector::select<\/a>"],[100,1,"<a href=\"Extension\/AclExtensionSelector.php.html#111\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\AclExtensionSelector::all<\/a>"],[0,3,"<a href=\"Extension\/AclExtensionSelector.php.html#124\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\AclExtensionSelector::createAclExtensionNotFoundException<\/a>"],[100,1,"<a href=\"Extension\/ActionMaskBuilder.php.html#23\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\ActionMaskBuilder::__construct<\/a>"],[100,1,"<a href=\"Extension\/BaseEntityMaskBuilder.php.html#29\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\BaseEntityMaskBuilder::__construct<\/a>"],[100,1,"<a href=\"Extension\/BaseEntityMaskBuilder.php.html#37\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\BaseEntityMaskBuilder::reset<\/a>"],[100,1,"<a href=\"Extension\/EntityClassResolver.php.html#26\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\EntityClassResolver::__construct<\/a>"],[0,3,"<a href=\"Extension\/EntityClassResolver.php.html#40\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\EntityClassResolver::getEntityClass<\/a>"],[0,1,"<a href=\"Extension\/EntityClassResolver.php.html#65\">Oro\\Bundle\\SecurityBundle\\Acl\\Extension\\EntityClassResolver::isEntity<\/a>"],[100,1,"<a href=\"Permission\/MaskBuilder.php.html#65\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\MaskBuilder::__construct<\/a>"],[100,1,"<a href=\"Permission\/MaskBuilder.php.html#75\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\MaskBuilder::get<\/a>"],[44.44444444444444,4,"<a href=\"Permission\/MaskBuilder.php.html#87\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\MaskBuilder::add<\/a>"],[0,4,"<a href=\"Permission\/MaskBuilder.php.html#111\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\MaskBuilder::remove<\/a>"],[100,1,"<a href=\"Permission\/MaskBuilder.php.html#129\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\MaskBuilder::reset<\/a>"],[0,1,"<a href=\"Permission\/MaskBuilder.php.html#143\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\MaskBuilder::getPattern<\/a>"],[0,7,"<a href=\"Permission\/MaskBuilder.php.html#157\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\MaskBuilder::getPatternFor<\/a>"],[0,7,"<a href=\"Permission\/MaskBuilder.php.html#186\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\MaskBuilder::getCode<\/a>"],[100,1,"<a href=\"Permission\/MaskBuilder.php.html#218\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\MaskBuilder::hasConst<\/a>"],[100,1,"<a href=\"Permission\/MaskBuilder.php.html#229\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\MaskBuilder::getConst<\/a>"],[100,1,"<a href=\"Permission\/PermissionMap.php.html#24\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\PermissionMap::__construct<\/a>"],[100,1,"<a href=\"Permission\/PermissionMap.php.html#32\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\PermissionMap::getMasks<\/a>"],[100,4,"<a href=\"Permission\/PermissionMap.php.html#42\">Oro\\Bundle\\SecurityBundle\\Acl\\Permission\\PermissionMap::contains<\/a>"],[25,6,"<a href=\"Persistence\/AbstractAclManager.php.html#21\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AbstractAclManager::getSid<\/a>"],[75,10,"<a href=\"Persistence\/AceManipulationHelper.php.html#32\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AceManipulationHelper::setPermission<\/a>"],[0,7,"<a href=\"Persistence\/AceManipulationHelper.php.html#80\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AceManipulationHelper::deletePermission<\/a>"],[0,3,"<a href=\"Persistence\/AceManipulationHelper.php.html#114\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AceManipulationHelper::deleteAllPermissions<\/a>"],[66.66666666666666,2,"<a href=\"Persistence\/AceManipulationHelper.php.html#138\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AceManipulationHelper::getAces<\/a>"],[75,2,"<a href=\"Persistence\/AceManipulationHelper.php.html#163\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AceManipulationHelper::insertAce<\/a>"],[0,2,"<a href=\"Persistence\/AceManipulationHelper.php.html#184\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AceManipulationHelper::updateAce<\/a>"],[0,2,"<a href=\"Persistence\/AceManipulationHelper.php.html#203\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AceManipulationHelper::deleteAce<\/a>"],[80,3,"<a href=\"Persistence\/AclManager.php.html#78\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::__construct<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#101\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::isAclEnabled<\/a>"],[100,1,"<a href=\"Persistence\/AclManager.php.html#111\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::getExtensionSelector<\/a>"],[100,1,"<a href=\"Persistence\/AclManager.php.html#121\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::getAllExtensions<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#150\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::getMaskBuilder<\/a>"],[100,1,"<a href=\"Persistence\/AclManager.php.html#162\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::getPrivilegeRepository<\/a>"],[100,1,"<a href=\"Persistence\/AclManager.php.html#172\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::getAceProvider<\/a>"],[80,13,"<a href=\"Persistence\/AclManager.php.html#181\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::flush<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#255\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::getOid<\/a>"],[100,1,"<a href=\"Persistence\/AclManager.php.html#267\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::getRootOid<\/a>"],[22.22222222222222,3,"<a href=\"Persistence\/AclManager.php.html#280\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::findAcls<\/a>"],[0,2,"<a href=\"Persistence\/AclManager.php.html#304\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteAcl<\/a>"],[87.5,3,"<a href=\"Persistence\/AclManager.php.html#333\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::setPermission<\/a>"],[0,3,"<a href=\"Persistence\/AclManager.php.html#367\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::setFieldPermission<\/a>"],[0,3,"<a href=\"Persistence\/AclManager.php.html#397\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deletePermission<\/a>"],[0,3,"<a href=\"Persistence\/AclManager.php.html#428\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteFieldPermission<\/a>"],[0,3,"<a href=\"Persistence\/AclManager.php.html#455\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteAllPermissions<\/a>"],[0,3,"<a href=\"Persistence\/AclManager.php.html#483\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteAllFieldPermissions<\/a>"],[85.71428571428571,3,"<a href=\"Persistence\/AclManager.php.html#506\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::getAces<\/a>"],[0,3,"<a href=\"Persistence\/AclManager.php.html#530\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::getFieldAces<\/a>"],[100,1,"<a href=\"Persistence\/AclManager.php.html#549\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::clearCache<\/a>"],[100,1,"<a href=\"Persistence\/AclManager.php.html#567\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::setClassPermission<\/a>"],[100,1,"<a href=\"Persistence\/AclManager.php.html#585\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::setObjectPermission<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#604\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::setClassFieldPermission<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#623\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::setObjectFieldPermission<\/a>"],[100,6,"<a href=\"Persistence\/AclManager.php.html#646\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::doSetPermission<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#684\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteClassPermission<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#699\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteObjectPermission<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#715\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteClassFieldPermission<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#731\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteObjectFieldPermission<\/a>"],[0,5,"<a href=\"Persistence\/AclManager.php.html#755\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::doDeletePermission<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#786\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteAllClassPermissions<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#798\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteAllObjectPermissions<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#811\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteAllClassFieldPermissions<\/a>"],[0,1,"<a href=\"Persistence\/AclManager.php.html#824\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::deleteAllObjectFieldPermissions<\/a>"],[0,5,"<a href=\"Persistence\/AclManager.php.html#839\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::doDeleteAllPermissions<\/a>"],[100,2,"<a href=\"Persistence\/AclManager.php.html#866\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::doGetAces<\/a>"],[57.14285714285714,14,"<a href=\"Persistence\/AclManager.php.html#898\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::doFindAcls<\/a>"],[94.44444444444444,9,"<a href=\"Persistence\/AclManager.php.html#977\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::getAcl<\/a>"],[100,1,"<a href=\"Persistence\/AclManager.php.html#1017\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::getKey<\/a>"],[50,2,"<a href=\"Persistence\/AclManager.php.html#1027\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclManager::validateAclEnabled<\/a>"],[100,1,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#38\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::__construct<\/a>"],[80,5,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#55\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::getPermissionNames<\/a>"],[96.96969696969697,6,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#81\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::getPrivileges<\/a>"],[87.5,13,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#150\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::savePrivileges<\/a>"],[96.29629629629629,9,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#241\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::initSaveContext<\/a>"],[100,4,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#290\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::prepareMaskBuilders<\/a>"],[0,7,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#315\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::updateExistingPermissions<\/a>"],[75,3,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#359\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::findSimilarMask<\/a>"],[0,4,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#376\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::removeMask<\/a>"],[100,5,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#398\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::getPermissionMasks<\/a>"],[33.33333333333333,2,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#431\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::findAcls<\/a>"],[100,4,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#446\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::sortPrivileges<\/a>"],[100,3,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#478\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::findAclByOid<\/a>"],[100,4,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#501\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::addPermissions<\/a>"],[94.11764705882352,7,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#536\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::addAclPermissions<\/a>"],[100,1,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#593\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::getAces<\/a>"],[94.11764705882352,11,"<a href=\"Persistence\/AclPrivilegeRepository.php.html#615\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclPrivilegeRepository::addAcesPermissions<\/a>"],[100,1,"<a href=\"Persistence\/AclSidManager.php.html#24\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclSidManager::__construct<\/a>"],[100,1,"<a href=\"Persistence\/AclSidManager.php.html#34\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclSidManager::isAclEnabled<\/a>"],[0,2,"<a href=\"Persistence\/AclSidManager.php.html#47\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclSidManager::updateSid<\/a>"],[83.33333333333334,3,"<a href=\"Persistence\/AclSidManager.php.html#59\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\AclSidManager::deleteSid<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/Ace.php.html#55\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\Ace::__construct<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/Ace.php.html#71\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\Ace::getSecurityIdentity<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/Ace.php.html#81\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\Ace::getType<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/Ace.php.html#91\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\Ace::getField<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/Ace.php.html#101\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\Ace::getMask<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/Ace.php.html#111\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\Ace::isGranting<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/Ace.php.html#121\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\Ace::getStrategy<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/Ace.php.html#131\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\Ace::isReplace<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/BatchItem.php.html#46\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\BatchItem::__construct<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/BatchItem.php.html#58\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\BatchItem::getOid<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/BatchItem.php.html#68\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\BatchItem::getAcl<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/BatchItem.php.html#78\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\BatchItem::getState<\/a>"],[100,1,"<a href=\"Persistence\/Batch\/BatchItem.php.html#88\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\BatchItem::setState<\/a>"],[66.66666666666666,2,"<a href=\"Persistence\/Batch\/BatchItem.php.html#98\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\BatchItem::getAces<\/a>"],[100,2,"<a href=\"Persistence\/Batch\/BatchItem.php.html#121\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\BatchItem::addAce<\/a>"],[0,10,"<a href=\"Persistence\/Batch\/BatchItem.php.html#141\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\BatchItem::removeAce<\/a>"],[0,8,"<a href=\"Persistence\/Batch\/BatchItem.php.html#172\">Oro\\Bundle\\SecurityBundle\\Acl\\Persistence\\Batch\\BatchItem::removeAces<\/a>"],[100,1,"<a href=\"Voter\/AclVoter.php.html#49\">Oro\\Bundle\\SecurityBundle\\Acl\\Voter\\AclVoter::setAclExtensionSelector<\/a>"],[93.33333333333333,5,"<a href=\"Voter\/AclVoter.php.html#57\">Oro\\Bundle\\SecurityBundle\\Acl\\Voter\\AclVoter::vote<\/a>"],[100,1,"<a href=\"Voter\/AclVoter.php.html#89\">Oro\\Bundle\\SecurityBundle\\Acl\\Voter\\AclVoter::getObject<\/a>"],[100,1,"<a href=\"Voter\/AclVoter.php.html#97\">Oro\\Bundle\\SecurityBundle\\Acl\\Voter\\AclVoter::getSecurityToken<\/a>"],[100,1,"<a href=\"Voter\/AclVoter.php.html#105\">Oro\\Bundle\\SecurityBundle\\Acl\\Voter\\AclVoter::getAclExtension<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
