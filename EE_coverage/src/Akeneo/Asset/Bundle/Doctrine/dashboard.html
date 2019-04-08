@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Asset/Bundle/Doctrine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/srv/pim</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Asset</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Bundle</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Doctrine</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ORM/Repository/VariationRepository.php.html#23">Akeneo\Asset\Bundle\Doctrine\ORM\Repository\VariationRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Common/Saver/AssetReferenceSaver.php.html#28">Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetReferenceSaver</a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="ORM/Repository/ChannelConfigurationRepository.php.html#21">Akeneo\Asset\Bundle\Doctrine\ORM\Repository\ChannelConfigurationRepository</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#28">Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ORM/Remover/CategoryAssetRemover.php.html#28">Akeneo\Asset\Bundle\Doctrine\ORM\Remover\CategoryAssetRemover</a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="ORM/Repository/ExternalApi/AssetRepository.php.html#28">Akeneo\Asset\Bundle\Doctrine\ORM\Repository\ExternalApi\AssetRepository</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Common/Saver/AssetSaver.php.html#29">Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetSaver</a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Common/Saver/AssetVariationSaver.php.html#29">Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetVariationSaver</a></td><td class="text-right">86%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#28">Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository</a></td><td class="text-right">280</td></tr>
+       <tr><td><a href="ORM/Repository/ExternalApi/AssetRepository.php.html#28">Akeneo\Asset\Bundle\Doctrine\ORM\Repository\ExternalApi\AssetRepository</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Common/Saver/AssetReferenceSaver.php.html#28">Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetReferenceSaver</a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="ORM/Remover/CategoryAssetRemover.php.html#28">Akeneo\Asset\Bundle\Doctrine\ORM\Remover\CategoryAssetRemover</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Common/Saver/AssetSaver.php.html#29">Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetSaver</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Common/Saver/AssetVariationSaver.php.html#29">Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetVariationSaver</a></td><td class="text-right">7</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Common/Saver/AssetReferenceSaver.php.html#71"><abbr title="Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetReferenceSaver::saveAll">saveAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#301"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::findExpiringAssets">findExpiringAssets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/ExternalApi/AssetRepository.php.html#138"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\ExternalApi\AssetRepository::getIdentifierCode">getIdentifierCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/ExternalApi/AssetRepository.php.html#56"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\ExternalApi\AssetRepository::getIdentifierProperties">getIdentifierProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/ChannelConfigurationRepository.php.html#26"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\ChannelConfigurationRepository::getIdentifierProperties">getIdentifierProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#407"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::getAllChildrenIds">getAllChildrenIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#385"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::applyFilterEmpty">applyFilterEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#372"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::applyFilterInList">applyFilterInList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#337"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::applyCategoriesFilter">applyCategoriesFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/VariationRepository.php.html#28"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\VariationRepository::findNotGenerated">findNotGenerated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#258"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::countCompleteAssets">countCompleteAssets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#229"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::applyTagFilter">applyTagFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#42"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::getProductClass">getProductClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetCategoryRepository.php.html#63"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetCategoryRepository::getIdentifierProperties">getIdentifierProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Common/Saver/AssetReferenceSaver.php.html#97"><abbr title="Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetReferenceSaver::validateReference">validateReference</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Common/Saver/AssetVariationSaver.php.html#102"><abbr title="Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetVariationSaver::validateVariation">validateVariation</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Common/Saver/AssetSaver.php.html#96"><abbr title="Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetSaver::validateAsset">validateAsset</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="ORM/Repository/ExternalApi/AssetRepository.php.html#117"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\ExternalApi\AssetRepository::count">count</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="ORM/Remover/CategoryAssetRemover.php.html#57"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Remover\CategoryAssetRemover::remove">remove</abbr></a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetMassEditRepository.php.html#88"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetMassEditRepository::deleteFromIds">deleteFromIds</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ORM/Repository/ExternalApi/AssetRepository.php.html#88"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\ExternalApi\AssetRepository::searchAfterIdentifier">searchAfterIdentifier</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#321"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::findByIds">findByIds</abbr></a></td><td class="text-right">83%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#337"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::applyCategoriesFilter">applyCategoriesFilter</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#229"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::applyTagFilter">applyTagFilter</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Common/Saver/AssetReferenceSaver.php.html#71"><abbr title="Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetReferenceSaver::saveAll">saveAll</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ORM/Remover/CategoryAssetRemover.php.html#57"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Remover\CategoryAssetRemover::remove">remove</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#372"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::applyFilterInList">applyFilterInList</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#407"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::getAllChildrenIds">getAllChildrenIds</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ORM/Repository/ExternalApi/AssetRepository.php.html#88"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\ExternalApi\AssetRepository::searchAfterIdentifier">searchAfterIdentifier</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="ORM/Repository/ExternalApi/AssetRepository.php.html#117"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\ExternalApi\AssetRepository::count">count</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Common/Saver/AssetReferenceSaver.php.html#97"><abbr title="Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetReferenceSaver::validateReference">validateReference</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Common/Saver/AssetSaver.php.html#96"><abbr title="Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetSaver::validateAsset">validateAsset</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Common/Saver/AssetVariationSaver.php.html#102"><abbr title="Akeneo\Asset\Bundle\Doctrine\Common\Saver\AssetVariationSaver::validateVariation">validateVariation</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ORM/Repository/AssetMassEditRepository.php.html#88"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetMassEditRepository::deleteFromIds">deleteFromIds</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ORM/Repository/AssetRepository.php.html#321"><abbr title="Akeneo\Asset\Bundle\Doctrine\ORM\Repository\AssetRepository::findByIds">findByIds</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.2</a> at Sun Apr 7 17:13:38 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,0,0,1,2,0,2,2,2,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([14,0,0,0,3,0,0,2,0,3,2,30], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[44.44444444444444,7,"<a href=\"Common\/Saver\/AssetReferenceSaver.php.html#28\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetReferenceSaver<\/a>"],[85.18518518518519,7,"<a href=\"Common\/Saver\/AssetSaver.php.html#29\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetSaver<\/a>"],[86.20689655172413,7,"<a href=\"Common\/Saver\/AssetVariationSaver.php.html#29\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetVariationSaver<\/a>"],[70,8,"<a href=\"ORM\/Remover\/CategoryAssetRemover.php.html#28\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Remover\\CategoryAssetRemover<\/a>"],[96.55172413793103,4,"<a href=\"ORM\/Repository\/AssetCategoryRepository.php.html#25\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetCategoryRepository<\/a>"],[96.29629629629629,10,"<a href=\"ORM\/Repository\/AssetMassEditRepository.php.html#23\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetMassEditRepository<\/a>"],[50.36496350364964,44,"<a href=\"ORM\/Repository\/AssetRepository.php.html#28\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository<\/a>"],[50,2,"<a href=\"ORM\/Repository\/ChannelConfigurationRepository.php.html#21\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ChannelConfigurationRepository<\/a>"],[77.77777777777779,17,"<a href=\"ORM\/Repository\/ExternalApi\/AssetRepository.php.html#28\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ExternalApi\\AssetRepository<\/a>"],[100,0,"<a href=\"ORM\/Repository\/FileMetadataRepository.php.html#21\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\FileMetadataRepository<\/a>"],[100,0,"<a href=\"ORM\/Repository\/ReferenceRepository.php.html#21\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ReferenceRepository<\/a>"],[0,1,"<a href=\"ORM\/Repository\/VariationRepository.php.html#23\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\VariationRepository<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Common\/Saver\/AssetReferenceSaver.php.html#40\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetReferenceSaver::__construct<\/a>"],[100,1,"<a href=\"Common\/Saver\/AssetReferenceSaver.php.html#51\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetReferenceSaver::save<\/a>"],[0,3,"<a href=\"Common\/Saver\/AssetReferenceSaver.php.html#71\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetReferenceSaver::saveAll<\/a>"],[33.33333333333333,2,"<a href=\"Common\/Saver\/AssetReferenceSaver.php.html#97\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetReferenceSaver::validateReference<\/a>"],[100,1,"<a href=\"Common\/Saver\/AssetSaver.php.html#41\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetSaver::__construct<\/a>"],[100,1,"<a href=\"Common\/Saver\/AssetSaver.php.html#52\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetSaver::save<\/a>"],[100,3,"<a href=\"Common\/Saver\/AssetSaver.php.html#70\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetSaver::saveAll<\/a>"],[33.33333333333333,2,"<a href=\"Common\/Saver\/AssetSaver.php.html#96\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetSaver::validateAsset<\/a>"],[100,1,"<a href=\"Common\/Saver\/AssetVariationSaver.php.html#45\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetVariationSaver::__construct<\/a>"],[100,1,"<a href=\"Common\/Saver\/AssetVariationSaver.php.html#58\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetVariationSaver::save<\/a>"],[100,3,"<a href=\"Common\/Saver\/AssetVariationSaver.php.html#79\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetVariationSaver::saveAll<\/a>"],[33.33333333333333,2,"<a href=\"Common\/Saver\/AssetVariationSaver.php.html#102\">Akeneo\\Asset\\Bundle\\Doctrine\\Common\\Saver\\AssetVariationSaver::validateVariation<\/a>"],[100,1,"<a href=\"ORM\/Remover\/CategoryAssetRemover.php.html#44\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Remover\\CategoryAssetRemover::__construct<\/a>"],[65.38461538461539,7,"<a href=\"ORM\/Remover\/CategoryAssetRemover.php.html#57\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Remover\\CategoryAssetRemover::remove<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetCategoryRepository.php.html#32\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetCategoryRepository::getItemCountByGrantedTree<\/a>"],[0,1,"<a href=\"ORM\/Repository\/AssetCategoryRepository.php.html#63\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetCategoryRepository::getIdentifierProperties<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetCategoryRepository.php.html#71\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetCategoryRepository::findOneByIdentifier<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetCategoryRepository.php.html#88\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetCategoryRepository::findRoot<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetMassEditRepository.php.html#35\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetMassEditRepository::__construct<\/a>"],[100,7,"<a href=\"ORM\/Repository\/AssetMassEditRepository.php.html#48\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetMassEditRepository::applyMassActionParameters<\/a>"],[80,2,"<a href=\"ORM\/Repository\/AssetMassEditRepository.php.html#88\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetMassEditRepository::deleteFromIds<\/a>"],[0,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#42\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::getProductClass<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#50\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::setProductClass<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#59\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::setCategoryRepository<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#68\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::setAssetCategoryRepository<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#76\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::getIdentifierProperties<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#84\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::findOneByIdentifier<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#92\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::findOneByCode<\/a>"],[100,3,"<a href=\"ORM\/Repository\/AssetRepository.php.html#104\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::findBySearch<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#123\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::findCodesByIdentifiers<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#141\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::findEntitiesBySearch<\/a>"],[90.47619047619048,9,"<a href=\"ORM\/Repository\/AssetRepository.php.html#156\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::findBySearchQb<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#199\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::findSimilarCodes<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#218\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::createAssetDatagridQueryBuilder<\/a>"],[0,3,"<a href=\"ORM\/Repository\/AssetRepository.php.html#229\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::applyTagFilter<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#246\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::findByIdentifiers<\/a>"],[0,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#258\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::countCompleteAssets<\/a>"],[0,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#301\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::findExpiringAssets<\/a>"],[83.33333333333334,2,"<a href=\"ORM\/Repository\/AssetRepository.php.html#321\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::findByIds<\/a>"],[0,7,"<a href=\"ORM\/Repository\/AssetRepository.php.html#337\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::applyCategoriesFilter<\/a>"],[0,2,"<a href=\"ORM\/Repository\/AssetRepository.php.html#372\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::applyFilterInList<\/a>"],[0,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#385\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::applyFilterEmpty<\/a>"],[100,1,"<a href=\"ORM\/Repository\/AssetRepository.php.html#395\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::getAlias<\/a>"],[0,2,"<a href=\"ORM\/Repository\/AssetRepository.php.html#407\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\AssetRepository::getAllChildrenIds<\/a>"],[0,1,"<a href=\"ORM\/Repository\/ChannelConfigurationRepository.php.html#26\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ChannelConfigurationRepository::getIdentifierProperties<\/a>"],[100,1,"<a href=\"ORM\/Repository\/ChannelConfigurationRepository.php.html#34\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ChannelConfigurationRepository::findOneByIdentifier<\/a>"],[100,1,"<a href=\"ORM\/Repository\/ExternalApi\/AssetRepository.php.html#36\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ExternalApi\\AssetRepository::__construct<\/a>"],[100,2,"<a href=\"ORM\/Repository\/ExternalApi\/AssetRepository.php.html#48\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ExternalApi\\AssetRepository::findOneByIdentifier<\/a>"],[0,1,"<a href=\"ORM\/Repository\/ExternalApi\/AssetRepository.php.html#56\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ExternalApi\\AssetRepository::getIdentifierProperties<\/a>"],[90,4,"<a href=\"ORM\/Repository\/ExternalApi\/AssetRepository.php.html#64\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ExternalApi\\AssetRepository::searchAfterOffset<\/a>"],[83.33333333333334,5,"<a href=\"ORM\/Repository\/ExternalApi\/AssetRepository.php.html#88\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ExternalApi\\AssetRepository::searchAfterIdentifier<\/a>"],[62.5,3,"<a href=\"ORM\/Repository\/ExternalApi\/AssetRepository.php.html#117\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ExternalApi\\AssetRepository::count<\/a>"],[0,1,"<a href=\"ORM\/Repository\/ExternalApi\/AssetRepository.php.html#138\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\ExternalApi\\AssetRepository::getIdentifierCode<\/a>"],[0,1,"<a href=\"ORM\/Repository\/VariationRepository.php.html#28\">Akeneo\\Asset\\Bundle\\Doctrine\\ORM\\Repository\\VariationRepository::findNotGenerated<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Pim/WorkOrganization/TeamworkAssistant/Component</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../../index.html">/srv/pim</a></li>
+         <li class="breadcrumb-item"><a href="../../../../../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Pim</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">WorkOrganization</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">TeamworkAssistant</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Component</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Event/ProjectEvent.php.html#22">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Event\ProjectEvent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Factory/ProjectStatusFactory.php.html#20">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Factory\ProjectStatusFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ProjectStatus.php.html#19">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\ProjectStatus</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/AttributeGroupCompleteness.php.html#19">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\AttributeGroupCompleteness</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/LoggableStep.php.html#22">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\LoggableStep</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Calculator/AttributeGroupCompletenessCalculator.php.html#25">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Calculator\AttributeGroupCompletenessCalculator</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CleanContributorGroupTasklet.php.html#28">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CleanContributorGroupTasklet</a></td><td class="text-right">17%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/AddUserGroupStep.php.html#24">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\AddUserGroupStep</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/ProcessAttributeGroupCompletenessStep.php.html#24">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\ProcessAttributeGroupCompletenessStep</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/PrepareProjectCalculationTasklet.php.html#27">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\PrepareProjectCalculationTasklet</a></td><td class="text-right">27%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/StartProjectCompletenessComputing.php.html#22">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\StartProjectCompletenessComputing</a></td><td class="text-right">27%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/EndProjectCompletenessComputing.php.html#22">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\EndProjectCompletenessComputing</a></td><td class="text-right">27%</td></tr>
+       <tr><td><a href="Job/RefreshProjectCompleteness/RefreshProjectCompletenessTasklet.php.html#26">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\RefreshProjectCompleteness\RefreshProjectCompletenessTasklet</a></td><td class="text-right">31%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/ProjectCalculationTasklet.php.html#27">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\ProjectCalculationTasklet</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/ChainedCalculationStep.php.html#20">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\ChainedCalculationStep</a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/AddProductStep.php.html#23">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\AddProductStep</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Updater/ProjectUpdater.php.html#28">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Updater\ProjectUpdater</a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="Calculator/ContributorGroupCalculator.php.html#26">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Calculator\ContributorGroupCalculator</a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="Model/Project.php.html#24">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectIdentifierValidator.php.html#23">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectIdentifierValidator</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectLocaleValidator.php.html#25">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectLocaleValidator</a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectDueDateValidator.php.html#26">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectDueDateValidator</a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Remover/ChainedProjectRemover.php.html#19">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\ChainedProjectRemover</a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Remover/AttributeProjectRemover.php.html#24">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\AttributeProjectRemover</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Remover/CategoryProjectRemover.php.html#24">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CategoryProjectRemover</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Remover/CurrencyProjectRemover.php.html#25">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CurrencyProjectRemover</a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Calculator/AttributeGroupCompletenessCalculator.php.html#25">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Calculator\AttributeGroupCompletenessCalculator</a></td><td class="text-right">137</td></tr>
+       <tr><td><a href="Model/Project.php.html#24">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project</a></td><td class="text-right">69</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CleanContributorGroupTasklet.php.html#28">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CleanContributorGroupTasklet</a></td><td class="text-right">54</td></tr>
+       <tr><td><a href="Updater/ProjectUpdater.php.html#28">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Updater\ProjectUpdater</a></td><td class="text-right">45</td></tr>
+       <tr><td><a href="Calculator/ContributorGroupCalculator.php.html#26">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Calculator\ContributorGroupCalculator</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="Remover/CategoryProjectRemover.php.html#24">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CategoryProjectRemover</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Remover/CurrencyProjectRemover.php.html#25">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CurrencyProjectRemover</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Remover/AttributeProjectRemover.php.html#24">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\AttributeProjectRemover</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Job/RefreshProjectCompleteness/RefreshProjectCompletenessTasklet.php.html#26">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\RefreshProjectCompleteness\RefreshProjectCompletenessTasklet</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/ProjectCalculationTasklet.php.html#27">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\ProjectCalculationTasklet</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectDueDateValidator.php.html#26">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectDueDateValidator</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/AddUserGroupStep.php.html#24">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\AddUserGroupStep</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/ProcessAttributeGroupCompletenessStep.php.html#24">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\ProcessAttributeGroupCompletenessStep</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectLocaleValidator.php.html#25">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectLocaleValidator</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Remover/ChainedProjectRemover.php.html#19">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\ChainedProjectRemover</a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/ChainedCalculationStep.php.html#20">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\ChainedCalculationStep</a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectIdentifierValidator.php.html#23">Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectIdentifierValidator</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Calculator/AttributeGroupCompletenessCalculator.php.html#52"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Calculator\AttributeGroupCompletenessCalculator::calculate">calculate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Project.php.html#295"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project::startCompletenessComputing">startCompletenessComputing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/AttributeGroupCompleteness.php.html#61"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\AttributeGroupCompleteness::hasAtLeastOneAttributeFilled">hasAtLeastOneAttributeFilled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/AttributeGroupCompleteness.php.html#71"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\AttributeGroupCompleteness::isComplete">isComplete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/AttributeGroupCompleteness.php.html#79"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\AttributeGroupCompleteness::getCalculatedAt">getCalculatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Calculator/AttributeGroupCompletenessCalculator.php.html#102"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Calculator\AttributeGroupCompletenessCalculator::findFilledAttributes">findFilledAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Project.php.html#221"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project::removeUserGroup">removeUserGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Project.php.html#229"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project::resetUserGroups">resetUserGroups</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Project.php.html#261"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project::addProjectStatus">addProjectStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Project.php.html#271"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project::resetProjectStatus">resetProjectStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Project.php.html#279"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project::getProjectStatus">getProjectStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Project.php.html#303"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project::endCompletenessComputing">endCompletenessComputing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/AttributeGroupCompleteness.php.html#38"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\AttributeGroupCompleteness::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ProjectStatus.php.html#39"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\ProjectStatus::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ProjectStatus.php.html#47"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\ProjectStatus::getUser">getUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ProjectStatus.php.html#55"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\ProjectStatus::setUser">setUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ProjectStatus.php.html#63"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\ProjectStatus::getProject">getProject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ProjectStatus.php.html#71"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\ProjectStatus::setProject">setProject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ProjectStatus.php.html#79"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\ProjectStatus::isComplete">isComplete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ProjectStatus.php.html#87"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\ProjectStatus::setIsComplete">setIsComplete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ProjectStatus.php.html#95"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\ProjectStatus::hasBeenNotified">hasBeenNotified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ProjectStatus.php.html#103"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\ProjectStatus::setHasBeenNotified">setHasBeenNotified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/ChainedProjectRemover.php.html#47"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\ChainedProjectRemover::isSupported">isSupported</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/AttributeGroupCompleteness.php.html#51"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\AttributeGroupCompleteness::getAttributeGroupId">getAttributeGroupId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Project.php.html#211"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project::addUserGroup">addUserGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/RefreshProjectCompleteness/RefreshProjectCompletenessTasklet.php.html#78"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\RefreshProjectCompleteness\RefreshProjectCompletenessTasklet::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/ProcessAttributeGroupCompletenessStep.php.html#47"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\ProcessAttributeGroupCompletenessStep::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/ProjectEvent.php.html#30"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Event\ProjectEvent::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/ProjectEvent.php.html#38"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Event\ProjectEvent::getProject">getProject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Factory/ProjectStatusFactory.php.html#28"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Factory\ProjectStatusFactory::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Factory/ProjectStatusFactory.php.html#36"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Factory\ProjectStatusFactory::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/RefreshProjectCompleteness/RefreshProjectCompletenessTasklet.php.html#70"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\RefreshProjectCompleteness\RefreshProjectCompletenessTasklet::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/AddUserGroupStep.php.html#40"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\AddUserGroupStep::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/ChainedCalculationStep.php.html#36"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\ChainedCalculationStep::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/LoggableStep.php.html#30"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\LoggableStep::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/LoggableStep.php.html#38"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\LoggableStep::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/AddProductStep.php.html#39"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\AddProductStep::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CleanContributorGroupTasklet.php.html#60"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CleanContributorGroupTasklet::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CleanContributorGroupTasklet.php.html#99"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CleanContributorGroupTasklet::isLocaleGrantedToAll">isLocaleGrantedToAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/EndProjectCompletenessComputing.php.html#44"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\EndProjectCompletenessComputing::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/EndProjectCompletenessComputing.php.html#52"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\EndProjectCompletenessComputing::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/PrepareProjectCalculationTasklet.php.html#53"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\PrepareProjectCalculationTasklet::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/PrepareProjectCalculationTasklet.php.html#61"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\PrepareProjectCalculationTasklet::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/ProjectCalculationTasklet.php.html#71"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\ProjectCalculationTasklet::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/ProjectCalculationTasklet.php.html#79"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\ProjectCalculationTasklet::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/StartProjectCompletenessComputing.php.html#44"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\StartProjectCompletenessComputing::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/StartProjectCompletenessComputing.php.html#52"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\StartProjectCompletenessComputing::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CleanContributorGroupTasklet.php.html#68"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CleanContributorGroupTasklet::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Calculator/ContributorGroupCalculator.php.html#55"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Calculator\ContributorGroupCalculator::calculate">calculate</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectIdentifierValidator.php.html#46"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectIdentifierValidator::validate">validate</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Updater/ProjectUpdater.php.html#167"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Updater\ProjectUpdater::validateDateFormat">validateDateFormat</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Updater/ProjectUpdater.php.html#57"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Updater\ProjectUpdater::update">update</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Updater/ProjectUpdater.php.html#78"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Updater\ProjectUpdater::setData">setData</abbr></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectLocaleValidator.php.html#41"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectLocaleValidator::validate">validate</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Remover/CurrencyProjectRemover.php.html#56"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CurrencyProjectRemover::removeProjectsImpactedBy">removeProjectsImpactedBy</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Remover/CategoryProjectRemover.php.html#81"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CategoryProjectRemover::hasToBeRemoved">hasToBeRemoved</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Remover/AttributeProjectRemover.php.html#81"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\AttributeProjectRemover::hasToBeRemoved">hasToBeRemoved</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectDueDateValidator.php.html#42"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectDueDateValidator::validate">validate</abbr></a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Remover/CurrencyProjectRemover.php.html#83"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CurrencyProjectRemover::hasToBeRemoved">hasToBeRemoved</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Remover/CategoryProjectRemover.php.html#55"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CategoryProjectRemover::removeProjectsImpactedBy">removeProjectsImpactedBy</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Remover/AttributeProjectRemover.php.html#55"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\AttributeProjectRemover::removeProjectsImpactedBy">removeProjectsImpactedBy</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Remover/LocaleProjectRemover.php.html#81"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\LocaleProjectRemover::hasToBeRemoved">hasToBeRemoved</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Calculator/AttributeGroupCompletenessCalculator.php.html#102"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Calculator\AttributeGroupCompletenessCalculator::findFilledAttributes">findFilledAttributes</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Calculator/AttributeGroupCompletenessCalculator.php.html#52"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Calculator\AttributeGroupCompletenessCalculator::calculate">calculate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Updater/ProjectUpdater.php.html#78"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Updater\ProjectUpdater::setData">setData</abbr></a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="Calculator/ContributorGroupCalculator.php.html#55"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Calculator\ContributorGroupCalculator::calculate">calculate</abbr></a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CleanContributorGroupTasklet.php.html#68"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CleanContributorGroupTasklet::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CleanContributorGroupTasklet.php.html#99"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CleanContributorGroupTasklet::isLocaleGrantedToAll">isLocaleGrantedToAll</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectDueDateValidator.php.html#42"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectDueDateValidator::validate">validate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/AddUserGroupStep.php.html#40"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\AddUserGroupStep::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/ChainedCalculationStep.php.html#36"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\ChainedCalculationStep::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/CalculationStep/ProcessAttributeGroupCompletenessStep.php.html#47"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\CalculationStep\ProcessAttributeGroupCompletenessStep::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Job/ProjectCalculation/ProjectCalculationTasklet.php.html#79"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\ProjectCalculation\ProjectCalculationTasklet::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Job/RefreshProjectCompleteness/RefreshProjectCompletenessTasklet.php.html#78"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Job\RefreshProjectCompleteness\RefreshProjectCompletenessTasklet::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Model/Project.php.html#211"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project::addUserGroup">addUserGroup</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Model/Project.php.html#261"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Model\Project::addProjectStatus">addProjectStatus</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectLocaleValidator.php.html#41"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectLocaleValidator::validate">validate</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Remover/CategoryProjectRemover.php.html#81"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CategoryProjectRemover::hasToBeRemoved">hasToBeRemoved</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Updater/ProjectUpdater.php.html#167"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Updater\ProjectUpdater::validateDateFormat">validateDateFormat</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Validator/Constraints/ProjectIdentifierValidator.php.html#46"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Validator\Constraints\ProjectIdentifierValidator::validate">validate</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Remover/CurrencyProjectRemover.php.html#83"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CurrencyProjectRemover::hasToBeRemoved">hasToBeRemoved</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Updater/ProjectUpdater.php.html#57"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Updater\ProjectUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Remover/CurrencyProjectRemover.php.html#56"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CurrencyProjectRemover::removeProjectsImpactedBy">removeProjectsImpactedBy</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Remover/AttributeProjectRemover.php.html#81"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\AttributeProjectRemover::hasToBeRemoved">hasToBeRemoved</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Remover/CategoryProjectRemover.php.html#55"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\CategoryProjectRemover::removeProjectsImpactedBy">removeProjectsImpactedBy</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Remover/AttributeProjectRemover.php.html#55"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\AttributeProjectRemover::removeProjectsImpactedBy">removeProjectsImpactedBy</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Remover/LocaleProjectRemover.php.html#81"><abbr title="Akeneo\Pim\WorkOrganization\TeamworkAssistant\Component\Remover\LocaleProjectRemover::hasToBeRemoved">hasToBeRemoved</abbr></a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.2</a> at Sun Apr 7 17:13:38 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,0,2,5,2,1,1,4,0,6,1,12], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([48,0,0,0,1,0,3,1,1,8,0,84], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[14.285714285714285,14,"<a href=\"Calculator\/AttributeGroupCompletenessCalculator.php.html#25\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Calculator\\AttributeGroupCompletenessCalculator<\/a>"],[65.21739130434783,10,"<a href=\"Calculator\/ContributorGroupCalculator.php.html#26\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Calculator\\ContributorGroupCalculator<\/a>"],[0,2,"<a href=\"Event\/ProjectEvent.php.html#22\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Event\\ProjectEvent<\/a>"],[100,0,"<a href=\"Event\/ProjectEvents.php.html#19\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Event\\ProjectEvents<\/a>"],[100,2,"<a href=\"Factory\/ProjectFactory.php.html#21\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Factory\\ProjectFactory<\/a>"],[0,2,"<a href=\"Factory\/ProjectStatusFactory.php.html#20\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Factory\\ProjectStatusFactory<\/a>"],[50,2,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/AddProductStep.php.html#23\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\AddProductStep<\/a>"],[25,3,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/AddUserGroupStep.php.html#24\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\AddUserGroupStep<\/a>"],[40,3,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/ChainedCalculationStep.php.html#20\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\ChainedCalculationStep<\/a>"],[0,2,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/LoggableStep.php.html#22\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\LoggableStep<\/a>"],[25,3,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/ProcessAttributeGroupCompletenessStep.php.html#24\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\ProcessAttributeGroupCompletenessStep<\/a>"],[17.391304347826086,9,"<a href=\"Job\/ProjectCalculation\/CleanContributorGroupTasklet.php.html#28\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CleanContributorGroupTasklet<\/a>"],[27.27272727272727,3,"<a href=\"Job\/ProjectCalculation\/EndProjectCompletenessComputing.php.html#22\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\EndProjectCompletenessComputing<\/a>"],[27.27272727272727,3,"<a href=\"Job\/ProjectCalculation\/PrepareProjectCalculationTasklet.php.html#27\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\PrepareProjectCalculationTasklet<\/a>"],[100,4,"<a href=\"Job\/ProjectCalculation\/ProjectCalculationJobParameters.php.html#24\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\ProjectCalculationJobParameters<\/a>"],[33.33333333333333,4,"<a href=\"Job\/ProjectCalculation\/ProjectCalculationTasklet.php.html#27\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\ProjectCalculationTasklet<\/a>"],[27.27272727272727,3,"<a href=\"Job\/ProjectCalculation\/StartProjectCompletenessComputing.php.html#22\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\StartProjectCompletenessComputing<\/a>"],[100,4,"<a href=\"Job\/RefreshProjectCompleteness\/RefreshProjectCompletenessJobParameter.php.html#24\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\RefreshProjectCompleteness\\RefreshProjectCompletenessJobParameter<\/a>"],[31.57894736842105,4,"<a href=\"Job\/RefreshProjectCompleteness\/RefreshProjectCompletenessTasklet.php.html#26\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\RefreshProjectCompleteness\\RefreshProjectCompletenessTasklet<\/a>"],[0,5,"<a href=\"Model\/AttributeGroupCompleteness.php.html#19\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\AttributeGroupCompleteness<\/a>"],[66.66666666666666,32,"<a href=\"Model\/Project.php.html#24\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project<\/a>"],[100,9,"<a href=\"Model\/ProjectCompleteness.php.html#19\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectCompleteness<\/a>"],[100,2,"<a href=\"Model\/ProjectIdentifier.php.html#21\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectIdentifier<\/a>"],[0,9,"<a href=\"Model\/ProjectStatus.php.html#19\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectStatus<\/a>"],[100,3,"<a href=\"Normalizer\/ProjectCompletenessNormalizer.php.html#22\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Normalizer\\ProjectCompletenessNormalizer<\/a>"],[100,4,"<a href=\"Normalizer\/ProjectNormalizer.php.html#25\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Normalizer\\ProjectNormalizer<\/a>"],[87.5,9,"<a href=\"Remover\/AttributeProjectRemover.php.html#24\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\AttributeProjectRemover<\/a>"],[87.5,10,"<a href=\"Remover\/CategoryProjectRemover.php.html#24\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\CategoryProjectRemover<\/a>"],[85.71428571428571,5,"<a href=\"Remover\/ChainedProjectRemover.php.html#19\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\ChainedProjectRemover<\/a>"],[100,5,"<a href=\"Remover\/ChannelProjectRemover.php.html#22\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\ChannelProjectRemover<\/a>"],[87.5,10,"<a href=\"Remover\/CurrencyProjectRemover.php.html#25\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\CurrencyProjectRemover<\/a>"],[94.11764705882352,9,"<a href=\"Remover\/LocaleProjectRemover.php.html#24\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\LocaleProjectRemover<\/a>"],[63.63636363636363,22,"<a href=\"Updater\/ProjectUpdater.php.html#28\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Updater\\ProjectUpdater<\/a>"],[100,2,"<a href=\"Validator\/Constraints\/ProjectDueDate.php.html#19\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectDueDate<\/a>"],[84.21052631578947,7,"<a href=\"Validator\/Constraints\/ProjectDueDateValidator.php.html#26\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectDueDateValidator<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/ProjectIdentifier.php.html#19\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectIdentifier<\/a>"],[66.66666666666666,4,"<a href=\"Validator\/Constraints\/ProjectIdentifierValidator.php.html#23\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectIdentifierValidator<\/a>"],[100,2,"<a href=\"Validator\/Constraints\/ProjectLocale.php.html#19\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectLocale<\/a>"],[81.81818181818183,6,"<a href=\"Validator\/Constraints\/ProjectLocaleValidator.php.html#25\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectLocaleValidator<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Calculator\/AttributeGroupCompletenessCalculator.php.html#36\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Calculator\\AttributeGroupCompletenessCalculator::__construct<\/a>"],[0,5,"<a href=\"Calculator\/AttributeGroupCompletenessCalculator.php.html#52\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Calculator\\AttributeGroupCompletenessCalculator::calculate<\/a>"],[0,8,"<a href=\"Calculator\/AttributeGroupCompletenessCalculator.php.html#102\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Calculator\\AttributeGroupCompletenessCalculator::findFilledAttributes<\/a>"],[100,1,"<a href=\"Calculator\/ContributorGroupCalculator.php.html#42\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Calculator\\ContributorGroupCalculator::__construct<\/a>"],[33.33333333333333,7,"<a href=\"Calculator\/ContributorGroupCalculator.php.html#55\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Calculator\\ContributorGroupCalculator::calculate<\/a>"],[100,1,"<a href=\"Calculator\/ContributorGroupCalculator.php.html#89\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Calculator\\ContributorGroupCalculator::findUserGroupNamesForProduct<\/a>"],[100,1,"<a href=\"Calculator\/ContributorGroupCalculator.php.html#107\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Calculator\\ContributorGroupCalculator::findUserGroupForAttribute<\/a>"],[0,1,"<a href=\"Event\/ProjectEvent.php.html#30\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Event\\ProjectEvent::__construct<\/a>"],[0,1,"<a href=\"Event\/ProjectEvent.php.html#38\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Event\\ProjectEvent::getProject<\/a>"],[100,1,"<a href=\"Factory\/ProjectFactory.php.html#41\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Factory\\ProjectFactory::__construct<\/a>"],[100,1,"<a href=\"Factory\/ProjectFactory.php.html#56\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Factory\\ProjectFactory::create<\/a>"],[0,1,"<a href=\"Factory\/ProjectStatusFactory.php.html#28\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Factory\\ProjectStatusFactory::__construct<\/a>"],[0,1,"<a href=\"Factory\/ProjectStatusFactory.php.html#36\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Factory\\ProjectStatusFactory::create<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/AddProductStep.php.html#31\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\AddProductStep::__construct<\/a>"],[0,1,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/AddProductStep.php.html#39\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\AddProductStep::execute<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/AddUserGroupStep.php.html#32\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\AddUserGroupStep::__construct<\/a>"],[0,2,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/AddUserGroupStep.php.html#40\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\AddUserGroupStep::execute<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/ChainedCalculationStep.php.html#28\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\ChainedCalculationStep::__construct<\/a>"],[0,2,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/ChainedCalculationStep.php.html#36\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\ChainedCalculationStep::execute<\/a>"],[0,1,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/LoggableStep.php.html#30\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\LoggableStep::__construct<\/a>"],[0,1,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/LoggableStep.php.html#38\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\LoggableStep::execute<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/ProcessAttributeGroupCompletenessStep.php.html#36\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\ProcessAttributeGroupCompletenessStep::__construct<\/a>"],[0,2,"<a href=\"Job\/ProjectCalculation\/CalculationStep\/ProcessAttributeGroupCompletenessStep.php.html#47\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CalculationStep\\ProcessAttributeGroupCompletenessStep::execute<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/CleanContributorGroupTasklet.php.html#47\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CleanContributorGroupTasklet::__construct<\/a>"],[0,1,"<a href=\"Job\/ProjectCalculation\/CleanContributorGroupTasklet.php.html#60\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CleanContributorGroupTasklet::setStepExecution<\/a>"],[0,4,"<a href=\"Job\/ProjectCalculation\/CleanContributorGroupTasklet.php.html#68\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CleanContributorGroupTasklet::execute<\/a>"],[0,3,"<a href=\"Job\/ProjectCalculation\/CleanContributorGroupTasklet.php.html#99\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\CleanContributorGroupTasklet::isLocaleGrantedToAll<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/EndProjectCompletenessComputing.php.html#33\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\EndProjectCompletenessComputing::__construct<\/a>"],[0,1,"<a href=\"Job\/ProjectCalculation\/EndProjectCompletenessComputing.php.html#44\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\EndProjectCompletenessComputing::setStepExecution<\/a>"],[0,1,"<a href=\"Job\/ProjectCalculation\/EndProjectCompletenessComputing.php.html#52\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\EndProjectCompletenessComputing::execute<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/PrepareProjectCalculationTasklet.php.html#42\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\PrepareProjectCalculationTasklet::__construct<\/a>"],[0,1,"<a href=\"Job\/ProjectCalculation\/PrepareProjectCalculationTasklet.php.html#53\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\PrepareProjectCalculationTasklet::setStepExecution<\/a>"],[0,1,"<a href=\"Job\/ProjectCalculation\/PrepareProjectCalculationTasklet.php.html#61\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\PrepareProjectCalculationTasklet::execute<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/ProjectCalculationJobParameters.php.html#32\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\ProjectCalculationJobParameters::__construct<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/ProjectCalculationJobParameters.php.html#40\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\ProjectCalculationJobParameters::getDefaultValues<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/ProjectCalculationJobParameters.php.html#51\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\ProjectCalculationJobParameters::getConstraintCollection<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/ProjectCalculationJobParameters.php.html#65\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\ProjectCalculationJobParameters::supports<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/ProjectCalculationTasklet.php.html#54\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\ProjectCalculationTasklet::__construct<\/a>"],[0,1,"<a href=\"Job\/ProjectCalculation\/ProjectCalculationTasklet.php.html#71\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\ProjectCalculationTasklet::setStepExecution<\/a>"],[0,2,"<a href=\"Job\/ProjectCalculation\/ProjectCalculationTasklet.php.html#79\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\ProjectCalculationTasklet::execute<\/a>"],[100,1,"<a href=\"Job\/ProjectCalculation\/StartProjectCompletenessComputing.php.html#33\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\StartProjectCompletenessComputing::__construct<\/a>"],[0,1,"<a href=\"Job\/ProjectCalculation\/StartProjectCompletenessComputing.php.html#44\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\StartProjectCompletenessComputing::setStepExecution<\/a>"],[0,1,"<a href=\"Job\/ProjectCalculation\/StartProjectCompletenessComputing.php.html#52\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\ProjectCalculation\\StartProjectCompletenessComputing::execute<\/a>"],[100,1,"<a href=\"Job\/RefreshProjectCompleteness\/RefreshProjectCompletenessJobParameter.php.html#34\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\RefreshProjectCompleteness\\RefreshProjectCompletenessJobParameter::__construct<\/a>"],[100,1,"<a href=\"Job\/RefreshProjectCompleteness\/RefreshProjectCompletenessJobParameter.php.html#42\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\RefreshProjectCompleteness\\RefreshProjectCompletenessJobParameter::getConstraintCollection<\/a>"],[100,1,"<a href=\"Job\/RefreshProjectCompleteness\/RefreshProjectCompletenessJobParameter.php.html#58\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\RefreshProjectCompleteness\\RefreshProjectCompletenessJobParameter::getDefaultValues<\/a>"],[100,1,"<a href=\"Job\/RefreshProjectCompleteness\/RefreshProjectCompletenessJobParameter.php.html#69\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\RefreshProjectCompleteness\\RefreshProjectCompletenessJobParameter::supports<\/a>"],[100,1,"<a href=\"Job\/RefreshProjectCompleteness\/RefreshProjectCompletenessTasklet.php.html#53\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\RefreshProjectCompleteness\\RefreshProjectCompletenessTasklet::__construct<\/a>"],[0,1,"<a href=\"Job\/RefreshProjectCompleteness\/RefreshProjectCompletenessTasklet.php.html#70\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\RefreshProjectCompleteness\\RefreshProjectCompletenessTasklet::setStepExecution<\/a>"],[0,2,"<a href=\"Job\/RefreshProjectCompleteness\/RefreshProjectCompletenessTasklet.php.html#78\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Job\\RefreshProjectCompleteness\\RefreshProjectCompletenessTasklet::execute<\/a>"],[0,1,"<a href=\"Model\/AttributeGroupCompleteness.php.html#38\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\AttributeGroupCompleteness::__construct<\/a>"],[0,1,"<a href=\"Model\/AttributeGroupCompleteness.php.html#51\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\AttributeGroupCompleteness::getAttributeGroupId<\/a>"],[0,1,"<a href=\"Model\/AttributeGroupCompleteness.php.html#61\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\AttributeGroupCompleteness::hasAtLeastOneAttributeFilled<\/a>"],[0,1,"<a href=\"Model\/AttributeGroupCompleteness.php.html#71\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\AttributeGroupCompleteness::isComplete<\/a>"],[0,1,"<a href=\"Model\/AttributeGroupCompleteness.php.html#79\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\AttributeGroupCompleteness::getCalculatedAt<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#65\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::__construct<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#75\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getId<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#83\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getCode<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#91\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::setCode<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#99\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getLabel<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#107\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::setLabel<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#115\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getDescription<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#123\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::setDescription<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#131\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getDueDate<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#139\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::setDueDate<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#147\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getOwner<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#155\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::setOwner<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#163\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getChannel<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#171\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::setChannel<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#179\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getLocale<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#187\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::setLocale<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#195\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getDatagridView<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#203\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::setDatagridView<\/a>"],[0,2,"<a href=\"Model\/Project.php.html#211\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::addUserGroup<\/a>"],[0,1,"<a href=\"Model\/Project.php.html#221\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::removeUserGroup<\/a>"],[0,1,"<a href=\"Model\/Project.php.html#229\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::resetUserGroups<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#237\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getUserGroups<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#245\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getProductFilters<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#253\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::setProductFilters<\/a>"],[0,2,"<a href=\"Model\/Project.php.html#261\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::addProjectStatus<\/a>"],[0,1,"<a href=\"Model\/Project.php.html#271\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::resetProjectStatus<\/a>"],[0,1,"<a href=\"Model\/Project.php.html#279\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::getProjectStatus<\/a>"],[100,1,"<a href=\"Model\/Project.php.html#287\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::isCompletenessComputed<\/a>"],[0,1,"<a href=\"Model\/Project.php.html#295\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::startCompletenessComputing<\/a>"],[0,1,"<a href=\"Model\/Project.php.html#303\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\Project::endCompletenessComputing<\/a>"],[100,2,"<a href=\"Model\/ProjectCompleteness.php.html#38\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectCompleteness::__construct<\/a>"],[100,1,"<a href=\"Model\/ProjectCompleteness.php.html#56\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectCompleteness::getProductsCountTodo<\/a>"],[100,1,"<a href=\"Model\/ProjectCompleteness.php.html#66\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectCompleteness::getProductsCountInProgress<\/a>"],[100,1,"<a href=\"Model\/ProjectCompleteness.php.html#76\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectCompleteness::getProductsCountDone<\/a>"],[100,1,"<a href=\"Model\/ProjectCompleteness.php.html#86\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectCompleteness::getRatioForTodo<\/a>"],[100,1,"<a href=\"Model\/ProjectCompleteness.php.html#96\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectCompleteness::getRatioForInProgress<\/a>"],[100,1,"<a href=\"Model\/ProjectCompleteness.php.html#106\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectCompleteness::getRatioForDone<\/a>"],[100,1,"<a href=\"Model\/ProjectCompleteness.php.html#116\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectCompleteness::isComplete<\/a>"],[100,1,"<a href=\"Model\/ProjectIdentifier.php.html#37\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectIdentifier::__construct<\/a>"],[100,1,"<a href=\"Model\/ProjectIdentifier.php.html#47\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectIdentifier::__toString<\/a>"],[0,1,"<a href=\"Model\/ProjectStatus.php.html#39\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectStatus::getId<\/a>"],[0,1,"<a href=\"Model\/ProjectStatus.php.html#47\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectStatus::getUser<\/a>"],[0,1,"<a href=\"Model\/ProjectStatus.php.html#55\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectStatus::setUser<\/a>"],[0,1,"<a href=\"Model\/ProjectStatus.php.html#63\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectStatus::getProject<\/a>"],[0,1,"<a href=\"Model\/ProjectStatus.php.html#71\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectStatus::setProject<\/a>"],[0,1,"<a href=\"Model\/ProjectStatus.php.html#79\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectStatus::isComplete<\/a>"],[0,1,"<a href=\"Model\/ProjectStatus.php.html#87\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectStatus::setIsComplete<\/a>"],[0,1,"<a href=\"Model\/ProjectStatus.php.html#95\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectStatus::hasBeenNotified<\/a>"],[0,1,"<a href=\"Model\/ProjectStatus.php.html#103\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Model\\ProjectStatus::setHasBeenNotified<\/a>"],[100,1,"<a href=\"Normalizer\/ProjectCompletenessNormalizer.php.html#41\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Normalizer\\ProjectCompletenessNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/ProjectCompletenessNormalizer.php.html#57\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Normalizer\\ProjectCompletenessNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Normalizer\/ProjectNormalizer.php.html#48\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Normalizer\\ProjectNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/ProjectNormalizer.php.html#69\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Normalizer\\ProjectNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Normalizer\/ProjectNormalizer.php.html#77\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Normalizer\\ProjectNormalizer::setSerializer<\/a>"],[100,1,"<a href=\"Remover\/AttributeProjectRemover.php.html#40\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\AttributeProjectRemover::__construct<\/a>"],[83.33333333333334,3,"<a href=\"Remover\/AttributeProjectRemover.php.html#55\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\AttributeProjectRemover::removeProjectsImpactedBy<\/a>"],[100,2,"<a href=\"Remover\/AttributeProjectRemover.php.html#70\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\AttributeProjectRemover::isSupported<\/a>"],[80,3,"<a href=\"Remover\/AttributeProjectRemover.php.html#81\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\AttributeProjectRemover::hasToBeRemoved<\/a>"],[100,1,"<a href=\"Remover\/CategoryProjectRemover.php.html#40\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\CategoryProjectRemover::__construct<\/a>"],[83.33333333333334,3,"<a href=\"Remover\/CategoryProjectRemover.php.html#55\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\CategoryProjectRemover::removeProjectsImpactedBy<\/a>"],[100,2,"<a href=\"Remover\/CategoryProjectRemover.php.html#70\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\CategoryProjectRemover::isSupported<\/a>"],[80,4,"<a href=\"Remover\/CategoryProjectRemover.php.html#81\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\CategoryProjectRemover::hasToBeRemoved<\/a>"],[100,1,"<a href=\"Remover\/ChainedProjectRemover.php.html#27\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\ChainedProjectRemover::__construct<\/a>"],[100,3,"<a href=\"Remover\/ChainedProjectRemover.php.html#35\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\ChainedProjectRemover::removeProjectsImpactedBy<\/a>"],[0,1,"<a href=\"Remover\/ChainedProjectRemover.php.html#47\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\ChainedProjectRemover::isSupported<\/a>"],[100,1,"<a href=\"Remover\/ChannelProjectRemover.php.html#34\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\ChannelProjectRemover::__construct<\/a>"],[100,2,"<a href=\"Remover\/ChannelProjectRemover.php.html#45\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\ChannelProjectRemover::removeProjectsImpactedBy<\/a>"],[100,2,"<a href=\"Remover\/ChannelProjectRemover.php.html#55\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\ChannelProjectRemover::isSupported<\/a>"],[100,1,"<a href=\"Remover\/CurrencyProjectRemover.php.html#41\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\CurrencyProjectRemover::__construct<\/a>"],[80,3,"<a href=\"Remover\/CurrencyProjectRemover.php.html#56\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\CurrencyProjectRemover::removeProjectsImpactedBy<\/a>"],[100,2,"<a href=\"Remover\/CurrencyProjectRemover.php.html#70\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\CurrencyProjectRemover::isSupported<\/a>"],[83.33333333333334,4,"<a href=\"Remover\/CurrencyProjectRemover.php.html#83\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\CurrencyProjectRemover::hasToBeRemoved<\/a>"],[100,1,"<a href=\"Remover\/LocaleProjectRemover.php.html#40\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\LocaleProjectRemover::__construct<\/a>"],[100,3,"<a href=\"Remover\/LocaleProjectRemover.php.html#56\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\LocaleProjectRemover::removeProjectsImpactedBy<\/a>"],[100,2,"<a href=\"Remover\/LocaleProjectRemover.php.html#70\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\LocaleProjectRemover::isSupported<\/a>"],[85.71428571428571,3,"<a href=\"Remover\/LocaleProjectRemover.php.html#81\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Remover\\LocaleProjectRemover::hasToBeRemoved<\/a>"],[100,1,"<a href=\"Updater\/ProjectUpdater.php.html#44\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Updater\\ProjectUpdater::__construct<\/a>"],[57.14285714285714,3,"<a href=\"Updater\/ProjectUpdater.php.html#57\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Updater\\ProjectUpdater::update<\/a>"],[63.793103448275865,15,"<a href=\"Updater\/ProjectUpdater.php.html#78\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Updater\\ProjectUpdater::setData<\/a>"],[50,3,"<a href=\"Updater\/ProjectUpdater.php.html#167\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Updater\\ProjectUpdater::validateDateFormat<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/ProjectDueDate.php.html#27\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectDueDate::validatedBy<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/ProjectDueDate.php.html#35\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectDueDate::getTargets<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/ProjectDueDateValidator.php.html#34\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectDueDateValidator::__construct<\/a>"],[82.35294117647058,6,"<a href=\"Validator\/Constraints\/ProjectDueDateValidator.php.html#42\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectDueDateValidator::validate<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/ProjectIdentifier.php.html#27\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectIdentifier::validatedBy<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/ProjectIdentifierValidator.php.html#35\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectIdentifierValidator::__construct<\/a>"],[50,3,"<a href=\"Validator\/Constraints\/ProjectIdentifierValidator.php.html#46\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectIdentifierValidator::validate<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/ProjectLocale.php.html#27\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectLocale::validatedBy<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/ProjectLocale.php.html#35\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectLocale::getTargets<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/ProjectLocaleValidator.php.html#33\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectLocaleValidator::__construct<\/a>"],[77.77777777777779,5,"<a href=\"Validator\/Constraints\/ProjectLocaleValidator.php.html#41\">Akeneo\\Pim\\WorkOrganization\\TeamworkAssistant\\Component\\Validator\\Constraints\\ProjectLocaleValidator::validate<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

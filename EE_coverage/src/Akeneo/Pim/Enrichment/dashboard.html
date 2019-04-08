@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Pim/Enrichment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/srv/pim</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Pim</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Enrichment</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityValue.php.html#25">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityValue</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Analytics/CountReferenceEntities.php.html#16">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Analytics\CountReferenceEntities</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/CatalogVolumeMonitoring/AverageMaxNumberOfAttributesPerReferenceEntity.php.html#16">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\CatalogVolumeMonitoring\AverageMaxNumberOfAttributesPerReferenceEntity</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/CatalogVolumeMonitoring/AverageMaxNumberOfRecordsPerReferenceEntity.php.html#16">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\CatalogVolumeMonitoring\AverageMaxNumberOfRecordsPerReferenceEntity</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/CatalogVolumeMonitoring/CountReferenceEntities.php.html#16">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\CatalogVolumeMonitoring\CountReferenceEntities</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityCollectionValue.php.html#24">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityCollectionValue</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Validator/Constraints/IsReferenceEntityConfiguredValidator.php.html#27">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Validator\Constraints\IsReferenceEntityConfiguredValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Query/GetRecordInformationQuery.php.html#22">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Query\GetRecordInformationQuery</a></td><td class="text-right">13%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityValueFactory.php.html#32">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityValueFactory</a></td><td class="text-right">13%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#22">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityCollectionValueNormalizer</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityCollectionValueFactory.php.html#33">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityCollectionValueFactory</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="Asset/Component/Updater/Adder/AssetCollectionAdder.php.html#29">Akeneo\Pim\Enrichment\Asset\Component\Updater\Adder\AssetCollectionAdder</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Updater/Adder/ReferenceEntityCollectionAdder.php.html#29">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Updater\Adder\ReferenceEntityCollectionAdder</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityValueNormalizer.php.html#21">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityValueNormalizer</a></td><td class="text-right">18%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#27">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Normalizer\ReferenceEntityCollectionValueNormalizer</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Normalizer/RecordCodeNormalizer.php.html#22">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Normalizer\RecordCodeNormalizer</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Provider/ReferenceEntityProvider.php.html#26">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Provider\ReferenceEntityProvider</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Normalizer/ReferenceEntityValueNormalizer.php.html#25">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Normalizer\ReferenceEntityValueNormalizer</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Provider/ReferenceEntityCollectionProvider.php.html#25">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Provider\ReferenceEntityCollectionProvider</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Validator/Constraints/IsReferenceEntityConfigured.php.html#23">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Validator\Constraints\IsReferenceEntityConfigured</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Extension/Formatter/Property/ProductValue/ReferenceEntityCollectionProperty.php.html#25">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Extension\Formatter\Property\ProductValue\ReferenceEntityCollectionProperty</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Filter/ReferenceEntityFilter.php.html#33">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Filter\ReferenceEntityFilter</a></td><td class="text-right">51%</td></tr>
+       <tr><td><a href="Asset/Component/AssetCollectionValueFactory.php.html#33">Akeneo\Pim\Enrichment\Asset\Component\AssetCollectionValueFactory</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Filter/ProductValue/ReferenceEntityRecordFilter.php.html#34">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Filter\ProductValue\ReferenceEntityRecordFilter</a></td><td class="text-right">84%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityValue.php.html#25">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityValue</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityCollectionValue.php.html#24">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityCollectionValue</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Validator/Constraints/IsReferenceEntityConfiguredValidator.php.html#27">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Validator\Constraints\IsReferenceEntityConfiguredValidator</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#22">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityCollectionValueNormalizer</a></td><td class="text-right">84</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityValueNormalizer.php.html#21">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityValueNormalizer</a></td><td class="text-right">77</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityCollectionValueFactory.php.html#33">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityCollectionValueFactory</a></td><td class="text-right">69</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityValueFactory.php.html#32">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityValueFactory</a></td><td class="text-right">61</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Updater/Adder/ReferenceEntityCollectionAdder.php.html#29">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Updater\Adder\ReferenceEntityCollectionAdder</a></td><td class="text-right">55</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Filter/ReferenceEntityFilter.php.html#33">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Filter\ReferenceEntityFilter</a></td><td class="text-right">40</td></tr>
+       <tr><td><a href="Asset/Component/Updater/Adder/AssetCollectionAdder.php.html#29">Akeneo\Pim\Enrichment\Asset\Component\Updater\Adder\AssetCollectionAdder</a></td><td class="text-right">35</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Normalizer/RecordCodeNormalizer.php.html#22">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Normalizer\RecordCodeNormalizer</a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="Asset/Component/AssetCollectionValueFactory.php.html#33">Akeneo\Pim\Enrichment\Asset\Component\AssetCollectionValueFactory</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Query/GetRecordInformationQuery.php.html#22">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Query\GetRecordInformationQuery</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Provider/ReferenceEntityProvider.php.html#26">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Provider\ReferenceEntityProvider</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Normalizer/ReferenceEntityValueNormalizer.php.html#25">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Normalizer\ReferenceEntityValueNormalizer</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Extension/Formatter/Property/ProductValue/ReferenceEntityCollectionProperty.php.html#25">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Extension\Formatter\Property\ProductValue\ReferenceEntityCollectionProperty</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#27">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Normalizer\ReferenceEntityCollectionValueNormalizer</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Filter/ProductValue/ReferenceEntityRecordFilter.php.html#34">Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Filter\ProductValue\ReferenceEntityRecordFilter</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Provider/ReferenceEntityCollectionProvider.php.html#25">Akeneo\Pim\Enrichment\ReferenceEntity\Component\Provider\ReferenceEntityCollectionProvider</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityValue.php.html#62"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityValue::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Validator/Constraints/IsReferenceEntityConfiguredValidator.php.html#39"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Validator\Constraints\IsReferenceEntityConfiguredValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Normalizer/RecordCodeNormalizer.php.html#29"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Normalizer\RecordCodeNormalizer::normalize">normalize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#34"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Normalizer\ReferenceEntityCollectionValueNormalizer::getNormalizedData">getNormalizedData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Normalizer/ReferenceEntityValueNormalizer.php.html#32"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Normalizer\ReferenceEntityValueNormalizer::getNormalizedData">getNormalizedData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Provider/ReferenceEntityCollectionProvider.php.html#30"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Provider\ReferenceEntityCollectionProvider::getEmptyValue">getEmptyValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Provider/ReferenceEntityCollectionProvider.php.html#38"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Provider\ReferenceEntityCollectionProvider::getField">getField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Provider/ReferenceEntityProvider.php.html#31"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Provider\ReferenceEntityProvider::getEmptyValue">getEmptyValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Provider/ReferenceEntityProvider.php.html#39"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Provider\ReferenceEntityProvider::getField">getField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Updater/Adder/ReferenceEntityCollectionAdder.php.html#47"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Updater\Adder\ReferenceEntityCollectionAdder::addAttributeData">addAttributeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Updater/Adder/ReferenceEntityCollectionAdder.php.html#66"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Updater\Adder\ReferenceEntityCollectionAdder::addReferenceEntityCodes">addReferenceEntityCodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Validator/Constraints/IsReferenceEntityConfigured.php.html#40"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Validator\Constraints\IsReferenceEntityConfigured::validatedBy">validatedBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Validator/Constraints/IsReferenceEntityConfiguredValidator.php.html#50"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Validator\Constraints\IsReferenceEntityConfiguredValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityValueFactory.php.html#47"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityValueFactory::prepareData">prepareData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Validator/Constraints/IsReferenceEntityConfiguredValidator.php.html#75"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Validator\Constraints\IsReferenceEntityConfiguredValidator::addEmptyViolation">addEmptyViolation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Validator/Constraints/IsReferenceEntityConfiguredValidator.php.html#83"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Validator\Constraints\IsReferenceEntityConfiguredValidator::addInvalidViolation">addInvalidViolation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Validator/Constraints/IsReferenceEntityConfiguredValidator.php.html#92"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Validator\Constraints\IsReferenceEntityConfiguredValidator::addUnknownViolation">addUnknownViolation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityCollectionValue.php.html#29"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityCollectionValue::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityCollectionValue.php.html#37"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityCollectionValue::getData">getData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityCollectionValue.php.html#45"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityCollectionValue::isEqual">isEqual</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityCollectionValue.php.html#55"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityCollectionValue::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityValue.php.html#30"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityValue::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityValue.php.html#38"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityValue::getData">getData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityValue.php.html#46"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityValue::isEqual">isEqual</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityValueFactory.php.html#67"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityValueFactory::getRecordCode">getRecordCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityCollectionValueFactory.php.html#87"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityCollectionValueFactory::getRecordCodeCollection">getRecordCodeCollection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityCollectionValueFactory.php.html#54"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityCollectionValueFactory::prepareData">prepareData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Extension/Formatter/Property/ProductValue/ReferenceEntityCollectionProperty.php.html#52"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Extension\Formatter\Property\ProductValue\ReferenceEntityCollectionProperty::format">format</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Asset/Component/Updater/Adder/AssetCollectionAdder.php.html#47"><abbr title="Akeneo\Pim\Enrichment\Asset\Component\Updater\Adder\AssetCollectionAdder::addAttributeData">addAttributeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Asset/Component/Updater/Adder/AssetCollectionAdder.php.html#66"><abbr title="Akeneo\Pim\Enrichment\Asset\Component\Updater\Adder\AssetCollectionAdder::addAssetCodes">addAssetCodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Analytics/CountReferenceEntities.php.html#23"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Analytics\CountReferenceEntities::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Analytics/CountReferenceEntities.php.html#29"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Analytics\CountReferenceEntities::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Analytics/CountReferenceEntities.php.html#36"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Analytics\CountReferenceEntities::adapt">adapt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/CatalogVolumeMonitoring/AverageMaxNumberOfAttributesPerReferenceEntity.php.html#26"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\CatalogVolumeMonitoring\AverageMaxNumberOfAttributesPerReferenceEntity::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/CatalogVolumeMonitoring/AverageMaxNumberOfAttributesPerReferenceEntity.php.html#34"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\CatalogVolumeMonitoring\AverageMaxNumberOfAttributesPerReferenceEntity::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/CatalogVolumeMonitoring/AverageMaxNumberOfRecordsPerReferenceEntity.php.html#26"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\CatalogVolumeMonitoring\AverageMaxNumberOfRecordsPerReferenceEntity::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/CatalogVolumeMonitoring/AverageMaxNumberOfRecordsPerReferenceEntity.php.html#34"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\CatalogVolumeMonitoring\AverageMaxNumberOfRecordsPerReferenceEntity::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/CatalogVolumeMonitoring/CountReferenceEntities.php.html#26"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\CatalogVolumeMonitoring\CountReferenceEntities::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/CatalogVolumeMonitoring/CountReferenceEntities.php.html#32"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\CatalogVolumeMonitoring\CountReferenceEntities::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Filter/ProductValue/ReferenceEntityRecordFilter.php.html#123"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Filter\ProductValue\ReferenceEntityRecordFilter::filterOnlyExistingOptions">filterOnlyExistingOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#41"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityCollectionValueNormalizer::normalize">normalize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#64"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityCollectionValueNormalizer::valueIsEmpty">valueIsEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#69"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityCollectionValueNormalizer::formatMultipleLinks">formatMultipleLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#83"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityCollectionValueNormalizer::formatLink">formatLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#96"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityCollectionValueNormalizer::getRecordInformation">getRecordInformation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityValueNormalizer.php.html#40"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityValueNormalizer::normalize">normalize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityValueNormalizer.php.html#61"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityValueNormalizer::valueIsEmpty">valueIsEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityValueNormalizer.php.html#68"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityValueNormalizer::formatSimpleLink">formatSimpleLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityValueNormalizer.php.html#83"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityValueNormalizer::getRecordInformation">getRecordInformation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Query/GetRecordInformationQuery.php.html#32"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Query\GetRecordInformationQuery::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Filter/ReferenceEntityFilter.php.html#64"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Filter\ReferenceEntityFilter::addAttributeFilter">addAttributeFilter</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Filter/ReferenceEntityFilter.php.html#158"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Filter\ReferenceEntityFilter::checkValue">checkValue</abbr></a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="Asset/Component/AssetCollectionValueFactory.php.html#54"><abbr title="Akeneo\Pim\Enrichment\Asset\Component\AssetCollectionValueFactory::prepareData">prepareData</abbr></a></td><td class="text-right">48%</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Filter/ProductValue/ReferenceEntityRecordFilter.php.html#69"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Filter\ProductValue\ReferenceEntityRecordFilter::apply">apply</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Asset/Component/Completeness/Checker/AssetCollectionCompleteChecker.php.html#48"><abbr title="Akeneo\Pim\Enrichment\Asset\Component\Completeness\Checker\AssetCollectionCompleteChecker::isComplete">isComplete</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ReferenceEntity/Component/Validator/Constraints/IsReferenceEntityConfiguredValidator.php.html#50"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Validator\Constraints\IsReferenceEntityConfiguredValidator::validate">validate</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Updater/Adder/ReferenceEntityCollectionAdder.php.html#66"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Updater\Adder\ReferenceEntityCollectionAdder::addReferenceEntityCodes">addReferenceEntityCodes</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityValueFactory.php.html#67"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityValueFactory::getRecordCode">getRecordCode</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityCollectionValueFactory.php.html#54"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityCollectionValueFactory::prepareData">prepareData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityValue.php.html#46"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityValue::isEqual">isEqual</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Filter/ReferenceEntityFilter.php.html#64"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Filter\ReferenceEntityFilter::addAttributeFilter">addAttributeFilter</abbr></a></td><td class="text-right">23</td></tr>
+       <tr><td><a href="Asset/Component/AssetCollectionValueFactory.php.html#54"><abbr title="Akeneo\Pim\Enrichment\Asset\Component\AssetCollectionValueFactory::prepareData">prepareData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityCollectionValueFactory.php.html#87"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityCollectionValueFactory::getRecordCodeCollection">getRecordCodeCollection</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Extension/Formatter/Property/ProductValue/ReferenceEntityCollectionProperty.php.html#52"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Extension\Formatter\Property\ProductValue\ReferenceEntityCollectionProperty::format">format</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityCollectionValue.php.html#29"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityCollectionValue::__construct">__construct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Asset/Component/Updater/Adder/AssetCollectionAdder.php.html#66"><abbr title="Akeneo\Pim\Enrichment\Asset\Component\Updater\Adder\AssetCollectionAdder::addAssetCodes">addAssetCodes</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Normalizer/ReferenceEntityValueNormalizer.php.html#32"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Normalizer\ReferenceEntityValueNormalizer::getNormalizedData">getNormalizedData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityValue.php.html#30"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityValue::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#41"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityCollectionValueNormalizer::normalize">normalize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Factory/ReferenceEntityValueFactory.php.html#47"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Factory\ReferenceEntityValueFactory::prepareData">prepareData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityCollectionValue.php.html#45"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityCollectionValue::isEqual">isEqual</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityValueNormalizer.php.html#40"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityValueNormalizer::normalize">normalize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Asset/Component/Updater/Adder/AssetCollectionAdder.php.html#47"><abbr title="Akeneo\Pim\Enrichment\Asset\Component\Updater\Adder\AssetCollectionAdder::addAttributeData">addAttributeData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityValue.php.html#38"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityValue::getData">getData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityCollectionValue.php.html#55"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityCollectionValue::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityCollectionValue.php.html#37"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityCollectionValue::getData">getData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityCollectionValueNormalizer.php.html#83"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityCollectionValueNormalizer::formatLink">formatLink</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Updater/Adder/ReferenceEntityCollectionAdder.php.html#47"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Updater\Adder\ReferenceEntityCollectionAdder::addAttributeData">addAttributeData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Normalizer/RecordCodeNormalizer.php.html#29"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Normalizer\RecordCodeNormalizer::normalize">normalize</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Query/GetRecordInformationQuery.php.html#32"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Query\GetRecordInformationQuery::fetch">fetch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityValueNormalizer.php.html#68"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityValueNormalizer::formatSimpleLink">formatSimpleLink</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Normalizer/ReferenceEntityValueNormalizer.php.html#61"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Normalizer\ReferenceEntityValueNormalizer::valueIsEmpty">valueIsEmpty</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Value/ReferenceEntityValue.php.html#62"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Value\ReferenceEntityValue::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Asset/Component/Completeness/Checker/AssetCollectionCompleteChecker.php.html#48"><abbr title="Akeneo\Pim\Enrichment\Asset\Component\Completeness\Checker\AssetCollectionCompleteChecker::isComplete">isComplete</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="ReferenceEntity/Component/Filter/ReferenceEntityFilter.php.html#158"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Component\Filter\ReferenceEntityFilter::checkValue">checkValue</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ReferenceEntity/Bundle/Datagrid/Filter/ProductValue/ReferenceEntityRecordFilter.php.html#69"><abbr title="Akeneo\Pim\Enrichment\ReferenceEntity\Bundle\Datagrid\Filter\ProductValue\ReferenceEntityRecordFilter::apply">apply</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.2</a> at Sun Apr 7 17:13:38 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([7,0,7,2,1,0,6,0,0,1,1,6], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([50,0,0,0,1,2,0,0,0,2,0,34], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,3,"<a href=\"Asset\/Bundle\/Doctrine\/ORM\/CompletenessRemover.php.html#23\">Akeneo\\Pim\\Enrichment\\Asset\\Bundle\\Doctrine\\ORM\\CompletenessRemover<\/a>"],[53.125,10,"<a href=\"Asset\/Component\/AssetCollectionValueFactory.php.html#33\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\AssetCollectionValueFactory<\/a>"],[100,5,"<a href=\"Asset\/Component\/Comparator\/Attribute\/AssetCollectionComparator.php.html#21\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Comparator\\Attribute\\AssetCollectionComparator<\/a>"],[94.73684210526315,11,"<a href=\"Asset\/Component\/Completeness\/Checker\/AssetCollectionCompleteChecker.php.html#26\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Completeness\\Checker\\AssetCollectionCompleteChecker<\/a>"],[16.666666666666664,7,"<a href=\"Asset\/Component\/Updater\/Adder\/AssetCollectionAdder.php.html#29\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Updater\\Adder\\AssetCollectionAdder<\/a>"],[0,3,"<a href=\"ReferenceEntity\/Bundle\/Analytics\/CountReferenceEntities.php.html#16\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Analytics\\CountReferenceEntities<\/a>"],[100,2,"<a href=\"ReferenceEntity\/Bundle\/Analytics\/ReferenceEntityStatisticsCollector.php.html#20\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Analytics\\ReferenceEntityStatisticsCollector<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Bundle\/CatalogVolumeMonitoring\/AverageMaxNumberOfAttributesPerReferenceEntity.php.html#16\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\CatalogVolumeMonitoring\\AverageMaxNumberOfAttributesPerReferenceEntity<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Bundle\/CatalogVolumeMonitoring\/AverageMaxNumberOfRecordsPerReferenceEntity.php.html#16\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\CatalogVolumeMonitoring\\AverageMaxNumberOfRecordsPerReferenceEntity<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Bundle\/CatalogVolumeMonitoring\/CountReferenceEntities.php.html#16\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\CatalogVolumeMonitoring\\CountReferenceEntities<\/a>"],[50,5,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Extension\/Formatter\/Property\/ProductValue\/ReferenceEntityCollectionProperty.php.html#25\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Extension\\Formatter\\Property\\ProductValue\\ReferenceEntityCollectionProperty<\/a>"],[84,6,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Filter\/ProductValue\/ReferenceEntityRecordFilter.php.html#34\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Filter\\ProductValue\\ReferenceEntityRecordFilter<\/a>"],[15.384615384615385,11,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityCollectionValueNormalizer.php.html#22\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityCollectionValueNormalizer<\/a>"],[18.181818181818183,11,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityValueNormalizer.php.html#21\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityValueNormalizer<\/a>"],[13.333333333333334,3,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Query\/GetRecordInformationQuery.php.html#22\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Query\\GetRecordInformationQuery<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Component\/AttributeType\/ReferenceEntityCollectionType.php.html#22\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\AttributeType\\ReferenceEntityCollectionType<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Component\/AttributeType\/ReferenceEntityType.php.html#24\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\AttributeType\\ReferenceEntityType<\/a>"],[16.129032258064516,10,"<a href=\"ReferenceEntity\/Component\/Factory\/ReferenceEntityCollectionValueFactory.php.html#33\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Factory\\ReferenceEntityCollectionValueFactory<\/a>"],[13.636363636363635,9,"<a href=\"ReferenceEntity\/Component\/Factory\/ReferenceEntityValueFactory.php.html#32\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Factory\\ReferenceEntityValueFactory<\/a>"],[51.78571428571429,15,"<a href=\"ReferenceEntity\/Component\/Filter\/ReferenceEntityFilter.php.html#33\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Filter\\ReferenceEntityFilter<\/a>"],[25,6,"<a href=\"ReferenceEntity\/Component\/Normalizer\/RecordCodeNormalizer.php.html#22\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Normalizer\\RecordCodeNormalizer<\/a>"],[20,3,"<a href=\"ReferenceEntity\/Component\/Normalizer\/ReferenceEntityCollectionValueNormalizer.php.html#27\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Normalizer\\ReferenceEntityCollectionValueNormalizer<\/a>"],[50,5,"<a href=\"ReferenceEntity\/Component\/Normalizer\/ReferenceEntityValueNormalizer.php.html#25\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Normalizer\\ReferenceEntityValueNormalizer<\/a>"],[50,4,"<a href=\"ReferenceEntity\/Component\/Provider\/ReferenceEntityCollectionProvider.php.html#25\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Provider\\ReferenceEntityCollectionProvider<\/a>"],[33.33333333333333,4,"<a href=\"ReferenceEntity\/Component\/Provider\/ReferenceEntityProvider.php.html#26\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Provider\\ReferenceEntityProvider<\/a>"],[100,0,"<a href=\"ReferenceEntity\/Component\/Query\/RecordInformation.php.html#14\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Query\\RecordInformation<\/a>"],[16.666666666666664,9,"<a href=\"ReferenceEntity\/Component\/Updater\/Adder\/ReferenceEntityCollectionAdder.php.html#29\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Updater\\Adder\\ReferenceEntityCollectionAdder<\/a>"],[50,2,"<a href=\"ReferenceEntity\/Component\/Validator\/Constraints\/IsReferenceEntityConfigured.php.html#23\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Validator\\Constraints\\IsReferenceEntityConfigured<\/a>"],[0,10,"<a href=\"ReferenceEntity\/Component\/Validator\/Constraints\/IsReferenceEntityConfiguredValidator.php.html#27\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Validator\\Constraints\\IsReferenceEntityConfiguredValidator<\/a>"],[0,11,"<a href=\"ReferenceEntity\/Component\/Value\/ReferenceEntityCollectionValue.php.html#24\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Value\\ReferenceEntityCollectionValue<\/a>"],[0,12,"<a href=\"ReferenceEntity\/Component\/Value\/ReferenceEntityValue.php.html#25\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Value\\ReferenceEntityValue<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Asset\/Bundle\/Doctrine\/ORM\/CompletenessRemover.php.html#36\">Akeneo\\Pim\\Enrichment\\Asset\\Bundle\\Doctrine\\ORM\\CompletenessRemover::__construct<\/a>"],[100,2,"<a href=\"Asset\/Bundle\/Doctrine\/ORM\/CompletenessRemover.php.html#51\">Akeneo\\Pim\\Enrichment\\Asset\\Bundle\\Doctrine\\ORM\\CompletenessRemover::removeForAsset<\/a>"],[100,1,"<a href=\"Asset\/Component\/AssetCollectionValueFactory.php.html#42\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\AssetCollectionValueFactory::__construct<\/a>"],[48.275862068965516,9,"<a href=\"Asset\/Component\/AssetCollectionValueFactory.php.html#54\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\AssetCollectionValueFactory::prepareData<\/a>"],[100,1,"<a href=\"Asset\/Component\/Comparator\/Attribute\/AssetCollectionComparator.php.html#29\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Comparator\\Attribute\\AssetCollectionComparator::__construct<\/a>"],[100,1,"<a href=\"Asset\/Component\/Comparator\/Attribute\/AssetCollectionComparator.php.html#37\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Comparator\\Attribute\\AssetCollectionComparator::supports<\/a>"],[100,3,"<a href=\"Asset\/Component\/Comparator\/Attribute\/AssetCollectionComparator.php.html#45\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Comparator\\Attribute\\AssetCollectionComparator::compare<\/a>"],[100,1,"<a href=\"Asset\/Component\/Completeness\/Checker\/AssetCollectionCompleteChecker.php.html#35\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Completeness\\Checker\\AssetCollectionCompleteChecker::__construct<\/a>"],[88.88888888888889,5,"<a href=\"Asset\/Component\/Completeness\/Checker\/AssetCollectionCompleteChecker.php.html#48\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Completeness\\Checker\\AssetCollectionCompleteChecker::isComplete<\/a>"],[100,3,"<a href=\"Asset\/Component\/Completeness\/Checker\/AssetCollectionCompleteChecker.php.html#80\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Completeness\\Checker\\AssetCollectionCompleteChecker::checkAssetByLocaleAndChannel<\/a>"],[100,2,"<a href=\"Asset\/Component\/Completeness\/Checker\/AssetCollectionCompleteChecker.php.html#99\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Completeness\\Checker\\AssetCollectionCompleteChecker::supportsValue<\/a>"],[100,1,"<a href=\"Asset\/Component\/Updater\/Adder\/AssetCollectionAdder.php.html#35\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Updater\\Adder\\AssetCollectionAdder::__construct<\/a>"],[0,2,"<a href=\"Asset\/Component\/Updater\/Adder\/AssetCollectionAdder.php.html#47\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Updater\\Adder\\AssetCollectionAdder::addAttributeData<\/a>"],[0,4,"<a href=\"Asset\/Component\/Updater\/Adder\/AssetCollectionAdder.php.html#66\">Akeneo\\Pim\\Enrichment\\Asset\\Component\\Updater\\Adder\\AssetCollectionAdder::addAssetCodes<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/Analytics\/CountReferenceEntities.php.html#23\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Analytics\\CountReferenceEntities::__construct<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/Analytics\/CountReferenceEntities.php.html#29\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Analytics\\CountReferenceEntities::fetch<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/Analytics\/CountReferenceEntities.php.html#36\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Analytics\\CountReferenceEntities::adapt<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Bundle\/Analytics\/ReferenceEntityStatisticsCollector.php.html#43\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Analytics\\ReferenceEntityStatisticsCollector::__construct<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Bundle\/Analytics\/ReferenceEntityStatisticsCollector.php.html#61\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Analytics\\ReferenceEntityStatisticsCollector::collect<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/CatalogVolumeMonitoring\/AverageMaxNumberOfAttributesPerReferenceEntity.php.html#26\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\CatalogVolumeMonitoring\\AverageMaxNumberOfAttributesPerReferenceEntity::__construct<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/CatalogVolumeMonitoring\/AverageMaxNumberOfAttributesPerReferenceEntity.php.html#34\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\CatalogVolumeMonitoring\\AverageMaxNumberOfAttributesPerReferenceEntity::fetch<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/CatalogVolumeMonitoring\/AverageMaxNumberOfRecordsPerReferenceEntity.php.html#26\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\CatalogVolumeMonitoring\\AverageMaxNumberOfRecordsPerReferenceEntity::__construct<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/CatalogVolumeMonitoring\/AverageMaxNumberOfRecordsPerReferenceEntity.php.html#34\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\CatalogVolumeMonitoring\\AverageMaxNumberOfRecordsPerReferenceEntity::fetch<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/CatalogVolumeMonitoring\/CountReferenceEntities.php.html#26\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\CatalogVolumeMonitoring\\CountReferenceEntities::__construct<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/CatalogVolumeMonitoring\/CountReferenceEntities.php.html#32\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\CatalogVolumeMonitoring\\CountReferenceEntities::fetch<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Extension\/Formatter\/Property\/ProductValue\/ReferenceEntityCollectionProperty.php.html#38\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Extension\\Formatter\\Property\\ProductValue\\ReferenceEntityCollectionProperty::__construct<\/a>"],[0,4,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Extension\/Formatter\/Property\/ProductValue\/ReferenceEntityCollectionProperty.php.html#52\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Extension\\Formatter\\Property\\ProductValue\\ReferenceEntityCollectionProperty::format<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Filter\/ProductValue\/ReferenceEntityRecordFilter.php.html#51\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Filter\\ProductValue\\ReferenceEntityRecordFilter::__construct<\/a>"],[87.5,2,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Filter\/ProductValue\/ReferenceEntityRecordFilter.php.html#69\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Filter\\ProductValue\\ReferenceEntityRecordFilter::apply<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Filter\/ProductValue\/ReferenceEntityRecordFilter.php.html#91\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Filter\\ProductValue\\ReferenceEntityRecordFilter::getFormOptions<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Filter\/ProductValue\/ReferenceEntityRecordFilter.php.html#107\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Filter\\ProductValue\\ReferenceEntityRecordFilter::getMetadata<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Filter\/ProductValue\/ReferenceEntityRecordFilter.php.html#123\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Filter\\ProductValue\\ReferenceEntityRecordFilter::filterOnlyExistingOptions<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityCollectionValueNormalizer.php.html#30\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityCollectionValueNormalizer::__construct<\/a>"],[0,3,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityCollectionValueNormalizer.php.html#41\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityCollectionValueNormalizer::normalize<\/a>"],[100,2,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityCollectionValueNormalizer.php.html#59\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityCollectionValueNormalizer::supportsNormalization<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityCollectionValueNormalizer.php.html#64\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityCollectionValueNormalizer::valueIsEmpty<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityCollectionValueNormalizer.php.html#69\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityCollectionValueNormalizer::formatMultipleLinks<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityCollectionValueNormalizer.php.html#83\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityCollectionValueNormalizer::formatLink<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityCollectionValueNormalizer.php.html#96\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityCollectionValueNormalizer::getRecordInformation<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityValueNormalizer.php.html#29\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityValueNormalizer::__construct<\/a>"],[0,3,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityValueNormalizer.php.html#40\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityValueNormalizer::normalize<\/a>"],[100,2,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityValueNormalizer.php.html#56\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityValueNormalizer::supportsNormalization<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityValueNormalizer.php.html#61\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityValueNormalizer::valueIsEmpty<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityValueNormalizer.php.html#68\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityValueNormalizer::formatSimpleLink<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Normalizer\/ReferenceEntityValueNormalizer.php.html#83\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Normalizer\\ReferenceEntityValueNormalizer::getRecordInformation<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Query\/GetRecordInformationQuery.php.html#27\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Query\\GetRecordInformationQuery::__construct<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Bundle\/Datagrid\/Query\/GetRecordInformationQuery.php.html#32\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Bundle\\Datagrid\\Query\\GetRecordInformationQuery::fetch<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Component\/AttributeType\/ReferenceEntityCollectionType.php.html#29\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\AttributeType\\ReferenceEntityCollectionType::getName<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Component\/AttributeType\/ReferenceEntityType.php.html#31\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\AttributeType\\ReferenceEntityType::getName<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Component\/Factory\/ReferenceEntityCollectionValueFactory.php.html#41\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Factory\\ReferenceEntityCollectionValueFactory::__construct<\/a>"],[0,5,"<a href=\"ReferenceEntity\/Component\/Factory\/ReferenceEntityCollectionValueFactory.php.html#54\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Factory\\ReferenceEntityCollectionValueFactory::prepareData<\/a>"],[0,4,"<a href=\"ReferenceEntity\/Component\/Factory\/ReferenceEntityCollectionValueFactory.php.html#87\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Factory\\ReferenceEntityCollectionValueFactory::getRecordCodeCollection<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Component\/Factory\/ReferenceEntityValueFactory.php.html#37\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Factory\\ReferenceEntityValueFactory::__construct<\/a>"],[0,3,"<a href=\"ReferenceEntity\/Component\/Factory\/ReferenceEntityValueFactory.php.html#47\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Factory\\ReferenceEntityValueFactory::prepareData<\/a>"],[0,5,"<a href=\"ReferenceEntity\/Component\/Factory\/ReferenceEntityValueFactory.php.html#67\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Factory\\ReferenceEntityValueFactory::getRecordCode<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Component\/Filter\/ReferenceEntityFilter.php.html#48\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Filter\\ReferenceEntityFilter::__construct<\/a>"],[37.03703703703704,8,"<a href=\"ReferenceEntity\/Component\/Filter\/ReferenceEntityFilter.php.html#64\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Filter\\ReferenceEntityFilter::addAttributeFilter<\/a>"],[100,3,"<a href=\"ReferenceEntity\/Component\/Filter\/ReferenceEntityFilter.php.html#139\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Filter\\ReferenceEntityFilter::supportsAttribute<\/a>"],[44.44444444444444,3,"<a href=\"ReferenceEntity\/Component\/Filter\/ReferenceEntityFilter.php.html#158\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Filter\\ReferenceEntityFilter::checkValue<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Component\/Normalizer\/RecordCodeNormalizer.php.html#29\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Normalizer\\RecordCodeNormalizer::normalize<\/a>"],[100,4,"<a href=\"ReferenceEntity\/Component\/Normalizer\/RecordCodeNormalizer.php.html#41\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Normalizer\\RecordCodeNormalizer::supportsNormalization<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Component\/Normalizer\/ReferenceEntityCollectionValueNormalizer.php.html#34\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Normalizer\\ReferenceEntityCollectionValueNormalizer::getNormalizedData<\/a>"],[100,2,"<a href=\"ReferenceEntity\/Component\/Normalizer\/ReferenceEntityCollectionValueNormalizer.php.html#47\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Normalizer\\ReferenceEntityCollectionValueNormalizer::supportsNormalization<\/a>"],[0,3,"<a href=\"ReferenceEntity\/Component\/Normalizer\/ReferenceEntityValueNormalizer.php.html#32\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Normalizer\\ReferenceEntityValueNormalizer::getNormalizedData<\/a>"],[100,2,"<a href=\"ReferenceEntity\/Component\/Normalizer\/ReferenceEntityValueNormalizer.php.html#40\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Normalizer\\ReferenceEntityValueNormalizer::supportsNormalization<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Component\/Provider\/ReferenceEntityCollectionProvider.php.html#30\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Provider\\ReferenceEntityCollectionProvider::getEmptyValue<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Component\/Provider\/ReferenceEntityCollectionProvider.php.html#38\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Provider\\ReferenceEntityCollectionProvider::getField<\/a>"],[100,2,"<a href=\"ReferenceEntity\/Component\/Provider\/ReferenceEntityCollectionProvider.php.html#46\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Provider\\ReferenceEntityCollectionProvider::supports<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Component\/Provider\/ReferenceEntityProvider.php.html#31\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Provider\\ReferenceEntityProvider::getEmptyValue<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Component\/Provider\/ReferenceEntityProvider.php.html#39\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Provider\\ReferenceEntityProvider::getField<\/a>"],[100,2,"<a href=\"ReferenceEntity\/Component\/Provider\/ReferenceEntityProvider.php.html#47\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Provider\\ReferenceEntityProvider::supports<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Component\/Updater\/Adder\/ReferenceEntityCollectionAdder.php.html#35\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Updater\\Adder\\ReferenceEntityCollectionAdder::__construct<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Component\/Updater\/Adder\/ReferenceEntityCollectionAdder.php.html#47\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Updater\\Adder\\ReferenceEntityCollectionAdder::addAttributeData<\/a>"],[0,6,"<a href=\"ReferenceEntity\/Component\/Updater\/Adder\/ReferenceEntityCollectionAdder.php.html#66\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Updater\\Adder\\ReferenceEntityCollectionAdder::addReferenceEntityCodes<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Component\/Validator\/Constraints\/IsReferenceEntityConfigured.php.html#40\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Validator\\Constraints\\IsReferenceEntityConfigured::validatedBy<\/a>"],[100,1,"<a href=\"ReferenceEntity\/Component\/Validator\/Constraints\/IsReferenceEntityConfigured.php.html#48\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Validator\\Constraints\\IsReferenceEntityConfigured::getTargets<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Component\/Validator\/Constraints\/IsReferenceEntityConfiguredValidator.php.html#39\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Validator\\Constraints\\IsReferenceEntityConfiguredValidator::__construct<\/a>"],[0,6,"<a href=\"ReferenceEntity\/Component\/Validator\/Constraints\/IsReferenceEntityConfiguredValidator.php.html#50\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Validator\\Constraints\\IsReferenceEntityConfiguredValidator::validate<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Component\/Validator\/Constraints\/IsReferenceEntityConfiguredValidator.php.html#75\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Validator\\Constraints\\IsReferenceEntityConfiguredValidator::addEmptyViolation<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Component\/Validator\/Constraints\/IsReferenceEntityConfiguredValidator.php.html#83\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Validator\\Constraints\\IsReferenceEntityConfiguredValidator::addInvalidViolation<\/a>"],[0,1,"<a href=\"ReferenceEntity\/Component\/Validator\/Constraints\/IsReferenceEntityConfiguredValidator.php.html#92\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Validator\\Constraints\\IsReferenceEntityConfiguredValidator::addUnknownViolation<\/a>"],[0,4,"<a href=\"ReferenceEntity\/Component\/Value\/ReferenceEntityCollectionValue.php.html#29\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Value\\ReferenceEntityCollectionValue::__construct<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Component\/Value\/ReferenceEntityCollectionValue.php.html#37\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Value\\ReferenceEntityCollectionValue::getData<\/a>"],[0,3,"<a href=\"ReferenceEntity\/Component\/Value\/ReferenceEntityCollectionValue.php.html#45\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Value\\ReferenceEntityCollectionValue::isEqual<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Component\/Value\/ReferenceEntityCollectionValue.php.html#55\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Value\\ReferenceEntityCollectionValue::__toString<\/a>"],[0,3,"<a href=\"ReferenceEntity\/Component\/Value\/ReferenceEntityValue.php.html#30\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Value\\ReferenceEntityValue::__construct<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Component\/Value\/ReferenceEntityValue.php.html#38\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Value\\ReferenceEntityValue::getData<\/a>"],[0,5,"<a href=\"ReferenceEntity\/Component\/Value\/ReferenceEntityValue.php.html#46\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Value\\ReferenceEntityValue::isEqual<\/a>"],[0,2,"<a href=\"ReferenceEntity\/Component\/Value\/ReferenceEntityValue.php.html#62\">Akeneo\\Pim\\Enrichment\\ReferenceEntity\\Component\\Value\\ReferenceEntityValue::__toString<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

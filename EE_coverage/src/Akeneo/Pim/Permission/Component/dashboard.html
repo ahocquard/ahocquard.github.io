@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Pim/Permission/Component</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/srv/pim</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Pim</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Permission</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Component</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/AssetCategoryAccesses.php.html#21">Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\AssetCategoryAccesses</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/AttributeGroupAccesses.php.html#21">Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\AttributeGroupAccesses</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/JobProfileAccesses.php.html#21">Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\JobProfileAccesses</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/LocaleAccesses.php.html#21">Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\LocaleAccesses</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/ProductCategoryAccesses.php.html#19">Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\ProductCategoryAccesses</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/ProductModelRemover.php.html#27">Akeneo\Pim\Permission\Component\Remover\ProductModelRemover</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Updater/AttributeGroupAccessUpdater.php.html#26">Akeneo\Pim\Permission\Component\Updater\AttributeGroupAccessUpdater</a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="Updater/JobProfileAccessUpdater.php.html#26">Akeneo\Pim\Permission\Component\Updater\JobProfileAccessUpdater</a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="Updater/LocaleAccessUpdater.php.html#26">Akeneo\Pim\Permission\Component\Updater\LocaleAccessUpdater</a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="Updater/AssetCategoryAccessUpdater.php.html#26">Akeneo\Pim\Permission\Component\Updater\AssetCategoryAccessUpdater</a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="Validator/Constraint/AreGrantedAttributesValidator.php.html#24">Akeneo\Pim\Permission\Component\Validator\Constraint\AreGrantedAttributesValidator</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Updater/ProductCategoryAccessUpdater.php.html#26">Akeneo\Pim\Permission\Component\Updater\ProductCategoryAccessUpdater</a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="Exception/ResourceAccessDeniedException.php.html#21">Akeneo\Pim\Permission\Component\Exception\ResourceAccessDeniedException</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Authorization/Model/UserRightsOnProductModel.php.html#16">Akeneo\Pim\Permission\Component\Authorization\Model\UserRightsOnProductModel</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Authorization/Model/UserRightsOnProduct.php.html#16">Akeneo\Pim\Permission\Component\Authorization\Model\UserRightsOnProduct</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Merger/NotGrantedCategoryMerger.php.html#51">Akeneo\Pim\Permission\Component\Merger\NotGrantedCategoryMerger</a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Filter/NotGrantedCategoryFilter.php.html#27">Akeneo\Pim\Permission\Component\Filter\NotGrantedCategoryFilter</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Validator/Constraint/IsGrantedLocaleValidator.php.html#24">Akeneo\Pim\Permission\Component\Validator\Constraint\IsGrantedLocaleValidator</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Factory/FilteredEntityFactory.php.html#25">Akeneo\Pim\Permission\Component\Factory\FilteredEntityFactory</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Merger/NotGrantedAssociatedProductMerger.php.html#61">Akeneo\Pim\Permission\Component\Merger\NotGrantedAssociatedProductMerger</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Remover/ProductRemover.php.html#29">Akeneo\Pim\Permission\Component\Remover\ProductRemover</a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="Merger/MergeDataOnProduct.php.html#29">Akeneo\Pim\Permission\Component\Merger\MergeDataOnProduct</a></td><td class="text-right">89%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/ProductCategoryAccesses.php.html#19">Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\ProductCategoryAccesses</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/AssetCategoryAccesses.php.html#21">Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\AssetCategoryAccesses</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Updater/AssetCategoryAccessUpdater.php.html#26">Akeneo\Pim\Permission\Component\Updater\AssetCategoryAccessUpdater</a></td><td class="text-right">23</td></tr>
+       <tr><td><a href="Updater/ProductCategoryAccessUpdater.php.html#26">Akeneo\Pim\Permission\Component\Updater\ProductCategoryAccessUpdater</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/AttributeGroupAccesses.php.html#21">Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\AttributeGroupAccesses</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/JobProfileAccesses.php.html#21">Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\JobProfileAccesses</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/LocaleAccesses.php.html#21">Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\LocaleAccesses</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Updater/LocaleAccessUpdater.php.html#26">Akeneo\Pim\Permission\Component\Updater\LocaleAccessUpdater</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="Updater/JobProfileAccessUpdater.php.html#26">Akeneo\Pim\Permission\Component\Updater\JobProfileAccessUpdater</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="Updater/AttributeGroupAccessUpdater.php.html#26">Akeneo\Pim\Permission\Component\Updater\AttributeGroupAccessUpdater</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="Merger/NotGrantedAssociatedProductMerger.php.html#61">Akeneo\Pim\Permission\Component\Merger\NotGrantedAssociatedProductMerger</a></td><td class="text-right">17</td></tr>
+       <tr><td><a href="Remover/ProductModelRemover.php.html#27">Akeneo\Pim\Permission\Component\Remover\ProductModelRemover</a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Merger/MergeDataOnProduct.php.html#29">Akeneo\Pim\Permission\Component\Merger\MergeDataOnProduct</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Remover/ProductRemover.php.html#29">Akeneo\Pim\Permission\Component\Remover\ProductRemover</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Authorization/Model/UserRightsOnProduct.php.html#16">Akeneo\Pim\Permission\Component\Authorization\Model\UserRightsOnProduct</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Authorization/Model/UserRightsOnProductModel.php.html#16">Akeneo\Pim\Permission\Component\Authorization\Model\UserRightsOnProductModel</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Validator/Constraint/AreGrantedAttributesValidator.php.html#24">Akeneo\Pim\Permission\Component\Validator\Constraint\AreGrantedAttributesValidator</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Merger/NotGrantedCategoryMerger.php.html#51">Akeneo\Pim\Permission\Component\Merger\NotGrantedCategoryMerger</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Filter/NotGrantedCategoryFilter.php.html#27">Akeneo\Pim\Permission\Component\Filter\NotGrantedCategoryFilter</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Factory/FilteredEntityFactory.php.html#25">Akeneo\Pim\Permission\Component\Factory\FilteredEntityFactory</a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Validator/Constraint/IsGrantedLocaleValidator.php.html#24">Akeneo\Pim\Permission\Component\Validator\Constraint\IsGrantedLocaleValidator</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Authorization/Model/UserRightsOnProduct.php.html#64"><abbr title="Akeneo\Pim\Permission\Component\Authorization\Model\UserRightsOnProduct::productIdentifier">productIdentifier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authorization/Model/UserRightsOnProduct.php.html#69"><abbr title="Akeneo\Pim\Permission\Component\Authorization\Model\UserRightsOnProduct::userId">userId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authorization/Model/UserRightsOnProductModel.php.html#64"><abbr title="Akeneo\Pim\Permission\Component\Authorization\Model\UserRightsOnProductModel::productModelCode">productModelCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authorization/Model/UserRightsOnProductModel.php.html#69"><abbr title="Akeneo\Pim\Permission\Component\Authorization\Model\UserRightsOnProductModel::userId">userId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/AssetCategoryAccesses.php.html#53"><abbr title="Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\AssetCategoryAccesses::convert">convert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/AttributeGroupAccesses.php.html#50"><abbr title="Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\AttributeGroupAccesses::convert">convert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/JobProfileAccesses.php.html#51"><abbr title="Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\JobProfileAccesses::convert">convert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/LocaleAccesses.php.html#51"><abbr title="Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\LocaleAccesses::convert">convert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/ProductCategoryAccesses.php.html#52"><abbr title="Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\ProductCategoryAccesses::convert">convert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/ResourceAccessDeniedException.php.html#41"><abbr title="Akeneo\Pim\Permission\Component\Exception\ResourceAccessDeniedException::getResource">getResource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/ProductModelRemover.php.html#77"><abbr title="Akeneo\Pim\Permission\Component\Remover\ProductModelRemover::removeAll">removeAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Remover/ProductRemover.php.html#99"><abbr title="Akeneo\Pim\Permission\Component\Remover\ProductRemover::ensureIsAProduct">ensureIsAProduct</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Remover/ProductModelRemover.php.html#97"><abbr title="Akeneo\Pim\Permission\Component\Remover\ProductModelRemover::ensureIsAProductModel">ensureIsAProductModel</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Updater/ProductCategoryAccessUpdater.php.html#58"><abbr title="Akeneo\Pim\Permission\Component\Updater\ProductCategoryAccessUpdater::update">update</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Updater/JobProfileAccessUpdater.php.html#57"><abbr title="Akeneo\Pim\Permission\Component\Updater\JobProfileAccessUpdater::update">update</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Updater/LocaleAccessUpdater.php.html#57"><abbr title="Akeneo\Pim\Permission\Component\Updater\LocaleAccessUpdater::update">update</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Updater/AttributeGroupAccessUpdater.php.html#57"><abbr title="Akeneo\Pim\Permission\Component\Updater\AttributeGroupAccessUpdater::update">update</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Updater/AssetCategoryAccessUpdater.php.html#58"><abbr title="Akeneo\Pim\Permission\Component\Updater\AssetCategoryAccessUpdater::update">update</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Validator/Constraint/AreGrantedAttributesValidator.php.html#47"><abbr title="Akeneo\Pim\Permission\Component\Validator\Constraint\AreGrantedAttributesValidator::validate">validate</abbr></a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="Remover/ProductModelRemover.php.html#112"><abbr title="Akeneo\Pim\Permission\Component\Remover\ProductModelRemover::checkUserAuthorization">checkUserAuthorization</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Updater/AttributeGroupAccessUpdater.php.html#80"><abbr title="Akeneo\Pim\Permission\Component\Updater\AttributeGroupAccessUpdater::setData">setData</abbr></a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Updater/LocaleAccessUpdater.php.html#80"><abbr title="Akeneo\Pim\Permission\Component\Updater\LocaleAccessUpdater::setData">setData</abbr></a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Updater/JobProfileAccessUpdater.php.html#80"><abbr title="Akeneo\Pim\Permission\Component\Updater\JobProfileAccessUpdater::setData">setData</abbr></a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Updater/AssetCategoryAccessUpdater.php.html#81"><abbr title="Akeneo\Pim\Permission\Component\Updater\AssetCategoryAccessUpdater::setData">setData</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Updater/ProductCategoryAccessUpdater.php.html#81"><abbr title="Akeneo\Pim\Permission\Component\Updater\ProductCategoryAccessUpdater::setData">setData</abbr></a></td><td class="text-right">67%</td></tr>
+       <tr><td><a href="Manager/AttributeValuesResolver.php.html#97"><abbr title="Akeneo\Pim\Permission\Component\Manager\AttributeValuesResolver::isGrantedAttribute">isGrantedAttribute</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Merger/NotGrantedValuesMerger.php.html#198"><abbr title="Akeneo\Pim\Permission\Component\Merger\NotGrantedValuesMerger::isGrantedAttribute">isGrantedAttribute</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Filter/GrantedProductAttributeFilter.php.html#96"><abbr title="Akeneo\Pim\Permission\Component\Filter\GrantedProductAttributeFilter::checkGrantedLocale">checkGrantedLocale</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Merger/NotGrantedCategoryMerger.php.html#74"><abbr title="Akeneo\Pim\Permission\Component\Merger\NotGrantedCategoryMerger::merge">merge</abbr></a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="Validator/Constraint/IsGrantedLocaleValidator.php.html#47"><abbr title="Akeneo\Pim\Permission\Component\Validator\Constraint\IsGrantedLocaleValidator::validate">validate</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Filter/NotGrantedParentFilter.php.html#32"><abbr title="Akeneo\Pim\Permission\Component\Filter\NotGrantedParentFilter::filter">filter</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Filter/NotGrantedCategoryFilter.php.html#43"><abbr title="Akeneo\Pim\Permission\Component\Filter\NotGrantedCategoryFilter::filter">filter</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Authorization/CachedAuthorizationChecker.php.html#101"><abbr title="Akeneo\Pim\Permission\Component\Authorization\CachedAuthorizationChecker::getObjectAsIndex">getObjectAsIndex</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Manager/AttributeValuesResolver.php.html#114"><abbr title="Akeneo\Pim\Permission\Component\Manager\AttributeValuesResolver::isGrantedLocale">isGrantedLocale</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Updater/GrantedProductModelUpdater.php.html#59"><abbr title="Akeneo\Pim\Permission\Component\Updater\GrantedProductModelUpdater::update">update</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Factory/FilteredEntityFactory.php.html#45"><abbr title="Akeneo\Pim\Permission\Component\Factory\FilteredEntityFactory::create">create</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Updater/GrantedProductUpdater.php.html#84"><abbr title="Akeneo\Pim\Permission\Component\Updater\GrantedProductUpdater::update">update</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Merger/MergeDataOnProduct.php.html#64"><abbr title="Akeneo\Pim\Permission\Component\Merger\MergeDataOnProduct::merge">merge</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Merger/NotGrantedAssociatedProductMerger.php.html#102"><abbr title="Akeneo\Pim\Permission\Component\Merger\NotGrantedAssociatedProductMerger::merge">merge</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Merger/NotGrantedValuesMerger.php.html#121"><abbr title="Akeneo\Pim\Permission\Component\Merger\NotGrantedValuesMerger::merge">merge</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Merger/MergeDataOnProductModel.php.html#43"><abbr title="Akeneo\Pim\Permission\Component\Merger\MergeDataOnProductModel::merge">merge</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="Filter/NotGrantedAssociatedProductFilter.php.html#65"><abbr title="Akeneo\Pim\Permission\Component\Filter\NotGrantedAssociatedProductFilter::filter">filter</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="Authorization/DenyNotGrantedCategorizedEntity.php.html#42"><abbr title="Akeneo\Pim\Permission\Component\Authorization\DenyNotGrantedCategorizedEntity::denyIfNotGranted">denyIfNotGranted</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/ProductCategoryAccesses.php.html#52"><abbr title="Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\ProductCategoryAccesses::convert">convert</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/AssetCategoryAccesses.php.html#53"><abbr title="Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\AssetCategoryAccesses::convert">convert</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/AttributeGroupAccesses.php.html#50"><abbr title="Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\AttributeGroupAccesses::convert">convert</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/JobProfileAccesses.php.html#51"><abbr title="Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\JobProfileAccesses::convert">convert</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/LocaleAccesses.php.html#51"><abbr title="Akeneo\Pim\Permission\Component\Connector\ArrayConverter\StandardToFlat\LocaleAccesses::convert">convert</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Merger/NotGrantedAssociatedProductMerger.php.html#102"><abbr title="Akeneo\Pim\Permission\Component\Merger\NotGrantedAssociatedProductMerger::merge">merge</abbr></a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="Updater/AssetCategoryAccessUpdater.php.html#81"><abbr title="Akeneo\Pim\Permission\Component\Updater\AssetCategoryAccessUpdater::setData">setData</abbr></a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="Updater/ProductCategoryAccessUpdater.php.html#81"><abbr title="Akeneo\Pim\Permission\Component\Updater\ProductCategoryAccessUpdater::setData">setData</abbr></a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Merger/NotGrantedValuesMerger.php.html#121"><abbr title="Akeneo\Pim\Permission\Component\Merger\NotGrantedValuesMerger::merge">merge</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Updater/AttributeGroupAccessUpdater.php.html#80"><abbr title="Akeneo\Pim\Permission\Component\Updater\AttributeGroupAccessUpdater::setData">setData</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Updater/JobProfileAccessUpdater.php.html#80"><abbr title="Akeneo\Pim\Permission\Component\Updater\JobProfileAccessUpdater::setData">setData</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Updater/LocaleAccessUpdater.php.html#80"><abbr title="Akeneo\Pim\Permission\Component\Updater\LocaleAccessUpdater::setData">setData</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Merger/MergeDataOnProduct.php.html#64"><abbr title="Akeneo\Pim\Permission\Component\Merger\MergeDataOnProduct::merge">merge</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Filter/NotGrantedAssociatedProductFilter.php.html#65"><abbr title="Akeneo\Pim\Permission\Component\Filter\NotGrantedAssociatedProductFilter::filter">filter</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Validator/Constraint/AreGrantedAttributesValidator.php.html#47"><abbr title="Akeneo\Pim\Permission\Component\Validator\Constraint\AreGrantedAttributesValidator::validate">validate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Merger/NotGrantedCategoryMerger.php.html#74"><abbr title="Akeneo\Pim\Permission\Component\Merger\NotGrantedCategoryMerger::merge">merge</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Filter/NotGrantedCategoryFilter.php.html#43"><abbr title="Akeneo\Pim\Permission\Component\Filter\NotGrantedCategoryFilter::filter">filter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Remover/ProductModelRemover.php.html#77"><abbr title="Akeneo\Pim\Permission\Component\Remover\ProductModelRemover::removeAll">removeAll</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Merger/MergeDataOnProductModel.php.html#43"><abbr title="Akeneo\Pim\Permission\Component\Merger\MergeDataOnProductModel::merge">merge</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Filter/GrantedProductAttributeFilter.php.html#96"><abbr title="Akeneo\Pim\Permission\Component\Filter\GrantedProductAttributeFilter::checkGrantedLocale">checkGrantedLocale</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Manager/AttributeValuesResolver.php.html#114"><abbr title="Akeneo\Pim\Permission\Component\Manager\AttributeValuesResolver::isGrantedLocale">isGrantedLocale</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Authorization/DenyNotGrantedCategorizedEntity.php.html#42"><abbr title="Akeneo\Pim\Permission\Component\Authorization\DenyNotGrantedCategorizedEntity::denyIfNotGranted">denyIfNotGranted</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Updater/JobProfileAccessUpdater.php.html#57"><abbr title="Akeneo\Pim\Permission\Component\Updater\JobProfileAccessUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/ProductCategoryAccessUpdater.php.html#58"><abbr title="Akeneo\Pim\Permission\Component\Updater\ProductCategoryAccessUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/LocaleAccessUpdater.php.html#57"><abbr title="Akeneo\Pim\Permission\Component\Updater\LocaleAccessUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/AssetCategoryAccessUpdater.php.html#58"><abbr title="Akeneo\Pim\Permission\Component\Updater\AssetCategoryAccessUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/AttributeGroupAccessUpdater.php.html#57"><abbr title="Akeneo\Pim\Permission\Component\Updater\AttributeGroupAccessUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Merger/NotGrantedValuesMerger.php.html#198"><abbr title="Akeneo\Pim\Permission\Component\Merger\NotGrantedValuesMerger::isGrantedAttribute">isGrantedAttribute</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Validator/Constraint/IsGrantedLocaleValidator.php.html#47"><abbr title="Akeneo\Pim\Permission\Component\Validator\Constraint\IsGrantedLocaleValidator::validate">validate</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/GrantedProductModelUpdater.php.html#59"><abbr title="Akeneo\Pim\Permission\Component\Updater\GrantedProductModelUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Factory/FilteredEntityFactory.php.html#45"><abbr title="Akeneo\Pim\Permission\Component\Factory\FilteredEntityFactory::create">create</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Authorization/CachedAuthorizationChecker.php.html#101"><abbr title="Akeneo\Pim\Permission\Component\Authorization\CachedAuthorizationChecker::getObjectAsIndex">getObjectAsIndex</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/GrantedProductUpdater.php.html#84"><abbr title="Akeneo\Pim\Permission\Component\Updater\GrantedProductUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Remover/ProductRemover.php.html#99"><abbr title="Akeneo\Pim\Permission\Component\Remover\ProductRemover::ensureIsAProduct">ensureIsAProduct</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Remover/ProductModelRemover.php.html#97"><abbr title="Akeneo\Pim\Permission\Component\Remover\ProductModelRemover::ensureIsAProductModel">ensureIsAProductModel</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Remover/ProductModelRemover.php.html#112"><abbr title="Akeneo\Pim\Permission\Component\Remover\ProductModelRemover::checkUserAuthorization">checkUserAuthorization</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Manager/AttributeValuesResolver.php.html#97"><abbr title="Akeneo\Pim\Permission\Component\Manager\AttributeValuesResolver::isGrantedAttribute">isGrantedAttribute</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Filter/NotGrantedParentFilter.php.html#32"><abbr title="Akeneo\Pim\Permission\Component\Filter\NotGrantedParentFilter::filter">filter</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.2</a> at Sun Apr 7 17:13:38 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,0,0,0,0,0,1,6,1,9,13,14], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,0,0,2,6,6,4,14,4,90], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"Attributes.php.html#19\">Akeneo\\Pim\\Permission\\Component\\Attributes<\/a>"],[96.42857142857143,11,"<a href=\"Authorization\/CachedAuthorizationChecker.php.html#26\">Akeneo\\Pim\\Permission\\Component\\Authorization\\CachedAuthorizationChecker<\/a>"],[90.9090909090909,5,"<a href=\"Authorization\/DenyNotGrantedCategorizedEntity.php.html#20\">Akeneo\\Pim\\Permission\\Component\\Authorization\\DenyNotGrantedCategorizedEntity<\/a>"],[80,7,"<a href=\"Authorization\/Model\/UserRightsOnProduct.php.html#16\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProduct<\/a>"],[80,7,"<a href=\"Authorization\/Model\/UserRightsOnProductModel.php.html#16\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProductModel<\/a>"],[100,7,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/AssetCategoryAccesses.php.html#22\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\AssetCategoryAccesses<\/a>"],[100,7,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/AttributeGroupAccesses.php.html#22\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\AttributeGroupAccesses<\/a>"],[100,7,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/JobProfileAccesses.php.html#22\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\JobProfileAccesses<\/a>"],[100,7,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/LocaleAccesses.php.html#22\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\LocaleAccesses<\/a>"],[100,7,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/ProductCategoryAccesses.php.html#22\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\ProductCategoryAccesses<\/a>"],[0,5,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/AssetCategoryAccesses.php.html#21\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\StandardToFlat\\AssetCategoryAccesses<\/a>"],[0,4,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/AttributeGroupAccesses.php.html#21\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\StandardToFlat\\AttributeGroupAccesses<\/a>"],[0,4,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/JobProfileAccesses.php.html#21\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\StandardToFlat\\JobProfileAccesses<\/a>"],[0,4,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/LocaleAccesses.php.html#21\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\StandardToFlat\\LocaleAccesses<\/a>"],[0,5,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/ProductCategoryAccesses.php.html#19\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\StandardToFlat\\ProductCategoryAccesses<\/a>"],[75,2,"<a href=\"Exception\/ResourceAccessDeniedException.php.html#21\">Akeneo\\Pim\\Permission\\Component\\Exception\\ResourceAccessDeniedException<\/a>"],[100,0,"<a href=\"Exception\/ResourceViewAccessDeniedException.php.html#19\">Akeneo\\Pim\\Permission\\Component\\Exception\\ResourceViewAccessDeniedException<\/a>"],[87.5,4,"<a href=\"Factory\/FilteredEntityFactory.php.html#25\">Akeneo\\Pim\\Permission\\Component\\Factory\\FilteredEntityFactory<\/a>"],[90.32258064516128,14,"<a href=\"Filter\/GrantedProductAttributeFilter.php.html#20\">Akeneo\\Pim\\Permission\\Component\\Filter\\GrantedProductAttributeFilter<\/a>"],[90.32258064516128,9,"<a href=\"Filter\/NotGrantedAssociatedProductFilter.php.html#30\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedAssociatedProductFilter<\/a>"],[83.33333333333334,7,"<a href=\"Filter\/NotGrantedCategoryFilter.php.html#27\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedCategoryFilter<\/a>"],[92.3076923076923,5,"<a href=\"Filter\/NotGrantedParentFilter.php.html#16\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedParentFilter<\/a>"],[95.65217391304348,10,"<a href=\"Filter\/NotGrantedValuesFilter.php.html#28\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedValuesFilter<\/a>"],[90.47619047619048,11,"<a href=\"Manager\/AttributeValuesResolver.php.html#29\">Akeneo\\Pim\\Permission\\Component\\Manager\\AttributeValuesResolver<\/a>"],[89.47368421052632,11,"<a href=\"Merger\/MergeDataOnProduct.php.html#29\">Akeneo\\Pim\\Permission\\Component\\Merger\\MergeDataOnProduct<\/a>"],[92,8,"<a href=\"Merger\/MergeDataOnProductModel.php.html#25\">Akeneo\\Pim\\Permission\\Component\\Merger\\MergeDataOnProductModel<\/a>"],[87.8048780487805,17,"<a href=\"Merger\/NotGrantedAssociatedProductMerger.php.html#61\">Akeneo\\Pim\\Permission\\Component\\Merger\\NotGrantedAssociatedProductMerger<\/a>"],[81.25,7,"<a href=\"Merger\/NotGrantedCategoryMerger.php.html#51\">Akeneo\\Pim\\Permission\\Component\\Merger\\NotGrantedCategoryMerger<\/a>"],[90.2439024390244,22,"<a href=\"Merger\/NotGrantedValuesMerger.php.html#86\">Akeneo\\Pim\\Permission\\Component\\Merger\\NotGrantedValuesMerger<\/a>"],[100,3,"<a href=\"Normalizer\/Authorization\/ProductModelNormalizer.php.html#22\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Authorization\\ProductModelNormalizer<\/a>"],[100,3,"<a href=\"Normalizer\/Authorization\/ProductNormalizer.php.html#22\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Authorization\\ProductNormalizer<\/a>"],[100,3,"<a href=\"Normalizer\/Standard\/AttributeGroupNormalizer.php.html#16\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Standard\\AttributeGroupNormalizer<\/a>"],[100,3,"<a href=\"Normalizer\/Standard\/JobInstanceNormalizer.php.html#16\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Standard\\JobInstanceNormalizer<\/a>"],[55.55555555555556,8,"<a href=\"Remover\/ProductModelRemover.php.html#27\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductModelRemover<\/a>"],[88.88888888888889,8,"<a href=\"Remover\/ProductRemover.php.html#29\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductRemover<\/a>"],[63.829787234042556,14,"<a href=\"Updater\/AssetCategoryAccessUpdater.php.html#26\">Akeneo\\Pim\\Permission\\Component\\Updater\\AssetCategoryAccessUpdater<\/a>"],[63.41463414634146,12,"<a href=\"Updater\/AttributeGroupAccessUpdater.php.html#26\">Akeneo\\Pim\\Permission\\Component\\Updater\\AttributeGroupAccessUpdater<\/a>"],[95.45454545454545,10,"<a href=\"Updater\/GrantedProductModelUpdater.php.html#30\">Akeneo\\Pim\\Permission\\Component\\Updater\\GrantedProductModelUpdater<\/a>"],[97.72727272727273,19,"<a href=\"Updater\/GrantedProductUpdater.php.html#31\">Akeneo\\Pim\\Permission\\Component\\Updater\\GrantedProductUpdater<\/a>"],[63.41463414634146,12,"<a href=\"Updater\/JobProfileAccessUpdater.php.html#26\">Akeneo\\Pim\\Permission\\Component\\Updater\\JobProfileAccessUpdater<\/a>"],[63.41463414634146,12,"<a href=\"Updater\/LocaleAccessUpdater.php.html#26\">Akeneo\\Pim\\Permission\\Component\\Updater\\LocaleAccessUpdater<\/a>"],[68.08510638297872,14,"<a href=\"Updater\/ProductCategoryAccessUpdater.php.html#26\">Akeneo\\Pim\\Permission\\Component\\Updater\\ProductCategoryAccessUpdater<\/a>"],[98.27586206896551,29,"<a href=\"Updater\/Setter\/EntityWithGrantedValuesPropertySetter.php.html#35\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\EntityWithGrantedValuesPropertySetter<\/a>"],[100,13,"<a href=\"Updater\/Setter\/GrantedAssociationFieldSetter.php.html#27\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\GrantedAssociationFieldSetter<\/a>"],[95.91836734693877,20,"<a href=\"Updater\/Setter\/GrantedCategoryFieldSetter.php.html#33\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\GrantedCategoryFieldSetter<\/a>"],[100,0,"<a href=\"Validator\/Constraint\/AreGrantedAttributes.php.html#19\">Akeneo\\Pim\\Permission\\Component\\Validator\\Constraint\\AreGrantedAttributes<\/a>"],[66.66666666666666,6,"<a href=\"Validator\/Constraint\/AreGrantedAttributesValidator.php.html#24\">Akeneo\\Pim\\Permission\\Component\\Validator\\Constraint\\AreGrantedAttributesValidator<\/a>"],[100,0,"<a href=\"Validator\/Constraint\/IsGrantedLocale.php.html#19\">Akeneo\\Pim\\Permission\\Component\\Validator\\Constraint\\IsGrantedLocale<\/a>"],[87.5,4,"<a href=\"Validator\/Constraint\/IsGrantedLocaleValidator.php.html#24\">Akeneo\\Pim\\Permission\\Component\\Validator\\Constraint\\IsGrantedLocaleValidator<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Authorization\/CachedAuthorizationChecker.php.html#44\">Akeneo\\Pim\\Permission\\Component\\Authorization\\CachedAuthorizationChecker::__construct<\/a>"],[100,3,"<a href=\"Authorization\/CachedAuthorizationChecker.php.html#58\">Akeneo\\Pim\\Permission\\Component\\Authorization\\CachedAuthorizationChecker::isGranted<\/a>"],[100,1,"<a href=\"Authorization\/CachedAuthorizationChecker.php.html#81\">Akeneo\\Pim\\Permission\\Component\\Authorization\\CachedAuthorizationChecker::getArgumentsAsIndex<\/a>"],[83.33333333333334,3,"<a href=\"Authorization\/CachedAuthorizationChecker.php.html#101\">Akeneo\\Pim\\Permission\\Component\\Authorization\\CachedAuthorizationChecker::getObjectAsIndex<\/a>"],[100,2,"<a href=\"Authorization\/CachedAuthorizationChecker.php.html#123\">Akeneo\\Pim\\Permission\\Component\\Authorization\\CachedAuthorizationChecker::getAttributesAsIndex<\/a>"],[100,1,"<a href=\"Authorization\/CachedAuthorizationChecker.php.html#138\">Akeneo\\Pim\\Permission\\Component\\Authorization\\CachedAuthorizationChecker::getCurrentUserAsIndex<\/a>"],[100,1,"<a href=\"Authorization\/DenyNotGrantedCategorizedEntity.php.html#28\">Akeneo\\Pim\\Permission\\Component\\Authorization\\DenyNotGrantedCategorizedEntity::__construct<\/a>"],[88.88888888888889,4,"<a href=\"Authorization\/DenyNotGrantedCategorizedEntity.php.html#42\">Akeneo\\Pim\\Permission\\Component\\Authorization\\DenyNotGrantedCategorizedEntity::denyIfNotGranted<\/a>"],[100,1,"<a href=\"Authorization\/Model\/UserRightsOnProduct.php.html#40\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProduct::__construct<\/a>"],[100,2,"<a href=\"Authorization\/Model\/UserRightsOnProduct.php.html#54\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProduct::canApplyDraftOnProduct<\/a>"],[100,2,"<a href=\"Authorization\/Model\/UserRightsOnProduct.php.html#59\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProduct::isProductEditable<\/a>"],[0,1,"<a href=\"Authorization\/Model\/UserRightsOnProduct.php.html#64\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProduct::productIdentifier<\/a>"],[0,1,"<a href=\"Authorization\/Model\/UserRightsOnProduct.php.html#69\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProduct::userId<\/a>"],[100,1,"<a href=\"Authorization\/Model\/UserRightsOnProductModel.php.html#40\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProductModel::__construct<\/a>"],[100,2,"<a href=\"Authorization\/Model\/UserRightsOnProductModel.php.html#54\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProductModel::canApplyDraftOnProductModel<\/a>"],[100,2,"<a href=\"Authorization\/Model\/UserRightsOnProductModel.php.html#59\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProductModel::isProductModelEditable<\/a>"],[0,1,"<a href=\"Authorization\/Model\/UserRightsOnProductModel.php.html#64\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProductModel::productModelCode<\/a>"],[0,1,"<a href=\"Authorization\/Model\/UserRightsOnProductModel.php.html#69\">Akeneo\\Pim\\Permission\\Component\\Authorization\\Model\\UserRightsOnProductModel::userId<\/a>"],[100,1,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/AssetCategoryAccesses.php.html#30\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\AssetCategoryAccesses::__construct<\/a>"],[100,2,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/AssetCategoryAccesses.php.html#65\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\AssetCategoryAccesses::convert<\/a>"],[100,1,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/AssetCategoryAccesses.php.html#91\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\AssetCategoryAccesses::getConcernedGroupNames<\/a>"],[100,3,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/AssetCategoryAccesses.php.html#110\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\AssetCategoryAccesses::getGroupNames<\/a>"],[100,1,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/AttributeGroupAccesses.php.html#30\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\AttributeGroupAccesses::__construct<\/a>"],[100,2,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/AttributeGroupAccesses.php.html#62\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\AttributeGroupAccesses::convert<\/a>"],[100,1,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/AttributeGroupAccesses.php.html#87\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\AttributeGroupAccesses::getConcernedGroupNames<\/a>"],[100,3,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/AttributeGroupAccesses.php.html#105\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\AttributeGroupAccesses::getGroupNames<\/a>"],[100,1,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/JobProfileAccesses.php.html#30\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\JobProfileAccesses::__construct<\/a>"],[100,2,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/JobProfileAccesses.php.html#62\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\JobProfileAccesses::convert<\/a>"],[100,1,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/JobProfileAccesses.php.html#87\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\JobProfileAccesses::getConcernedGroupNames<\/a>"],[100,3,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/JobProfileAccesses.php.html#105\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\JobProfileAccesses::getGroupNames<\/a>"],[100,1,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/LocaleAccesses.php.html#30\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\LocaleAccesses::__construct<\/a>"],[100,2,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/LocaleAccesses.php.html#62\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\LocaleAccesses::convert<\/a>"],[100,1,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/LocaleAccesses.php.html#87\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\LocaleAccesses::getConcernedGroupNames<\/a>"],[100,3,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/LocaleAccesses.php.html#105\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\LocaleAccesses::getGroupNames<\/a>"],[100,1,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/ProductCategoryAccesses.php.html#30\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\ProductCategoryAccesses::__construct<\/a>"],[100,2,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/ProductCategoryAccesses.php.html#65\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\ProductCategoryAccesses::convert<\/a>"],[100,1,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/ProductCategoryAccesses.php.html#91\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\ProductCategoryAccesses::getConcernedGroupNames<\/a>"],[100,3,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/ProductCategoryAccesses.php.html#110\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\FlatToStandard\\ProductCategoryAccesses::getGroupNames<\/a>"],[0,5,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/AssetCategoryAccesses.php.html#53\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\StandardToFlat\\AssetCategoryAccesses::convert<\/a>"],[0,4,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/AttributeGroupAccesses.php.html#50\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\StandardToFlat\\AttributeGroupAccesses::convert<\/a>"],[0,4,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/JobProfileAccesses.php.html#51\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\StandardToFlat\\JobProfileAccesses::convert<\/a>"],[0,4,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/LocaleAccesses.php.html#51\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\StandardToFlat\\LocaleAccesses::convert<\/a>"],[0,5,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/ProductCategoryAccesses.php.html#52\">Akeneo\\Pim\\Permission\\Component\\Connector\\ArrayConverter\\StandardToFlat\\ProductCategoryAccesses::convert<\/a>"],[100,1,"<a href=\"Exception\/ResourceAccessDeniedException.php.html#31\">Akeneo\\Pim\\Permission\\Component\\Exception\\ResourceAccessDeniedException::__construct<\/a>"],[0,1,"<a href=\"Exception\/ResourceAccessDeniedException.php.html#41\">Akeneo\\Pim\\Permission\\Component\\Exception\\ResourceAccessDeniedException::getResource<\/a>"],[100,1,"<a href=\"Factory\/FilteredEntityFactory.php.html#33\">Akeneo\\Pim\\Permission\\Component\\Factory\\FilteredEntityFactory::__construct<\/a>"],[83.33333333333334,3,"<a href=\"Factory\/FilteredEntityFactory.php.html#45\">Akeneo\\Pim\\Permission\\Component\\Factory\\FilteredEntityFactory::create<\/a>"],[100,1,"<a href=\"Filter\/GrantedProductAttributeFilter.php.html#40\">Akeneo\\Pim\\Permission\\Component\\Filter\\GrantedProductAttributeFilter::__construct<\/a>"],[100,6,"<a href=\"Filter\/GrantedProductAttributeFilter.php.html#55\">Akeneo\\Pim\\Permission\\Component\\Filter\\GrantedProductAttributeFilter::filter<\/a>"],[100,3,"<a href=\"Filter\/GrantedProductAttributeFilter.php.html#77\">Akeneo\\Pim\\Permission\\Component\\Filter\\GrantedProductAttributeFilter::checkGrantedAttribute<\/a>"],[75,4,"<a href=\"Filter\/GrantedProductAttributeFilter.php.html#96\">Akeneo\\Pim\\Permission\\Component\\Filter\\GrantedProductAttributeFilter::checkGrantedLocale<\/a>"],[100,1,"<a href=\"Filter\/NotGrantedAssociatedProductFilter.php.html#50\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedAssociatedProductFilter::__construct<\/a>"],[88.46153846153845,8,"<a href=\"Filter\/NotGrantedAssociatedProductFilter.php.html#65\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedAssociatedProductFilter::filter<\/a>"],[100,1,"<a href=\"Filter\/NotGrantedCategoryFilter.php.html#35\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedCategoryFilter::__construct<\/a>"],[81.25,6,"<a href=\"Filter\/NotGrantedCategoryFilter.php.html#43\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedCategoryFilter::filter<\/a>"],[100,1,"<a href=\"Filter\/NotGrantedParentFilter.php.html#24\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedParentFilter::__construct<\/a>"],[80,2,"<a href=\"Filter\/NotGrantedParentFilter.php.html#32\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedParentFilter::filter<\/a>"],[100,2,"<a href=\"Filter\/NotGrantedParentFilter.php.html#50\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedParentFilter::setFilteredParent<\/a>"],[100,1,"<a href=\"Filter\/NotGrantedValuesFilter.php.html#39\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedValuesFilter::__construct<\/a>"],[94.73684210526315,9,"<a href=\"Filter\/NotGrantedValuesFilter.php.html#52\">Akeneo\\Pim\\Permission\\Component\\Filter\\NotGrantedValuesFilter::filter<\/a>"],[100,1,"<a href=\"Manager\/AttributeValuesResolver.php.html#49\">Akeneo\\Pim\\Permission\\Component\\Manager\\AttributeValuesResolver::__construct<\/a>"],[100,4,"<a href=\"Manager\/AttributeValuesResolver.php.html#75\">Akeneo\\Pim\\Permission\\Component\\Manager\\AttributeValuesResolver::resolveEligibleValues<\/a>"],[75,2,"<a href=\"Manager\/AttributeValuesResolver.php.html#97\">Akeneo\\Pim\\Permission\\Component\\Manager\\AttributeValuesResolver::isGrantedAttribute<\/a>"],[83.33333333333334,4,"<a href=\"Manager\/AttributeValuesResolver.php.html#114\">Akeneo\\Pim\\Permission\\Component\\Manager\\AttributeValuesResolver::isGrantedLocale<\/a>"],[100,1,"<a href=\"Merger\/MergeDataOnProduct.php.html#49\">Akeneo\\Pim\\Permission\\Component\\Merger\\MergeDataOnProduct::__construct<\/a>"],[85.71428571428571,8,"<a href=\"Merger\/MergeDataOnProduct.php.html#64\">Akeneo\\Pim\\Permission\\Component\\Merger\\MergeDataOnProduct::merge<\/a>"],[100,2,"<a href=\"Merger\/MergeDataOnProduct.php.html#117\">Akeneo\\Pim\\Permission\\Component\\Merger\\MergeDataOnProduct::setParent<\/a>"],[100,1,"<a href=\"Merger\/MergeDataOnProductModel.php.html#37\">Akeneo\\Pim\\Permission\\Component\\Merger\\MergeDataOnProductModel::__construct<\/a>"],[88.23529411764706,5,"<a href=\"Merger\/MergeDataOnProductModel.php.html#43\">Akeneo\\Pim\\Permission\\Component\\Merger\\MergeDataOnProductModel::merge<\/a>"],[100,2,"<a href=\"Merger\/MergeDataOnProductModel.php.html#82\">Akeneo\\Pim\\Permission\\Component\\Merger\\MergeDataOnProductModel::setParent<\/a>"],[100,1,"<a href=\"Merger\/NotGrantedAssociatedProductMerger.php.html#85\">Akeneo\\Pim\\Permission\\Component\\Merger\\NotGrantedAssociatedProductMerger::__construct<\/a>"],[85.71428571428571,16,"<a href=\"Merger\/NotGrantedAssociatedProductMerger.php.html#102\">Akeneo\\Pim\\Permission\\Component\\Merger\\NotGrantedAssociatedProductMerger::merge<\/a>"],[100,1,"<a href=\"Merger\/NotGrantedCategoryMerger.php.html#63\">Akeneo\\Pim\\Permission\\Component\\Merger\\NotGrantedCategoryMerger::__construct<\/a>"],[76.92307692307693,6,"<a href=\"Merger\/NotGrantedCategoryMerger.php.html#74\">Akeneo\\Pim\\Permission\\Component\\Merger\\NotGrantedCategoryMerger::merge<\/a>"],[100,1,"<a href=\"Merger\/NotGrantedValuesMerger.php.html#106\">Akeneo\\Pim\\Permission\\Component\\Merger\\NotGrantedValuesMerger::__construct<\/a>"],[87.5,12,"<a href=\"Merger\/NotGrantedValuesMerger.php.html#121\">Akeneo\\Pim\\Permission\\Component\\Merger\\NotGrantedValuesMerger::merge<\/a>"],[100,6,"<a href=\"Merger\/NotGrantedValuesMerger.php.html#175\">Akeneo\\Pim\\Permission\\Component\\Merger\\NotGrantedValuesMerger::getNotGrantedValuesLocalizable<\/a>"],[75,3,"<a href=\"Merger\/NotGrantedValuesMerger.php.html#198\">Akeneo\\Pim\\Permission\\Component\\Merger\\NotGrantedValuesMerger::isGrantedAttribute<\/a>"],[100,1,"<a href=\"Normalizer\/Authorization\/ProductModelNormalizer.php.html#27\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Authorization\\ProductModelNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/Authorization\/ProductModelNormalizer.php.html#38\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Authorization\\ProductModelNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Normalizer\/Authorization\/ProductNormalizer.php.html#27\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Authorization\\ProductNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/Authorization\/ProductNormalizer.php.html#38\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Authorization\\ProductNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Normalizer\/Standard\/AttributeGroupNormalizer.php.html#28\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Standard\\AttributeGroupNormalizer::__construct<\/a>"],[100,1,"<a href=\"Normalizer\/Standard\/AttributeGroupNormalizer.php.html#39\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Standard\\AttributeGroupNormalizer::normalize<\/a>"],[100,1,"<a href=\"Normalizer\/Standard\/AttributeGroupNormalizer.php.html#58\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Standard\\AttributeGroupNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Normalizer\/Standard\/JobInstanceNormalizer.php.html#28\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Standard\\JobInstanceNormalizer::__construct<\/a>"],[100,1,"<a href=\"Normalizer\/Standard\/JobInstanceNormalizer.php.html#39\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Standard\\JobInstanceNormalizer::normalize<\/a>"],[100,1,"<a href=\"Normalizer\/Standard\/JobInstanceNormalizer.php.html#58\">Akeneo\\Pim\\Permission\\Component\\Normalizer\\Standard\\JobInstanceNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Remover\/ProductModelRemover.php.html#47\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductModelRemover::__construct<\/a>"],[100,1,"<a href=\"Remover\/ProductModelRemover.php.html#62\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductModelRemover::remove<\/a>"],[0,2,"<a href=\"Remover\/ProductModelRemover.php.html#77\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductModelRemover::removeAll<\/a>"],[40,2,"<a href=\"Remover\/ProductModelRemover.php.html#97\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductModelRemover::ensureIsAProductModel<\/a>"],[60,2,"<a href=\"Remover\/ProductModelRemover.php.html#112\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductModelRemover::checkUserAuthorization<\/a>"],[100,1,"<a href=\"Remover\/ProductRemover.php.html#49\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductRemover::__construct<\/a>"],[100,1,"<a href=\"Remover\/ProductRemover.php.html#64\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductRemover::remove<\/a>"],[100,2,"<a href=\"Remover\/ProductRemover.php.html#79\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductRemover::removeAll<\/a>"],[40,2,"<a href=\"Remover\/ProductRemover.php.html#99\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductRemover::ensureIsAProduct<\/a>"],[100,2,"<a href=\"Remover\/ProductRemover.php.html#114\">Akeneo\\Pim\\Permission\\Component\\Remover\\ProductRemover::checkUserAuthorization<\/a>"],[100,1,"<a href=\"Updater\/AssetCategoryAccessUpdater.php.html#38\">Akeneo\\Pim\\Permission\\Component\\Updater\\AssetCategoryAccessUpdater::__construct<\/a>"],[57.14285714285714,3,"<a href=\"Updater\/AssetCategoryAccessUpdater.php.html#58\">Akeneo\\Pim\\Permission\\Component\\Updater\\AssetCategoryAccessUpdater::update<\/a>"],[62.16216216216216,10,"<a href=\"Updater\/AssetCategoryAccessUpdater.php.html#81\">Akeneo\\Pim\\Permission\\Component\\Updater\\AssetCategoryAccessUpdater::setData<\/a>"],[100,1,"<a href=\"Updater\/AttributeGroupAccessUpdater.php.html#38\">Akeneo\\Pim\\Permission\\Component\\Updater\\AttributeGroupAccessUpdater::__construct<\/a>"],[57.14285714285714,3,"<a href=\"Updater\/AttributeGroupAccessUpdater.php.html#57\">Akeneo\\Pim\\Permission\\Component\\Updater\\AttributeGroupAccessUpdater::update<\/a>"],[61.29032258064516,8,"<a href=\"Updater\/AttributeGroupAccessUpdater.php.html#80\">Akeneo\\Pim\\Permission\\Component\\Updater\\AttributeGroupAccessUpdater::setData<\/a>"],[100,1,"<a href=\"Updater\/GrantedProductModelUpdater.php.html#44\">Akeneo\\Pim\\Permission\\Component\\Updater\\GrantedProductModelUpdater::__construct<\/a>"],[83.33333333333334,3,"<a href=\"Updater\/GrantedProductModelUpdater.php.html#59\">Akeneo\\Pim\\Permission\\Component\\Updater\\GrantedProductModelUpdater::update<\/a>"],[100,6,"<a href=\"Updater\/GrantedProductModelUpdater.php.html#86\">Akeneo\\Pim\\Permission\\Component\\Updater\\GrantedProductModelUpdater::checkGrantedFieldsForViewableProductModel<\/a>"],[100,1,"<a href=\"Updater\/GrantedProductUpdater.php.html#63\">Akeneo\\Pim\\Permission\\Component\\Updater\\GrantedProductUpdater::__construct<\/a>"],[85.71428571428571,3,"<a href=\"Updater\/GrantedProductUpdater.php.html#84\">Akeneo\\Pim\\Permission\\Component\\Updater\\GrantedProductUpdater::update<\/a>"],[100,6,"<a href=\"Updater\/GrantedProductUpdater.php.html#115\">Akeneo\\Pim\\Permission\\Component\\Updater\\GrantedProductUpdater::checkGrantedFieldsForProductDraft<\/a>"],[100,7,"<a href=\"Updater\/GrantedProductUpdater.php.html#150\">Akeneo\\Pim\\Permission\\Component\\Updater\\GrantedProductUpdater::checkGrantedFieldsForViewableProduct<\/a>"],[100,2,"<a href=\"Updater\/GrantedProductUpdater.php.html#179\">Akeneo\\Pim\\Permission\\Component\\Updater\\GrantedProductUpdater::getUpdatedAssociations<\/a>"],[100,1,"<a href=\"Updater\/JobProfileAccessUpdater.php.html#38\">Akeneo\\Pim\\Permission\\Component\\Updater\\JobProfileAccessUpdater::__construct<\/a>"],[57.14285714285714,3,"<a href=\"Updater\/JobProfileAccessUpdater.php.html#57\">Akeneo\\Pim\\Permission\\Component\\Updater\\JobProfileAccessUpdater::update<\/a>"],[61.29032258064516,8,"<a href=\"Updater\/JobProfileAccessUpdater.php.html#80\">Akeneo\\Pim\\Permission\\Component\\Updater\\JobProfileAccessUpdater::setData<\/a>"],[100,1,"<a href=\"Updater\/LocaleAccessUpdater.php.html#38\">Akeneo\\Pim\\Permission\\Component\\Updater\\LocaleAccessUpdater::__construct<\/a>"],[57.14285714285714,3,"<a href=\"Updater\/LocaleAccessUpdater.php.html#57\">Akeneo\\Pim\\Permission\\Component\\Updater\\LocaleAccessUpdater::update<\/a>"],[61.29032258064516,8,"<a href=\"Updater\/LocaleAccessUpdater.php.html#80\">Akeneo\\Pim\\Permission\\Component\\Updater\\LocaleAccessUpdater::setData<\/a>"],[100,1,"<a href=\"Updater\/ProductCategoryAccessUpdater.php.html#38\">Akeneo\\Pim\\Permission\\Component\\Updater\\ProductCategoryAccessUpdater::__construct<\/a>"],[57.14285714285714,3,"<a href=\"Updater\/ProductCategoryAccessUpdater.php.html#58\">Akeneo\\Pim\\Permission\\Component\\Updater\\ProductCategoryAccessUpdater::update<\/a>"],[67.56756756756756,10,"<a href=\"Updater\/ProductCategoryAccessUpdater.php.html#81\">Akeneo\\Pim\\Permission\\Component\\Updater\\ProductCategoryAccessUpdater::setData<\/a>"],[100,1,"<a href=\"Updater\/Setter\/EntityWithGrantedValuesPropertySetter.php.html#55\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\EntityWithGrantedValuesPropertySetter::__construct<\/a>"],[96.29629629629629,5,"<a href=\"Updater\/Setter\/EntityWithGrantedValuesPropertySetter.php.html#70\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\EntityWithGrantedValuesPropertySetter::setData<\/a>"],[100,3,"<a href=\"Updater\/Setter\/EntityWithGrantedValuesPropertySetter.php.html#124\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\EntityWithGrantedValuesPropertySetter::checkViewableAttributeGroup<\/a>"],[100,3,"<a href=\"Updater\/Setter\/EntityWithGrantedValuesPropertySetter.php.html#136\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\EntityWithGrantedValuesPropertySetter::checkViewableLocalizableAttribute<\/a>"],[100,17,"<a href=\"Updater\/Setter\/EntityWithGrantedValuesPropertySetter.php.html#156\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\EntityWithGrantedValuesPropertySetter::checkEditableAttribute<\/a>"],[100,1,"<a href=\"Updater\/Setter\/GrantedAssociationFieldSetter.php.html#60\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\GrantedAssociationFieldSetter::__construct<\/a>"],[100,6,"<a href=\"Updater\/Setter\/GrantedAssociationFieldSetter.php.html#83\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\GrantedAssociationFieldSetter::setFieldData<\/a>"],[100,3,"<a href=\"Updater\/Setter\/GrantedAssociationFieldSetter.php.html#101\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\GrantedAssociationFieldSetter::checkAssociatedProducts<\/a>"],[100,3,"<a href=\"Updater\/Setter\/GrantedAssociationFieldSetter.php.html#124\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\GrantedAssociationFieldSetter::checkAssociatedProductModels<\/a>"],[100,1,"<a href=\"Updater\/Setter\/GrantedCategoryFieldSetter.php.html#58\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\GrantedCategoryFieldSetter::__construct<\/a>"],[96.55172413793103,15,"<a href=\"Updater\/Setter\/GrantedCategoryFieldSetter.php.html#77\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\GrantedCategoryFieldSetter::setFieldData<\/a>"],[92.3076923076923,4,"<a href=\"Updater\/Setter\/GrantedCategoryFieldSetter.php.html#139\">Akeneo\\Pim\\Permission\\Component\\Updater\\Setter\\GrantedCategoryFieldSetter::areAllCategoriesVisibleOnEntity<\/a>"],[100,1,"<a href=\"Validator\/Constraint\/AreGrantedAttributesValidator.php.html#36\">Akeneo\\Pim\\Permission\\Component\\Validator\\Constraint\\AreGrantedAttributesValidator::__construct<\/a>"],[58.333333333333336,5,"<a href=\"Validator\/Constraint\/AreGrantedAttributesValidator.php.html#47\">Akeneo\\Pim\\Permission\\Component\\Validator\\Constraint\\AreGrantedAttributesValidator::validate<\/a>"],[100,1,"<a href=\"Validator\/Constraint\/IsGrantedLocaleValidator.php.html#36\">Akeneo\\Pim\\Permission\\Component\\Validator\\Constraint\\IsGrantedLocaleValidator::__construct<\/a>"],[80,3,"<a href=\"Validator\/Constraint\/IsGrantedLocaleValidator.php.html#47\">Akeneo\\Pim\\Permission\\Component\\Validator\\Constraint\\IsGrantedLocaleValidator::validate<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

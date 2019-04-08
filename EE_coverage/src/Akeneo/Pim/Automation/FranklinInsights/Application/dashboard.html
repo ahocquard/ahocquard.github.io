@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Pim/Automation/FranklinInsights/Application</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../../index.html">/srv/pim</a></li>
+         <li class="breadcrumb-item"><a href="../../../../../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Pim</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Automation</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">FranklinInsights</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Application</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ProductSubscription/Command/UpdateSubscriptionFamilyCommand.php.html#21">Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UpdateSubscriptionFamilyCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mapping/Query/GetIdentifiersMappingHandler.php.html#22">Akeneo\Pim\Automation\FranklinInsights\Application\Mapping\Query\GetIdentifiersMappingHandler</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="ProductSubscription/Command/UpdateSubscriptionFamilyHandler.php.html#23">Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UpdateSubscriptionFamilyHandler</a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Configuration/Validator/ConnectionValidator.php.html#25">Akeneo\Pim\Automation\FranklinInsights\Application\Configuration\Validator\ConnectionValidator</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Mapping/Query/GetAttributesMappingByFamilyQuery.php.html#21">Akeneo\Pim\Automation\FranklinInsights\Application\Mapping\Query\GetAttributesMappingByFamilyQuery</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ProductSubscription/Command/SubscribeProductCommand.php.html#21">Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\SubscribeProductCommand</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ProductSubscription/Command/UnsubscribeProductCommand.php.html#21">Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UnsubscribeProductCommand</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Proposal/Factory/ProposalSuggestedDataFactory.php.html#23">Akeneo\Pim\Automation\FranklinInsights\Application\Proposal\Factory\ProposalSuggestedDataFactory</a></td><td class="text-right">83%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ProductSubscription/Command/UpdateSubscriptionFamilyHandler.php.html#23">Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UpdateSubscriptionFamilyHandler</a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Proposal/Factory/ProposalSuggestedDataFactory.php.html#23">Akeneo\Pim\Automation\FranklinInsights\Application\Proposal\Factory\ProposalSuggestedDataFactory</a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Mapping/Query/GetAttributesMappingByFamilyQuery.php.html#21">Akeneo\Pim\Automation\FranklinInsights\Application\Mapping\Query\GetAttributesMappingByFamilyQuery</a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ProductSubscription/Command/SubscribeProductCommand.php.html#21">Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\SubscribeProductCommand</a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="ProductSubscription/Command/UnsubscribeProductCommand.php.html#21">Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UnsubscribeProductCommand</a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Configuration/Validator/ConnectionValidator.php.html#62"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\Configuration\Validator\ConnectionValidator::isValid">isValid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mapping/Query/GetIdentifiersMappingHandler.php.html#30"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\Mapping\Query\GetIdentifiersMappingHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProductSubscription/Command/UpdateSubscriptionFamilyCommand.php.html#33"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UpdateSubscriptionFamilyCommand::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProductSubscription/Command/UpdateSubscriptionFamilyCommand.php.html#43"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UpdateSubscriptionFamilyCommand::productId">productId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProductSubscription/Command/UpdateSubscriptionFamilyCommand.php.html#51"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UpdateSubscriptionFamilyCommand::family">family</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProductSubscription/Command/UpdateSubscriptionFamilyHandler.php.html#48"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UpdateSubscriptionFamilyHandler::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mapping/Query/GetAttributesMappingByFamilyQuery.php.html#29"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\Mapping\Query\GetAttributesMappingByFamilyQuery::__construct">__construct</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="ProductSubscription/Command/SubscribeProductCommand.php.html#29"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\SubscribeProductCommand::__construct">__construct</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="ProductSubscription/Command/UnsubscribeProductCommand.php.html#29"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UnsubscribeProductCommand::__construct">__construct</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Proposal/Factory/ProposalSuggestedDataFactory.php.html#38"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\Proposal\Factory\ProposalSuggestedDataFactory::fromSubscription">fromSubscription</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Mapping/Command/SaveAttributesMappingByFamilyCommand.php.html#80"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\Mapping\Command\SaveAttributesMappingByFamilyCommand::validate">validate</abbr></a></td><td class="text-right">81%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Mapping/Command/SaveAttributesMappingByFamilyCommand.php.html#80"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\Mapping\Command\SaveAttributesMappingByFamilyCommand::validate">validate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ProductSubscription/Command/UpdateSubscriptionFamilyHandler.php.html#48"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UpdateSubscriptionFamilyHandler::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Proposal/Factory/ProposalSuggestedDataFactory.php.html#38"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\Proposal\Factory\ProposalSuggestedDataFactory::fromSubscription">fromSubscription</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Mapping/Query/GetAttributesMappingByFamilyQuery.php.html#29"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\Mapping\Query\GetAttributesMappingByFamilyQuery::__construct">__construct</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ProductSubscription/Command/SubscribeProductCommand.php.html#29"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\SubscribeProductCommand::__construct">__construct</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="ProductSubscription/Command/UnsubscribeProductCommand.php.html#29"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Application\ProductSubscription\Command\UnsubscribeProductCommand::__construct">__construct</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.2</a> at Sun Apr 7 17:13:38 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,0,2,0,0,1,0,4,2,24], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([6,0,0,0,0,0,0,0,4,1,1,77], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,2,"<a href=\"Configuration\/Command\/ActivateConnectionCommand.php.html#23\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Command\\ActivateConnectionCommand<\/a>"],[100,3,"<a href=\"Configuration\/Command\/ActivateConnectionHandler.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Command\\ActivateConnectionHandler<\/a>"],[100,0,"<a href=\"Configuration\/Command\/DeactivateConnectionCommand.php.html#19\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Command\\DeactivateConnectionCommand<\/a>"],[100,2,"<a href=\"Configuration\/Command\/DeactivateConnectionHandler.php.html#21\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Command\\DeactivateConnectionHandler<\/a>"],[100,2,"<a href=\"Configuration\/Query\/GetConfigurationHandler.php.html#24\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Query\\GetConfigurationHandler<\/a>"],[100,0,"<a href=\"Configuration\/Query\/GetConfigurationQuery.php.html#19\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Query\\GetConfigurationQuery<\/a>"],[100,4,"<a href=\"Configuration\/Query\/GetConnectionStatusHandler.php.html#28\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Query\\GetConnectionStatusHandler<\/a>"],[100,2,"<a href=\"Configuration\/Query\/GetConnectionStatusQuery.php.html#19\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Query\\GetConnectionStatusQuery<\/a>"],[66.66666666666666,3,"<a href=\"Configuration\/Validator\/ConnectionValidator.php.html#25\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Validator\\ConnectionValidator<\/a>"],[100,5,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingCommand.php.html#24\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingCommand<\/a>"],[100,11,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingHandler.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingHandler<\/a>"],[90.9090909090909,11,"<a href=\"Mapping\/Command\/SaveAttributesMappingByFamilyCommand.php.html#22\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributesMappingByFamilyCommand<\/a>"],[100,8,"<a href=\"Mapping\/Command\/SaveAttributesMappingByFamilyHandler.php.html#27\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributesMappingByFamilyHandler<\/a>"],[100,7,"<a href=\"Mapping\/Command\/SaveIdentifiersMappingCommand.php.html#24\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveIdentifiersMappingCommand<\/a>"],[100,21,"<a href=\"Mapping\/Command\/SaveIdentifiersMappingHandler.php.html#32\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveIdentifiersMappingHandler<\/a>"],[100,3,"<a href=\"Mapping\/Query\/GetAttributeOptionsMappingHandler.php.html#24\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributeOptionsMappingHandler<\/a>"],[100,3,"<a href=\"Mapping\/Query\/GetAttributeOptionsMappingQuery.php.html#22\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributeOptionsMappingQuery<\/a>"],[100,14,"<a href=\"Mapping\/Query\/GetAttributesMappingByFamilyHandler.php.html#28\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributesMappingByFamilyHandler<\/a>"],[80,3,"<a href=\"Mapping\/Query\/GetAttributesMappingByFamilyQuery.php.html#21\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributesMappingByFamilyQuery<\/a>"],[33.33333333333333,2,"<a href=\"Mapping\/Query\/GetIdentifiersMappingHandler.php.html#22\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetIdentifiersMappingHandler<\/a>"],[100,0,"<a href=\"Mapping\/Query\/GetIdentifiersMappingQuery.php.html#19\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetIdentifiersMappingQuery<\/a>"],[100,2,"<a href=\"Mapping\/Query\/SearchFamiliesHandler.php.html#22\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\SearchFamiliesHandler<\/a>"],[100,6,"<a href=\"Mapping\/Query\/SearchFamiliesQuery.php.html#19\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\SearchFamiliesQuery<\/a>"],[80,3,"<a href=\"ProductSubscription\/Command\/SubscribeProductCommand.php.html#21\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\SubscribeProductCommand<\/a>"],[100,4,"<a href=\"ProductSubscription\/Command\/SubscribeProductHandler.php.html#39\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\SubscribeProductHandler<\/a>"],[80,3,"<a href=\"ProductSubscription\/Command\/UnsubscribeProductCommand.php.html#21\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UnsubscribeProductCommand<\/a>"],[100,3,"<a href=\"ProductSubscription\/Command\/UnsubscribeProductHandler.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UnsubscribeProductHandler<\/a>"],[0,3,"<a href=\"ProductSubscription\/Command\/UpdateSubscriptionFamilyCommand.php.html#21\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UpdateSubscriptionFamilyCommand<\/a>"],[37.5,3,"<a href=\"ProductSubscription\/Command\/UpdateSubscriptionFamilyHandler.php.html#23\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UpdateSubscriptionFamilyHandler<\/a>"],[95.65217391304348,8,"<a href=\"ProductSubscription\/Query\/GetProductSubscriptionStatusHandler.php.html#30\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Query\\GetProductSubscriptionStatusHandler<\/a>"],[100,2,"<a href=\"ProductSubscription\/Query\/GetProductSubscriptionStatusQuery.php.html#21\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Query\\GetProductSubscriptionStatusQuery<\/a>"],[100,2,"<a href=\"Proposal\/Command\/CreateProposalCommand.php.html#21\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Proposal\\Command\\CreateProposalCommand<\/a>"],[100,3,"<a href=\"Proposal\/Command\/CreateProposalHandler.php.html#25\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Proposal\\Command\\CreateProposalHandler<\/a>"],[83.33333333333334,4,"<a href=\"Proposal\/Factory\/ProposalSuggestedDataFactory.php.html#23\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Proposal\\Factory\\ProposalSuggestedDataFactory<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Configuration\/Command\/ActivateConnectionCommand.php.html#31\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Command\\ActivateConnectionCommand::__construct<\/a>"],[100,1,"<a href=\"Configuration\/Command\/ActivateConnectionCommand.php.html#39\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Command\\ActivateConnectionCommand::token<\/a>"],[100,1,"<a href=\"Configuration\/Command\/ActivateConnectionHandler.php.html#41\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Command\\ActivateConnectionHandler::__construct<\/a>"],[100,2,"<a href=\"Configuration\/Command\/ActivateConnectionHandler.php.html#54\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Command\\ActivateConnectionHandler::handle<\/a>"],[100,1,"<a href=\"Configuration\/Command\/DeactivateConnectionHandler.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Command\\DeactivateConnectionHandler::__construct<\/a>"],[100,1,"<a href=\"Configuration\/Command\/DeactivateConnectionHandler.php.html#37\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Command\\DeactivateConnectionHandler::handle<\/a>"],[100,1,"<a href=\"Configuration\/Query\/GetConfigurationHandler.php.html#32\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Query\\GetConfigurationHandler::__construct<\/a>"],[100,1,"<a href=\"Configuration\/Query\/GetConfigurationHandler.php.html#42\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Query\\GetConfigurationHandler::handle<\/a>"],[100,1,"<a href=\"Configuration\/Query\/GetConnectionStatusHandler.php.html#48\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Query\\GetConnectionStatusHandler::__construct<\/a>"],[100,3,"<a href=\"Configuration\/Query\/GetConnectionStatusHandler.php.html#65\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Query\\GetConnectionStatusHandler::handle<\/a>"],[100,1,"<a href=\"Configuration\/Query\/GetConnectionStatusQuery.php.html#27\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Query\\GetConnectionStatusQuery::__construct<\/a>"],[100,1,"<a href=\"Configuration\/Query\/GetConnectionStatusQuery.php.html#35\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Query\\GetConnectionStatusQuery::checkTokenValidity<\/a>"],[100,1,"<a href=\"Configuration\/Validator\/ConnectionValidator.php.html#37\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Validator\\ConnectionValidator::__construct<\/a>"],[100,1,"<a href=\"Configuration\/Validator\/ConnectionValidator.php.html#52\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Validator\\ConnectionValidator::isTokenValid<\/a>"],[0,1,"<a href=\"Configuration\/Validator\/ConnectionValidator.php.html#62\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Configuration\\Validator\\ConnectionValidator::isValid<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingCommand.php.html#44\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingCommand::__construct<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingCommand.php.html#59\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingCommand::familyCode<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingCommand.php.html#67\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingCommand::attributeCode<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingCommand.php.html#75\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingCommand::franklinAttributeId<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingCommand.php.html#83\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingCommand::attributeOptions<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingHandler.php.html#49\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingHandler::__construct<\/a>"],[100,4,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingHandler.php.html#64\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingHandler::handle<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingHandler.php.html#95\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingHandler::validate<\/a>"],[100,2,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingHandler.php.html#104\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingHandler::ensureFamilyExists<\/a>"],[100,2,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingHandler.php.html#116\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingHandler::ensureAttributeExists<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributeOptionsMappingHandler.php.html#130\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributeOptionsMappingHandler::getOptionCodes<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributesMappingByFamilyCommand.php.html#37\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributesMappingByFamilyCommand::__construct<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributesMappingByFamilyCommand.php.html#48\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributesMappingByFamilyCommand::getFamilyCode<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributesMappingByFamilyCommand.php.html#56\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributesMappingByFamilyCommand::getMapping<\/a>"],[81.81818181818183,6,"<a href=\"Mapping\/Command\/SaveAttributesMappingByFamilyCommand.php.html#80\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributesMappingByFamilyCommand::validate<\/a>"],[100,2,"<a href=\"Mapping\/Command\/SaveAttributesMappingByFamilyCommand.php.html#108\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributesMappingByFamilyCommand::validatePimAttributesAreNotUsedTwiceInTheSameMapping<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveAttributesMappingByFamilyHandler.php.html#47\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributesMappingByFamilyHandler::__construct<\/a>"],[100,7,"<a href=\"Mapping\/Command\/SaveAttributesMappingByFamilyHandler.php.html#65\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveAttributesMappingByFamilyHandler::handle<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveIdentifiersMappingCommand.php.html#32\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveIdentifiersMappingCommand::__construct<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveIdentifiersMappingCommand.php.html#42\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveIdentifiersMappingCommand::getIdentifiersMapping<\/a>"],[100,2,"<a href=\"Mapping\/Command\/SaveIdentifiersMappingCommand.php.html#52\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveIdentifiersMappingCommand::validateIdentifiers<\/a>"],[100,3,"<a href=\"Mapping\/Command\/SaveIdentifiersMappingCommand.php.html#75\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveIdentifiersMappingCommand::ensureAttributesAreMappedOnlyOneTime<\/a>"],[100,1,"<a href=\"Mapping\/Command\/SaveIdentifiersMappingHandler.php.html#62\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveIdentifiersMappingHandler::__construct<\/a>"],[100,4,"<a href=\"Mapping\/Command\/SaveIdentifiersMappingHandler.php.html#82\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveIdentifiersMappingHandler::handle<\/a>"],[100,4,"<a href=\"Mapping\/Command\/SaveIdentifiersMappingHandler.php.html#114\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveIdentifiersMappingHandler::replaceAttributeCodesByAttributes<\/a>"],[100,7,"<a href=\"Mapping\/Command\/SaveIdentifiersMappingHandler.php.html#139\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveIdentifiersMappingHandler::validateMappedIdentifiers<\/a>"],[100,5,"<a href=\"Mapping\/Command\/SaveIdentifiersMappingHandler.php.html#172\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Command\\SaveIdentifiersMappingHandler::validateThatBrandAndMpnAreNotSavedAlone<\/a>"],[100,1,"<a href=\"Mapping\/Query\/GetAttributeOptionsMappingHandler.php.html#36\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributeOptionsMappingHandler::__construct<\/a>"],[100,2,"<a href=\"Mapping\/Query\/GetAttributeOptionsMappingHandler.php.html#49\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributeOptionsMappingHandler::handle<\/a>"],[100,1,"<a href=\"Mapping\/Query\/GetAttributeOptionsMappingQuery.php.html#34\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributeOptionsMappingQuery::__construct<\/a>"],[100,1,"<a href=\"Mapping\/Query\/GetAttributeOptionsMappingQuery.php.html#43\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributeOptionsMappingQuery::familyCode<\/a>"],[100,1,"<a href=\"Mapping\/Query\/GetAttributeOptionsMappingQuery.php.html#51\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributeOptionsMappingQuery::franklinAttributeId<\/a>"],[100,1,"<a href=\"Mapping\/Query\/GetAttributesMappingByFamilyHandler.php.html#44\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributesMappingByFamilyHandler::__construct<\/a>"],[100,1,"<a href=\"Mapping\/Query\/GetAttributesMappingByFamilyHandler.php.html#61\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributesMappingByFamilyHandler::handle<\/a>"],[100,2,"<a href=\"Mapping\/Query\/GetAttributesMappingByFamilyHandler.php.html#73\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributesMappingByFamilyHandler::ensureFamilyExists<\/a>"],[100,3,"<a href=\"Mapping\/Query\/GetAttributesMappingByFamilyHandler.php.html#90\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributesMappingByFamilyHandler::unmapUnknownAttributes<\/a>"],[100,4,"<a href=\"Mapping\/Query\/GetAttributesMappingByFamilyHandler.php.html#110\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributesMappingByFamilyHandler::computeUnknownAttributesCodes<\/a>"],[100,3,"<a href=\"Mapping\/Query\/GetAttributesMappingByFamilyHandler.php.html#133\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributesMappingByFamilyHandler::computeNewAttributesMapping<\/a>"],[75,2,"<a href=\"Mapping\/Query\/GetAttributesMappingByFamilyQuery.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributesMappingByFamilyQuery::__construct<\/a>"],[100,1,"<a href=\"Mapping\/Query\/GetAttributesMappingByFamilyQuery.php.html#41\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetAttributesMappingByFamilyQuery::getFamilyCode<\/a>"],[0,1,"<a href=\"Mapping\/Query\/GetIdentifiersMappingHandler.php.html#30\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetIdentifiersMappingHandler::__construct<\/a>"],[100,1,"<a href=\"Mapping\/Query\/GetIdentifiersMappingHandler.php.html#35\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\GetIdentifiersMappingHandler::handle<\/a>"],[100,1,"<a href=\"Mapping\/Query\/SearchFamiliesHandler.php.html#30\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\SearchFamiliesHandler::__construct<\/a>"],[100,1,"<a href=\"Mapping\/Query\/SearchFamiliesHandler.php.html#40\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\SearchFamiliesHandler::handle<\/a>"],[100,2,"<a href=\"Mapping\/Query\/SearchFamiliesQuery.php.html#35\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\SearchFamiliesQuery::__construct<\/a>"],[100,1,"<a href=\"Mapping\/Query\/SearchFamiliesQuery.php.html#45\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\SearchFamiliesQuery::getLimit<\/a>"],[100,1,"<a href=\"Mapping\/Query\/SearchFamiliesQuery.php.html#53\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\SearchFamiliesQuery::getPage<\/a>"],[100,2,"<a href=\"Mapping\/Query\/SearchFamiliesQuery.php.html#61\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Mapping\\Query\\SearchFamiliesQuery::getSearch<\/a>"],[75,2,"<a href=\"ProductSubscription\/Command\/SubscribeProductCommand.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\SubscribeProductCommand::__construct<\/a>"],[100,1,"<a href=\"ProductSubscription\/Command\/SubscribeProductCommand.php.html#40\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\SubscribeProductCommand::getProductId<\/a>"],[100,1,"<a href=\"ProductSubscription\/Command\/SubscribeProductHandler.php.html#71\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\SubscribeProductHandler::__construct<\/a>"],[100,1,"<a href=\"ProductSubscription\/Command\/SubscribeProductHandler.php.html#95\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\SubscribeProductHandler::handle<\/a>"],[100,1,"<a href=\"ProductSubscription\/Command\/SubscribeProductHandler.php.html#109\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\SubscribeProductHandler::subscribe<\/a>"],[100,1,"<a href=\"ProductSubscription\/Command\/SubscribeProductHandler.php.html#140\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\SubscribeProductHandler::validateProduct<\/a>"],[75,2,"<a href=\"ProductSubscription\/Command\/UnsubscribeProductCommand.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UnsubscribeProductCommand::__construct<\/a>"],[100,1,"<a href=\"ProductSubscription\/Command\/UnsubscribeProductCommand.php.html#40\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UnsubscribeProductCommand::getProductId<\/a>"],[100,1,"<a href=\"ProductSubscription\/Command\/UnsubscribeProductHandler.php.html#45\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UnsubscribeProductHandler::__construct<\/a>"],[100,2,"<a href=\"ProductSubscription\/Command\/UnsubscribeProductHandler.php.html#60\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UnsubscribeProductHandler::handle<\/a>"],[0,1,"<a href=\"ProductSubscription\/Command\/UpdateSubscriptionFamilyCommand.php.html#33\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UpdateSubscriptionFamilyCommand::__construct<\/a>"],[0,1,"<a href=\"ProductSubscription\/Command\/UpdateSubscriptionFamilyCommand.php.html#43\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UpdateSubscriptionFamilyCommand::productId<\/a>"],[0,1,"<a href=\"ProductSubscription\/Command\/UpdateSubscriptionFamilyCommand.php.html#51\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UpdateSubscriptionFamilyCommand::family<\/a>"],[100,1,"<a href=\"ProductSubscription\/Command\/UpdateSubscriptionFamilyHandler.php.html#35\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UpdateSubscriptionFamilyHandler::__construct<\/a>"],[0,2,"<a href=\"ProductSubscription\/Command\/UpdateSubscriptionFamilyHandler.php.html#48\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Command\\UpdateSubscriptionFamilyHandler::handle<\/a>"],[100,1,"<a href=\"ProductSubscription\/Query\/GetProductSubscriptionStatusHandler.php.html#50\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Query\\GetProductSubscriptionStatusHandler::__construct<\/a>"],[90,2,"<a href=\"ProductSubscription\/Query\/GetProductSubscriptionStatusHandler.php.html#69\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Query\\GetProductSubscriptionStatusHandler::handle<\/a>"],[100,5,"<a href=\"ProductSubscription\/Query\/GetProductSubscriptionStatusHandler.php.html#92\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Query\\GetProductSubscriptionStatusHandler::isMappingFilled<\/a>"],[100,1,"<a href=\"ProductSubscription\/Query\/GetProductSubscriptionStatusQuery.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Query\\GetProductSubscriptionStatusQuery::__construct<\/a>"],[100,1,"<a href=\"ProductSubscription\/Query\/GetProductSubscriptionStatusQuery.php.html#37\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\ProductSubscription\\Query\\GetProductSubscriptionStatusQuery::getProductId<\/a>"],[100,1,"<a href=\"Proposal\/Command\/CreateProposalCommand.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Proposal\\Command\\CreateProposalCommand::__construct<\/a>"],[100,1,"<a href=\"Proposal\/Command\/CreateProposalCommand.php.html#37\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Proposal\\Command\\CreateProposalCommand::getProductSubscription<\/a>"],[100,1,"<a href=\"Proposal\/Command\/CreateProposalHandler.php.html#41\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Proposal\\Command\\CreateProposalHandler::__construct<\/a>"],[100,2,"<a href=\"Proposal\/Command\/CreateProposalHandler.php.html#54\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Proposal\\Command\\CreateProposalHandler::handle<\/a>"],[100,1,"<a href=\"Proposal\/Factory\/ProposalSuggestedDataFactory.php.html#28\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Proposal\\Factory\\ProposalSuggestedDataFactory::__construct<\/a>"],[75,3,"<a href=\"Proposal\/Factory\/ProposalSuggestedDataFactory.php.html#38\">Akeneo\\Pim\\Automation\\FranklinInsights\\Application\\Proposal\\Factory\\ProposalSuggestedDataFactory::fromSubscription<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Platform/Bundle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/srv/pim</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Platform</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Bundle</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/CertificateMetadata.php.html#10">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\CertificateMetadata</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/UI/Controller.php.html#31">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\UI\Controller</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Log/CreateArchive.php.html#9">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Log\CreateArchive</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/SamlToken.php.html#6">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\SamlToken</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/SamlTokenFactory.php.html#14">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\SamlTokenFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/Factory.php.html#22">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\Factory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/UnknownUserException.php.html#13">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\UnknownUserException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/EnterpriseDatabaseCommand.php.html#22">Akeneo\Platform\Bundle\InstallerBundle\Command\EnterpriseDatabaseCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/EnterpriseComposerScripts.php.html#23">Akeneo\Platform\Bundle\InstallerBundle\EnterpriseComposerScripts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Event/Subscriber/MassUploadAssetsSubscriber.php.html#25">Akeneo\Platform\Bundle\InstallerBundle\Event\Subscriber\MassUploadAssetsSubscriber</a></td><td class="text-right">5%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#32">Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand</a></td><td class="text-right">6%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveBackendProcessesRightsToAllUsersCommand.php.html#28">Akeneo\Platform\Bundle\InstallerBundle\Command\GiveBackendProcessesRightsToAllUsersCommand</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/OneLoginAuthFactory.php.html#17">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\OneLoginAuthFactory</a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/UnknownUserExceptionListener.php.html#23">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\UnknownUserExceptionListener</a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/Provider.php.html#19">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\Provider</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/FirewallMap.php.html#12">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\FirewallMap</a></td><td class="text-right">69%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#32">Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand</a></td><td class="text-right">413</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/UI/Controller.php.html#31">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\UI\Controller</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveBackendProcessesRightsToAllUsersCommand.php.html#28">Akeneo\Platform\Bundle\InstallerBundle\Command\GiveBackendProcessesRightsToAllUsersCommand</a></td><td class="text-right">46</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Log/CreateArchive.php.html#9">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Log\CreateArchive</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/CertificateMetadata.php.html#10">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\CertificateMetadata</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="InstallerBundle/Event/Subscriber/MassUploadAssetsSubscriber.php.html#25">Akeneo\Platform\Bundle\InstallerBundle\Event\Subscriber\MassUploadAssetsSubscriber</a></td><td class="text-right">26</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/FirewallMap.php.html#12">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\FirewallMap</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/Provider.php.html#19">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\Provider</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InstallerBundle/EnterpriseComposerScripts.php.html#23">Akeneo\Platform\Bundle\InstallerBundle\EnterpriseComposerScripts</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/OneLoginAuthFactory.php.html#17">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\OneLoginAuthFactory</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/UnknownUserExceptionListener.php.html#23">Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\UnknownUserExceptionListener</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/CertificateMetadata.php.html#15"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\CertificateMetadata::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#184"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::getAssetCategoryRepository">getAssetCategoryRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#96"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::setRightsOnAttributesGroups">setRightsOnAttributesGroups</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#108"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::setRightsOnJobProfiles">setRightsOnJobProfiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#120"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::getAccessCategoryManager">getAccessCategoryManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#128"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::getAccessCategoryAssetManager">getAccessCategoryAssetManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#136"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::getJobProfileAccessManager">getJobProfileAccessManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#144"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::getAccessAttributeGroupManager">getAccessAttributeGroupManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#152"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::getLocaleAccessManager">getLocaleAccessManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#160"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::getCatalogCategoryRepository">getCatalogCategoryRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#168"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::getJobInstanceRepository">getJobInstanceRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#176"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::geAttributeGroupRepository">geAttributeGroupRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#192"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::getGroupRepository">getGroupRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#63"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::setRightsOnCategories">setRightsOnCategories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#200"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::getLocaleRepository">getLocaleRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveBackendProcessesRightsToAllUsersCommand.php.html#43"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveBackendProcessesRightsToAllUsersCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveBackendProcessesRightsToAllUsersCommand.php.html#62"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveBackendProcessesRightsToAllUsersCommand::getJobInstanceCodes">getJobInstanceCodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveBackendProcessesRightsToAllUsersCommand.php.html#114"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveBackendProcessesRightsToAllUsersCommand::getJobInstanceRepository">getJobInstanceRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveBackendProcessesRightsToAllUsersCommand.php.html#122"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveBackendProcessesRightsToAllUsersCommand::getJobProfileAccessManager">getJobProfileAccessManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveBackendProcessesRightsToAllUsersCommand.php.html#130"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveBackendProcessesRightsToAllUsersCommand::getUserGroupRepository">getUserGroupRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveBackendProcessesRightsToAllUsersCommand.php.html#138"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveBackendProcessesRightsToAllUsersCommand::getObjectManager">getObjectManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/EnterpriseComposerScripts.php.html#30"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\EnterpriseComposerScripts::copyUpgradesFolder">copyUpgradesFolder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/EnterpriseComposerScripts.php.html#47"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\EnterpriseComposerScripts::copyUpgradeFile">copyUpgradeFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Event/Subscriber/MassUploadAssetsSubscriber.php.html#37"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Event\Subscriber\MassUploadAssetsSubscriber::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#84"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::setRightsOnLocales">setRightsOnLocales</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#48"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/CertificateMetadata.php.html#32"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\CertificateMetadata::getExpirationDate">getExpirationDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Log/CreateArchive.php.html#70"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Log\CreateArchive::addLogsFileToArchive">addLogsFileToArchive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/UI/Controller.php.html#63"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\UI\Controller::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/UI/Controller.php.html#88"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\UI\Controller::saveAction">saveAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/UI/Controller.php.html#127"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\UI\Controller::getAction">getAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/UI/Controller.php.html#189"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\UI\Controller::downloadAuthenticationLogsAction">downloadAuthenticationLogsAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/UI/Controller.php.html#205"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\UI\Controller::formatDate">formatDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Log/CreateArchive.php.html#17"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Log\CreateArchive::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Log/CreateArchive.php.html#23"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Log\CreateArchive::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Log/CreateArchive.php.html#35"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Log\CreateArchive::getLogArchiveDirectory">getLogArchiveDirectory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/EnterpriseDatabaseCommand.php.html#44"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\EnterpriseDatabaseCommand::createNotMappedTables">createNotMappedTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Log/CreateArchive.php.html#44"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Log\CreateArchive::addReadmeFileToArchive">addReadmeFileToArchive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/SamlToken.php.html#14"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\SamlToken::getProviderKey">getProviderKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/SamlTokenFactory.php.html#26"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\SamlTokenFactory::createToken">createToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/Factory.php.html#27"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\Factory::createUser">createUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/UnknownUserException.php.html#18"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\UnknownUserException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Command/EnterpriseDatabaseCommand.php.html#27"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\EnterpriseDatabaseCommand::launchCommands">launchCommands</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstallerBundle/Event/Subscriber/MassUploadAssetsSubscriber.php.html#58"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Event\Subscriber\MassUploadAssetsSubscriber::massUploadAssets">massUploadAssets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/OneLoginAuthFactory.php.html#42"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\OneLoginAuthFactory::overrideOriginalConfig">overrideOriginalConfig</abbr></a></td><td class="text-right">23%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/UnknownUserExceptionListener.php.html#33"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\UnknownUserExceptionListener::onKernelException">onKernelException</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/Provider.php.html#38"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\Provider::loadUserByUsername">loadUserByUsername</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/FirewallMap.php.html#40"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\FirewallMap::getFirewallContext">getFirewallContext</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/FirewallMap.php.html#69"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\FirewallMap::isSSOEnabled">isSSOEnabled</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/FirewallMap.php.html#29"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\FirewallMap::getListeners">getListeners</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/Provider.php.html#57"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\Provider::refreshUser">refreshUser</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/Provider.php.html#75"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\Provider::isSSOEnabled">isSSOEnabled</abbr></a></td><td class="text-right">75%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/UI/Controller.php.html#127"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\UI\Controller::getAction">getAction</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/FirewallMap.php.html#40"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\FirewallMap::getFirewallContext">getFirewallContext</abbr></a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/CertificateMetadata.php.html#15"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\CertificateMetadata::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#63"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::setRightsOnCategories">setRightsOnCategories</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InstallerBundle/Event/Subscriber/MassUploadAssetsSubscriber.php.html#58"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Event\Subscriber\MassUploadAssetsSubscriber::massUploadAssets">massUploadAssets</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/UI/Controller.php.html#88"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\UI\Controller::saveAction">saveAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/UI/Controller.php.html#189"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\UI\Controller::downloadAuthenticationLogsAction">downloadAuthenticationLogsAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Log/CreateArchive.php.html#70"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Log\CreateArchive::addLogsFileToArchive">addLogsFileToArchive</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/Configuration/CertificateMetadata.php.html#32"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\Configuration\CertificateMetadata::getExpirationDate">getExpirationDate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#84"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::setRightsOnLocales">setRightsOnLocales</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#96"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::setRightsOnAttributesGroups">setRightsOnAttributesGroups</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveAllRightsToAllUsersCommand.php.html#108"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveAllRightsToAllUsersCommand::setRightsOnJobProfiles">setRightsOnJobProfiles</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InstallerBundle/Command/GiveBackendProcessesRightsToAllUsersCommand.php.html#43"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\Command\GiveBackendProcessesRightsToAllUsersCommand::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InstallerBundle/EnterpriseComposerScripts.php.html#47"><abbr title="Akeneo\Platform\Bundle\InstallerBundle\EnterpriseComposerScripts::copyUpgradeFile">copyUpgradeFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/Provider.php.html#38"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\Provider::loadUserByUsername">loadUserByUsername</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/OneLoginAuthFactory.php.html#42"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\OneLoginAuthFactory::overrideOriginalConfig">overrideOriginalConfig</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/UnknownUserExceptionListener.php.html#33"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\UnknownUserExceptionListener::onKernelException">onKernelException</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/FirewallMap.php.html#29"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\FirewallMap::getListeners">getListeners</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/FirewallMap.php.html#69"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\FirewallMap::isSSOEnabled">isSSOEnabled</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/Provider.php.html#57"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\Provider::refreshUser">refreshUser</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="AuthenticationBundle/Sso/User/Provider.php.html#75"><abbr title="Akeneo\Platform\Bundle\AuthenticationBundle\Sso\User\Provider::isSSOEnabled">isSSOEnabled</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.2</a> at Sun Apr 7 17:13:38 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([9,2,1,0,0,2,0,2,0,0,0,7], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([44,0,0,2,1,0,0,1,4,0,0,26], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,5,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/CertificateMetadata.php.html#10\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\CertificateMetadata<\/a>"],[100,4,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Persistence\/Sql\/SqlRepository.php.html#27\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Persistence\\Sql\\SqlRepository<\/a>"],[0,13,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/UI\/Controller.php.html#31\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\UI\\Controller<\/a>"],[100,0,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Validation\/IsCertificateValid.php.html#12\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Validation\\IsCertificateValid<\/a>"],[100,6,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Validation\/IsCertificateValidValidator.php.html#23\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Validation\\IsCertificateValidValidator<\/a>"],[100,1,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Validation\/MatchingCertificateAndPrivateKey.php.html#12\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Validation\\MatchingCertificateAndPrivateKey<\/a>"],[100,5,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Validation\/MatchingCertificateAndPrivateKeyValidator.php.html#11\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Validation\\MatchingCertificateAndPrivateKeyValidator<\/a>"],[69.23076923076923,14,"<a href=\"AuthenticationBundle\/Sso\/FirewallMap.php.html#12\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\FirewallMap<\/a>"],[0,6,"<a href=\"AuthenticationBundle\/Sso\/Log\/CreateArchive.php.html#9\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Log\\CreateArchive<\/a>"],[44.44444444444444,4,"<a href=\"AuthenticationBundle\/Sso\/OneLoginAuthFactory.php.html#17\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\OneLoginAuthFactory<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/SamlToken.php.html#6\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\SamlToken<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/SamlTokenFactory.php.html#14\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\SamlTokenFactory<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/User\/Factory.php.html#22\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\Factory<\/a>"],[66.66666666666666,9,"<a href=\"AuthenticationBundle\/Sso\/User\/Provider.php.html#19\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\Provider<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/User\/UnknownUserException.php.html#13\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\UnknownUserException<\/a>"],[44.44444444444444,3,"<a href=\"AuthenticationBundle\/Sso\/User\/UnknownUserExceptionListener.php.html#23\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\UnknownUserExceptionListener<\/a>"],[100,4,"<a href=\"InstallerBundle\/Command\/CleanAttributeGroupAccessesCommand.php.html#25\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanAttributeGroupAccessesCommand<\/a>"],[100,6,"<a href=\"InstallerBundle\/Command\/CleanCategoryAccessesCommand.php.html#26\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanCategoryAccessesCommand<\/a>"],[0,2,"<a href=\"InstallerBundle\/Command\/EnterpriseDatabaseCommand.php.html#22\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\EnterpriseDatabaseCommand<\/a>"],[6.8181818181818175,22,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#32\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand<\/a>"],[15.789473684210526,8,"<a href=\"InstallerBundle\/Command\/GiveBackendProcessesRightsToAllUsersCommand.php.html#28\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveBackendProcessesRightsToAllUsersCommand<\/a>"],[0,3,"<a href=\"InstallerBundle\/EnterpriseComposerScripts.php.html#23\">Akeneo\\Platform\\Bundle\\InstallerBundle\\EnterpriseComposerScripts<\/a>"],[5.555555555555555,5,"<a href=\"InstallerBundle\/Event\/Subscriber\/MassUploadAssetsSubscriber.php.html#25\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Event\\Subscriber\\MassUploadAssetsSubscriber<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/CertificateMetadata.php.html#15\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\CertificateMetadata::__construct<\/a>"],[0,2,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/CertificateMetadata.php.html#32\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\CertificateMetadata::getExpirationDate<\/a>"],[100,1,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Persistence\/Sql\/SqlRepository.php.html#32\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Persistence\\Sql\\SqlRepository::__construct<\/a>"],[100,1,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Persistence\/Sql\/SqlRepository.php.html#37\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Persistence\\Sql\\SqlRepository::save<\/a>"],[100,2,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Persistence\/Sql\/SqlRepository.php.html#46\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Persistence\\Sql\\SqlRepository::find<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/UI\/Controller.php.html#63\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\UI\\Controller::__construct<\/a>"],[0,3,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/UI\/Controller.php.html#88\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\UI\\Controller::saveAction<\/a>"],[0,6,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/UI\/Controller.php.html#127\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\UI\\Controller::getAction<\/a>"],[0,2,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/UI\/Controller.php.html#189\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\UI\\Controller::downloadAuthenticationLogsAction<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/UI\/Controller.php.html#205\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\UI\\Controller::formatDate<\/a>"],[100,1,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Validation\/IsCertificateValidValidator.php.html#27\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Validation\\IsCertificateValidValidator::__construct<\/a>"],[100,5,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Validation\/IsCertificateValidValidator.php.html#35\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Validation\\IsCertificateValidValidator::validate<\/a>"],[100,1,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Validation\/MatchingCertificateAndPrivateKey.php.html#26\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Validation\\MatchingCertificateAndPrivateKey::getTargets<\/a>"],[100,5,"<a href=\"AuthenticationBundle\/Sso\/Configuration\/Validation\/MatchingCertificateAndPrivateKeyValidator.php.html#13\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Configuration\\Validation\\MatchingCertificateAndPrivateKeyValidator::validate<\/a>"],[100,1,"<a href=\"AuthenticationBundle\/Sso\/FirewallMap.php.html#23\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\FirewallMap::__construct<\/a>"],[75,2,"<a href=\"AuthenticationBundle\/Sso\/FirewallMap.php.html#29\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\FirewallMap::getListeners<\/a>"],[60,9,"<a href=\"AuthenticationBundle\/Sso\/FirewallMap.php.html#40\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\FirewallMap::getFirewallContext<\/a>"],[75,2,"<a href=\"AuthenticationBundle\/Sso\/FirewallMap.php.html#69\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\FirewallMap::isSSOEnabled<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/Log\/CreateArchive.php.html#17\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Log\\CreateArchive::__construct<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/Log\/CreateArchive.php.html#23\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Log\\CreateArchive::create<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/Log\/CreateArchive.php.html#35\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Log\\CreateArchive::getLogArchiveDirectory<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/Log\/CreateArchive.php.html#44\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Log\\CreateArchive::addReadmeFileToArchive<\/a>"],[0,2,"<a href=\"AuthenticationBundle\/Sso\/Log\/CreateArchive.php.html#70\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\Log\\CreateArchive::addLogsFileToArchive<\/a>"],[100,1,"<a href=\"AuthenticationBundle\/Sso\/OneLoginAuthFactory.php.html#27\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\OneLoginAuthFactory::__construct<\/a>"],[100,1,"<a href=\"AuthenticationBundle\/Sso\/OneLoginAuthFactory.php.html#35\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\OneLoginAuthFactory::create<\/a>"],[23.076923076923077,2,"<a href=\"AuthenticationBundle\/Sso\/OneLoginAuthFactory.php.html#42\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\OneLoginAuthFactory::overrideOriginalConfig<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/SamlToken.php.html#14\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\SamlToken::getProviderKey<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/SamlTokenFactory.php.html#26\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\SamlTokenFactory::createToken<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/User\/Factory.php.html#27\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\Factory::createUser<\/a>"],[100,1,"<a href=\"AuthenticationBundle\/Sso\/User\/Provider.php.html#29\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\Provider::__construct<\/a>"],[33.33333333333333,3,"<a href=\"AuthenticationBundle\/Sso\/User\/Provider.php.html#38\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\Provider::loadUserByUsername<\/a>"],[75,2,"<a href=\"AuthenticationBundle\/Sso\/User\/Provider.php.html#57\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\Provider::refreshUser<\/a>"],[100,1,"<a href=\"AuthenticationBundle\/Sso\/User\/Provider.php.html#70\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\Provider::supportsClass<\/a>"],[75,2,"<a href=\"AuthenticationBundle\/Sso\/User\/Provider.php.html#75\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\Provider::isSSOEnabled<\/a>"],[0,1,"<a href=\"AuthenticationBundle\/Sso\/User\/UnknownUserException.php.html#18\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\UnknownUserException::__construct<\/a>"],[100,1,"<a href=\"AuthenticationBundle\/Sso\/User\/UnknownUserExceptionListener.php.html#28\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\UnknownUserExceptionListener::__construct<\/a>"],[28.57142857142857,2,"<a href=\"AuthenticationBundle\/Sso\/User\/UnknownUserExceptionListener.php.html#33\">Akeneo\\Platform\\Bundle\\AuthenticationBundle\\Sso\\User\\UnknownUserExceptionListener::onKernelException<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/CleanAttributeGroupAccessesCommand.php.html#30\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanAttributeGroupAccessesCommand::configure<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/CleanAttributeGroupAccessesCommand.php.html#40\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanAttributeGroupAccessesCommand::execute<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/CleanAttributeGroupAccessesCommand.php.html#51\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanAttributeGroupAccessesCommand::getProductCategoryAccessRepository<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/CleanAttributeGroupAccessesCommand.php.html#59\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanAttributeGroupAccessesCommand::getUserGroupRepository<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/CleanCategoryAccessesCommand.php.html#31\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanCategoryAccessesCommand::configure<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/CleanCategoryAccessesCommand.php.html#41\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanCategoryAccessesCommand::execute<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/CleanCategoryAccessesCommand.php.html#54\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanCategoryAccessesCommand::getProductCategoryAccessRepository<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/CleanCategoryAccessesCommand.php.html#62\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanCategoryAccessesCommand::getAssetCategoryAccessRepository<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/CleanCategoryAccessesCommand.php.html#70\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanCategoryAccessesCommand::getUserGroupRepository<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/CleanCategoryAccessesCommand.php.html#78\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\CleanCategoryAccessesCommand::getDoctrine<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/EnterpriseDatabaseCommand.php.html#27\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\EnterpriseDatabaseCommand::launchCommands<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/EnterpriseDatabaseCommand.php.html#44\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\EnterpriseDatabaseCommand::createNotMappedTables<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#37\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::configure<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#48\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::execute<\/a>"],[0,3,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#63\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::setRightsOnCategories<\/a>"],[0,2,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#84\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::setRightsOnLocales<\/a>"],[0,2,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#96\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::setRightsOnAttributesGroups<\/a>"],[0,2,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#108\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::setRightsOnJobProfiles<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#120\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::getAccessCategoryManager<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#128\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::getAccessCategoryAssetManager<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#136\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::getJobProfileAccessManager<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#144\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::getAccessAttributeGroupManager<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#152\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::getLocaleAccessManager<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#160\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::getCatalogCategoryRepository<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#168\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::getJobInstanceRepository<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#176\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::geAttributeGroupRepository<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#184\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::getAssetCategoryRepository<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#192\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::getGroupRepository<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveAllRightsToAllUsersCommand.php.html#200\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveAllRightsToAllUsersCommand::getLocaleRepository<\/a>"],[100,1,"<a href=\"InstallerBundle\/Command\/GiveBackendProcessesRightsToAllUsersCommand.php.html#33\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveBackendProcessesRightsToAllUsersCommand::configure<\/a>"],[0,2,"<a href=\"InstallerBundle\/Command\/GiveBackendProcessesRightsToAllUsersCommand.php.html#43\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveBackendProcessesRightsToAllUsersCommand::execute<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveBackendProcessesRightsToAllUsersCommand.php.html#62\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveBackendProcessesRightsToAllUsersCommand::getJobInstanceCodes<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveBackendProcessesRightsToAllUsersCommand.php.html#114\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveBackendProcessesRightsToAllUsersCommand::getJobInstanceRepository<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveBackendProcessesRightsToAllUsersCommand.php.html#122\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveBackendProcessesRightsToAllUsersCommand::getJobProfileAccessManager<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveBackendProcessesRightsToAllUsersCommand.php.html#130\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveBackendProcessesRightsToAllUsersCommand::getUserGroupRepository<\/a>"],[0,1,"<a href=\"InstallerBundle\/Command\/GiveBackendProcessesRightsToAllUsersCommand.php.html#138\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Command\\GiveBackendProcessesRightsToAllUsersCommand::getObjectManager<\/a>"],[0,1,"<a href=\"InstallerBundle\/EnterpriseComposerScripts.php.html#30\">Akeneo\\Platform\\Bundle\\InstallerBundle\\EnterpriseComposerScripts::copyUpgradesFolder<\/a>"],[0,2,"<a href=\"InstallerBundle\/EnterpriseComposerScripts.php.html#47\">Akeneo\\Platform\\Bundle\\InstallerBundle\\EnterpriseComposerScripts::copyUpgradeFile<\/a>"],[0,1,"<a href=\"InstallerBundle\/Event\/Subscriber\/MassUploadAssetsSubscriber.php.html#37\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Event\\Subscriber\\MassUploadAssetsSubscriber::__construct<\/a>"],[100,1,"<a href=\"InstallerBundle\/Event\/Subscriber\/MassUploadAssetsSubscriber.php.html#46\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Event\\Subscriber\\MassUploadAssetsSubscriber::getSubscribedEvents<\/a>"],[0,3,"<a href=\"InstallerBundle\/Event\/Subscriber\/MassUploadAssetsSubscriber.php.html#58\">Akeneo\\Platform\\Bundle\\InstallerBundle\\Event\\Subscriber\\MassUploadAssetsSubscriber::massUploadAssets<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

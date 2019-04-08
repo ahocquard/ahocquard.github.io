@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Pim/Automation/FranklinInsights/Infrastructure/Connector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../../../index.html">/srv/pim</a></li>
+         <li class="breadcrumb-item"><a href="../../../../../../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="../../../../../index.html">Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">Pim</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Automation</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">FranklinInsights</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Infrastructure</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Connector</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Processor/UnsubscriptionProcessor.php.html#21">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\UnsubscriptionProcessor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobParameters/DateTimeJobParameterToFetchSubscriptions.php.html#26">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobParameters\DateTimeJobParameterToFetchSubscriptions</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobParameters/UpdatedFranklinIdentifiers.php.html#28">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobParameters\UpdatedFranklinIdentifiers</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveAttributeFromAttributeMappingTasklet.php.html#28">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveAttributeFromAttributeMappingTasklet</a></td><td class="text-right">7%</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#35">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet</a></td><td class="text-right">8%</td></tr>
+       <tr><td><a href="Tasklet/IdentifyProductToResubscribeTasklet.php.html#29">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\IdentifyProductToResubscribeTasklet</a></td><td class="text-right">10%</td></tr>
+       <tr><td><a href="Writer/UnsubscriptionWriter.php.html#29">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\UnsubscriptionWriter</a></td><td class="text-right">11%</td></tr>
+       <tr><td><a href="Reader/SuggestedDataReader.php.html#26">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\SuggestedDataReader</a></td><td class="text-right">12%</td></tr>
+       <tr><td><a href="Processor/SuggestedDataProcessor.php.html#27">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\SuggestedDataProcessor</a></td><td class="text-right">13%</td></tr>
+       <tr><td><a href="Writer/SubscriptionWriter.php.html#35">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\SubscriptionWriter</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="Writer/SuggestedDataWriter.php.html#22">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\SuggestedDataWriter</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="Reader/PendingSubscriptionReader.php.html#24">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\PendingSubscriptionReader</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="JobLauncher/ResubscribeProducts.php.html#25">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\ResubscribeProducts</a></td><td class="text-right">21%</td></tr>
+       <tr><td><a href="JobLauncher/RemoveAttributesFromMapping.php.html#25">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\RemoveAttributesFromMapping</a></td><td class="text-right">23%</td></tr>
+       <tr><td><a href="Processor/SubscriptionProcessor.php.html#28">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\SubscriptionProcessor</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="JobLauncher/RemoveAttributeOptionFromMapping.php.html#25">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\RemoveAttributeOptionFromMapping</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Processor/PendingSubscriptionProcessor.php.html#24">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\PendingSubscriptionProcessor</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Writer/ProposalWriter.php.html#26">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\ProposalWriter</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="JobLauncher/IdentifyProductsToResubscribe.php.html#25">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\IdentifyProductsToResubscribe</a></td><td class="text-right">26%</td></tr>
+       <tr><td><a href="Step/ConnectionValidationStep.php.html#28">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Step\ConnectionValidationStep</a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Step/IdentifiersMappingValidationStep.php.html#27">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Step\IdentifiersMappingValidationStep</a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Tasklet/NotifyPendingAttributesTasklet.php.html#26">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\NotifyPendingAttributesTasklet</a></td><td class="text-right">77%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#35">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet</a></td><td class="text-right">211</td></tr>
+       <tr><td><a href="Tasklet/IdentifyProductToResubscribeTasklet.php.html#29">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\IdentifyProductToResubscribeTasklet</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Tasklet/RemoveAttributeFromAttributeMappingTasklet.php.html#28">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveAttributeFromAttributeMappingTasklet</a></td><td class="text-right">124</td></tr>
+       <tr><td><a href="Reader/SuggestedDataReader.php.html#26">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\SuggestedDataReader</a></td><td class="text-right">78</td></tr>
+       <tr><td><a href="Writer/SubscriptionWriter.php.html#35">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\SubscriptionWriter</a></td><td class="text-right">48</td></tr>
+       <tr><td><a href="Writer/UnsubscriptionWriter.php.html#29">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\UnsubscriptionWriter</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Writer/SuggestedDataWriter.php.html#22">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\SuggestedDataWriter</a></td><td class="text-right">27</td></tr>
+       <tr><td><a href="JobLauncher/RemoveAttributesFromMapping.php.html#25">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\RemoveAttributesFromMapping</a></td><td class="text-right">22</td></tr>
+       <tr><td><a href="Processor/SuggestedDataProcessor.php.html#27">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\SuggestedDataProcessor</a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="Reader/PendingSubscriptionReader.php.html#24">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\PendingSubscriptionReader</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="JobLauncher/RemoveAttributeOptionFromMapping.php.html#25">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\RemoveAttributeOptionFromMapping</a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="JobLauncher/ResubscribeProducts.php.html#25">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\ResubscribeProducts</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Writer/ProposalWriter.php.html#26">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\ProposalWriter</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="JobLauncher/IdentifyProductsToResubscribe.php.html#25">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\IdentifyProductsToResubscribe</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Tasklet/NotifyPendingAttributesTasklet.php.html#26">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\NotifyPendingAttributesTasklet</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Processor/SubscriptionProcessor.php.html#28">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\SubscriptionProcessor</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Processor/PendingSubscriptionProcessor.php.html#24">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\PendingSubscriptionProcessor</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Step/IdentifiersMappingValidationStep.php.html#27">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Step\IdentifiersMappingValidationStep</a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Step/ConnectionValidationStep.php.html#28">Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Step\ConnectionValidationStep</a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="JobLauncher/IdentifyProductsToResubscribe.php.html#54"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\IdentifyProductsToResubscribe::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#127"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::updateAttributeOptionsMapping">updateAttributeOptionsMapping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/IdentifyProductToResubscribeTasklet.php.html#160"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\IdentifyProductToResubscribeTasklet::launchResubscriptionJob">launchResubscriptionJob</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/NotifyPendingAttributesTasklet.php.html#64"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\NotifyPendingAttributesTasklet::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveAttributeFromAttributeMappingTasklet.php.html#54"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveAttributeFromAttributeMappingTasklet::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveAttributeFromAttributeMappingTasklet.php.html#85"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveAttributeFromAttributeMappingTasklet::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveAttributeFromAttributeMappingTasklet.php.html#96"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveAttributeFromAttributeMappingTasklet::buildNewAttributesMapping">buildNewAttributesMapping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveAttributeFromAttributeMappingTasklet.php.html#123"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveAttributeFromAttributeMappingTasklet::getJobParameterValue">getJobParameterValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#73"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#81"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#98"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::updateOptionsMappingByFamily">updateOptionsMappingByFamily</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#162"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::buildNewAttributeOptionsMapping">buildNewAttributeOptionsMapping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobLauncher/RemoveAttributeOptionFromMapping.php.html#54"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\RemoveAttributeOptionFromMapping::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#184"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::buildNewOptionMapping">buildNewOptionMapping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#207"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::getJobParameterValue">getJobParameterValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Writer/ProposalWriter.php.html#52"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\ProposalWriter::write">write</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Writer/ProposalWriter.php.html#68"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\ProposalWriter::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Writer/SubscriptionWriter.php.html#76"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\SubscriptionWriter::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Writer/SubscriptionWriter.php.html#84"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\SubscriptionWriter::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Writer/SubscriptionWriter.php.html#92"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\SubscriptionWriter::write">write</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Writer/SubscriptionWriter.php.html#128"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\SubscriptionWriter::buildSubscription">buildSubscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Writer/SuggestedDataWriter.php.html#38"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\SuggestedDataWriter::write">write</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Writer/UnsubscriptionWriter.php.html#48"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\UnsubscriptionWriter::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/IdentifyProductToResubscribeTasklet.php.html#132"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\IdentifyProductToResubscribeTasklet::getProductIdsWithUpdatedIdentifiers">getProductIdsWithUpdatedIdentifiers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/IdentifyProductToResubscribeTasklet.php.html#107"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\IdentifyProductToResubscribeTasklet::getNextNonNullRequestedIdentifiers">getNextNonNullRequestedIdentifiers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/IdentifyProductToResubscribeTasklet.php.html#81"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\IdentifyProductToResubscribeTasklet::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Processor/SuggestedDataProcessor.php.html#46"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\SuggestedDataProcessor::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobLauncher/RemoveAttributesFromMapping.php.html#54"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\RemoveAttributesFromMapping::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobLauncher/ResubscribeProducts.php.html#54"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\ResubscribeProducts::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobParameters/DateTimeJobParameterToFetchSubscriptions.php.html#31"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobParameters\DateTimeJobParameterToFetchSubscriptions::getConstraintCollection">getConstraintCollection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobParameters/DateTimeJobParameterToFetchSubscriptions.php.html#45"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobParameters\DateTimeJobParameterToFetchSubscriptions::supports">supports</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobParameters/DateTimeJobParameterToFetchSubscriptions.php.html#53"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobParameters\DateTimeJobParameterToFetchSubscriptions::getDefaultValues">getDefaultValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobParameters/UpdatedFranklinIdentifiers.php.html#33"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobParameters\UpdatedFranklinIdentifiers::getConstraintCollection">getConstraintCollection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobParameters/UpdatedFranklinIdentifiers.php.html#56"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobParameters\UpdatedFranklinIdentifiers::supports">supports</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobParameters/UpdatedFranklinIdentifiers.php.html#64"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobParameters\UpdatedFranklinIdentifiers::getDefaultValues">getDefaultValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Processor/PendingSubscriptionProcessor.php.html#40"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\PendingSubscriptionProcessor::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Processor/SubscriptionProcessor.php.html#51"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\SubscriptionProcessor::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Processor/SuggestedDataProcessor.php.html#69"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\SuggestedDataProcessor::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/IdentifyProductToResubscribeTasklet.php.html#73"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\IdentifyProductToResubscribeTasklet::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Processor/UnsubscriptionProcessor.php.html#26"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\UnsubscriptionProcessor::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reader/PendingSubscriptionReader.php.html#43"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\PendingSubscriptionReader::read">read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reader/PendingSubscriptionReader.php.html#62"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\PendingSubscriptionReader::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reader/SuggestedDataReader.php.html#58"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\SuggestedDataReader::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reader/SuggestedDataReader.php.html#73"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\SuggestedDataReader::read">read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reader/SuggestedDataReader.php.html#97"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\SuggestedDataReader::setStepExecution">setStepExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reader/SuggestedDataReader.php.html#107"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\SuggestedDataReader::geLastExecutionDateTime">geLastExecutionDateTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Step/ConnectionValidationStep.php.html#53"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Step\ConnectionValidationStep::doExecute">doExecute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Step/IdentifiersMappingValidationStep.php.html#52"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Step\IdentifiersMappingValidationStep::doExecute">doExecute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Writer/UnsubscriptionWriter.php.html#60"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\UnsubscriptionWriter::write">write</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tasklet/NotifyPendingAttributesTasklet.php.html#72"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\NotifyPendingAttributesTasklet::execute">execute</abbr></a></td><td class="text-right">81%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Tasklet/IdentifyProductToResubscribeTasklet.php.html#132"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\IdentifyProductToResubscribeTasklet::getProductIdsWithUpdatedIdentifiers">getProductIdsWithUpdatedIdentifiers</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="JobLauncher/RemoveAttributesFromMapping.php.html#54"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\RemoveAttributesFromMapping::process">process</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Writer/SuggestedDataWriter.php.html#38"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\SuggestedDataWriter::write">write</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Reader/SuggestedDataReader.php.html#73"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\SuggestedDataReader::read">read</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Writer/SubscriptionWriter.php.html#92"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\SubscriptionWriter::write">write</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Tasklet/RemoveAttributeFromAttributeMappingTasklet.php.html#54"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveAttributeFromAttributeMappingTasklet::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="JobLauncher/RemoveAttributeOptionFromMapping.php.html#54"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\RemoveAttributeOptionFromMapping::process">process</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Tasklet/IdentifyProductToResubscribeTasklet.php.html#81"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\IdentifyProductToResubscribeTasklet::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Writer/UnsubscriptionWriter.php.html#60"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\UnsubscriptionWriter::write">write</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="JobLauncher/IdentifyProductsToResubscribe.php.html#54"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\IdentifyProductsToResubscribe::process">process</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Tasklet/RemoveAttributeFromAttributeMappingTasklet.php.html#96"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveAttributeFromAttributeMappingTasklet::buildNewAttributesMapping">buildNewAttributesMapping</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="JobLauncher/ResubscribeProducts.php.html#54"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\JobLauncher\ResubscribeProducts::process">process</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#207"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::getJobParameterValue">getJobParameterValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#98"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::updateOptionsMappingByFamily">updateOptionsMappingByFamily</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Tasklet/RemoveAttributeFromAttributeMappingTasklet.php.html#123"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveAttributeFromAttributeMappingTasklet::getJobParameterValue">getJobParameterValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Reader/PendingSubscriptionReader.php.html#43"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\PendingSubscriptionReader::read">read</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Processor/SuggestedDataProcessor.php.html#46"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\SuggestedDataProcessor::process">process</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Processor/SubscriptionProcessor.php.html#51"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\SubscriptionProcessor::process">process</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tasklet/IdentifyProductToResubscribeTasklet.php.html#107"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\IdentifyProductToResubscribeTasklet::getNextNonNullRequestedIdentifiers">getNextNonNullRequestedIdentifiers</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Reader/SuggestedDataReader.php.html#107"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\SuggestedDataReader::geLastExecutionDateTime">geLastExecutionDateTime</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#81"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#127"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::updateAttributeOptionsMapping">updateAttributeOptionsMapping</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#162"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::buildNewAttributeOptionsMapping">buildNewAttributeOptionsMapping</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tasklet/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#184"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\RemoveOptionFromAttributeOptionsMappingTasklet::buildNewOptionMapping">buildNewOptionMapping</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Step/IdentifiersMappingValidationStep.php.html#52"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Step\IdentifiersMappingValidationStep::doExecute">doExecute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Writer/ProposalWriter.php.html#52"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Writer\ProposalWriter::write">write</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Processor/PendingSubscriptionProcessor.php.html#40"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Processor\PendingSubscriptionProcessor::process">process</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Step/ConnectionValidationStep.php.html#53"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Step\ConnectionValidationStep::doExecute">doExecute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Reader/SuggestedDataReader.php.html#58"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Reader\SuggestedDataReader::initialize">initialize</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tasklet/NotifyPendingAttributesTasklet.php.html#72"><abbr title="Akeneo\Pim\Automation\FranklinInsights\Infrastructure\Connector\Tasklet\NotifyPendingAttributesTasklet::execute">execute</abbr></a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.2</a> at Sun Apr 7 17:13:38 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([3,2,7,7,2,0,0,0,1,0,0,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([49,0,0,0,0,0,0,0,0,1,0,21], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"JobInstanceNames.php.html#19\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobInstanceNames<\/a>"],[26.666666666666668,4,"<a href=\"JobLauncher\/IdentifyProductsToResubscribe.php.html#25\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\IdentifyProductsToResubscribe<\/a>"],[100,2,"<a href=\"JobLauncher\/InMemoryIdentifyProductsToResubscribe.php.html#21\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\InMemoryIdentifyProductsToResubscribe<\/a>"],[25,5,"<a href=\"JobLauncher\/RemoveAttributeOptionFromMapping.php.html#25\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\RemoveAttributeOptionFromMapping<\/a>"],[23.52941176470588,6,"<a href=\"JobLauncher\/RemoveAttributesFromMapping.php.html#25\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\RemoveAttributesFromMapping<\/a>"],[21.052631578947366,4,"<a href=\"JobLauncher\/ResubscribeProducts.php.html#25\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\ResubscribeProducts<\/a>"],[0,3,"<a href=\"JobParameters\/DateTimeJobParameterToFetchSubscriptions.php.html#26\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobParameters\\DateTimeJobParameterToFetchSubscriptions<\/a>"],[0,3,"<a href=\"JobParameters\/UpdatedFranklinIdentifiers.php.html#28\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobParameters\\UpdatedFranklinIdentifiers<\/a>"],[25,3,"<a href=\"Processor\/PendingSubscriptionProcessor.php.html#24\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\PendingSubscriptionProcessor<\/a>"],[25,3,"<a href=\"Processor\/SubscriptionProcessor.php.html#28\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\SubscriptionProcessor<\/a>"],[13.333333333333334,5,"<a href=\"Processor\/SuggestedDataProcessor.php.html#27\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\SuggestedDataProcessor<\/a>"],[0,1,"<a href=\"Processor\/UnsubscriptionProcessor.php.html#21\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\UnsubscriptionProcessor<\/a>"],[16.666666666666664,5,"<a href=\"Reader\/PendingSubscriptionReader.php.html#24\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Reader\\PendingSubscriptionReader<\/a>"],[12,10,"<a href=\"Reader\/SuggestedDataReader.php.html#26\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Reader\\SuggestedDataReader<\/a>"],[37.5,3,"<a href=\"Step\/ConnectionValidationStep.php.html#28\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Step\\ConnectionValidationStep<\/a>"],[37.5,3,"<a href=\"Step\/IdentifiersMappingValidationStep.php.html#27\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Step\\IdentifiersMappingValidationStep<\/a>"],[10,14,"<a href=\"Tasklet\/IdentifyProductToResubscribeTasklet.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\IdentifyProductToResubscribeTasklet<\/a>"],[77.77777777777779,7,"<a href=\"Tasklet\/NotifyPendingAttributesTasklet.php.html#26\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\NotifyPendingAttributesTasklet<\/a>"],[7.894736842105263,12,"<a href=\"Tasklet\/RemoveAttributeFromAttributeMappingTasklet.php.html#28\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveAttributeFromAttributeMappingTasklet<\/a>"],[8.620689655172415,16,"<a href=\"Tasklet\/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#35\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveOptionFromAttributeOptionsMappingTasklet<\/a>"],[25,4,"<a href=\"Writer\/ProposalWriter.php.html#26\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\ProposalWriter<\/a>"],[14.285714285714285,8,"<a href=\"Writer\/SubscriptionWriter.php.html#35\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\SubscriptionWriter<\/a>"],[15.384615384615385,6,"<a href=\"Writer\/SuggestedDataWriter.php.html#22\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\SuggestedDataWriter<\/a>"],[11.76470588235294,6,"<a href=\"Writer\/UnsubscriptionWriter.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\UnsubscriptionWriter<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"JobLauncher\/IdentifyProductsToResubscribe.php.html#41\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\IdentifyProductsToResubscribe::__construct<\/a>"],[0,3,"<a href=\"JobLauncher\/IdentifyProductsToResubscribe.php.html#54\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\IdentifyProductsToResubscribe::process<\/a>"],[100,1,"<a href=\"JobLauncher\/InMemoryIdentifyProductsToResubscribe.php.html#29\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\InMemoryIdentifyProductsToResubscribe::process<\/a>"],[100,1,"<a href=\"JobLauncher\/InMemoryIdentifyProductsToResubscribe.php.html#37\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\InMemoryIdentifyProductsToResubscribe::updatedIdentifierCodes<\/a>"],[100,1,"<a href=\"JobLauncher\/RemoveAttributeOptionFromMapping.php.html#41\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\RemoveAttributeOptionFromMapping::__construct<\/a>"],[0,4,"<a href=\"JobLauncher\/RemoveAttributeOptionFromMapping.php.html#54\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\RemoveAttributeOptionFromMapping::process<\/a>"],[100,1,"<a href=\"JobLauncher\/RemoveAttributesFromMapping.php.html#41\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\RemoveAttributesFromMapping::__construct<\/a>"],[0,5,"<a href=\"JobLauncher\/RemoveAttributesFromMapping.php.html#54\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\RemoveAttributesFromMapping::process<\/a>"],[100,1,"<a href=\"JobLauncher\/ResubscribeProducts.php.html#41\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\ResubscribeProducts::__construct<\/a>"],[0,3,"<a href=\"JobLauncher\/ResubscribeProducts.php.html#54\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobLauncher\\ResubscribeProducts::process<\/a>"],[0,1,"<a href=\"JobParameters\/DateTimeJobParameterToFetchSubscriptions.php.html#31\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobParameters\\DateTimeJobParameterToFetchSubscriptions::getConstraintCollection<\/a>"],[0,1,"<a href=\"JobParameters\/DateTimeJobParameterToFetchSubscriptions.php.html#45\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobParameters\\DateTimeJobParameterToFetchSubscriptions::supports<\/a>"],[0,1,"<a href=\"JobParameters\/DateTimeJobParameterToFetchSubscriptions.php.html#53\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobParameters\\DateTimeJobParameterToFetchSubscriptions::getDefaultValues<\/a>"],[0,1,"<a href=\"JobParameters\/UpdatedFranklinIdentifiers.php.html#33\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobParameters\\UpdatedFranklinIdentifiers::getConstraintCollection<\/a>"],[0,1,"<a href=\"JobParameters\/UpdatedFranklinIdentifiers.php.html#56\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobParameters\\UpdatedFranklinIdentifiers::supports<\/a>"],[0,1,"<a href=\"JobParameters\/UpdatedFranklinIdentifiers.php.html#64\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\JobParameters\\UpdatedFranklinIdentifiers::getDefaultValues<\/a>"],[100,1,"<a href=\"Processor\/PendingSubscriptionProcessor.php.html#32\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\PendingSubscriptionProcessor::__construct<\/a>"],[0,2,"<a href=\"Processor\/PendingSubscriptionProcessor.php.html#40\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\PendingSubscriptionProcessor::process<\/a>"],[100,1,"<a href=\"Processor\/SubscriptionProcessor.php.html#40\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\SubscriptionProcessor::__construct<\/a>"],[0,2,"<a href=\"Processor\/SubscriptionProcessor.php.html#51\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\SubscriptionProcessor::process<\/a>"],[100,1,"<a href=\"Processor\/SuggestedDataProcessor.php.html#38\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\SuggestedDataProcessor::__construct<\/a>"],[0,3,"<a href=\"Processor\/SuggestedDataProcessor.php.html#46\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\SuggestedDataProcessor::process<\/a>"],[0,1,"<a href=\"Processor\/SuggestedDataProcessor.php.html#69\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\SuggestedDataProcessor::setStepExecution<\/a>"],[0,1,"<a href=\"Processor\/UnsubscriptionProcessor.php.html#26\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Processor\\UnsubscriptionProcessor::process<\/a>"],[100,1,"<a href=\"Reader\/PendingSubscriptionReader.php.html#35\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Reader\\PendingSubscriptionReader::__construct<\/a>"],[0,3,"<a href=\"Reader\/PendingSubscriptionReader.php.html#43\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Reader\\PendingSubscriptionReader::read<\/a>"],[0,1,"<a href=\"Reader\/PendingSubscriptionReader.php.html#62\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Reader\\PendingSubscriptionReader::setStepExecution<\/a>"],[100,1,"<a href=\"Reader\/SuggestedDataReader.php.html#47\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Reader\\SuggestedDataReader::__construct<\/a>"],[0,2,"<a href=\"Reader\/SuggestedDataReader.php.html#58\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Reader\\SuggestedDataReader::initialize<\/a>"],[0,4,"<a href=\"Reader\/SuggestedDataReader.php.html#73\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Reader\\SuggestedDataReader::read<\/a>"],[0,1,"<a href=\"Reader\/SuggestedDataReader.php.html#97\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Reader\\SuggestedDataReader::setStepExecution<\/a>"],[0,2,"<a href=\"Reader\/SuggestedDataReader.php.html#107\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Reader\\SuggestedDataReader::geLastExecutionDateTime<\/a>"],[100,1,"<a href=\"Step\/ConnectionValidationStep.php.html#39\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Step\\ConnectionValidationStep::__construct<\/a>"],[0,2,"<a href=\"Step\/ConnectionValidationStep.php.html#53\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Step\\ConnectionValidationStep::doExecute<\/a>"],[100,1,"<a href=\"Step\/IdentifiersMappingValidationStep.php.html#38\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Step\\IdentifiersMappingValidationStep::__construct<\/a>"],[0,2,"<a href=\"Step\/IdentifiersMappingValidationStep.php.html#52\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Step\\IdentifiersMappingValidationStep::doExecute<\/a>"],[100,1,"<a href=\"Tasklet\/IdentifyProductToResubscribeTasklet.php.html#60\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\IdentifyProductToResubscribeTasklet::__construct<\/a>"],[0,1,"<a href=\"Tasklet\/IdentifyProductToResubscribeTasklet.php.html#73\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\IdentifyProductToResubscribeTasklet::setStepExecution<\/a>"],[0,4,"<a href=\"Tasklet\/IdentifyProductToResubscribeTasklet.php.html#81\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\IdentifyProductToResubscribeTasklet::execute<\/a>"],[0,2,"<a href=\"Tasklet\/IdentifyProductToResubscribeTasklet.php.html#107\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\IdentifyProductToResubscribeTasklet::getNextNonNullRequestedIdentifiers<\/a>"],[0,5,"<a href=\"Tasklet\/IdentifyProductToResubscribeTasklet.php.html#132\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\IdentifyProductToResubscribeTasklet::getProductIdsWithUpdatedIdentifiers<\/a>"],[0,1,"<a href=\"Tasklet\/IdentifyProductToResubscribeTasklet.php.html#160\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\IdentifyProductToResubscribeTasklet::launchResubscriptionJob<\/a>"],[100,1,"<a href=\"Tasklet\/NotifyPendingAttributesTasklet.php.html#49\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\NotifyPendingAttributesTasklet::__construct<\/a>"],[0,1,"<a href=\"Tasklet\/NotifyPendingAttributesTasklet.php.html#64\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\NotifyPendingAttributesTasklet::setStepExecution<\/a>"],[81.81818181818183,5,"<a href=\"Tasklet\/NotifyPendingAttributesTasklet.php.html#72\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\NotifyPendingAttributesTasklet::execute<\/a>"],[100,1,"<a href=\"Tasklet\/RemoveAttributeFromAttributeMappingTasklet.php.html#43\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveAttributeFromAttributeMappingTasklet::__construct<\/a>"],[0,4,"<a href=\"Tasklet\/RemoveAttributeFromAttributeMappingTasklet.php.html#54\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveAttributeFromAttributeMappingTasklet::execute<\/a>"],[0,1,"<a href=\"Tasklet\/RemoveAttributeFromAttributeMappingTasklet.php.html#85\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveAttributeFromAttributeMappingTasklet::setStepExecution<\/a>"],[0,3,"<a href=\"Tasklet\/RemoveAttributeFromAttributeMappingTasklet.php.html#96\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveAttributeFromAttributeMappingTasklet::buildNewAttributesMapping<\/a>"],[0,3,"<a href=\"Tasklet\/RemoveAttributeFromAttributeMappingTasklet.php.html#123\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveAttributeFromAttributeMappingTasklet::getJobParameterValue<\/a>"],[100,1,"<a href=\"Tasklet\/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#58\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveOptionFromAttributeOptionsMappingTasklet::__construct<\/a>"],[0,1,"<a href=\"Tasklet\/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#73\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveOptionFromAttributeOptionsMappingTasklet::setStepExecution<\/a>"],[0,2,"<a href=\"Tasklet\/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#81\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveOptionFromAttributeOptionsMappingTasklet::execute<\/a>"],[0,3,"<a href=\"Tasklet\/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#98\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveOptionFromAttributeOptionsMappingTasklet::updateOptionsMappingByFamily<\/a>"],[0,2,"<a href=\"Tasklet\/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#127\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveOptionFromAttributeOptionsMappingTasklet::updateAttributeOptionsMapping<\/a>"],[0,2,"<a href=\"Tasklet\/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#162\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveOptionFromAttributeOptionsMappingTasklet::buildNewAttributeOptionsMapping<\/a>"],[0,2,"<a href=\"Tasklet\/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#184\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveOptionFromAttributeOptionsMappingTasklet::buildNewOptionMapping<\/a>"],[0,3,"<a href=\"Tasklet\/RemoveOptionFromAttributeOptionsMappingTasklet.php.html#207\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Tasklet\\RemoveOptionFromAttributeOptionsMappingTasklet::getJobParameterValue<\/a>"],[100,1,"<a href=\"Writer\/ProposalWriter.php.html#41\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\ProposalWriter::__construct<\/a>"],[0,2,"<a href=\"Writer\/ProposalWriter.php.html#52\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\ProposalWriter::write<\/a>"],[0,1,"<a href=\"Writer\/ProposalWriter.php.html#68\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\ProposalWriter::setStepExecution<\/a>"],[100,1,"<a href=\"Writer\/SubscriptionWriter.php.html#61\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\SubscriptionWriter::__construct<\/a>"],[0,1,"<a href=\"Writer\/SubscriptionWriter.php.html#76\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\SubscriptionWriter::initialize<\/a>"],[0,1,"<a href=\"Writer\/SubscriptionWriter.php.html#84\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\SubscriptionWriter::setStepExecution<\/a>"],[0,4,"<a href=\"Writer\/SubscriptionWriter.php.html#92\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\SubscriptionWriter::write<\/a>"],[0,1,"<a href=\"Writer\/SubscriptionWriter.php.html#128\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\SubscriptionWriter::buildSubscription<\/a>"],[100,1,"<a href=\"Writer\/SuggestedDataWriter.php.html#30\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\SuggestedDataWriter::__construct<\/a>"],[0,5,"<a href=\"Writer\/SuggestedDataWriter.php.html#38\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\SuggestedDataWriter::write<\/a>"],[100,1,"<a href=\"Writer\/UnsubscriptionWriter.php.html#40\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\UnsubscriptionWriter::__construct<\/a>"],[0,1,"<a href=\"Writer\/UnsubscriptionWriter.php.html#48\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\UnsubscriptionWriter::setStepExecution<\/a>"],[0,4,"<a href=\"Writer\/UnsubscriptionWriter.php.html#60\">Akeneo\\Pim\\Automation\\FranklinInsights\\Infrastructure\\Connector\\Writer\\UnsubscriptionWriter::write<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

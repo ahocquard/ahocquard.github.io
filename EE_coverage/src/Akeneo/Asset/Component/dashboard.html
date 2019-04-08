@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Asset/Component</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/srv/pim</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Asset</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Component</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/Tags.php.html#21">Akeneo\Asset\Component\Connector\ArrayConverter\StandardToFlat\Tags</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/Asset.php.html#54">Akeneo\Asset\Component\Connector\ArrayConverter\StandardToFlat\Asset</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/Variations.php.html#21">Akeneo\Asset\Component\Connector\ArrayConverter\StandardToFlat\Variations</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upload/MassUpload/EntityToAddAssetsInto.php.html#23">Akeneo\Asset\Component\Upload\MassUpload\EntityToAddAssetsInto</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upload/MassUpload/RetrieveAssetGenerationErrors.php.html#28">Akeneo\Asset\Component\Upload\MassUpload\RetrieveAssetGenerationErrors</a></td><td class="text-right">7%</td></tr>
+       <tr><td><a href="Upload/MassUpload/AddAssetToEntityWithValues.php.html#27">Akeneo\Asset\Component\Upload\MassUpload\AddAssetToEntityWithValues</a></td><td class="text-right">19%</td></tr>
+       <tr><td><a href="Upload/MassUpload/MassUploadIntoAssetCollectionProcessor.php.html#36">Akeneo\Asset\Component\Upload\MassUpload\MassUploadIntoAssetCollectionProcessor</a></td><td class="text-right">23%</td></tr>
+       <tr><td><a href="Upload/MassUpload/MassUploadProcessor.php.html#35">Akeneo\Asset\Component\Upload\MassUpload\MassUploadProcessor</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Upload/MassUpload/AssetBuilder.php.html#30">Akeneo\Asset\Component\Upload\MassUpload\AssetBuilder</a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="Normalizer/InternalApi/ImageNormalizer.php.html#21">Akeneo\Asset\Component\Normalizer\InternalApi\ImageNormalizer</a></td><td class="text-right">39%</td></tr>
+       <tr><td><a href="Finder/AssetFinder.php.html#25">Akeneo\Asset\Component\Finder\AssetFinder</a></td><td class="text-right">43%</td></tr>
+       <tr><td><a href="ProcessedItem.php.html#27">Akeneo\Asset\Component\ProcessedItem</a></td><td class="text-right">52%</td></tr>
+       <tr><td><a href="ProcessedItemList.php.html#21">Akeneo\Asset\Component\ProcessedItemList</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Builder/VariationBuilder.php.html#22">Akeneo\Asset\Component\Builder\VariationBuilder</a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Builder/MetadataBuilderRegistry.php.html#23">Akeneo\Asset\Component\Builder\MetadataBuilderRegistry</a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="Connector/Reader/Database/AssetCategoryReader.php.html#22">Akeneo\Asset\Component\Connector\Reader\Database\AssetCategoryReader</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="VariationsCollectionFilesGenerator.php.html#24">Akeneo\Asset\Component\VariationsCollectionFilesGenerator</a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#18">Akeneo\Asset\Component\Model\ImageMetadata</a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/FlatToStandard/Tags.php.html#22">Akeneo\Asset\Component\Connector\ArrayConverter\FlatToStandard\Tags</a></td><td class="text-right">69%</td></tr>
+       <tr><td><a href="Updater/FilesUpdater.php.html#23">Akeneo\Asset\Component\Updater\FilesUpdater</a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="Model/FileMetadata.php.html#20">Akeneo\Asset\Component\Model\FileMetadata</a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Upload/Importer.php.html#24">Akeneo\Asset\Component\Upload\Importer</a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="Builder/ReferenceBuilder.php.html#22">Akeneo\Asset\Component\Builder\ReferenceBuilder</a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#35">Akeneo\Asset\Component\Updater\AssetUpdater</a></td><td class="text-right">74%</td></tr>
+       <tr><td><a href="Updater/ExternalApi/AssetUpdater.php.html#24">Akeneo\Asset\Component\Updater\ExternalApi\AssetUpdater</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Model/LocaleCode.php.html#17">Akeneo\Asset\Component\Model\LocaleCode</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/FlatToStandard/Asset.php.html#22">Akeneo\Asset\Component\Connector\ArrayConverter\FlatToStandard\Asset</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Upload/UploadChecker.php.html#25">Akeneo\Asset\Component\Upload\UploadChecker</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Model/Category.php.html#22">Akeneo\Asset\Component\Model\Category</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Connector/Processor/Denormalization/ChannelConfigurationProcessor.php.html#29">Akeneo\Asset\Component\Connector\Processor\Denormalization\ChannelConfigurationProcessor</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Model/Asset.php.html#27">Akeneo\Asset\Component\Model\Asset</a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Model/Reference.php.html#24">Akeneo\Asset\Component\Model\Reference</a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Updater/TagUpdater.php.html#26">Akeneo\Asset\Component\Updater\TagUpdater</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Converter/MassOperationConverter.php.html#26">Akeneo\Asset\Component\Converter\MassOperationConverter</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="VariationFileGenerator.php.html#41">Akeneo\Asset\Component\VariationFileGenerator</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Upload/UploadContext.php.html#21">Akeneo\Asset\Component\Upload\UploadContext</a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/Asset.php.html#54">Akeneo\Asset\Component\Connector\ArrayConverter\StandardToFlat\Asset</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#35">Akeneo\Asset\Component\Updater\AssetUpdater</a></td><td class="text-right">77</td></tr>
+       <tr><td><a href="Model/Asset.php.html#27">Akeneo\Asset\Component\Model\Asset</a></td><td class="text-right">75</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#18">Akeneo\Asset\Component\Model\ImageMetadata</a></td><td class="text-right">63</td></tr>
+       <tr><td><a href="Upload/MassUpload/RetrieveAssetGenerationErrors.php.html#28">Akeneo\Asset\Component\Upload\MassUpload\RetrieveAssetGenerationErrors</a></td><td class="text-right">58</td></tr>
+       <tr><td><a href="Updater/FilesUpdater.php.html#23">Akeneo\Asset\Component\Updater\FilesUpdater</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Finder/AssetFinder.php.html#25">Akeneo\Asset\Component\Finder\AssetFinder</a></td><td class="text-right">55</td></tr>
+       <tr><td><a href="ProcessedItemList.php.html#21">Akeneo\Asset\Component\ProcessedItemList</a></td><td class="text-right">50</td></tr>
+       <tr><td><a href="Upload/MassUpload/MassUploadIntoAssetCollectionProcessor.php.html#36">Akeneo\Asset\Component\Upload\MassUpload\MassUploadIntoAssetCollectionProcessor</a></td><td class="text-right">45</td></tr>
+       <tr><td><a href="Normalizer/InternalApi/ImageNormalizer.php.html#21">Akeneo\Asset\Component\Normalizer\InternalApi\ImageNormalizer</a></td><td class="text-right">38</td></tr>
+       <tr><td><a href="Upload/MassUpload/MassUploadProcessor.php.html#35">Akeneo\Asset\Component\Upload\MassUpload\MassUploadProcessor</a></td><td class="text-right">35</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/FlatToStandard/Asset.php.html#22">Akeneo\Asset\Component\Connector\ArrayConverter\FlatToStandard\Asset</a></td><td class="text-right">27</td></tr>
+       <tr><td><a href="Model/Category.php.html#22">Akeneo\Asset\Component\Model\Category</a></td><td class="text-right">27</td></tr>
+       <tr><td><a href="Upload/UploadChecker.php.html#25">Akeneo\Asset\Component\Upload\UploadChecker</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="Upload/MassUpload/AddAssetToEntityWithValues.php.html#27">Akeneo\Asset\Component\Upload\MassUpload\AddAssetToEntityWithValues</a></td><td class="text-right">24</td></tr>
+       <tr><td><a href="Builder/VariationBuilder.php.html#22">Akeneo\Asset\Component\Builder\VariationBuilder</a></td><td class="text-right">24</td></tr>
+       <tr><td><a href="Model/Reference.php.html#24">Akeneo\Asset\Component\Model\Reference</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Upload/MassUpload/AssetBuilder.php.html#30">Akeneo\Asset\Component\Upload\MassUpload\AssetBuilder</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="VariationFileGenerator.php.html#41">Akeneo\Asset\Component\VariationFileGenerator</a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Upload/Importer.php.html#24">Akeneo\Asset\Component\Upload\Importer</a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Builder/MetadataBuilderRegistry.php.html#23">Akeneo\Asset\Component\Builder\MetadataBuilderRegistry</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Updater/TagUpdater.php.html#26">Akeneo\Asset\Component\Updater\TagUpdater</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Connector/Processor/Denormalization/ChannelConfigurationProcessor.php.html#29">Akeneo\Asset\Component\Connector\Processor\Denormalization\ChannelConfigurationProcessor</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Builder/ReferenceBuilder.php.html#22">Akeneo\Asset\Component\Builder\ReferenceBuilder</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="VariationsCollectionFilesGenerator.php.html#24">Akeneo\Asset\Component\VariationsCollectionFilesGenerator</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/FlatToStandard/Tags.php.html#22">Akeneo\Asset\Component\Connector\ArrayConverter\FlatToStandard\Tags</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Updater/ExternalApi/AssetUpdater.php.html#24">Akeneo\Asset\Component\Updater\ExternalApi\AssetUpdater</a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Converter/MassOperationConverter.php.html#26">Akeneo\Asset\Component\Converter\MassOperationConverter</a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Model/LocaleCode.php.html#17">Akeneo\Asset\Component\Model\LocaleCode</a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Upload/UploadContext.php.html#21">Akeneo\Asset\Component\Upload\UploadContext</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Builder/MetadataBuilderRegistry.php.html#34"><abbr title="Akeneo\Asset\Component\Builder\MetadataBuilderRegistry::all">all</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#276"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifColorSpace">getExifColorSpace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessedItem.php.html#75"><abbr title="Akeneo\Asset\Component\ProcessedItem::setItem">setItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Reference.php.html#142"><abbr title="Akeneo\Asset\Component\Model\Reference::removeVariation">removeVariation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Reference.php.html#120"><abbr title="Akeneo\Asset\Component\Model\Reference::setVariations">setVariations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/LocaleCode.php.html#35"><abbr title="Akeneo\Asset\Component\Model\LocaleCode::hasValidCode">hasValidCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#328"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getIptcLocationCity">getIptcLocationCity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#292"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getIptcKeywords">getIptcKeywords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#258"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifDescription">getExifDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessedItem.php.html#107"><abbr title="Akeneo\Asset\Component\ProcessedItem::setReason">setReason</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#240"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifTitle">getExifTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#222"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifKeywords">getExifKeywords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#204"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifCopyright">getExifCopyright</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#186"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifOrientation">getExifOrientation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#168"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifSizeHeight">getExifSizeHeight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#150"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifSizeWidth">getExifSizeWidth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#132"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifCameraModel">getExifCameraModel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessedItem.php.html#91"><abbr title="Akeneo\Asset\Component\ProcessedItem::setState">setState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessedItem.php.html#123"><abbr title="Akeneo\Asset\Component\ProcessedItem::setException">setException</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#96"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifDateTimeOriginal">getExifDateTimeOriginal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upload/MassUpload/AssetBuilder.php.html#83"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\AssetBuilder::buildFromFile">buildFromFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upload/MassUpload/RetrieveAssetGenerationErrors.php.html#48"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\RetrieveAssetGenerationErrors::fromEvent">fromEvent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upload/MassUpload/MassUploadProcessor.php.html#88"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\MassUploadProcessor::applyMassUpload">applyMassUpload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upload/MassUpload/MassUploadIntoAssetCollectionProcessor.php.html#94"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\MassUploadIntoAssetCollectionProcessor::applyMassUpload">applyMassUpload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upload/MassUpload/EntityToAddAssetsInto.php.html#52"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\EntityToAddAssetsInto::getAttributeCode">getAttributeCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upload/MassUpload/EntityToAddAssetsInto.php.html#44"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\EntityToAddAssetsInto::getEntityIdentifier">getEntityIdentifier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upload/MassUpload/EntityToAddAssetsInto.php.html#35"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\EntityToAddAssetsInto::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upload/MassUpload/AddAssetToEntityWithValues.php.html#64"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\AddAssetToEntityWithValues::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessedItemList.php.html#67"><abbr title="Akeneo\Asset\Component\ProcessedItemList::key">key</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upload/Importer.php.html#85"><abbr title="Akeneo\Asset\Component\Upload\Importer::getImportedFiles">getImportedFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Updater/FilesUpdater.php.html#97"><abbr title="Akeneo\Asset\Component\Updater\FilesUpdater::resetAllUploadedFiles">resetAllUploadedFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessedItemList.php.html#170"><abbr title="Akeneo\Asset\Component\ProcessedItemList::getItemsInState">getItemsInState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessedItemList.php.html#150"><abbr title="Akeneo\Asset\Component\ProcessedItemList::offsetGet">offsetGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessedItemList.php.html#137"><abbr title="Akeneo\Asset\Component\ProcessedItemList::offsetUnset">offsetUnset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessedItemList.php.html#129"><abbr title="Akeneo\Asset\Component\ProcessedItemList::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessedItemList.php.html#91"><abbr title="Akeneo\Asset\Component\ProcessedItemList::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#114"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifCameraMake">getExifCameraMake</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#310"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getIptcLocationCountry">getIptcLocationCountry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/ImageMetadata.php.html#78"><abbr title="Akeneo\Asset\Component\Model\ImageMetadata::getExifResolution">getExifResolution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Asset.php.html#301"><abbr title="Akeneo\Asset\Component\Model\Asset::setCreatedAt">setCreatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Builder/ReferenceBuilder.php.html#45"><abbr title="Akeneo\Asset\Component\Builder\ReferenceBuilder::buildAllLocalized">buildAllLocalized</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Builder/VariationBuilder.php.html#85"><abbr title="Akeneo\Asset\Component\Builder\VariationBuilder::buildAll">buildAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/Asset.php.html#59"><abbr title="Akeneo\Asset\Component\Connector\ArrayConverter\StandardToFlat\Asset::convertProperty">convertProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/FileMetadata.php.html#42"><abbr title="Akeneo\Asset\Component\Model\FileMetadata::getFileInfo">getFileInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/Variations.php.html#26"><abbr title="Akeneo\Asset\Component\Connector\ArrayConverter\StandardToFlat\Variations::convert">convert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/Reader/Database/AssetCategoryReader.php.html#38"><abbr title="Akeneo\Asset\Component\Connector\Reader\Database\AssetCategoryReader::getResults">getResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Finder/AssetFinder.php.html#41"><abbr title="Akeneo\Asset\Component\Finder\AssetFinder::retrieveReference">retrieveReference</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Finder/AssetFinder.php.html#83"><abbr title="Akeneo\Asset\Component\Finder\AssetFinder::retrieveVariation">retrieveVariation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Asset.php.html#170"><abbr title="Akeneo\Asset\Component\Model\Asset::removeReference">removeReference</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Asset.php.html#257"><abbr title="Akeneo\Asset\Component\Model\Asset::isEnabled">isEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Asset.php.html#265"><abbr title="Akeneo\Asset\Component\Model\Asset::setEnabled">setEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/Tags.php.html#26"><abbr title="Akeneo\Asset\Component\Connector\ArrayConverter\StandardToFlat\Tags::convert">convert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Asset.php.html#351"><abbr title="Akeneo\Asset\Component\Model\Asset::getSortOrder">getSortOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/FileMetadata.php.html#34"><abbr title="Akeneo\Asset\Component\Model\FileMetadata::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Category.php.html#168"><abbr title="Akeneo\Asset\Component\Model\Category::setLabel">setLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Asset.php.html#367"><abbr title="Akeneo\Asset\Component\Model\Asset::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Asset.php.html#449"><abbr title="Akeneo\Asset\Component\Model\Asset::setCategories">setCategories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Category.php.html#186"><abbr title="Akeneo\Asset\Component\Model\Category::getReference">getReference</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Category.php.html#52"><abbr title="Akeneo\Asset\Component\Model\Category::hasAssets">hasAssets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Category.php.html#178"><abbr title="Akeneo\Asset\Component\Model\Category::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Category.php.html#68"><abbr title="Akeneo\Asset\Component\Model\Category::getAssetsCount">getAssetsCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Category.php.html#76"><abbr title="Akeneo\Asset\Component\Model\Category::getCreated">getCreated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Normalizer/InternalApi/ImageNormalizer.php.html#48"><abbr title="Akeneo\Asset\Component\Normalizer\InternalApi\ImageNormalizer::normalize">normalize</abbr></a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#186"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::validateDateFormat">validateDateFormat</abbr></a></td><td class="text-right">29%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/FlatToStandard/Asset.php.html#121"><abbr title="Akeneo\Asset\Component\Connector\ArrayConverter\FlatToStandard\Asset::validateRequiredFields">validateRequiredFields</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/FlatToStandard/Tags.php.html#67"><abbr title="Akeneo\Asset\Component\Connector\ArrayConverter\FlatToStandard\Tags::validate">validate</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#222"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::getTagByCode">getTagByCode</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#309"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::validateIsArrayOfScalar">validateIsArrayOfScalar</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Normalizer/InternalApi/ImageNormalizer.php.html#72"><abbr title="Akeneo\Asset\Component\Normalizer\InternalApi\ImageNormalizer::isAssetCollection">isAssetCollection</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="VariationFileGenerator.php.html#164"><abbr title="Akeneo\Asset\Component\VariationFileGenerator::retrieveSourceFileInfo">retrieveSourceFileInfo</abbr></a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="Builder/VariationBuilder.php.html#62"><abbr title="Akeneo\Asset\Component\Builder\VariationBuilder::buildOne">buildOne</abbr></a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="Connector/Processor/Denormalization/ChannelConfigurationProcessor.php.html#64"><abbr title="Akeneo\Asset\Component\Connector\Processor\Denormalization\ChannelConfigurationProcessor::process">process</abbr></a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#68"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::update">update</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="ProcessedItemList.php.html#100"><abbr title="Akeneo\Asset\Component\ProcessedItemList::offsetSet">offsetSet</abbr></a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="Builder/MetadataBuilderRegistry.php.html#47"><abbr title="Akeneo\Asset\Component\Builder\MetadataBuilderRegistry::register">register</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Updater/TagUpdater.php.html#36"><abbr title="Akeneo\Asset\Component\Updater\TagUpdater::update">update</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="VariationsCollectionFilesGenerator.php.html#46"><abbr title="Akeneo\Asset\Component\VariationsCollectionFilesGenerator::generate">generate</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#346"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::validateIsBoolean">validateIsBoolean</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Model/Variation.php.html#61"><abbr title="Akeneo\Asset\Component\Model\Variation::getAsset">getAsset</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Model/Asset.php.html#184"><abbr title="Akeneo\Asset\Component\Model\Asset::getReference">getReference</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Upload/UploadChecker.php.html#60"><abbr title="Akeneo\Asset\Component\Upload\UploadChecker::validateFilenameFormat">validateFilenameFormat</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Builder/MetadataBuilderRegistry.php.html#67"><abbr title="Akeneo\Asset\Component\Builder\MetadataBuilderRegistry::get">get</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Model/Variation.php.html#73"><abbr title="Akeneo\Asset\Component\Model\Variation::getLocale">getLocale</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#333"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::validateIsScalar">validateIsScalar</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Updater/ExternalApi/AssetUpdater.php.html#40"><abbr title="Akeneo\Asset\Component\Updater\ExternalApi\AssetUpdater::update">update</abbr></a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/FlatToStandard/Asset.php.html#165"><abbr title="Akeneo\Asset\Component\Connector\ArrayConverter\FlatToStandard\Asset::convertDate">convertDate</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#295"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::setLocalized">setLocalized</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Builder/MetadataBuilderRegistry.php.html#81"><abbr title="Akeneo\Asset\Component\Builder\MetadataBuilderRegistry::getByFile">getByFile</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Upload/UploadChecker.php.html#81"><abbr title="Akeneo\Asset\Component\Upload\UploadChecker::validateUpload">validateUpload</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Upload/UploadChecker.php.html#105"><abbr title="Akeneo\Asset\Component\Upload\UploadChecker::validateWithExistingAssets">validateWithExistingAssets</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Upload/UploadChecker.php.html#134"><abbr title="Akeneo\Asset\Component\Upload\UploadChecker::isLocaleActivated">isLocaleActivated</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Converter/MassOperationConverter.php.html#50"><abbr title="Akeneo\Asset\Component\Converter\MassOperationConverter::convert">convert</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Upload/ParsedFilename.php.html#87"><abbr title="Akeneo\Asset\Component\Upload\ParsedFilename::getCleanFilename">getCleanFilename</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Updater/FilesUpdater.php.html#126"><abbr title="Akeneo\Asset\Component\Updater\FilesUpdater::updateVariationFile">updateVariationFile</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Model/Asset.php.html#333"><abbr title="Akeneo\Asset\Component\Model\Asset::getFileForContext">getFileForContext</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Upload/UploadContext.php.html#42"><abbr title="Akeneo\Asset\Component\Upload\UploadContext::__construct">__construct</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Builder/VariationBuilder.php.html#109"><abbr title="Akeneo\Asset\Component\Builder\VariationBuilder::canBuildOne">canBuildOne</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Upload/Importer.php.html#109"><abbr title="Akeneo\Asset\Component\Upload\Importer::isValidImportedFilename">isValidImportedFilename</abbr></a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Finder/AssetFinder.php.html#63"><abbr title="Akeneo\Asset\Component\Finder\AssetFinder::retrieveVariationsNotGenerated">retrieveVariationsNotGenerated</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Updater/FilesUpdater.php.html#150"><abbr title="Akeneo\Asset\Component\Updater\FilesUpdater::updateReferenceFile">updateReferenceFile</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Upload/Importer.php.html#50"><abbr title="Akeneo\Asset\Component\Upload\Importer::import">import</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="VariationFileGenerator.php.html#106"><abbr title="Akeneo\Asset\Component\VariationFileGenerator::generate">generate</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="Connector/Processor/Denormalization/ChannelConfigurationProcessor.php.html#91"><abbr title="Akeneo\Asset\Component\Connector\Processor\Denormalization\ChannelConfigurationProcessor::findOrCreateChannelConfiguration">findOrCreateChannelConfiguration</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Connector/ArrayConverter/StandardToFlat/Asset.php.html#59"><abbr title="Akeneo\Asset\Component\Connector\ArrayConverter\StandardToFlat\Asset::convertProperty">convertProperty</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Upload/MassUpload/MassUploadIntoAssetCollectionProcessor.php.html#94"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\MassUploadIntoAssetCollectionProcessor::applyMassUpload">applyMassUpload</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Upload/MassUpload/RetrieveAssetGenerationErrors.php.html#48"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\RetrieveAssetGenerationErrors::fromEvent">fromEvent</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Upload/MassUpload/MassUploadProcessor.php.html#88"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\MassUploadProcessor::applyMassUpload">applyMassUpload</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Updater/FilesUpdater.php.html#97"><abbr title="Akeneo\Asset\Component\Updater\FilesUpdater::resetAllUploadedFiles">resetAllUploadedFiles</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Normalizer/InternalApi/ImageNormalizer.php.html#48"><abbr title="Akeneo\Asset\Component\Normalizer\InternalApi\ImageNormalizer::normalize">normalize</abbr></a></td><td class="text-right">36</td></tr>
+       <tr><td><a href="Upload/MassUpload/AddAssetToEntityWithValues.php.html#64"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\AddAssetToEntityWithValues::add">add</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Upload/MassUpload/AssetBuilder.php.html#83"><abbr title="Akeneo\Asset\Component\Upload\MassUpload\AssetBuilder::buildFromFile">buildFromFile</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/FlatToStandard/Asset.php.html#121"><abbr title="Akeneo\Asset\Component\Connector\ArrayConverter\FlatToStandard\Asset::validateRequiredFields">validateRequiredFields</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Finder/AssetFinder.php.html#41"><abbr title="Akeneo\Asset\Component\Finder\AssetFinder::retrieveReference">retrieveReference</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Builder/VariationBuilder.php.html#85"><abbr title="Akeneo\Asset\Component\Builder\VariationBuilder::buildAll">buildAll</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#309"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::validateIsArrayOfScalar">validateIsArrayOfScalar</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#186"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::validateDateFormat">validateDateFormat</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="VariationsCollectionFilesGenerator.php.html#46"><abbr title="Akeneo\Asset\Component\VariationsCollectionFilesGenerator::generate">generate</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Upload/UploadChecker.php.html#60"><abbr title="Akeneo\Asset\Component\Upload\UploadChecker::validateFilenameFormat">validateFilenameFormat</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Model/Asset.php.html#184"><abbr title="Akeneo\Asset\Component\Model\Asset::getReference">getReference</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Updater/FilesUpdater.php.html#126"><abbr title="Akeneo\Asset\Component\Updater\FilesUpdater::updateVariationFile">updateVariationFile</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="VariationFileGenerator.php.html#164"><abbr title="Akeneo\Asset\Component\VariationFileGenerator::retrieveSourceFileInfo">retrieveSourceFileInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Finder/AssetFinder.php.html#83"><abbr title="Akeneo\Asset\Component\Finder\AssetFinder::retrieveVariation">retrieveVariation</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Model/Asset.php.html#170"><abbr title="Akeneo\Asset\Component\Model\Asset::removeReference">removeReference</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Model/Reference.php.html#142"><abbr title="Akeneo\Asset\Component\Model\Reference::removeVariation">removeVariation</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Builder/ReferenceBuilder.php.html#45"><abbr title="Akeneo\Asset\Component\Builder\ReferenceBuilder::buildAllLocalized">buildAllLocalized</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ProcessedItemList.php.html#150"><abbr title="Akeneo\Asset\Component\ProcessedItemList::offsetGet">offsetGet</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Upload/Importer.php.html#85"><abbr title="Akeneo\Asset\Component\Upload\Importer::getImportedFiles">getImportedFiles</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/FlatToStandard/Asset.php.html#165"><abbr title="Akeneo\Asset\Component\Connector\ArrayConverter\FlatToStandard\Asset::convertDate">convertDate</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Upload/UploadChecker.php.html#105"><abbr title="Akeneo\Asset\Component\Upload\UploadChecker::validateWithExistingAssets">validateWithExistingAssets</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="ProcessedItemList.php.html#100"><abbr title="Akeneo\Asset\Component\ProcessedItemList::offsetSet">offsetSet</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Finder/AssetFinder.php.html#63"><abbr title="Akeneo\Asset\Component\Finder\AssetFinder::retrieveVariationsNotGenerated">retrieveVariationsNotGenerated</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Updater/FilesUpdater.php.html#150"><abbr title="Akeneo\Asset\Component\Updater\FilesUpdater::updateReferenceFile">updateReferenceFile</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Normalizer/InternalApi/ImageNormalizer.php.html#72"><abbr title="Akeneo\Asset\Component\Normalizer\InternalApi\ImageNormalizer::isAssetCollection">isAssetCollection</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Updater/ExternalApi/AssetUpdater.php.html#40"><abbr title="Akeneo\Asset\Component\Updater\ExternalApi\AssetUpdater::update">update</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Converter/MassOperationConverter.php.html#50"><abbr title="Akeneo\Asset\Component\Converter\MassOperationConverter::convert">convert</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Builder/VariationBuilder.php.html#109"><abbr title="Akeneo\Asset\Component\Builder\VariationBuilder::canBuildOne">canBuildOne</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Upload/Importer.php.html#109"><abbr title="Akeneo\Asset\Component\Upload\Importer::isValidImportedFilename">isValidImportedFilename</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Upload/Importer.php.html#50"><abbr title="Akeneo\Asset\Component\Upload\Importer::import">import</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Connector/Processor/Denormalization/ChannelConfigurationProcessor.php.html#64"><abbr title="Akeneo\Asset\Component\Connector\Processor\Denormalization\ChannelConfigurationProcessor::process">process</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#68"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/TagUpdater.php.html#36"><abbr title="Akeneo\Asset\Component\Updater\TagUpdater::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#346"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::validateIsBoolean">validateIsBoolean</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#333"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::validateIsScalar">validateIsScalar</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Connector/ArrayConverter/FlatToStandard/Tags.php.html#67"><abbr title="Akeneo\Asset\Component\Connector\ArrayConverter\FlatToStandard\Tags::validate">validate</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#222"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::getTagByCode">getTagByCode</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Updater/AssetUpdater.php.html#295"><abbr title="Akeneo\Asset\Component\Updater\AssetUpdater::setLocalized">setLocalized</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Upload/UploadChecker.php.html#81"><abbr title="Akeneo\Asset\Component\Upload\UploadChecker::validateUpload">validateUpload</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Upload/UploadChecker.php.html#134"><abbr title="Akeneo\Asset\Component\Upload\UploadChecker::isLocaleActivated">isLocaleActivated</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Upload/ParsedFilename.php.html#87"><abbr title="Akeneo\Asset\Component\Upload\ParsedFilename::getCleanFilename">getCleanFilename</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Model/Asset.php.html#333"><abbr title="Akeneo\Asset\Component\Model\Asset::getFileForContext">getFileForContext</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Connector/Processor/Denormalization/ChannelConfigurationProcessor.php.html#91"><abbr title="Akeneo\Asset\Component\Connector\Processor\Denormalization\ChannelConfigurationProcessor::findOrCreateChannelConfiguration">findOrCreateChannelConfiguration</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Builder/VariationBuilder.php.html#62"><abbr title="Akeneo\Asset\Component\Builder\VariationBuilder::buildOne">buildOne</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Builder/MetadataBuilderRegistry.php.html#47"><abbr title="Akeneo\Asset\Component\Builder\MetadataBuilderRegistry::register">register</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Builder/MetadataBuilderRegistry.php.html#67"><abbr title="Akeneo\Asset\Component\Builder\MetadataBuilderRegistry::get">get</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Model/Variation.php.html#73"><abbr title="Akeneo\Asset\Component\Model\Variation::getLocale">getLocale</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Model/Variation.php.html#61"><abbr title="Akeneo\Asset\Component\Model\Variation::getAsset">getAsset</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Builder/MetadataBuilderRegistry.php.html#81"><abbr title="Akeneo\Asset\Component\Builder\MetadataBuilderRegistry::getByFile">getByFile</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Upload/UploadContext.php.html#42"><abbr title="Akeneo\Asset\Component\Upload\UploadContext::__construct">__construct</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="VariationFileGenerator.php.html#106"><abbr title="Akeneo\Asset\Component\VariationFileGenerator::generate">generate</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.2</a> at Sun Apr 7 17:13:38 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,1,1,3,1,1,2,6,9,8,3,28], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([62,0,1,1,3,3,4,10,8,11,1,205], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,2,"<a href=\"Builder\/FileMetadataBuilder.php.html#18\">Akeneo\\Asset\\Component\\Builder\\FileMetadataBuilder<\/a>"],[100,12,"<a href=\"Builder\/ImageMetadataBuilder.php.html#21\">Akeneo\\Asset\\Component\\Builder\\ImageMetadataBuilder<\/a>"],[64.28571428571429,8,"<a href=\"Builder\/MetadataBuilderRegistry.php.html#23\">Akeneo\\Asset\\Component\\Builder\\MetadataBuilderRegistry<\/a>"],[73.68421052631578,8,"<a href=\"Builder\/ReferenceBuilder.php.html#22\">Akeneo\\Asset\\Component\\Builder\\ReferenceBuilder<\/a>"],[62.5,14,"<a href=\"Builder\/VariationBuilder.php.html#22\">Akeneo\\Asset\\Component\\Builder\\VariationBuilder<\/a>"],[75,21,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/Asset.php.html#22\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\FlatToStandard\\Asset<\/a>"],[69.23076923076923,7,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/Tags.php.html#22\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\FlatToStandard\\Tags<\/a>"],[0,9,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/Asset.php.html#54\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\StandardToFlat\\Asset<\/a>"],[0,1,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/Tags.php.html#21\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\StandardToFlat\\Tags<\/a>"],[0,1,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/Variations.php.html#21\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\StandardToFlat\\Variations<\/a>"],[80.76923076923077,9,"<a href=\"Connector\/Processor\/Denormalization\/ChannelConfigurationProcessor.php.html#29\">Akeneo\\Asset\\Component\\Connector\\Processor\\Denormalization\\ChannelConfigurationProcessor<\/a>"],[66.66666666666666,2,"<a href=\"Connector\/Reader\/Database\/AssetCategoryReader.php.html#22\">Akeneo\\Asset\\Component\\Connector\\Reader\\Database\\AssetCategoryReader<\/a>"],[83.33333333333334,5,"<a href=\"Converter\/MassOperationConverter.php.html#26\">Akeneo\\Asset\\Component\\Converter\\MassOperationConverter<\/a>"],[100,0,"<a href=\"Exception\/AlreadyRegisteredMetadataBuilderException.php.html#19\">Akeneo\\Asset\\Component\\Exception\\AlreadyRegisteredMetadataBuilderException<\/a>"],[100,0,"<a href=\"Exception\/LockedVariationGenerationException.php.html#18\">Akeneo\\Asset\\Component\\Exception\\LockedVariationGenerationException<\/a>"],[100,0,"<a href=\"Exception\/NonRegisteredMetadataBuilderException.php.html#19\">Akeneo\\Asset\\Component\\Exception\\NonRegisteredMetadataBuilderException<\/a>"],[100,6,"<a href=\"Factory\/AssetFactory.php.html#23\">Akeneo\\Asset\\Component\\Factory\\AssetFactory<\/a>"],[100,2,"<a href=\"Factory\/ChannelConfigurationFactory.php.html#21\">Akeneo\\Asset\\Component\\Factory\\ChannelConfigurationFactory<\/a>"],[100,6,"<a href=\"Factory\/DefaultAssetTree.php.html#26\">Akeneo\\Asset\\Component\\Factory\\DefaultAssetTree<\/a>"],[100,4,"<a href=\"Factory\/ReferenceFactory.php.html#23\">Akeneo\\Asset\\Component\\Factory\\ReferenceFactory<\/a>"],[100,2,"<a href=\"Factory\/TagFactory.php.html#22\">Akeneo\\Asset\\Component\\Factory\\TagFactory<\/a>"],[100,3,"<a href=\"Factory\/VariationFactory.php.html#22\">Akeneo\\Asset\\Component\\Factory\\VariationFactory<\/a>"],[100,0,"<a href=\"FileStorage.php.html#17\">Akeneo\\Asset\\Component\\FileStorage<\/a>"],[43.333333333333336,15,"<a href=\"Finder\/AssetFinder.php.html#25\">Akeneo\\Asset\\Component\\Finder\\AssetFinder<\/a>"],[82.29166666666666,57,"<a href=\"Model\/Asset.php.html#27\">Akeneo\\Asset\\Component\\Model\\Asset<\/a>"],[80,23,"<a href=\"Model\/Category.php.html#22\">Akeneo\\Asset\\Component\\Model\\Category<\/a>"],[100,2,"<a href=\"Model\/CategoryTranslation.php.html#21\">Akeneo\\Asset\\Component\\Model\\CategoryTranslation<\/a>"],[71.42857142857143,5,"<a href=\"Model\/FileMetadata.php.html#20\">Akeneo\\Asset\\Component\\Model\\FileMetadata<\/a>"],[68.75,32,"<a href=\"Model\/ImageMetadata.php.html#18\">Akeneo\\Asset\\Component\\Model\\ImageMetadata<\/a>"],[75,4,"<a href=\"Model\/LocaleCode.php.html#17\">Akeneo\\Asset\\Component\\Model\\LocaleCode<\/a>"],[82.75862068965517,19,"<a href=\"Model\/Reference.php.html#24\">Akeneo\\Asset\\Component\\Model\\Reference<\/a>"],[100,0,"<a href=\"Model\/Tag.php.html#20\">Akeneo\\Asset\\Component\\Model\\Tag<\/a>"],[93.33333333333333,21,"<a href=\"Model\/Variation.php.html#22\">Akeneo\\Asset\\Component\\Model\\Variation<\/a>"],[100,10,"<a href=\"Normalizer\/ExternalApi\/AssetNormalizer.php.html#28\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetNormalizer<\/a>"],[100,7,"<a href=\"Normalizer\/ExternalApi\/AssetReferenceNormalizer.php.html#25\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetReferenceNormalizer<\/a>"],[100,5,"<a href=\"Normalizer\/ExternalApi\/AssetVariationNormalizer.php.html#25\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetVariationNormalizer<\/a>"],[100,4,"<a href=\"Normalizer\/Flat\/AssetCategoryNormalizer.php.html#23\">Akeneo\\Asset\\Component\\Normalizer\\Flat\\AssetCategoryNormalizer<\/a>"],[92.3076923076923,7,"<a href=\"Normalizer\/Flat\/AssetNormalizer.php.html#20\">Akeneo\\Asset\\Component\\Normalizer\\Flat\\AssetNormalizer<\/a>"],[100,8,"<a href=\"Normalizer\/InternalApi\/AssetNormalizer.php.html#22\">Akeneo\\Asset\\Component\\Normalizer\\InternalApi\\AssetNormalizer<\/a>"],[39.130434782608695,11,"<a href=\"Normalizer\/InternalApi\/ImageNormalizer.php.html#21\">Akeneo\\Asset\\Component\\Normalizer\\InternalApi\\ImageNormalizer<\/a>"],[100,5,"<a href=\"Normalizer\/Standard\/AssetNormalizer.php.html#20\">Akeneo\\Asset\\Component\\Normalizer\\Standard\\AssetNormalizer<\/a>"],[100,3,"<a href=\"Normalizer\/Standard\/ChannelConfigurationNormalizer.php.html#20\">Akeneo\\Asset\\Component\\Normalizer\\Standard\\ChannelConfigurationNormalizer<\/a>"],[100,8,"<a href=\"Normalizer\/Standard\/VariationNormalizer.php.html#20\">Akeneo\\Asset\\Component\\Normalizer\\Standard\\VariationNormalizer<\/a>"],[52.94117647058824,9,"<a href=\"ProcessedItem.php.html#27\">Akeneo\\Asset\\Component\\ProcessedItem<\/a>"],[55.88235294117647,19,"<a href=\"ProcessedItemList.php.html#21\">Akeneo\\Asset\\Component\\ProcessedItemList<\/a>"],[74.78991596638656,45,"<a href=\"Updater\/AssetUpdater.php.html#35\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater<\/a>"],[75,5,"<a href=\"Updater\/ExternalApi\/AssetUpdater.php.html#24\">Akeneo\\Asset\\Component\\Updater\\ExternalApi\\AssetUpdater<\/a>"],[70.37037037037037,31,"<a href=\"Updater\/FilesUpdater.php.html#23\">Akeneo\\Asset\\Component\\Updater\\FilesUpdater<\/a>"],[83.33333333333334,10,"<a href=\"Updater\/TagUpdater.php.html#26\">Akeneo\\Asset\\Component\\Updater\\TagUpdater<\/a>"],[100,0,"<a href=\"Upload\/Exception\/DuplicateFileException.php.html#21\">Akeneo\\Asset\\Component\\Upload\\Exception\\DuplicateFileException<\/a>"],[100,0,"<a href=\"Upload\/Exception\/InvalidCodeException.php.html#21\">Akeneo\\Asset\\Component\\Upload\\Exception\\InvalidCodeException<\/a>"],[100,0,"<a href=\"Upload\/Exception\/InvalidLocaleException.php.html#21\">Akeneo\\Asset\\Component\\Upload\\Exception\\InvalidLocaleException<\/a>"],[100,0,"<a href=\"Upload\/Exception\/UploadConflictException.php.html#21\">Akeneo\\Asset\\Component\\Upload\\Exception\\UploadConflictException<\/a>"],[100,0,"<a href=\"Upload\/Exception\/UploadException.php.html#19\">Akeneo\\Asset\\Component\\Upload\\Exception\\UploadException<\/a>"],[72.5,11,"<a href=\"Upload\/Importer.php.html#24\">Akeneo\\Asset\\Component\\Upload\\Importer<\/a>"],[19.230769230769234,6,"<a href=\"Upload\/MassUpload\/AddAssetToEntityWithValues.php.html#27\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\AddAssetToEntityWithValues<\/a>"],[28.000000000000004,5,"<a href=\"Upload\/MassUpload\/AssetBuilder.php.html#30\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\AssetBuilder<\/a>"],[0,3,"<a href=\"Upload\/MassUpload\/EntityToAddAssetsInto.php.html#23\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\EntityToAddAssetsInto<\/a>"],[23.52941176470588,9,"<a href=\"Upload\/MassUpload\/MassUploadIntoAssetCollectionProcessor.php.html#36\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\MassUploadIntoAssetCollectionProcessor<\/a>"],[25,8,"<a href=\"Upload\/MassUpload\/MassUploadProcessor.php.html#35\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\MassUploadProcessor<\/a>"],[7.4074074074074066,8,"<a href=\"Upload\/MassUpload\/RetrieveAssetGenerationErrors.php.html#28\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\RetrieveAssetGenerationErrors<\/a>"],[96.66666666666667,15,"<a href=\"Upload\/ParsedFilename.php.html#21\">Akeneo\\Asset\\Component\\Upload\\ParsedFilename<\/a>"],[77.77777777777779,21,"<a href=\"Upload\/UploadChecker.php.html#25\">Akeneo\\Asset\\Component\\Upload\\UploadChecker<\/a>"],[87.5,4,"<a href=\"Upload\/UploadContext.php.html#21\">Akeneo\\Asset\\Component\\Upload\\UploadContext<\/a>"],[100,0,"<a href=\"Upload\/UploadMessages.php.html#19\">Akeneo\\Asset\\Component\\Upload\\UploadMessages<\/a>"],[83.92857142857143,13,"<a href=\"VariationFileGenerator.php.html#41\">Akeneo\\Asset\\Component\\VariationFileGenerator<\/a>"],[68.42105263157895,7,"<a href=\"VariationsCollectionFilesGenerator.php.html#24\">Akeneo\\Asset\\Component\\VariationsCollectionFilesGenerator<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Builder\/FileMetadataBuilder.php.html#26\">Akeneo\\Asset\\Component\\Builder\\FileMetadataBuilder::__construct<\/a>"],[100,1,"<a href=\"Builder\/FileMetadataBuilder.php.html#34\">Akeneo\\Asset\\Component\\Builder\\FileMetadataBuilder::build<\/a>"],[100,1,"<a href=\"Builder\/ImageMetadataBuilder.php.html#37\">Akeneo\\Asset\\Component\\Builder\\ImageMetadataBuilder::__construct<\/a>"],[100,1,"<a href=\"Builder\/ImageMetadataBuilder.php.html#50\">Akeneo\\Asset\\Component\\Builder\\ImageMetadataBuilder::build<\/a>"],[100,1,"<a href=\"Builder\/ImageMetadataBuilder.php.html#83\">Akeneo\\Asset\\Component\\Builder\\ImageMetadataBuilder::getMetadataReader<\/a>"],[100,7,"<a href=\"Builder\/ImageMetadataBuilder.php.html#97\">Akeneo\\Asset\\Component\\Builder\\ImageMetadataBuilder::getHumanReadableResolution<\/a>"],[100,2,"<a href=\"Builder\/ImageMetadataBuilder.php.html#131\">Akeneo\\Asset\\Component\\Builder\\ImageMetadataBuilder::truncateMetadata<\/a>"],[0,1,"<a href=\"Builder\/MetadataBuilderRegistry.php.html#34\">Akeneo\\Asset\\Component\\Builder\\MetadataBuilderRegistry::all<\/a>"],[60,2,"<a href=\"Builder\/MetadataBuilderRegistry.php.html#47\">Akeneo\\Asset\\Component\\Builder\\MetadataBuilderRegistry::register<\/a>"],[66.66666666666666,2,"<a href=\"Builder\/MetadataBuilderRegistry.php.html#67\">Akeneo\\Asset\\Component\\Builder\\MetadataBuilderRegistry::get<\/a>"],[75,2,"<a href=\"Builder\/MetadataBuilderRegistry.php.html#81\">Akeneo\\Asset\\Component\\Builder\\MetadataBuilderRegistry::getByFile<\/a>"],[100,1,"<a href=\"Builder\/MetadataBuilderRegistry.php.html#97\">Akeneo\\Asset\\Component\\Builder\\MetadataBuilderRegistry::has<\/a>"],[100,1,"<a href=\"Builder\/ReferenceBuilder.php.html#34\">Akeneo\\Asset\\Component\\Builder\\ReferenceBuilder::__construct<\/a>"],[0,2,"<a href=\"Builder\/ReferenceBuilder.php.html#45\">Akeneo\\Asset\\Component\\Builder\\ReferenceBuilder::buildAllLocalized<\/a>"],[100,3,"<a href=\"Builder\/ReferenceBuilder.php.html#60\">Akeneo\\Asset\\Component\\Builder\\ReferenceBuilder::buildMissingLocalized<\/a>"],[100,2,"<a href=\"Builder\/ReferenceBuilder.php.html#77\">Akeneo\\Asset\\Component\\Builder\\ReferenceBuilder::buildOne<\/a>"],[100,1,"<a href=\"Builder\/VariationBuilder.php.html#34\">Akeneo\\Asset\\Component\\Builder\\VariationBuilder::__construct<\/a>"],[100,4,"<a href=\"Builder\/VariationBuilder.php.html#45\">Akeneo\\Asset\\Component\\Builder\\VariationBuilder::buildMissing<\/a>"],[54.54545454545454,2,"<a href=\"Builder\/VariationBuilder.php.html#62\">Akeneo\\Asset\\Component\\Builder\\VariationBuilder::buildOne<\/a>"],[0,3,"<a href=\"Builder\/VariationBuilder.php.html#85\">Akeneo\\Asset\\Component\\Builder\\VariationBuilder::buildAll<\/a>"],[83.33333333333334,4,"<a href=\"Builder\/VariationBuilder.php.html#109\">Akeneo\\Asset\\Component\\Builder\\VariationBuilder::canBuildOne<\/a>"],[100,3,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/Asset.php.html#62\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\FlatToStandard\\Asset::convert<\/a>"],[100,7,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/Asset.php.html#83\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\FlatToStandard\\Asset::convertField<\/a>"],[100,1,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/Asset.php.html#110\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\FlatToStandard\\Asset::validate<\/a>"],[33.33333333333333,5,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/Asset.php.html#121\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\FlatToStandard\\Asset::validateRequiredFields<\/a>"],[75,5,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/Asset.php.html#165\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\FlatToStandard\\Asset::convertDate<\/a>"],[100,5,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/Tags.php.html#44\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\FlatToStandard\\Tags::convert<\/a>"],[33.33333333333333,2,"<a href=\"Connector\/ArrayConverter\/FlatToStandard\/Tags.php.html#67\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\FlatToStandard\\Tags::validate<\/a>"],[0,9,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/Asset.php.html#59\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\StandardToFlat\\Asset::convertProperty<\/a>"],[0,1,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/Tags.php.html#26\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\StandardToFlat\\Tags::convert<\/a>"],[0,1,"<a href=\"Connector\/ArrayConverter\/StandardToFlat\/Variations.php.html#26\">Akeneo\\Asset\\Component\\Connector\\ArrayConverter\\StandardToFlat\\Variations::convert<\/a>"],[100,1,"<a href=\"Connector\/Processor\/Denormalization\/ChannelConfigurationProcessor.php.html#48\">Akeneo\\Asset\\Component\\Connector\\Processor\\Denormalization\\ChannelConfigurationProcessor::__construct<\/a>"],[55.55555555555556,3,"<a href=\"Connector\/Processor\/Denormalization\/ChannelConfigurationProcessor.php.html#64\">Akeneo\\Asset\\Component\\Connector\\Processor\\Denormalization\\ChannelConfigurationProcessor::process<\/a>"],[88.88888888888889,3,"<a href=\"Connector\/Processor\/Denormalization\/ChannelConfigurationProcessor.php.html#91\">Akeneo\\Asset\\Component\\Connector\\Processor\\Denormalization\\ChannelConfigurationProcessor::findOrCreateChannelConfiguration<\/a>"],[100,1,"<a href=\"Connector\/Processor\/Denormalization\/ChannelConfigurationProcessor.php.html#114\">Akeneo\\Asset\\Component\\Connector\\Processor\\Denormalization\\ChannelConfigurationProcessor::updateChannelConfiguration<\/a>"],[100,1,"<a href=\"Connector\/Processor\/Denormalization\/ChannelConfigurationProcessor.php.html#128\">Akeneo\\Asset\\Component\\Connector\\Processor\\Denormalization\\ChannelConfigurationProcessor::validateChannelConfiguration<\/a>"],[100,1,"<a href=\"Connector\/Reader\/Database\/AssetCategoryReader.php.html#30\">Akeneo\\Asset\\Component\\Connector\\Reader\\Database\\AssetCategoryReader::__construct<\/a>"],[0,1,"<a href=\"Connector\/Reader\/Database\/AssetCategoryReader.php.html#38\">Akeneo\\Asset\\Component\\Connector\\Reader\\Database\\AssetCategoryReader::getResults<\/a>"],[100,1,"<a href=\"Converter\/MassOperationConverter.php.html#41\">Akeneo\\Asset\\Component\\Converter\\MassOperationConverter::__construct<\/a>"],[77.77777777777779,4,"<a href=\"Converter\/MassOperationConverter.php.html#50\">Akeneo\\Asset\\Component\\Converter\\MassOperationConverter::convert<\/a>"],[100,1,"<a href=\"Factory\/AssetFactory.php.html#39\">Akeneo\\Asset\\Component\\Factory\\AssetFactory::__construct<\/a>"],[100,1,"<a href=\"Factory\/AssetFactory.php.html#52\">Akeneo\\Asset\\Component\\Factory\\AssetFactory::create<\/a>"],[100,4,"<a href=\"Factory\/AssetFactory.php.html#63\">Akeneo\\Asset\\Component\\Factory\\AssetFactory::createReferences<\/a>"],[100,1,"<a href=\"Factory\/ChannelConfigurationFactory.php.html#29\">Akeneo\\Asset\\Component\\Factory\\ChannelConfigurationFactory::__construct<\/a>"],[100,1,"<a href=\"Factory\/ChannelConfigurationFactory.php.html#39\">Akeneo\\Asset\\Component\\Factory\\ChannelConfigurationFactory::createChannelConfiguration<\/a>"],[100,1,"<a href=\"Factory\/DefaultAssetTree.php.html#34\">Akeneo\\Asset\\Component\\Factory\\DefaultAssetTree::__construct<\/a>"],[100,2,"<a href=\"Factory\/DefaultAssetTree.php.html#42\">Akeneo\\Asset\\Component\\Factory\\DefaultAssetTree::mutate<\/a>"],[100,3,"<a href=\"Factory\/DefaultAssetTree.php.html#54\">Akeneo\\Asset\\Component\\Factory\\DefaultAssetTree::getDefaultAssetTree<\/a>"],[100,1,"<a href=\"Factory\/ReferenceFactory.php.html#39\">Akeneo\\Asset\\Component\\Factory\\ReferenceFactory::__construct<\/a>"],[100,3,"<a href=\"Factory\/ReferenceFactory.php.html#56\">Akeneo\\Asset\\Component\\Factory\\ReferenceFactory::create<\/a>"],[100,1,"<a href=\"Factory\/TagFactory.php.html#30\">Akeneo\\Asset\\Component\\Factory\\TagFactory::__construct<\/a>"],[100,1,"<a href=\"Factory\/TagFactory.php.html#38\">Akeneo\\Asset\\Component\\Factory\\TagFactory::create<\/a>"],[100,1,"<a href=\"Factory\/VariationFactory.php.html#30\">Akeneo\\Asset\\Component\\Factory\\VariationFactory::__construct<\/a>"],[100,2,"<a href=\"Factory\/VariationFactory.php.html#42\">Akeneo\\Asset\\Component\\Factory\\VariationFactory::create<\/a>"],[100,1,"<a href=\"Finder\/AssetFinder.php.html#33\">Akeneo\\Asset\\Component\\Finder\\AssetFinder::__construct<\/a>"],[0,3,"<a href=\"Finder\/AssetFinder.php.html#41\">Akeneo\\Asset\\Component\\Finder\\AssetFinder::retrieveReference<\/a>"],[85.71428571428571,5,"<a href=\"Finder\/AssetFinder.php.html#63\">Akeneo\\Asset\\Component\\Finder\\AssetFinder::retrieveVariationsNotGenerated<\/a>"],[0,2,"<a href=\"Finder\/AssetFinder.php.html#83\">Akeneo\\Asset\\Component\\Finder\\AssetFinder::retrieveVariation<\/a>"],[100,4,"<a href=\"Finder\/AssetFinder.php.html#101\">Akeneo\\Asset\\Component\\Finder\\AssetFinder::retrieveVariationsNotGeneratedForAReference<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#59\">Akeneo\\Asset\\Component\\Model\\Asset::__construct<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#72\">Akeneo\\Asset\\Component\\Model\\Asset::getId<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#80\">Akeneo\\Asset\\Component\\Model\\Asset::getCode<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#88\">Akeneo\\Asset\\Component\\Model\\Asset::setCode<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#98\">Akeneo\\Asset\\Component\\Model\\Asset::getDescription<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#106\">Akeneo\\Asset\\Component\\Model\\Asset::setDescription<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#116\">Akeneo\\Asset\\Component\\Model\\Asset::getReferences<\/a>"],[100,3,"<a href=\"Model\/Asset.php.html#124\">Akeneo\\Asset\\Component\\Model\\Asset::getLocales<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#140\">Akeneo\\Asset\\Component\\Model\\Asset::isLocalizable<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#148\">Akeneo\\Asset\\Component\\Model\\Asset::setReferences<\/a>"],[100,2,"<a href=\"Model\/Asset.php.html#158\">Akeneo\\Asset\\Component\\Model\\Asset::addReference<\/a>"],[0,2,"<a href=\"Model\/Asset.php.html#170\">Akeneo\\Asset\\Component\\Model\\Asset::removeReference<\/a>"],[66.66666666666666,6,"<a href=\"Model\/Asset.php.html#184\">Akeneo\\Asset\\Component\\Model\\Asset::getReference<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#213\">Akeneo\\Asset\\Component\\Model\\Asset::isEmpty<\/a>"],[100,2,"<a href=\"Model\/Asset.php.html#221\">Akeneo\\Asset\\Component\\Model\\Asset::getVariations<\/a>"],[100,4,"<a href=\"Model\/Asset.php.html#235\">Akeneo\\Asset\\Component\\Model\\Asset::getVariation<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#249\">Akeneo\\Asset\\Component\\Model\\Asset::hasVariation<\/a>"],[0,1,"<a href=\"Model\/Asset.php.html#257\">Akeneo\\Asset\\Component\\Model\\Asset::isEnabled<\/a>"],[0,1,"<a href=\"Model\/Asset.php.html#265\">Akeneo\\Asset\\Component\\Model\\Asset::setEnabled<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#275\">Akeneo\\Asset\\Component\\Model\\Asset::getEndOfUseAt<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#283\">Akeneo\\Asset\\Component\\Model\\Asset::setEndOfUseAt<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#293\">Akeneo\\Asset\\Component\\Model\\Asset::getCreatedAt<\/a>"],[0,1,"<a href=\"Model\/Asset.php.html#301\">Akeneo\\Asset\\Component\\Model\\Asset::setCreatedAt<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#311\">Akeneo\\Asset\\Component\\Model\\Asset::getUpdatedAt<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#319\">Akeneo\\Asset\\Component\\Model\\Asset::setUpdatedAt<\/a>"],[83.33333333333334,3,"<a href=\"Model\/Asset.php.html#333\">Akeneo\\Asset\\Component\\Model\\Asset::getFileForContext<\/a>"],[0,1,"<a href=\"Model\/Asset.php.html#351\">Akeneo\\Asset\\Component\\Model\\Asset::getSortOrder<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#359\">Akeneo\\Asset\\Component\\Model\\Asset::getLabelProperty<\/a>"],[0,1,"<a href=\"Model\/Asset.php.html#367\">Akeneo\\Asset\\Component\\Model\\Asset::__toString<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#375\">Akeneo\\Asset\\Component\\Model\\Asset::getTags<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#383\">Akeneo\\Asset\\Component\\Model\\Asset::removeTag<\/a>"],[100,2,"<a href=\"Model\/Asset.php.html#393\">Akeneo\\Asset\\Component\\Model\\Asset::addTag<\/a>"],[100,2,"<a href=\"Model\/Asset.php.html#405\">Akeneo\\Asset\\Component\\Model\\Asset::getTagCodes<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#419\">Akeneo\\Asset\\Component\\Model\\Asset::getCategories<\/a>"],[100,1,"<a href=\"Model\/Asset.php.html#427\">Akeneo\\Asset\\Component\\Model\\Asset::removeCategory<\/a>"],[100,2,"<a href=\"Model\/Asset.php.html#437\">Akeneo\\Asset\\Component\\Model\\Asset::addCategory<\/a>"],[0,1,"<a href=\"Model\/Asset.php.html#449\">Akeneo\\Asset\\Component\\Model\\Asset::setCategories<\/a>"],[100,2,"<a href=\"Model\/Asset.php.html#457\">Akeneo\\Asset\\Component\\Model\\Asset::getCategoryCodes<\/a>"],[100,1,"<a href=\"Model\/Category.php.html#41\">Akeneo\\Asset\\Component\\Model\\Category::__construct<\/a>"],[0,1,"<a href=\"Model\/Category.php.html#52\">Akeneo\\Asset\\Component\\Model\\Category::hasAssets<\/a>"],[100,1,"<a href=\"Model\/Category.php.html#60\">Akeneo\\Asset\\Component\\Model\\Category::getAssets<\/a>"],[0,1,"<a href=\"Model\/Category.php.html#68\">Akeneo\\Asset\\Component\\Model\\Category::getAssetsCount<\/a>"],[0,1,"<a href=\"Model\/Category.php.html#76\">Akeneo\\Asset\\Component\\Model\\Category::getCreated<\/a>"],[100,1,"<a href=\"Model\/Category.php.html#84\">Akeneo\\Asset\\Component\\Model\\Category::setLocale<\/a>"],[100,5,"<a href=\"Model\/Category.php.html#94\">Akeneo\\Asset\\Component\\Model\\Category::getTranslation<\/a>"],[100,1,"<a href=\"Model\/Category.php.html#118\">Akeneo\\Asset\\Component\\Model\\Category::getTranslations<\/a>"],[100,2,"<a href=\"Model\/Category.php.html#126\">Akeneo\\Asset\\Component\\Model\\Category::addTranslation<\/a>"],[100,1,"<a href=\"Model\/Category.php.html#138\">Akeneo\\Asset\\Component\\Model\\Category::removeTranslation<\/a>"],[100,1,"<a href=\"Model\/Category.php.html#148\">Akeneo\\Asset\\Component\\Model\\Category::getTranslationFQCN<\/a>"],[100,4,"<a href=\"Model\/Category.php.html#156\">Akeneo\\Asset\\Component\\Model\\Category::getLabel<\/a>"],[0,1,"<a href=\"Model\/Category.php.html#168\">Akeneo\\Asset\\Component\\Model\\Category::setLabel<\/a>"],[0,1,"<a href=\"Model\/Category.php.html#178\">Akeneo\\Asset\\Component\\Model\\Category::__toString<\/a>"],[0,1,"<a href=\"Model\/Category.php.html#186\">Akeneo\\Asset\\Component\\Model\\Category::getReference<\/a>"],[100,1,"<a href=\"Model\/CategoryTranslation.php.html#32\">Akeneo\\Asset\\Component\\Model\\CategoryTranslation::setLabel<\/a>"],[100,1,"<a href=\"Model\/CategoryTranslation.php.html#42\">Akeneo\\Asset\\Component\\Model\\CategoryTranslation::getLabel<\/a>"],[0,1,"<a href=\"Model\/FileMetadata.php.html#34\">Akeneo\\Asset\\Component\\Model\\FileMetadata::getId<\/a>"],[0,1,"<a href=\"Model\/FileMetadata.php.html#42\">Akeneo\\Asset\\Component\\Model\\FileMetadata::getFileInfo<\/a>"],[100,1,"<a href=\"Model\/FileMetadata.php.html#50\">Akeneo\\Asset\\Component\\Model\\FileMetadata::setFileInfo<\/a>"],[100,1,"<a href=\"Model\/FileMetadata.php.html#60\">Akeneo\\Asset\\Component\\Model\\FileMetadata::getModificationDatetime<\/a>"],[100,1,"<a href=\"Model\/FileMetadata.php.html#68\">Akeneo\\Asset\\Component\\Model\\FileMetadata::setModificationDatetime<\/a>"],[100,2,"<a href=\"Model\/ImageMetadata.php.html#68\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::__construct<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#78\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifResolution<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#86\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifResolution<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#96\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifDateTimeOriginal<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#104\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifDateTimeOriginal<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#114\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifCameraMake<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#122\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifCameraMake<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#132\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifCameraModel<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#140\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifCameraModel<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#150\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifSizeWidth<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#158\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifSizeWidth<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#168\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifSizeHeight<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#176\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifSizeHeight<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#186\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifOrientation<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#194\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifOrientation<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#204\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifCopyright<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#212\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifCopyright<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#222\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifKeywords<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#230\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifKeywords<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#240\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifTitle<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#248\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifTitle<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#258\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifDescription<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#266\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifDescription<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#276\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getExifColorSpace<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#284\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setExifColorSpace<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#292\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getIptcKeywords<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#300\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setIptcKeywords<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#310\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getIptcLocationCountry<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#318\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setIptcLocationCountry<\/a>"],[0,1,"<a href=\"Model\/ImageMetadata.php.html#328\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::getIptcLocationCity<\/a>"],[100,1,"<a href=\"Model\/ImageMetadata.php.html#336\">Akeneo\\Asset\\Component\\Model\\ImageMetadata::setIptcLocationCity<\/a>"],[100,2,"<a href=\"Model\/LocaleCode.php.html#27\">Akeneo\\Asset\\Component\\Model\\LocaleCode::__construct<\/a>"],[0,1,"<a href=\"Model\/LocaleCode.php.html#35\">Akeneo\\Asset\\Component\\Model\\LocaleCode::hasValidCode<\/a>"],[100,1,"<a href=\"Model\/LocaleCode.php.html#43\">Akeneo\\Asset\\Component\\Model\\LocaleCode::__toString<\/a>"],[100,1,"<a href=\"Model\/Reference.php.html#41\">Akeneo\\Asset\\Component\\Model\\Reference::__construct<\/a>"],[100,1,"<a href=\"Model\/Reference.php.html#49\">Akeneo\\Asset\\Component\\Model\\Reference::getId<\/a>"],[100,1,"<a href=\"Model\/Reference.php.html#57\">Akeneo\\Asset\\Component\\Model\\Reference::getAsset<\/a>"],[100,1,"<a href=\"Model\/Reference.php.html#65\">Akeneo\\Asset\\Component\\Model\\Reference::setAsset<\/a>"],[100,1,"<a href=\"Model\/Reference.php.html#76\">Akeneo\\Asset\\Component\\Model\\Reference::getLocale<\/a>"],[100,1,"<a href=\"Model\/Reference.php.html#84\">Akeneo\\Asset\\Component\\Model\\Reference::setLocale<\/a>"],[100,1,"<a href=\"Model\/Reference.php.html#94\">Akeneo\\Asset\\Component\\Model\\Reference::getFileInfo<\/a>"],[100,1,"<a href=\"Model\/Reference.php.html#102\">Akeneo\\Asset\\Component\\Model\\Reference::setFileInfo<\/a>"],[100,1,"<a href=\"Model\/Reference.php.html#112\">Akeneo\\Asset\\Component\\Model\\Reference::getVariations<\/a>"],[0,1,"<a href=\"Model\/Reference.php.html#120\">Akeneo\\Asset\\Component\\Model\\Reference::setVariations<\/a>"],[100,2,"<a href=\"Model\/Reference.php.html#130\">Akeneo\\Asset\\Component\\Model\\Reference::addVariation<\/a>"],[0,2,"<a href=\"Model\/Reference.php.html#142\">Akeneo\\Asset\\Component\\Model\\Reference::removeVariation<\/a>"],[100,4,"<a href=\"Model\/Reference.php.html#154\">Akeneo\\Asset\\Component\\Model\\Reference::getVariation<\/a>"],[100,1,"<a href=\"Model\/Reference.php.html#172\">Akeneo\\Asset\\Component\\Model\\Reference::hasVariation<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#45\">Akeneo\\Asset\\Component\\Model\\Variation::__construct<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#53\">Akeneo\\Asset\\Component\\Model\\Variation::getId<\/a>"],[66.66666666666666,2,"<a href=\"Model\/Variation.php.html#61\">Akeneo\\Asset\\Component\\Model\\Variation::getAsset<\/a>"],[66.66666666666666,2,"<a href=\"Model\/Variation.php.html#73\">Akeneo\\Asset\\Component\\Model\\Variation::getLocale<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#85\">Akeneo\\Asset\\Component\\Model\\Variation::getReference<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#93\">Akeneo\\Asset\\Component\\Model\\Variation::setReference<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#104\">Akeneo\\Asset\\Component\\Model\\Variation::getChannel<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#112\">Akeneo\\Asset\\Component\\Model\\Variation::setChannel<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#122\">Akeneo\\Asset\\Component\\Model\\Variation::getFileInfo<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#130\">Akeneo\\Asset\\Component\\Model\\Variation::setFileInfo<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#140\">Akeneo\\Asset\\Component\\Model\\Variation::getSourceFileInfo<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#148\">Akeneo\\Asset\\Component\\Model\\Variation::setSourceFileInfo<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#158\">Akeneo\\Asset\\Component\\Model\\Variation::isLocked<\/a>"],[100,1,"<a href=\"Model\/Variation.php.html#166\">Akeneo\\Asset\\Component\\Model\\Variation::setLocked<\/a>"],[100,5,"<a href=\"Model\/Variation.php.html#181\">Akeneo\\Asset\\Component\\Model\\Variation::isComplete<\/a>"],[100,1,"<a href=\"Normalizer\/ExternalApi\/AssetNormalizer.php.html#48\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetNormalizer::__construct<\/a>"],[100,1,"<a href=\"Normalizer\/ExternalApi\/AssetNormalizer.php.html#63\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/ExternalApi\/AssetNormalizer.php.html#75\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetNormalizer::supportsNormalization<\/a>"],[100,3,"<a href=\"Normalizer\/ExternalApi\/AssetNormalizer.php.html#107\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetNormalizer::normalizeVariations<\/a>"],[100,3,"<a href=\"Normalizer\/ExternalApi\/AssetNormalizer.php.html#160\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetNormalizer::normalizeReferences<\/a>"],[100,1,"<a href=\"Normalizer\/ExternalApi\/AssetReferenceNormalizer.php.html#33\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetReferenceNormalizer::__construct<\/a>"],[100,4,"<a href=\"Normalizer\/ExternalApi\/AssetReferenceNormalizer.php.html#41\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetReferenceNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/ExternalApi\/AssetReferenceNormalizer.php.html#76\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetReferenceNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Normalizer\/ExternalApi\/AssetVariationNormalizer.php.html#37\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetVariationNormalizer::__construct<\/a>"],[100,2,"<a href=\"Normalizer\/ExternalApi\/AssetVariationNormalizer.php.html#46\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetVariationNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/ExternalApi\/AssetVariationNormalizer.php.html#76\">Akeneo\\Asset\\Component\\Normalizer\\ExternalApi\\AssetVariationNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Normalizer\/Flat\/AssetCategoryNormalizer.php.html#35\">Akeneo\\Asset\\Component\\Normalizer\\Flat\\AssetCategoryNormalizer::__construct<\/a>"],[100,1,"<a href=\"Normalizer\/Flat\/AssetCategoryNormalizer.php.html#46\">Akeneo\\Asset\\Component\\Normalizer\\Flat\\AssetCategoryNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/Flat\/AssetCategoryNormalizer.php.html#65\">Akeneo\\Asset\\Component\\Normalizer\\Flat\\AssetCategoryNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Normalizer\/Flat\/AssetNormalizer.php.html#33\">Akeneo\\Asset\\Component\\Normalizer\\Flat\\AssetNormalizer::__construct<\/a>"],[90,4,"<a href=\"Normalizer\/Flat\/AssetNormalizer.php.html#41\">Akeneo\\Asset\\Component\\Normalizer\\Flat\\AssetNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/Flat\/AssetNormalizer.php.html#67\">Akeneo\\Asset\\Component\\Normalizer\\Flat\\AssetNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Normalizer\/InternalApi\/AssetNormalizer.php.html#33\">Akeneo\\Asset\\Component\\Normalizer\\InternalApi\\AssetNormalizer::__construct<\/a>"],[100,1,"<a href=\"Normalizer\/InternalApi\/AssetNormalizer.php.html#41\">Akeneo\\Asset\\Component\\Normalizer\\InternalApi\\AssetNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/InternalApi\/AssetNormalizer.php.html#58\">Akeneo\\Asset\\Component\\Normalizer\\InternalApi\\AssetNormalizer::supportsNormalization<\/a>"],[100,4,"<a href=\"Normalizer\/InternalApi\/AssetNormalizer.php.html#70\">Akeneo\\Asset\\Component\\Normalizer\\InternalApi\\AssetNormalizer::normalizeReferences<\/a>"],[100,1,"<a href=\"Normalizer\/InternalApi\/ImageNormalizer.php.html#32\">Akeneo\\Asset\\Component\\Normalizer\\InternalApi\\ImageNormalizer::__construct<\/a>"],[15.384615384615385,7,"<a href=\"Normalizer\/InternalApi\/ImageNormalizer.php.html#48\">Akeneo\\Asset\\Component\\Normalizer\\InternalApi\\ImageNormalizer::normalize<\/a>"],[40,3,"<a href=\"Normalizer\/InternalApi\/ImageNormalizer.php.html#72\">Akeneo\\Asset\\Component\\Normalizer\\InternalApi\\ImageNormalizer::isAssetCollection<\/a>"],[100,1,"<a href=\"Normalizer\/Standard\/AssetNormalizer.php.html#28\">Akeneo\\Asset\\Component\\Normalizer\\Standard\\AssetNormalizer::__construct<\/a>"],[100,2,"<a href=\"Normalizer\/Standard\/AssetNormalizer.php.html#36\">Akeneo\\Asset\\Component\\Normalizer\\Standard\\AssetNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/Standard\/AssetNormalizer.php.html#51\">Akeneo\\Asset\\Component\\Normalizer\\Standard\\AssetNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"Normalizer\/Standard\/ChannelConfigurationNormalizer.php.html#25\">Akeneo\\Asset\\Component\\Normalizer\\Standard\\ChannelConfigurationNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/Standard\/ChannelConfigurationNormalizer.php.html#36\">Akeneo\\Asset\\Component\\Normalizer\\Standard\\ChannelConfigurationNormalizer::supportsNormalization<\/a>"],[100,6,"<a href=\"Normalizer\/Standard\/VariationNormalizer.php.html#25\">Akeneo\\Asset\\Component\\Normalizer\\Standard\\VariationNormalizer::normalize<\/a>"],[100,2,"<a href=\"Normalizer\/Standard\/VariationNormalizer.php.html#57\">Akeneo\\Asset\\Component\\Normalizer\\Standard\\VariationNormalizer::supportsNormalization<\/a>"],[100,1,"<a href=\"ProcessedItem.php.html#56\">Akeneo\\Asset\\Component\\ProcessedItem::__construct<\/a>"],[100,1,"<a href=\"ProcessedItem.php.html#67\">Akeneo\\Asset\\Component\\ProcessedItem::getItem<\/a>"],[0,1,"<a href=\"ProcessedItem.php.html#75\">Akeneo\\Asset\\Component\\ProcessedItem::setItem<\/a>"],[100,1,"<a href=\"ProcessedItem.php.html#83\">Akeneo\\Asset\\Component\\ProcessedItem::getState<\/a>"],[0,1,"<a href=\"ProcessedItem.php.html#91\">Akeneo\\Asset\\Component\\ProcessedItem::setState<\/a>"],[100,1,"<a href=\"ProcessedItem.php.html#99\">Akeneo\\Asset\\Component\\ProcessedItem::getReason<\/a>"],[0,1,"<a href=\"ProcessedItem.php.html#107\">Akeneo\\Asset\\Component\\ProcessedItem::setReason<\/a>"],[100,1,"<a href=\"ProcessedItem.php.html#115\">Akeneo\\Asset\\Component\\ProcessedItem::getException<\/a>"],[0,1,"<a href=\"ProcessedItem.php.html#123\">Akeneo\\Asset\\Component\\ProcessedItem::setException<\/a>"],[100,2,"<a href=\"ProcessedItemList.php.html#38\">Akeneo\\Asset\\Component\\ProcessedItemList::addItem<\/a>"],[100,1,"<a href=\"ProcessedItemList.php.html#51\">Akeneo\\Asset\\Component\\ProcessedItemList::current<\/a>"],[100,1,"<a href=\"ProcessedItemList.php.html#59\">Akeneo\\Asset\\Component\\ProcessedItemList::next<\/a>"],[0,1,"<a href=\"ProcessedItemList.php.html#67\">Akeneo\\Asset\\Component\\ProcessedItemList::key<\/a>"],[100,1,"<a href=\"ProcessedItemList.php.html#75\">Akeneo\\Asset\\Component\\ProcessedItemList::valid<\/a>"],[100,1,"<a href=\"ProcessedItemList.php.html#83\">Akeneo\\Asset\\Component\\ProcessedItemList::rewind<\/a>"],[0,1,"<a href=\"ProcessedItemList.php.html#91\">Akeneo\\Asset\\Component\\ProcessedItemList::count<\/a>"],[58.333333333333336,4,"<a href=\"ProcessedItemList.php.html#100\">Akeneo\\Asset\\Component\\ProcessedItemList::offsetSet<\/a>"],[0,1,"<a href=\"ProcessedItemList.php.html#129\">Akeneo\\Asset\\Component\\ProcessedItemList::offsetExists<\/a>"],[0,1,"<a href=\"ProcessedItemList.php.html#137\">Akeneo\\Asset\\Component\\ProcessedItemList::offsetUnset<\/a>"],[0,2,"<a href=\"ProcessedItemList.php.html#150\">Akeneo\\Asset\\Component\\ProcessedItemList::offsetGet<\/a>"],[100,2,"<a href=\"ProcessedItemList.php.html#160\">Akeneo\\Asset\\Component\\ProcessedItemList::hasItemInState<\/a>"],[0,1,"<a href=\"ProcessedItemList.php.html#170\">Akeneo\\Asset\\Component\\ProcessedItemList::getItemsInState<\/a>"],[100,1,"<a href=\"Updater\/AssetUpdater.php.html#54\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::__construct<\/a>"],[57.14285714285714,3,"<a href=\"Updater\/AssetUpdater.php.html#68\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::update<\/a>"],[100,7,"<a href=\"Updater\/AssetUpdater.php.html#92\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::setData<\/a>"],[100,4,"<a href=\"Updater\/AssetUpdater.php.html#133\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::setTags<\/a>"],[100,4,"<a href=\"Updater\/AssetUpdater.php.html#161\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::setCategories<\/a>"],[29.411764705882355,4,"<a href=\"Updater\/AssetUpdater.php.html#186\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::validateDateFormat<\/a>"],[33.33333333333333,2,"<a href=\"Updater\/AssetUpdater.php.html#222\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::getTagByCode<\/a>"],[100,2,"<a href=\"Updater\/AssetUpdater.php.html#246\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::getCategoryByCode<\/a>"],[100,2,"<a href=\"Updater\/AssetUpdater.php.html#269\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::removeTagsByCodes<\/a>"],[100,2,"<a href=\"Updater\/AssetUpdater.php.html#282\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::removeCategoriesByCodes<\/a>"],[75,3,"<a href=\"Updater\/AssetUpdater.php.html#295\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::setLocalized<\/a>"],[40,5,"<a href=\"Updater\/AssetUpdater.php.html#309\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::validateIsArrayOfScalar<\/a>"],[66.66666666666666,3,"<a href=\"Updater\/AssetUpdater.php.html#333\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::validateIsScalar<\/a>"],[66.66666666666666,3,"<a href=\"Updater\/AssetUpdater.php.html#346\">Akeneo\\Asset\\Component\\Updater\\AssetUpdater::validateIsBoolean<\/a>"],[100,1,"<a href=\"Updater\/ExternalApi\/AssetUpdater.php.html#32\">Akeneo\\Asset\\Component\\Updater\\ExternalApi\\AssetUpdater::__construct<\/a>"],[70,4,"<a href=\"Updater\/ExternalApi\/AssetUpdater.php.html#40\">Akeneo\\Asset\\Component\\Updater\\ExternalApi\\AssetUpdater::update<\/a>"],[100,1,"<a href=\"Updater\/FilesUpdater.php.html#31\">Akeneo\\Asset\\Component\\Updater\\FilesUpdater::__construct<\/a>"],[100,3,"<a href=\"Updater\/FilesUpdater.php.html#41\">Akeneo\\Asset\\Component\\Updater\\FilesUpdater::updateAssetFiles<\/a>"],[100,4,"<a href=\"Updater\/FilesUpdater.php.html#54\">Akeneo\\Asset\\Component\\Updater\\FilesUpdater::resetAllVariationsFiles<\/a>"],[100,2,"<a href=\"Updater\/FilesUpdater.php.html#66\">Akeneo\\Asset\\Component\\Updater\\FilesUpdater::resetVariationFile<\/a>"],[100,1,"<a href=\"Updater\/FilesUpdater.php.html#80\">Akeneo\\Asset\\Component\\Updater\\FilesUpdater::deleteReferenceFile<\/a>"],[100,1,"<a href=\"Updater\/FilesUpdater.php.html#88\">Akeneo\\Asset\\Component\\Updater\\FilesUpdater::deleteVariationFile<\/a>"],[0,7,"<a href=\"Updater\/FilesUpdater.php.html#97\">Akeneo\\Asset\\Component\\Updater\\FilesUpdater::resetAllUploadedFiles<\/a>"],[81.81818181818183,7,"<a href=\"Updater\/FilesUpdater.php.html#126\">Akeneo\\Asset\\Component\\Updater\\FilesUpdater::updateVariationFile<\/a>"],[87.5,5,"<a href=\"Updater\/FilesUpdater.php.html#150\">Akeneo\\Asset\\Component\\Updater\\FilesUpdater::updateReferenceFile<\/a>"],[62.5,3,"<a href=\"Updater\/TagUpdater.php.html#36\">Akeneo\\Asset\\Component\\Updater\\TagUpdater::update<\/a>"],[100,2,"<a href=\"Updater\/TagUpdater.php.html#60\">Akeneo\\Asset\\Component\\Updater\\TagUpdater::setData<\/a>"],[100,1,"<a href=\"Updater\/TagUpdater.php.html#71\">Akeneo\\Asset\\Component\\Updater\\TagUpdater::setCode<\/a>"],[100,4,"<a href=\"Updater\/TagUpdater.php.html#85\">Akeneo\\Asset\\Component\\Updater\\TagUpdater::validateDataType<\/a>"],[100,1,"<a href=\"Upload\/Importer.php.html#36\">Akeneo\\Asset\\Component\\Upload\\Importer::__construct<\/a>"],[88.23529411764706,4,"<a href=\"Upload\/Importer.php.html#50\">Akeneo\\Asset\\Component\\Upload\\Importer::import<\/a>"],[0,2,"<a href=\"Upload\/Importer.php.html#85\">Akeneo\\Asset\\Component\\Upload\\Importer::getImportedFiles<\/a>"],[84.61538461538461,4,"<a href=\"Upload\/Importer.php.html#109\">Akeneo\\Asset\\Component\\Upload\\Importer::isValidImportedFilename<\/a>"],[100,1,"<a href=\"Upload\/MassUpload\/AddAssetToEntityWithValues.php.html#47\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\AddAssetToEntityWithValues::__construct<\/a>"],[0,5,"<a href=\"Upload\/MassUpload\/AddAssetToEntityWithValues.php.html#64\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\AddAssetToEntityWithValues::add<\/a>"],[100,1,"<a href=\"Upload\/MassUpload\/AssetBuilder.php.html#58\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\AssetBuilder::__construct<\/a>"],[0,4,"<a href=\"Upload\/MassUpload\/AssetBuilder.php.html#83\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\AssetBuilder::buildFromFile<\/a>"],[0,1,"<a href=\"Upload\/MassUpload\/EntityToAddAssetsInto.php.html#35\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\EntityToAddAssetsInto::__construct<\/a>"],[0,1,"<a href=\"Upload\/MassUpload\/EntityToAddAssetsInto.php.html#44\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\EntityToAddAssetsInto::getEntityIdentifier<\/a>"],[0,1,"<a href=\"Upload\/MassUpload\/EntityToAddAssetsInto.php.html#52\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\EntityToAddAssetsInto::getAttributeCode<\/a>"],[100,1,"<a href=\"Upload\/MassUpload\/MassUploadIntoAssetCollectionProcessor.php.html#68\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\MassUploadIntoAssetCollectionProcessor::__construct<\/a>"],[0,8,"<a href=\"Upload\/MassUpload\/MassUploadIntoAssetCollectionProcessor.php.html#94\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\MassUploadIntoAssetCollectionProcessor::applyMassUpload<\/a>"],[100,1,"<a href=\"Upload\/MassUpload\/MassUploadProcessor.php.html#65\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\MassUploadProcessor::__construct<\/a>"],[0,7,"<a href=\"Upload\/MassUpload\/MassUploadProcessor.php.html#88\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\MassUploadProcessor::applyMassUpload<\/a>"],[100,1,"<a href=\"Upload\/MassUpload\/RetrieveAssetGenerationErrors.php.html#36\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\RetrieveAssetGenerationErrors::__construct<\/a>"],[0,7,"<a href=\"Upload\/MassUpload\/RetrieveAssetGenerationErrors.php.html#48\">Akeneo\\Asset\\Component\\Upload\\MassUpload\\RetrieveAssetGenerationErrors::fromEvent<\/a>"],[100,1,"<a href=\"Upload\/ParsedFilename.php.html#44\">Akeneo\\Asset\\Component\\Upload\\ParsedFilename::__construct<\/a>"],[100,1,"<a href=\"Upload\/ParsedFilename.php.html#55\">Akeneo\\Asset\\Component\\Upload\\ParsedFilename::getRawFilename<\/a>"],[100,1,"<a href=\"Upload\/ParsedFilename.php.html#63\">Akeneo\\Asset\\Component\\Upload\\ParsedFilename::getAssetCode<\/a>"],[100,1,"<a href=\"Upload\/ParsedFilename.php.html#71\">Akeneo\\Asset\\Component\\Upload\\ParsedFilename::getLocaleCode<\/a>"],[100,1,"<a href=\"Upload\/ParsedFilename.php.html#79\">Akeneo\\Asset\\Component\\Upload\\ParsedFilename::getExtension<\/a>"],[80,3,"<a href=\"Upload\/ParsedFilename.php.html#87\">Akeneo\\Asset\\Component\\Upload\\ParsedFilename::getCleanFilename<\/a>"],[100,5,"<a href=\"Upload\/ParsedFilename.php.html#101\">Akeneo\\Asset\\Component\\Upload\\ParsedFilename::parseRawFilename<\/a>"],[100,1,"<a href=\"Upload\/ParsedFilename.php.html#134\">Akeneo\\Asset\\Component\\Upload\\ParsedFilename::sanitizeAssetCode<\/a>"],[100,1,"<a href=\"Upload\/ParsedFilename.php.html#139\">Akeneo\\Asset\\Component\\Upload\\ParsedFilename::sanitizeFileName<\/a>"],[100,1,"<a href=\"Upload\/UploadChecker.php.html#39\">Akeneo\\Asset\\Component\\Upload\\UploadChecker::__construct<\/a>"],[100,1,"<a href=\"Upload\/UploadChecker.php.html#52\">Akeneo\\Asset\\Component\\Upload\\UploadChecker::getParsedFilename<\/a>"],[66.66666666666666,6,"<a href=\"Upload\/UploadChecker.php.html#60\">Akeneo\\Asset\\Component\\Upload\\UploadChecker::validateFilenameFormat<\/a>"],[75,3,"<a href=\"Upload\/UploadChecker.php.html#81\">Akeneo\\Asset\\Component\\Upload\\UploadChecker::validateUpload<\/a>"],[75,5,"<a href=\"Upload\/UploadChecker.php.html#105\">Akeneo\\Asset\\Component\\Upload\\UploadChecker::validateWithExistingAssets<\/a>"],[75,3,"<a href=\"Upload\/UploadChecker.php.html#134\">Akeneo\\Asset\\Component\\Upload\\UploadChecker::isLocaleActivated<\/a>"],[100,2,"<a href=\"Upload\/UploadChecker.php.html#150\">Akeneo\\Asset\\Component\\Upload\\UploadChecker::getLocales<\/a>"],[83.33333333333334,2,"<a href=\"Upload\/UploadContext.php.html#42\">Akeneo\\Asset\\Component\\Upload\\UploadContext::__construct<\/a>"],[100,1,"<a href=\"Upload\/UploadContext.php.html#56\">Akeneo\\Asset\\Component\\Upload\\UploadContext::getTemporaryUploadDirectory<\/a>"],[100,1,"<a href=\"Upload\/UploadContext.php.html#64\">Akeneo\\Asset\\Component\\Upload\\UploadContext::getTemporaryImportDirectory<\/a>"],[100,1,"<a href=\"VariationFileGenerator.php.html#81\">Akeneo\\Asset\\Component\\VariationFileGenerator::__construct<\/a>"],[88.88888888888889,2,"<a href=\"VariationFileGenerator.php.html#106\">Akeneo\\Asset\\Component\\VariationFileGenerator::generate<\/a>"],[100,2,"<a href=\"VariationFileGenerator.php.html#143\">Akeneo\\Asset\\Component\\VariationFileGenerator::retrieveChannelTransformationsConfiguration<\/a>"],[46.15384615384615,4,"<a href=\"VariationFileGenerator.php.html#164\">Akeneo\\Asset\\Component\\VariationFileGenerator::retrieveSourceFileInfo<\/a>"],[100,2,"<a href=\"VariationFileGenerator.php.html#200\">Akeneo\\Asset\\Component\\VariationFileGenerator::buildVariationOutputFilename<\/a>"],[100,1,"<a href=\"VariationFileGenerator.php.html#220\">Akeneo\\Asset\\Component\\VariationFileGenerator::extractMetadata<\/a>"],[100,1,"<a href=\"VariationFileGenerator.php.html#230\">Akeneo\\Asset\\Component\\VariationFileGenerator::deleteFile<\/a>"],[100,1,"<a href=\"VariationsCollectionFilesGenerator.php.html#35\">Akeneo\\Asset\\Component\\VariationsCollectionFilesGenerator::__construct<\/a>"],[62.5,6,"<a href=\"VariationsCollectionFilesGenerator.php.html#46\">Akeneo\\Asset\\Component\\VariationsCollectionFilesGenerator::generate<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
