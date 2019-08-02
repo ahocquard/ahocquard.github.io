@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/pim/src/Akeneo/Tool/Bundle/BatchBundle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/srv/pim/src</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Akeneo</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Tool</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Bundle</a></li>
+         <li class="breadcrumb-item"><a href="index.html">BatchBundle</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Item/Support/EchoWriter.php.html#15">Akeneo\Tool\Bundle\BatchBundle\Item\Support\EchoWriter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Item/Support/ArrayReader.php.html#14">Akeneo\Tool\Bundle\BatchBundle\Item\Support\ArrayReader</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Item/Support/NoopProcessor.php.html#14">Akeneo\Tool\Bundle\BatchBundle\Item\Support\NoopProcessor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Item/Support/UcfirstProcessor.php.html#14">Akeneo\Tool\Bundle\BatchBundle\Item\Support\UcfirstProcessor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Launcher/SimpleJobLauncher.php.html#25">Akeneo\Tool\Bundle\BatchBundle\Launcher\SimpleJobLauncher</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Manager/JobExecutionManager.php.html#17">Akeneo\Tool\Bundle\BatchBundle\Manager\JobExecutionManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#25">Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#20">Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber</a></td><td class="text-right">23%</td></tr>
+       <tr><td><a href="Command/ListJobsCommand.php.html#19">Akeneo\Tool\Bundle\BatchBundle\Command\ListJobsCommand</a></td><td class="text-right">34%</td></tr>
+       <tr><td><a href="Validator/Constraints/JobInstanceValidator.php.html#18">Akeneo\Tool\Bundle\BatchBundle\Validator\Constraints\JobInstanceValidator</a></td><td class="text-right">41%</td></tr>
+       <tr><td><a href="Command/PurgeJobExecutionCommand.php.html#18">Akeneo\Tool\Bundle\BatchBundle\Command\PurgeJobExecutionCommand</a></td><td class="text-right">47%</td></tr>
+       <tr><td><a href="Job/DoctrineJobRepository.php.html#31">Akeneo\Tool\Bundle\BatchBundle\Job\DoctrineJobRepository</a></td><td class="text-right">51%</td></tr>
+       <tr><td><a href="Job/JobInstanceFactory.php.html#14">Akeneo\Tool\Bundle\BatchBundle\Job\JobInstanceFactory</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Command/BatchCommand.php.html#35">Akeneo\Tool\Bundle\BatchBundle\Command\BatchCommand</a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="EntityManager/PersistedConnectionEntityManager.php.html#19">Akeneo\Tool\Bundle\BatchBundle\EntityManager\PersistedConnectionEntityManager</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="EventListener/NotificationSubscriber.php.html#17">Akeneo\Tool\Bundle\BatchBundle\EventListener\NotificationSubscriber</a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#20">Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber</a></td><td class="text-right">237</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#25">Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand</a></td><td class="text-right">151</td></tr>
+       <tr><td><a href="Launcher/SimpleJobLauncher.php.html#25">Akeneo\Tool\Bundle\BatchBundle\Launcher\SimpleJobLauncher</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Command/BatchCommand.php.html#35">Akeneo\Tool\Bundle\BatchBundle\Command\BatchCommand</a></td><td class="text-right">86</td></tr>
+       <tr><td><a href="Manager/JobExecutionManager.php.html#17">Akeneo\Tool\Bundle\BatchBundle\Manager\JobExecutionManager</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Job/DoctrineJobRepository.php.html#31">Akeneo\Tool\Bundle\BatchBundle\Job\DoctrineJobRepository</a></td><td class="text-right">35</td></tr>
+       <tr><td><a href="Command/ListJobsCommand.php.html#19">Akeneo\Tool\Bundle\BatchBundle\Command\ListJobsCommand</a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="Command/PurgeJobExecutionCommand.php.html#18">Akeneo\Tool\Bundle\BatchBundle\Command\PurgeJobExecutionCommand</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="Item/Support/ArrayReader.php.html#14">Akeneo\Tool\Bundle\BatchBundle\Item\Support\ArrayReader</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Validator/Constraints/JobInstanceValidator.php.html#18">Akeneo\Tool\Bundle\BatchBundle\Validator\Constraints\JobInstanceValidator</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Item/Support/EchoWriter.php.html#15">Akeneo\Tool\Bundle\BatchBundle\Item\Support\EchoWriter</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="EventListener/NotificationSubscriber.php.html#17">Akeneo\Tool\Bundle\BatchBundle\EventListener\NotificationSubscriber</a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="EntityManager/PersistedConnectionEntityManager.php.html#19">Akeneo\Tool\Bundle\BatchBundle\EntityManager\PersistedConnectionEntityManager</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#207"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber::stepExecutionErrored">stepExecutionErrored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Item/Support/NoopProcessor.php.html#19"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Item\Support\NoopProcessor::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#190"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber::stepExecutionInterrupted">stepExecutionInterrupted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/BatchCommand.php.html#222"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\BatchCommand::writeExceptions">writeExceptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#249"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber::invalidItem">invalidItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#273"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber::formatAsString">formatAsString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventListener/NotificationSubscriber.php.html#46"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\NotificationSubscriber::getNotifiers">getNotifiers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Item/Support/ArrayReader.php.html#24"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Item\Support\ArrayReader::setItems">setItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Item/Support/ArrayReader.php.html#34"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Item\Support\ArrayReader::read">read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Item/Support/EchoWriter.php.html#20"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Item\Support\EchoWriter::write">write</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Item/Support/UcfirstProcessor.php.html#19"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Item\Support\UcfirstProcessor::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#126"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber::jobExecutionInterrupted">jobExecutionInterrupted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Manager/JobExecutionManager.php.html#27"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Manager\JobExecutionManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/DoctrineJobRepository.php.html#169"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Job\DoctrineJobRepository::findPurgeables">findPurgeables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/DoctrineJobRepository.php.html#198"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Job\DoctrineJobRepository::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/DoctrineJobRepository.php.html#222"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Job\DoctrineJobRepository::addWarning">addWarning</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Job/JobInstanceFactory.php.html#34"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Job\JobInstanceFactory::createJobInstance">createJobInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Launcher/SimpleJobLauncher.php.html#63"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Launcher\SimpleJobLauncher::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Launcher/SimpleJobLauncher.php.html#86"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Launcher\SimpleJobLauncher::launch">launch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Launcher/SimpleJobLauncher.php.html#125"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Launcher\SimpleJobLauncher::launchInBackground">launchInBackground</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Launcher/SimpleJobLauncher.php.html#141"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Launcher\SimpleJobLauncher::createJobExecution">createJobExecution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#139"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber::jobExecutionFatalError">jobExecutionFatalError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#114"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber::jobExecutionStopped">jobExecutionStopped</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Launcher/SimpleJobLauncher.php.html#188"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Launcher\SimpleJobLauncher::getErrorMessages">getErrorMessages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#157"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand::getJobRegistry">getJobRegistry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Manager/JobExecutionManager.php.html#72"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Manager\JobExecutionManager::markAsFailed">markAsFailed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Manager/JobExecutionManager.php.html#55"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Manager\JobExecutionManager::processIsRunning">processIsRunning</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#49"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#117"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand::getValidator">getValidator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#125"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand::getJobParametersValidator">getJobParametersValidator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#133"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand::getJobParametersFactory">getJobParametersFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#141"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand::getJobInstanceFactory">getJobInstanceFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#149"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand::getJobInstanceSaver">getJobInstanceSaver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#167"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand::getErrorMessages">getErrorMessages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#80"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber::setTranslationDomain">setTranslationDomain</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/ListJobsCommand.php.html#46"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\ListJobsCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/ListJobsCommand.php.html#65"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\ListJobsCommand::buildTable">buildTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/ListJobsCommand.php.html#81"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\ListJobsCommand::getJobManager">getJobManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/PurgeJobExecutionCommand.php.html#42"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\PurgeJobExecutionCommand::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/PurgeJobExecutionCommand.php.html#60"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\PurgeJobExecutionCommand::getNumberOfDaysOption">getNumberOfDaysOption</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/PurgeJobExecutionCommand.php.html#72"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\PurgeJobExecutionCommand::getJobExecutionRepository">getJobExecutionRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Manager/JobExecutionManager.php.html#38"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Manager\JobExecutionManager::checkRunningStatus">checkRunningStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#70"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber::setTranslationLocale">setTranslationLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Launcher/SimpleJobLauncher.php.html#177"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Launcher\SimpleJobLauncher::dispatchJobExecutionEvent">dispatchJobExecutionEvent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#47"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">8%</td></tr>
+       <tr><td><a href="Validator/Constraints/JobInstanceValidator.php.html#36"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Validator\Constraints\JobInstanceValidator::validate">validate</abbr></a></td><td class="text-right">30%</td></tr>
+       <tr><td><a href="Command/BatchCommand.php.html#368"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\BatchCommand::decodeConfiguration">decodeConfiguration</abbr></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="Command/BatchCommand.php.html#323"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\BatchCommand::validateJobParameters">validateJobParameters</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="EntityManager/PersistedConnectionEntityManager.php.html#44"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EntityManager\PersistedConnectionEntityManager::checkConnection">checkConnection</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Notification/MailNotifier.php.html#115"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Notification\MailNotifier::getEmail">getEmail</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Command/BatchCommand.php.html#83"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\BatchCommand::execute">execute</abbr></a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="Job/DoctrineJobRepository.php.html#112"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Job\DoctrineJobRepository::createJobExecution">createJobExecution</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EventListener/LoggerSubscriber.php.html#273"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EventListener\LoggerSubscriber::formatAsString">formatAsString</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#49"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand::execute">execute</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Command/BatchCommand.php.html#83"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\BatchCommand::execute">execute</abbr></a></td><td class="text-right">27</td></tr>
+       <tr><td><a href="Command/BatchCommand.php.html#368"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\BatchCommand::decodeConfiguration">decodeConfiguration</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Command/PurgeJobExecutionCommand.php.html#60"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\PurgeJobExecutionCommand::getNumberOfDaysOption">getNumberOfDaysOption</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Manager/JobExecutionManager.php.html#38"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Manager\JobExecutionManager::checkRunningStatus">checkRunningStatus</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Launcher/SimpleJobLauncher.php.html#86"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Launcher\SimpleJobLauncher::launch">launch</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Job/DoctrineJobRepository.php.html#198"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Job\DoctrineJobRepository::remove">remove</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Command/BatchCommand.php.html#222"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\BatchCommand::writeExceptions">writeExceptions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Validator/Constraints/JobInstanceValidator.php.html#36"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Validator\Constraints\JobInstanceValidator::validate">validate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Command/PurgeJobExecutionCommand.php.html#42"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\PurgeJobExecutionCommand::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Command/ListJobsCommand.php.html#65"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\ListJobsCommand::buildTable">buildTable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Item/Support/EchoWriter.php.html#20"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Item\Support\EchoWriter::write">write</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Command/ListJobsCommand.php.html#46"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\ListJobsCommand::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Job/DoctrineJobRepository.php.html#222"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Job\DoctrineJobRepository::addWarning">addWarning</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Command/CreateJobCommand.php.html#167"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\CreateJobCommand::getErrorMessages">getErrorMessages</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Launcher/SimpleJobLauncher.php.html#141"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Launcher\SimpleJobLauncher::createJobExecution">createJobExecution</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Launcher/SimpleJobLauncher.php.html#188"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Launcher\SimpleJobLauncher::getErrorMessages">getErrorMessages</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Manager/JobExecutionManager.php.html#55"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Manager\JobExecutionManager::processIsRunning">processIsRunning</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Item/Support/ArrayReader.php.html#34"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Item\Support\ArrayReader::read">read</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Notification/MailNotifier.php.html#115"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Notification\MailNotifier::getEmail">getEmail</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Command/BatchCommand.php.html#323"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Command\BatchCommand::validateJobParameters">validateJobParameters</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="EntityManager/PersistedConnectionEntityManager.php.html#44"><abbr title="Akeneo\Tool\Bundle\BatchBundle\EntityManager\PersistedConnectionEntityManager::checkConnection">checkConnection</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Job/DoctrineJobRepository.php.html#112"><abbr title="Akeneo\Tool\Bundle\BatchBundle\Job\DoctrineJobRepository::createJobExecution">createJobExecution</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.3</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.16-1+0~20190307202415.17+stretch~1.gbpa7be82</a> with <a href="https://github.com/krakjoe/pcov">PCOV 1.0.1</a> at Thu Mar 28 23:39:15 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([6,0,1,1,1,2,1,1,2,1,1,9], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([44,1,0,0,1,1,1,1,2,1,1,49], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[72.5609756097561,45,"<a href=\"Command\/BatchCommand.php.html#35\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand<\/a>"],[15.254237288135593,15,"<a href=\"Command\/CreateJobCommand.php.html#25\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\CreateJobCommand<\/a>"],[34.61538461538461,6,"<a href=\"Command\/ListJobsCommand.php.html#19\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\ListJobsCommand<\/a>"],[47.368421052631575,7,"<a href=\"Command\/PurgeJobExecutionCommand.php.html#18\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\PurgeJobExecutionCommand<\/a>"],[77.77777777777779,4,"<a href=\"EntityManager\/PersistedConnectionEntityManager.php.html#19\">Akeneo\\Tool\\Bundle\\BatchBundle\\EntityManager\\PersistedConnectionEntityManager<\/a>"],[100,2,"<a href=\"EventListener\/LoadJobParametersListener.php.html#19\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoadJobParametersListener<\/a>"],[23.655913978494624,22,"<a href=\"EventListener\/LoggerSubscriber.php.html#20\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber<\/a>"],[87.5,5,"<a href=\"EventListener\/NotificationSubscriber.php.html#17\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\NotificationSubscriber<\/a>"],[100,3,"<a href=\"EventListener\/SetJobExecutionLogFileSubscriber.php.html#17\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\SetJobExecutionLogFileSubscriber<\/a>"],[100,0,"<a href=\"Item\/NonTransientResourceException.php.html#14\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\NonTransientResourceException<\/a>"],[100,0,"<a href=\"Item\/ParseException.php.html#13\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\ParseException<\/a>"],[0,3,"<a href=\"Item\/Support\/ArrayReader.php.html#14\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\Support\\ArrayReader<\/a>"],[0,2,"<a href=\"Item\/Support\/EchoWriter.php.html#15\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\Support\\EchoWriter<\/a>"],[0,1,"<a href=\"Item\/Support\/NoopProcessor.php.html#14\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\Support\\NoopProcessor<\/a>"],[0,1,"<a href=\"Item\/Support\/UcfirstProcessor.php.html#14\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\Support\\UcfirstProcessor<\/a>"],[100,0,"<a href=\"Item\/UnexpectedInputException.php.html#14\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\UnexpectedInputException<\/a>"],[100,0,"<a href=\"Item\/Validator\/ValidationException.php.html#12\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\Validator\\ValidationException<\/a>"],[51.94805194805194,14,"<a href=\"Job\/DoctrineJobRepository.php.html#31\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\DoctrineJobRepository<\/a>"],[66.66666666666666,2,"<a href=\"Job\/JobInstanceFactory.php.html#14\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\JobInstanceFactory<\/a>"],[100,2,"<a href=\"Job\/JobInstanceRepository.php.html#15\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\JobInstanceRepository<\/a>"],[0,10,"<a href=\"Launcher\/SimpleJobLauncher.php.html#25\">Akeneo\\Tool\\Bundle\\BatchBundle\\Launcher\\SimpleJobLauncher<\/a>"],[0,7,"<a href=\"Manager\/JobExecutionManager.php.html#17\">Akeneo\\Tool\\Bundle\\BatchBundle\\Manager\\JobExecutionManager<\/a>"],[100,9,"<a href=\"Monolog\/Handler\/BatchLogHandler.php.html#15\">Akeneo\\Tool\\Bundle\\BatchBundle\\Monolog\\Handler\\BatchLogHandler<\/a>"],[93.10344827586206,8,"<a href=\"Notification\/MailNotifier.php.html#16\">Akeneo\\Tool\\Bundle\\BatchBundle\\Notification\\MailNotifier<\/a>"],[100,2,"<a href=\"Validator\/Constraints\/JobInstance.php.html#15\">Akeneo\\Tool\\Bundle\\BatchBundle\\Validator\\Constraints\\JobInstance<\/a>"],[41.66666666666667,4,"<a href=\"Validator\/Constraints\/JobInstanceValidator.php.html#18\">Akeneo\\Tool\\Bundle\\BatchBundle\\Validator\\Constraints\\JobInstanceValidator<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Command\/BatchCommand.php.html#44\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::configure<\/a>"],[78.2051282051282,22,"<a href=\"Command\/BatchCommand.php.html#83\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::execute<\/a>"],[0,3,"<a href=\"Command\/BatchCommand.php.html#222\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::writeExceptions<\/a>"],[100,1,"<a href=\"Command\/BatchCommand.php.html#243\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::getJobManager<\/a>"],[100,1,"<a href=\"Command\/BatchCommand.php.html#251\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::getDefaultEntityManager<\/a>"],[100,1,"<a href=\"Command\/BatchCommand.php.html#259\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::getValidator<\/a>"],[100,1,"<a href=\"Command\/BatchCommand.php.html#267\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::getMailNotifier<\/a>"],[100,1,"<a href=\"Command\/BatchCommand.php.html#275\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::getJobRegistry<\/a>"],[100,1,"<a href=\"Command\/BatchCommand.php.html#283\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::getJobParametersFactory<\/a>"],[100,1,"<a href=\"Command\/BatchCommand.php.html#291\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::getJobParametersValidator<\/a>"],[100,2,"<a href=\"Command\/BatchCommand.php.html#302\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::createJobParameters<\/a>"],[50,2,"<a href=\"Command\/BatchCommand.php.html#323\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::validateJobParameters<\/a>"],[100,2,"<a href=\"Command\/BatchCommand.php.html#350\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::getErrorMessages<\/a>"],[42.10526315789473,6,"<a href=\"Command\/BatchCommand.php.html#368\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\BatchCommand::decodeConfiguration<\/a>"],[100,1,"<a href=\"Command\/CreateJobCommand.php.html#33\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\CreateJobCommand::configure<\/a>"],[0,6,"<a href=\"Command\/CreateJobCommand.php.html#49\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\CreateJobCommand::execute<\/a>"],[0,1,"<a href=\"Command\/CreateJobCommand.php.html#117\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\CreateJobCommand::getValidator<\/a>"],[0,1,"<a href=\"Command\/CreateJobCommand.php.html#125\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\CreateJobCommand::getJobParametersValidator<\/a>"],[0,1,"<a href=\"Command\/CreateJobCommand.php.html#133\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\CreateJobCommand::getJobParametersFactory<\/a>"],[0,1,"<a href=\"Command\/CreateJobCommand.php.html#141\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\CreateJobCommand::getJobInstanceFactory<\/a>"],[0,1,"<a href=\"Command\/CreateJobCommand.php.html#149\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\CreateJobCommand::getJobInstanceSaver<\/a>"],[0,1,"<a href=\"Command\/CreateJobCommand.php.html#157\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\CreateJobCommand::getJobRegistry<\/a>"],[0,2,"<a href=\"Command\/CreateJobCommand.php.html#167\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\CreateJobCommand::getErrorMessages<\/a>"],[100,1,"<a href=\"Command\/ListJobsCommand.php.html#29\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\ListJobsCommand::configure<\/a>"],[0,2,"<a href=\"Command\/ListJobsCommand.php.html#46\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\ListJobsCommand::execute<\/a>"],[0,2,"<a href=\"Command\/ListJobsCommand.php.html#65\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\ListJobsCommand::buildTable<\/a>"],[0,1,"<a href=\"Command\/ListJobsCommand.php.html#81\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\ListJobsCommand::getJobManager<\/a>"],[100,1,"<a href=\"Command\/PurgeJobExecutionCommand.php.html#25\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\PurgeJobExecutionCommand::configure<\/a>"],[0,2,"<a href=\"Command\/PurgeJobExecutionCommand.php.html#42\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\PurgeJobExecutionCommand::execute<\/a>"],[0,3,"<a href=\"Command\/PurgeJobExecutionCommand.php.html#60\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\PurgeJobExecutionCommand::getNumberOfDaysOption<\/a>"],[0,1,"<a href=\"Command\/PurgeJobExecutionCommand.php.html#72\">Akeneo\\Tool\\Bundle\\BatchBundle\\Command\\PurgeJobExecutionCommand::getJobExecutionRepository<\/a>"],[100,1,"<a href=\"EntityManager\/PersistedConnectionEntityManager.php.html#24\">Akeneo\\Tool\\Bundle\\BatchBundle\\EntityManager\\PersistedConnectionEntityManager::getConnection<\/a>"],[100,1,"<a href=\"EntityManager\/PersistedConnectionEntityManager.php.html#34\">Akeneo\\Tool\\Bundle\\BatchBundle\\EntityManager\\PersistedConnectionEntityManager::flush<\/a>"],[60,2,"<a href=\"EntityManager\/PersistedConnectionEntityManager.php.html#44\">Akeneo\\Tool\\Bundle\\BatchBundle\\EntityManager\\PersistedConnectionEntityManager::checkConnection<\/a>"],[100,1,"<a href=\"EventListener\/LoadJobParametersListener.php.html#27\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoadJobParametersListener::__construct<\/a>"],[100,1,"<a href=\"EventListener\/LoadJobParametersListener.php.html#38\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoadJobParametersListener::postLoad<\/a>"],[100,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#38\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::__construct<\/a>"],[8.333333333333332,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#47\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::getSubscribedEvents<\/a>"],[0,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#70\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::setTranslationLocale<\/a>"],[0,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#80\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::setTranslationDomain<\/a>"],[100,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#90\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::jobExecutionCreated<\/a>"],[100,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#102\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::beforeJobExecution<\/a>"],[0,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#114\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::jobExecutionStopped<\/a>"],[0,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#126\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::jobExecutionInterrupted<\/a>"],[0,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#139\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::jobExecutionFatalError<\/a>"],[100,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#154\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::beforeJobStatusUpgrade<\/a>"],[100,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#166\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::beforeStepExecution<\/a>"],[100,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#178\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::stepExecutionSucceeded<\/a>"],[0,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#190\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::stepExecutionInterrupted<\/a>"],[0,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#207\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::stepExecutionErrored<\/a>"],[100,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#237\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::stepExecutionCompleted<\/a>"],[0,1,"<a href=\"EventListener\/LoggerSubscriber.php.html#249\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::invalidItem<\/a>"],[0,6,"<a href=\"EventListener\/LoggerSubscriber.php.html#273\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\LoggerSubscriber::formatAsString<\/a>"],[100,1,"<a href=\"EventListener\/NotificationSubscriber.php.html#24\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\NotificationSubscriber::getSubscribedEvents<\/a>"],[100,1,"<a href=\"EventListener\/NotificationSubscriber.php.html#36\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\NotificationSubscriber::registerNotifier<\/a>"],[0,1,"<a href=\"EventListener\/NotificationSubscriber.php.html#46\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\NotificationSubscriber::getNotifiers<\/a>"],[100,2,"<a href=\"EventListener\/NotificationSubscriber.php.html#56\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\NotificationSubscriber::afterJobExecution<\/a>"],[100,1,"<a href=\"EventListener\/SetJobExecutionLogFileSubscriber.php.html#27\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\SetJobExecutionLogFileSubscriber::__construct<\/a>"],[100,1,"<a href=\"EventListener\/SetJobExecutionLogFileSubscriber.php.html#35\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\SetJobExecutionLogFileSubscriber::getSubscribedEvents<\/a>"],[100,1,"<a href=\"EventListener\/SetJobExecutionLogFileSubscriber.php.html#47\">Akeneo\\Tool\\Bundle\\BatchBundle\\EventListener\\SetJobExecutionLogFileSubscriber::setJobExecutionLogFile<\/a>"],[0,1,"<a href=\"Item\/Support\/ArrayReader.php.html#24\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\Support\\ArrayReader::setItems<\/a>"],[0,2,"<a href=\"Item\/Support\/ArrayReader.php.html#34\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\Support\\ArrayReader::read<\/a>"],[0,2,"<a href=\"Item\/Support\/EchoWriter.php.html#20\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\Support\\EchoWriter::write<\/a>"],[0,1,"<a href=\"Item\/Support\/NoopProcessor.php.html#19\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\Support\\NoopProcessor::process<\/a>"],[0,1,"<a href=\"Item\/Support\/UcfirstProcessor.php.html#19\">Akeneo\\Tool\\Bundle\\BatchBundle\\Item\\Support\\UcfirstProcessor::process<\/a>"],[93.75,2,"<a href=\"Job\/DoctrineJobRepository.php.html#52\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\DoctrineJobRepository::__construct<\/a>"],[100,1,"<a href=\"Job\/DoctrineJobRepository.php.html#104\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\DoctrineJobRepository::getJobManager<\/a>"],[87.5,2,"<a href=\"Job\/DoctrineJobRepository.php.html#112\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\DoctrineJobRepository::createJobExecution<\/a>"],[100,1,"<a href=\"Job\/DoctrineJobRepository.php.html#133\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\DoctrineJobRepository::updateJobExecution<\/a>"],[100,1,"<a href=\"Job\/DoctrineJobRepository.php.html#142\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\DoctrineJobRepository::updateStepExecution<\/a>"],[100,1,"<a href=\"Job\/DoctrineJobRepository.php.html#151\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\DoctrineJobRepository::getLastJobExecution<\/a>"],[0,1,"<a href=\"Job\/DoctrineJobRepository.php.html#169\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\DoctrineJobRepository::findPurgeables<\/a>"],[0,3,"<a href=\"Job\/DoctrineJobRepository.php.html#198\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\DoctrineJobRepository::remove<\/a>"],[0,2,"<a href=\"Job\/DoctrineJobRepository.php.html#222\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\DoctrineJobRepository::addWarning<\/a>"],[100,1,"<a href=\"Job\/JobInstanceFactory.php.html#22\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\JobInstanceFactory::__construct<\/a>"],[0,1,"<a href=\"Job\/JobInstanceFactory.php.html#34\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\JobInstanceFactory::createJobInstance<\/a>"],[100,1,"<a href=\"Job\/JobInstanceRepository.php.html#20\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\JobInstanceRepository::findOneByIdentifier<\/a>"],[100,1,"<a href=\"Job\/JobInstanceRepository.php.html#28\">Akeneo\\Tool\\Bundle\\BatchBundle\\Job\\JobInstanceRepository::getIdentifierProperties<\/a>"],[0,1,"<a href=\"Launcher\/SimpleJobLauncher.php.html#63\">Akeneo\\Tool\\Bundle\\BatchBundle\\Launcher\\SimpleJobLauncher::__construct<\/a>"],[0,3,"<a href=\"Launcher\/SimpleJobLauncher.php.html#86\">Akeneo\\Tool\\Bundle\\BatchBundle\\Launcher\\SimpleJobLauncher::launch<\/a>"],[0,1,"<a href=\"Launcher\/SimpleJobLauncher.php.html#125\">Akeneo\\Tool\\Bundle\\BatchBundle\\Launcher\\SimpleJobLauncher::launchInBackground<\/a>"],[0,2,"<a href=\"Launcher\/SimpleJobLauncher.php.html#141\">Akeneo\\Tool\\Bundle\\BatchBundle\\Launcher\\SimpleJobLauncher::createJobExecution<\/a>"],[0,1,"<a href=\"Launcher\/SimpleJobLauncher.php.html#177\">Akeneo\\Tool\\Bundle\\BatchBundle\\Launcher\\SimpleJobLauncher::dispatchJobExecutionEvent<\/a>"],[0,2,"<a href=\"Launcher\/SimpleJobLauncher.php.html#188\">Akeneo\\Tool\\Bundle\\BatchBundle\\Launcher\\SimpleJobLauncher::getErrorMessages<\/a>"],[0,1,"<a href=\"Manager\/JobExecutionManager.php.html#27\">Akeneo\\Tool\\Bundle\\BatchBundle\\Manager\\JobExecutionManager::__construct<\/a>"],[0,3,"<a href=\"Manager\/JobExecutionManager.php.html#38\">Akeneo\\Tool\\Bundle\\BatchBundle\\Manager\\JobExecutionManager::checkRunningStatus<\/a>"],[0,2,"<a href=\"Manager\/JobExecutionManager.php.html#55\">Akeneo\\Tool\\Bundle\\BatchBundle\\Manager\\JobExecutionManager::processIsRunning<\/a>"],[0,1,"<a href=\"Manager\/JobExecutionManager.php.html#72\">Akeneo\\Tool\\Bundle\\BatchBundle\\Manager\\JobExecutionManager::markAsFailed<\/a>"],[100,1,"<a href=\"Monolog\/Handler\/BatchLogHandler.php.html#30\">Akeneo\\Tool\\Bundle\\BatchBundle\\Monolog\\Handler\\BatchLogHandler::__construct<\/a>"],[100,1,"<a href=\"Monolog\/Handler\/BatchLogHandler.php.html#51\">Akeneo\\Tool\\Bundle\\BatchBundle\\Monolog\\Handler\\BatchLogHandler::getFilename<\/a>"],[100,1,"<a href=\"Monolog\/Handler\/BatchLogHandler.php.html#59\">Akeneo\\Tool\\Bundle\\BatchBundle\\Monolog\\Handler\\BatchLogHandler::setSubDirectory<\/a>"],[100,2,"<a href=\"Monolog\/Handler\/BatchLogHandler.php.html#74\">Akeneo\\Tool\\Bundle\\BatchBundle\\Monolog\\Handler\\BatchLogHandler::getRealPath<\/a>"],[100,3,"<a href=\"Monolog\/Handler\/BatchLogHandler.php.html#86\">Akeneo\\Tool\\Bundle\\BatchBundle\\Monolog\\Handler\\BatchLogHandler::write<\/a>"],[100,1,"<a href=\"Monolog\/Handler\/BatchLogHandler.php.html#104\">Akeneo\\Tool\\Bundle\\BatchBundle\\Monolog\\Handler\\BatchLogHandler::generateLogFilename<\/a>"],[100,1,"<a href=\"Notification\/MailNotifier.php.html#55\">Akeneo\\Tool\\Bundle\\BatchBundle\\Notification\\MailNotifier::__construct<\/a>"],[100,1,"<a href=\"Notification\/MailNotifier.php.html#76\">Akeneo\\Tool\\Bundle\\BatchBundle\\Notification\\MailNotifier::setRecipientEmail<\/a>"],[100,2,"<a href=\"Notification\/MailNotifier.php.html#86\">Akeneo\\Tool\\Bundle\\BatchBundle\\Notification\\MailNotifier::notify<\/a>"],[71.42857142857143,4,"<a href=\"Notification\/MailNotifier.php.html#115\">Akeneo\\Tool\\Bundle\\BatchBundle\\Notification\\MailNotifier::getEmail<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/JobInstance.php.html#30\">Akeneo\\Tool\\Bundle\\BatchBundle\\Validator\\Constraints\\JobInstance::validatedBy<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/JobInstance.php.html#38\">Akeneo\\Tool\\Bundle\\BatchBundle\\Validator\\Constraints\\JobInstance::getTargets<\/a>"],[100,1,"<a href=\"Validator\/Constraints\/JobInstanceValidator.php.html#28\">Akeneo\\Tool\\Bundle\\BatchBundle\\Validator\\Constraints\\JobInstanceValidator::__construct<\/a>"],[30,3,"<a href=\"Validator\/Constraints\/JobInstanceValidator.php.html#36\">Akeneo\\Tool\\Bundle\\BatchBundle\\Validator\\Constraints\\JobInstanceValidator::validate<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
